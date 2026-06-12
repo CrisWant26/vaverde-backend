@@ -32,7 +32,7 @@ jobs:
           python-version: "3.11"
 
       - name: Dependencias
-        run:
+        run: |
           python -m pip install --upgrade pip
           pip install --quiet pandas scipy numpy scikit-learn
 
