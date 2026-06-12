@@ -1,3 +1,5 @@
 venv/
 results.csv
 __pycache__/
+modelo_elo.pkl
+predictions.json
