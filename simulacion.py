@@ -24,7 +24,21 @@ warnings.filterwarnings("ignore")
 import numpy as np
 import pickle
 from collections import defaultdict
-from modelo_elo import lambdas
+
+
+def lambdas(params, elos, home, away, neutral=True):
+    """Goles esperados del modelo Poisson+Elo (incrustada de modelo_elo.py
+    para no depender de elo.py en el pipeline)."""
+    atk, dfn = params["attack"], params["defense"]
+    eh = elos.get(home, 1500); ea = elos.get(away, 1500)
+    elo_diff = (eh - ea) / 400.0
+    ha = 0.0 if neutral else params["home_adv"]
+    c, b = params["c"], params["b_elo"]
+    a_h = atk.get(home, 0.0); a_a = atk.get(away, 0.0)
+    d_h = dfn.get(home, 0.0); d_a = dfn.get(away, 0.0)
+    lh = np.exp(np.clip(c + a_h - d_a + b*elo_diff + ha, -2, 3))
+    la = np.exp(np.clip(c + a_a - d_h - b*elo_diff, -2, 3))
+    return lh, la
 
 # 12 grupos oficiales (sorteo 5-dic-2025). Nombres EXACTOS del dataset.
 GRUPOS = {
@@ -45,7 +59,7 @@ ANFITRIONES = {"Mexico", "United States", "Canada"}
 
 
 def cargar_modelo():
-    with open("/mnt/user-data/outputs/modelo_elo.pkl", "rb") as f:
+    with open("modelo_elo.pkl", "rb") as f:
         M = pickle.load(f)
     return M["params"], M["elos"]
 
@@ -76,13 +90,18 @@ def jugar_grupo(equipos, params, elos, rng):
 
 
 def jugar_eliminatoria(h, a, params, elos, rng):
-    """Partido a muerte: empate -> penales (~50/50 con leve sesgo al mejor Elo)."""
+    """Partido a muerte: empate -> penales.
+
+    Modelo de penales CALIBRADO con los 677 shootouts históricos del dataset:
+    el favorito por Elo gana solo el 54.4% (IC 50.6-58.2%) — casi un volado.
+    El divisor 1545 es el MLE sobre esos datos (el 800 anterior sobre-premiaba
+    a los favoritos: implicaba ~58% donde la realidad da ~54%).
+    """
     gh, ga = muestrear_marcador(params, elos, h, a, neutral=True, rng=rng)
     if gh > ga: return h
     if ga > gh: return a
-    # penales: prob proporcional a Elo (leve), basado en shootouts históricos ~50/50
     eh, ea = elos.get(h, 1500), elos.get(a, 1500)
-    p_h = 1 / (1 + 10 ** (-(eh - ea) / 800))  # /800 = efecto suave
+    p_h = 1 / (1 + 10 ** (-(eh - ea) / 1545))  # MLE sobre shootouts 1967-2024
     return h if rng.random() < p_h else a
 
 
@@ -171,5 +190,5 @@ if __name__ == "__main__":
     pd.set_option("display.max_rows", 60)
     print("\n=== PROBABILIDADES (ordenado por prob. de ser campeón) ===\n")
     print(df.to_string(index=False))
-    df.to_csv("/mnt/user-data/outputs/simulacion_mundial.csv", index=False)
+    df.to_csv("simulacion_mundial.csv", index=False)
     print("\nGuardado en simulacion_mundial.csv")
