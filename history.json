@@ -6,14 +6,16 @@
   "p_home": 0.704,
   "p_draw": 0.217,
   "p_away": 0.078,
-  "likely_score": "2-0",
+  "likely_score": "2-1",
   "xg_home": 1.96,
   "xg_away": 0.53,
   "real_home": 2,
   "real_away": 0,
   "outcome": "home",
   "fav_hit": true,
-  "p_fav": 0.704
+  "tier": "pleno",
+  "p_fav": 0.704,
+  "p_outcome": 0.704
  },
  {
   "date": "2026-06-11",
@@ -29,7 +31,9 @@
   "real_away": 1,
   "outcome": "home",
   "fav_hit": true,
-  "p_fav": 0.61
+  "tier": "pleno",
+  "p_fav": 0.61,
+  "p_outcome": 0.61
  },
  {
   "date": "2026-06-12",
@@ -45,7 +49,9 @@
   "real_away": 1,
   "outcome": "draw",
   "fav_hit": false,
-  "p_fav": 0.84
+  "tier": "fallo",
+  "p_fav": 0.84,
+  "p_outcome": 0.11
  },
  {
   "date": "2026-06-12",
@@ -61,7 +67,9 @@
   "real_away": 1,
   "outcome": "home",
   "fav_hit": true,
-  "p_fav": 0.5
+  "tier": "pleno",
+  "p_fav": 0.5,
+  "p_outcome": 0.5
  },
  {
   "date": "2026-06-13",
