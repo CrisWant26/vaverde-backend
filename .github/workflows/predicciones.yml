@@ -11,9 +11,10 @@ name: Actualizar predicciones
 
 on:
   schedule:
-    # 11:00 UTC = 5:00 AM CDMX. El dataset se actualiza con los resultados
-    # de la jornada anterior durante la noche.
-    - cron: "0 11 * * *"
+    - cron: "13 12 * * *"   # 6:13 AM CDMX — predicciones del día
+    - cron: "37 21 * * *"   # 3:37 PM CDMX — captura bloque matutino
+    - cron: "43 1 * * *"    # 7:43 PM CDMX — captura bloque de tarde
+    - cron: "27 6 * * *"    # 12:27 AM CDMX — cierre del día completo
   workflow_dispatch: {}
 
 permissions:
