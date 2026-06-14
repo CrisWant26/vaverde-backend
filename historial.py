@@ -24,6 +24,8 @@ import json
 import os
 from datetime import datetime, timezone
 
+import pandas as pd
+
 HISTORY_FILE = "history.json"
 # También guardamos las predicciones vivas de cada día para poder
 # "congelarlas" cuando el partido se juegue (el modelo cambia a diario).
@@ -50,7 +52,11 @@ def _key(date, home, away):
 
 
 def _resultado_real(results_df, date, home, away):
-    """Busca el marcador real en el dataset. None si aún no se juega."""
+    """Busca el marcador real en el dataset. None si aún no se juega.
+
+    Compara por fecha EXACTA + equipos, lo que ya evita confundir un
+    amistoso histórico (otra fecha) con el partido del Mundial.
+    """
     m = results_df[
         (results_df["date"].astype(str).str[:10] == date)
         & (results_df["home_team"] == home)
@@ -60,9 +66,12 @@ def _resultado_real(results_df, date, home, away):
         return None
     row = m.iloc[0]
     try:
-        return int(row["home_score"]), int(row["away_score"])
+        hs, as_ = row["home_score"], row["away_score"]
+        if pd.isna(hs) or pd.isna(as_):
+            return None  # fixture sin marcador todavía
+        return int(hs), int(as_)
     except (ValueError, TypeError):
-        return None  # marcador no disponible todavía
+        return None
 
 
 def actualizar_historial(matches, results_df):
@@ -104,12 +113,26 @@ def actualizar_historial(matches, results_df):
         outcome = "home" if hs > as_ else ("away" if as_ > hs else "draw")
         probs = {"home": p["p_home"], "draw": p["p_draw"], "away": p["p_away"]}
         fav = max(probs, key=probs.get)
+        # Clasificación de tres niveles (umbral 8 puntos):
+        #   pleno   = el resultado real ERA el más probable
+        #   parcial = el real estaba a <=8 pts del máximo (el modelo lo veía
+        #             casi tan probable; p.ej. empate 37% vs favorito 40%)
+        #   fallo   = el real estaba lejos del tope (p.ej. Canadá 84% y empató)
+        gap = probs[fav] - probs[outcome]
+        if outcome == fav:
+            tier = "pleno"
+        elif gap <= 0.08:
+            tier = "parcial"
+        else:
+            tier = "fallo"
         history.append({
             **p,
             "real_home": hs, "real_away": as_,
             "outcome": outcome,
-            "fav_hit": fav == outcome,
+            "fav_hit": fav == outcome,   # se mantiene por compatibilidad
+            "tier": tier,                # nuevo: pleno | parcial | fallo
             "p_fav": round(probs[fav], 3),
+            "p_outcome": round(probs[outcome], 3),
         })
 
     _guardar(HISTORY_FILE, history)
@@ -118,11 +141,19 @@ def actualizar_historial(matches, results_df):
 
 
 def resumen_historial(history):
-    """Métricas agregadas honestas: acierto por favorito + Brier 1X2."""
+    """Métricas agregadas honestas: tres niveles + Brier 1X2.
+
+    No mezclamos plenos con parciales en una sola cifra para no inflar la
+    tasa. El Brier (continuo) sigue siendo la métrica estrella: premia poco
+    un empate predicho al 37% y castiga mucho un favorito al 84% que falla.
+    """
     if not history:
-        return {"n": 0, "fav_hits": 0, "fav_rate": 0.0, "brier": None}
+        return {"n": 0, "plenos": 0, "parciales": 0, "fallos": 0,
+                "fav_hits": 0, "fav_rate": 0.0, "brier": None}
     n = len(history)
-    fav_hits = sum(1 for h in history if h["fav_hit"])
+    plenos = sum(1 for h in history if h.get("tier") == "pleno")
+    parciales = sum(1 for h in history if h.get("tier") == "parcial")
+    fallos = sum(1 for h in history if h.get("tier") == "fallo")
     brier = 0.0
     for h in history:
         probs = {"home": h["p_home"], "draw": h["p_draw"], "away": h["p_away"]}
@@ -131,8 +162,11 @@ def resumen_historial(history):
         brier += sum((probs[k] - y[k]) ** 2 for k in probs)
     return {
         "n": n,
-        "fav_hits": fav_hits,
-        "fav_rate": round(fav_hits / n, 3),
+        "plenos": plenos,
+        "parciales": parciales,
+        "fallos": fallos,
+        "fav_hits": plenos,                    # solo plenos cuentan como acierto pleno
+        "fav_rate": round(plenos / n, 3),
         "brier": round(brier / n, 3),
     }
 
