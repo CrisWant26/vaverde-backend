@@ -17,7 +17,7 @@ Requiere junto a este script: elo.py, modelo_elo.py, simulacion.py, results.csv
 """
 import json
 import pickle
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 import numpy as np
 import pandas as pd
@@ -170,10 +170,14 @@ def champion_probs(n_sims=N_SIMULACIONES):
 def main():
     raw, params, calibrador, elos, n_train, last_date, brier = entrenar()
 
-    today = pd.Timestamp.now().normalize()
+    # "Hoy" en hora de México (CDMX = UTC-6), no UTC, para que coincida con
+    # el teléfono del usuario. Incluimos los partidos de HOY aunque ya se
+    # hayan jugado: la app los mantiene visibles toda la jornada y los oculta
+    # a la medianoche local.
+    now_cdmx = datetime.now(timezone.utc) - timedelta(hours=6)
+    today = pd.Timestamp(now_cdmx.date())
     fixtures = raw[
-        raw["home_score"].isna()
-        & (raw["tournament"] == "FIFA World Cup")
+        (raw["tournament"] == "FIFA World Cup")
         & (raw["date"] >= today)
     ].sort_values("date")
 
