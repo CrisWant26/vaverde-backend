@@ -25,6 +25,7 @@ from scipy.stats import poisson
 
 from elo import calcular_elo
 from modelo_elo import ajustar_modelo_elo, ajustar_calibrador, lambdas
+from historial import actualizar_historial, cargar_historial
 
 DATA_PATH = "results.csv"
 OUTPUT_PATH = "predictions.json"
@@ -191,6 +192,9 @@ def main():
             **pred,
         })
 
+    # Actualiza el historial usando las predicciones actuales y el dataset
+    actualizar_historial(matches, raw)
+
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "model": "poisson-elo-calibrado",
@@ -199,6 +203,7 @@ def main():
         "model_brier": round(brier, 4),
         "matches": matches,
         "champion_probs": champion_probs(),
+        "history": cargar_historial(),
     }
 
     with open(OUTPUT_PATH, "w") as f:
