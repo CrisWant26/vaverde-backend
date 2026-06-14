@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T23:32:24+00:00",
+ "generated_at": "2026-06-14T23:49:30+00:00",
  "model": "poisson-elo-calibrado",
  "training_matches": 11413,
  "last_result_date": "2026-06-13",
@@ -1320,7 +1320,9 @@
     "real_away": 1,
     "outcome": "draw",
     "fav_hit": false,
-    "p_fav": 0.734
+    "tier": "fallo",
+    "p_fav": 0.734,
+    "p_outcome": 0.166
    },
    {
     "date": "2026-06-13",
@@ -1336,7 +1338,9 @@
     "real_away": 1,
     "outcome": "draw",
     "fav_hit": false,
-    "p_fav": 0.395
+    "tier": "parcial",
+    "p_fav": 0.395,
+    "p_outcome": 0.367
    },
    {
     "date": "2026-06-13",
@@ -1352,7 +1356,9 @@
     "real_away": 1,
     "outcome": "away",
     "fav_hit": true,
-    "p_fav": 0.551
+    "tier": "pleno",
+    "p_fav": 0.551,
+    "p_outcome": 0.551
    },
    {
     "date": "2026-06-13",
@@ -1368,7 +1374,9 @@
     "real_away": 0,
     "outcome": "home",
     "fav_hit": false,
-    "p_fav": 0.378
+    "tier": "parcial",
+    "p_fav": 0.378,
+    "p_outcome": 0.325
    },
    {
     "date": "2026-06-12",
@@ -1445,11 +1453,11 @@
   ],
   "summary": {
    "n": 8,
-   "plenos": 3,
-   "parciales": 0,
-   "fallos": 1,
-   "fav_hits": 3,
-   "fav_rate": 0.375,
+   "plenos": 4,
+   "parciales": 2,
+   "fallos": 2,
+   "fav_hits": 4,
+   "fav_rate": 0.5,
    "brier": 0.638
   }
  }
