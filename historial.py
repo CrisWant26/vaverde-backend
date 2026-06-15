@@ -113,15 +113,28 @@ def actualizar_historial(matches, results_df):
         outcome = "home" if hs > as_ else ("away" if as_ > hs else "draw")
         probs = {"home": p["p_home"], "draw": p["p_draw"], "away": p["p_away"]}
         fav = max(probs, key=probs.get)
-        # Clasificación de tres niveles (umbral 8 puntos):
-        #   pleno   = el resultado real ERA el más probable
-        #   parcial = el real estaba a <=8 pts del máximo (el modelo lo veía
-        #             casi tan probable; p.ej. empate 37% vs favorito 40%)
-        #   fallo   = el real estaba lejos del tope (p.ej. Canadá 84% y empató)
+
+        # Resultado que IMPLICA el marcador probable del modelo (lo que el
+        # usuario ve en pantalla, p.ej. "1-1" => empate). Esta es la señal
+        # principal de acierto: es más intuitiva y, sobre los datos del
+        # Mundial, acierta el resultado un poco más que el favorito 1X2.
+        try:
+            mh, ma = map(int, str(p.get("likely_score", "")).split("-"))
+            score_outcome = "home" if mh > ma else ("away" if ma > mh else "draw")
+        except (ValueError, AttributeError):
+            score_outcome = fav  # fallback si el marcador probable no parsea
+
+        # Clasificación de tres niveles:
+        #   pleno   = el marcador probable predijo el RESULTADO correcto
+        #             (p.ej. modelo dijo 1-1 [empate] y salió 2-2 [empate])
+        #   parcial = el marcador probable falló el resultado, PERO el resultado
+        #             real estaba a <=12 pts del más probable (zona razonable)
+        #   fallo   = falló el resultado y además era poco probable (p.ej.
+        #             Canadá: marcador probable 2-0 y empató al 11%)
         gap = probs[fav] - probs[outcome]
-        if outcome == fav:
+        if score_outcome == outcome:
             tier = "pleno"
-        elif gap <= 0.08:
+        elif gap <= 0.12:
             tier = "parcial"
         else:
             tier = "fallo"
@@ -129,10 +142,11 @@ def actualizar_historial(matches, results_df):
             **p,
             "real_home": hs, "real_away": as_,
             "outcome": outcome,
-            "fav_hit": fav == outcome,   # se mantiene por compatibilidad
-            "tier": tier,                # nuevo: pleno | parcial | fallo
+            "fav_hit": score_outcome == outcome,   # acierto = marcador probable acertó el resultado
+            "tier": tier,
             "p_fav": round(probs[fav], 3),
             "p_outcome": round(probs[outcome], 3),
+            "score_outcome": score_outcome,
         })
 
     _guardar(HISTORY_FILE, history)
