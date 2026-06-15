@@ -15,7 +15,8 @@
   "fav_hit": true,
   "tier": "pleno",
   "p_fav": 0.704,
-  "p_outcome": 0.704
+  "p_outcome": 0.704,
+  "score_outcome": "home"
  },
  {
   "date": "2026-06-11",
@@ -33,7 +34,8 @@
   "fav_hit": true,
   "tier": "pleno",
   "p_fav": 0.61,
-  "p_outcome": 0.61
+  "p_outcome": 0.61,
+  "score_outcome": "home"
  },
  {
   "date": "2026-06-12",
@@ -51,7 +53,8 @@
   "fav_hit": false,
   "tier": "fallo",
   "p_fav": 0.84,
-  "p_outcome": 0.11
+  "p_outcome": 0.11,
+  "score_outcome": "home"
  },
  {
   "date": "2026-06-12",
@@ -66,10 +69,11 @@
   "real_home": 4,
   "real_away": 1,
   "outcome": "home",
-  "fav_hit": true,
-  "tier": "pleno",
+  "fav_hit": false,
+  "tier": "parcial",
   "p_fav": 0.5,
-  "p_outcome": 0.5
+  "p_outcome": 0.5,
+  "score_outcome": "draw"
  },
  {
   "date": "2026-06-13",
@@ -87,7 +91,8 @@
   "fav_hit": false,
   "tier": "fallo",
   "p_fav": 0.734,
-  "p_outcome": 0.166
+  "p_outcome": 0.166,
+  "score_outcome": "away"
  },
  {
   "date": "2026-06-13",
@@ -102,10 +107,11 @@
   "real_home": 1,
   "real_away": 1,
   "outcome": "draw",
-  "fav_hit": false,
-  "tier": "parcial",
+  "fav_hit": true,
+  "tier": "pleno",
   "p_fav": 0.395,
-  "p_outcome": 0.367
+  "p_outcome": 0.367,
+  "score_outcome": "draw"
  },
  {
   "date": "2026-06-13",
@@ -123,7 +129,8 @@
   "fav_hit": true,
   "tier": "pleno",
   "p_fav": 0.551,
-  "p_outcome": 0.551
+  "p_outcome": 0.551,
+  "score_outcome": "away"
  },
  {
   "date": "2026-06-13",
@@ -141,7 +148,8 @@
   "fav_hit": false,
   "tier": "parcial",
   "p_fav": 0.378,
-  "p_outcome": 0.325
+  "p_outcome": 0.325,
+  "score_outcome": "draw"
  },
  {
   "date": "2026-06-14",
@@ -159,7 +167,8 @@
   "fav_hit": true,
   "tier": "pleno",
   "p_fav": 0.843,
-  "p_outcome": 0.843
+  "p_outcome": 0.843,
+  "score_outcome": "home"
  },
  {
   "date": "2026-06-14",
@@ -177,7 +186,8 @@
   "fav_hit": false,
   "tier": "fallo",
   "p_fav": 0.456,
-  "p_outcome": 0.24
+  "p_outcome": 0.24,
+  "score_outcome": "away"
  },
  {
   "date": "2026-06-14",
@@ -192,10 +202,11 @@
   "real_home": 2,
   "real_away": 2,
   "outcome": "draw",
-  "fav_hit": false,
-  "tier": "fallo",
+  "fav_hit": true,
+  "tier": "pleno",
   "p_fav": 0.413,
-  "p_outcome": 0.293
+  "p_outcome": 0.293,
+  "score_outcome": "draw"
  },
  {
   "date": "2026-06-14",
@@ -213,6 +224,7 @@
   "fav_hit": true,
   "tier": "pleno",
   "p_fav": 0.43,
-  "p_outcome": 0.43
+  "p_outcome": 0.43,
+  "score_outcome": "home"
  }
 ]
