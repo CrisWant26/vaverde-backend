@@ -38,8 +38,10 @@ jobs:
           pip install --quiet pandas scipy numpy scikit-learn
 
       - name: Dataset actualizado
-        run: curl -sL -o results.csv https://raw.githubusercontent.com/martj42/international_results/master/results.csv
-
+        run: |
+          curl -sL -o results.csv https://raw.githubusercontent.com/martj42/international_results/master/results.csv
+          echo "=== Últimas 5 líneas del CSV ===" && tail -5 results.csv
+          echo "=== Total líneas ===" && wc -l results.csv
       - name: Generar predicciones
         run: python generate_predictions.py
 
