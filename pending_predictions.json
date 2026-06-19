@@ -1,49 +1,5 @@
 [
  {
-  "date": "2026-06-18",
-  "home": "Canada",
-  "away": "Qatar",
-  "p_home": 0.8,
-  "p_draw": 0.136,
-  "p_away": 0.064,
-  "likely_score": "2-0",
-  "xg_home": 2.83,
-  "xg_away": 0.65
- },
- {
-  "date": "2026-06-18",
-  "home": "Switzerland",
-  "away": "Bosnia and Herzegovina",
-  "p_home": 0.596,
-  "p_draw": 0.251,
-  "p_away": 0.153,
-  "likely_score": "1-0",
-  "xg_home": 1.66,
-  "xg_away": 0.73
- },
- {
-  "date": "2026-06-18",
-  "home": "Czech Republic",
-  "away": "South Africa",
-  "p_home": 0.519,
-  "p_draw": 0.286,
-  "p_away": 0.195,
-  "likely_score": "1-0",
-  "xg_home": 1.37,
-  "xg_away": 0.78
- },
- {
-  "date": "2026-06-18",
-  "home": "Mexico",
-  "away": "South Korea",
-  "p_home": 0.531,
-  "p_draw": 0.267,
-  "p_away": 0.202,
-  "likely_score": "1-0",
-  "xg_home": 1.57,
-  "xg_away": 0.88
- },
- {
   "date": "2026-06-19",
   "home": "Scotland",
   "away": "Morocco",
