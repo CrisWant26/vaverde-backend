@@ -1,28 +1,6 @@
 [
  {
   "date": "2026-06-23",
-  "home": "Colombia",
-  "away": "DR Congo",
-  "p_home": 0.655,
-  "p_draw": 0.235,
-  "p_away": 0.111,
-  "likely_score": "1-0",
-  "xg_home": 1.71,
-  "xg_away": 0.56
- },
- {
-  "date": "2026-06-23",
-  "home": "England",
-  "away": "Ghana",
-  "p_home": 0.814,
-  "p_draw": 0.142,
-  "p_away": 0.043,
-  "likely_score": "2-0",
-  "xg_home": 2.39,
-  "xg_away": 0.38
- },
- {
-  "date": "2026-06-23",
   "home": "Panama",
   "away": "Croatia",
   "p_home": 0.212,
