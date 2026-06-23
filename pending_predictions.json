@@ -1,49 +1,5 @@
 [
  {
-  "date": "2026-06-22",
-  "home": "Jordan",
-  "away": "Algeria",
-  "p_home": 0.201,
-  "p_draw": 0.254,
-  "p_away": 0.545,
-  "likely_score": "0-1",
-  "xg_home": 0.85,
-  "xg_away": 1.75
- },
- {
-  "date": "2026-06-22",
-  "home": "Argentina",
-  "away": "Austria",
-  "p_home": 0.621,
-  "p_draw": 0.252,
-  "p_away": 0.127,
-  "likely_score": "1-0",
-  "xg_home": 1.59,
-  "xg_away": 0.6
- },
- {
-  "date": "2026-06-22",
-  "home": "Norway",
-  "away": "Senegal",
-  "p_home": 0.457,
-  "p_draw": 0.316,
-  "p_away": 0.227,
-  "likely_score": "1-0",
-  "xg_home": 1.13,
-  "xg_away": 0.81
- },
- {
-  "date": "2026-06-22",
-  "home": "France",
-  "away": "Iraq",
-  "p_home": 0.721,
-  "p_draw": 0.196,
-  "p_away": 0.082,
-  "likely_score": "1-0",
-  "xg_home": 2.0,
-  "xg_away": 0.51
- },
- {
   "date": "2026-06-23",
   "home": "Portugal",
   "away": "Uzbekistan",
