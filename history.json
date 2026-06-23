@@ -834,5 +834,24 @@
   "p_fav": 0.721,
   "p_outcome": 0.721,
   "score_outcome": "home"
+ },
+ {
+  "date": "2026-06-23",
+  "home": "Portugal",
+  "away": "Uzbekistan",
+  "p_home": 0.623,
+  "p_draw": 0.247,
+  "p_away": 0.13,
+  "likely_score": "1-0",
+  "xg_home": 1.64,
+  "xg_away": 0.62,
+  "real_home": 5,
+  "real_away": 0,
+  "outcome": "home",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.623,
+  "p_outcome": 0.623,
+  "score_outcome": "home"
  }
 ]
