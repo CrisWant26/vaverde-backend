@@ -273,5 +273,16 @@
   "likely_score": "1-0",
   "xg_home": 1.95,
   "xg_away": 0.56
+ },
+ {
+  "date": "2026-06-23",
+  "home": "Colombia",
+  "away": "DR Congo",
+  "p_home": 0.652,
+  "p_draw": 0.242,
+  "p_away": 0.106,
+  "likely_score": "1-0",
+  "xg_home": 1.7,
+  "xg_away": 0.56
  }
 ]
