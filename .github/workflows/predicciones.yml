@@ -11,10 +11,7 @@ name: Actualizar predicciones
 
 on:
   schedule:
-    - cron: "13 12 * * *"   # 6:13 AM CDMX — predicciones del día
-    - cron: "37 21 * * *"   # 3:37 PM CDMX — captura bloque matutino
-    - cron: "43 1 * * *"    # 7:43 PM CDMX — captura bloque de tarde
-    - cron: "27 6 * * *"    # 12:27 AM CDMX — cierre del día completo
+    - cron: "13 11 * * *"   # 5:13 AM CDMX — corrida fija de seguridad
   workflow_dispatch: {}
 
 permissions:
@@ -37,9 +34,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install --quiet pandas scipy numpy scikit-learn
 
-      - name: Dataset actualizado
+      - name: Usar dataset manual (international_results.csv)
         run: |
-          curl -sL -o results.csv https://raw.githubusercontent.com/martj42/international_results/master/results.csv
+          cp international_results.csv results.csv
           echo "=== Últimas 5 líneas del CSV ===" && tail -5 results.csv
           echo "=== Total líneas ===" && wc -l results.csv
       - name: Generar predicciones
