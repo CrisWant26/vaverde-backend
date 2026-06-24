@@ -872,5 +872,24 @@
   "p_fav": 0.814,
   "p_outcome": 0.142,
   "score_outcome": "home"
+ },
+ {
+  "date": "2026-06-23",
+  "home": "Panama",
+  "away": "Croatia",
+  "p_home": 0.212,
+  "p_draw": 0.263,
+  "p_away": 0.525,
+  "likely_score": "0-1",
+  "xg_home": 0.84,
+  "xg_away": 1.67,
+  "real_home": 0,
+  "real_away": 1,
+  "outcome": "away",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.525,
+  "p_outcome": 0.525,
+  "score_outcome": "away"
  }
 ]

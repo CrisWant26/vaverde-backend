@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-06-23",
-  "home": "Panama",
-  "away": "Croatia",
-  "p_home": 0.212,
-  "p_draw": 0.263,
-  "p_away": 0.525,
-  "likely_score": "0-1",
-  "xg_home": 0.84,
-  "xg_away": 1.67
- },
- {
   "date": "2026-06-24",
   "home": "Mexico",
   "away": "Czech Republic",
