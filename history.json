@@ -891,5 +891,24 @@
   "p_fav": 0.525,
   "p_outcome": 0.525,
   "score_outcome": "away"
+ },
+ {
+  "date": "2026-06-23",
+  "home": "Colombia",
+  "away": "DR Congo",
+  "p_home": 0.652,
+  "p_draw": 0.242,
+  "p_away": 0.106,
+  "likely_score": "1-0",
+  "xg_home": 1.7,
+  "xg_away": 0.56,
+  "real_home": 1,
+  "real_away": 0,
+  "outcome": "home",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.652,
+  "p_outcome": 0.652,
+  "score_outcome": "home"
  }
 ]
