@@ -910,5 +910,43 @@
   "p_fav": 0.652,
   "p_outcome": 0.652,
   "score_outcome": "home"
+ },
+ {
+  "date": "2026-06-24",
+  "home": "Canada",
+  "away": "Switzerland",
+  "p_home": 0.456,
+  "p_draw": 0.27,
+  "p_away": 0.275,
+  "likely_score": "1-1",
+  "xg_home": 1.55,
+  "xg_away": 1.16,
+  "real_home": 1,
+  "real_away": 2,
+  "outcome": "away",
+  "fav_hit": false,
+  "tier": "fallo",
+  "p_fav": 0.456,
+  "p_outcome": 0.275,
+  "score_outcome": "draw"
+ },
+ {
+  "date": "2026-06-24",
+  "home": "Bosnia and Herzegovina",
+  "away": "Qatar",
+  "p_home": 0.467,
+  "p_draw": 0.292,
+  "p_away": 0.242,
+  "likely_score": "1-0",
+  "xg_home": 1.32,
+  "xg_away": 0.93,
+  "real_home": 3,
+  "real_away": 1,
+  "outcome": "home",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.467,
+  "p_outcome": 0.467,
+  "score_outcome": "home"
  }
 ]
