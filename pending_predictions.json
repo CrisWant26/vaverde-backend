@@ -196,5 +196,27 @@
   "likely_score": "1-0",
   "xg_home": 1.95,
   "xg_away": 0.56
+ },
+ {
+  "date": "2026-06-30",
+  "home": "Mexico",
+  "away": "Scotland",
+  "p_home": 0.591,
+  "p_draw": 0.249,
+  "p_away": 0.16,
+  "likely_score": "1-0",
+  "xg_home": 1.78,
+  "xg_away": 0.83
+ },
+ {
+  "date": "2026-07-05",
+  "home": "Mexico",
+  "away": "England",
+  "p_home": 0.292,
+  "p_draw": 0.311,
+  "p_away": 0.397,
+  "likely_score": "0-1",
+  "xg_home": 0.97,
+  "xg_away": 1.4
  }
 ]

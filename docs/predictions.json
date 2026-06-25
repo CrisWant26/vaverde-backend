@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T13:27:30+00:00",
+ "generated_at": "2026-06-25T21:04:55+00:00",
  "model": "poisson-elo-calibrado",
  "training_matches": 11459,
  "last_result_date": "2026-06-24",
@@ -142,21 +142,6 @@
   },
   {
    "date": "2026-06-26",
-   "home": "Cape Verde",
-   "away": "Saudi Arabia",
-   "city": "Houston",
-   "neutral": true,
-   "p_home": 0.387,
-   "p_draw": 0.344,
-   "p_away": 0.27,
-   "p_over25": 0.288,
-   "p_btts": 0.369,
-   "xg_home": 0.95,
-   "xg_away": 0.91,
-   "likely_score": "0-0"
-  },
-  {
-   "date": "2026-06-26",
    "home": "New Zealand",
    "away": "Belgium",
    "city": "Vancouver",
@@ -183,6 +168,21 @@
    "p_btts": 0.301,
    "xg_home": 0.78,
    "xg_away": 0.81,
+   "likely_score": "0-0"
+  },
+  {
+   "date": "2026-06-26",
+   "home": "Cape Verde",
+   "away": "Saudi Arabia",
+   "city": "Houston",
+   "neutral": true,
+   "p_home": 0.387,
+   "p_draw": 0.344,
+   "p_away": 0.27,
+   "p_over25": 0.288,
+   "p_btts": 0.369,
+   "xg_home": 0.95,
+   "xg_away": 0.91,
    "likely_score": "0-0"
   },
   {
@@ -274,6 +274,36 @@
    "xg_home": 1.69,
    "xg_away": 0.64,
    "likely_score": "1-0"
+  },
+  {
+   "date": "2026-06-30",
+   "home": "Mexico",
+   "away": "Scotland",
+   "city": "Mexico City",
+   "neutral": false,
+   "p_home": 0.591,
+   "p_draw": 0.249,
+   "p_away": 0.16,
+   "p_over25": 0.485,
+   "p_btts": 0.471,
+   "xg_home": 1.78,
+   "xg_away": 0.83,
+   "likely_score": "1-0"
+  },
+  {
+   "date": "2026-07-05",
+   "home": "Mexico",
+   "away": "England",
+   "city": "Mexico City",
+   "neutral": false,
+   "p_home": 0.292,
+   "p_draw": 0.311,
+   "p_away": 0.397,
+   "p_over25": 0.423,
+   "p_btts": 0.469,
+   "xg_home": 0.97,
+   "xg_away": 1.4,
+   "likely_score": "0-1"
   }
  ],
  "champion_probs": [
@@ -1611,7 +1641,7 @@
     "p_home": 0.704,
     "p_draw": 0.217,
     "p_away": 0.078,
-    "likely_score": "2-1",
+    "likely_score": "2-0",
     "xg_home": 1.96,
     "xg_away": 0.53,
     "real_home": 2,
