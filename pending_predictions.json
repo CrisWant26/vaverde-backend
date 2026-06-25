@@ -1,27 +1,5 @@
 [
  {
-  "date": "2026-06-24",
-  "home": "Mexico",
-  "away": "Czech Republic",
-  "p_home": 0.59,
-  "p_draw": 0.235,
-  "p_away": 0.175,
-  "likely_score": "1-0",
-  "xg_home": 1.92,
-  "xg_away": 0.92
- },
- {
-  "date": "2026-06-24",
-  "home": "South Africa",
-  "away": "South Korea",
-  "p_home": 0.231,
-  "p_draw": 0.313,
-  "p_away": 0.457,
-  "likely_score": "0-1",
-  "xg_home": 0.64,
-  "xg_away": 1.32
- },
- {
   "date": "2026-06-25",
   "home": "Tunisia",
   "away": "Netherlands",
