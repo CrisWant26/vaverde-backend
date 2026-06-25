@@ -1024,5 +1024,43 @@
   "p_fav": 0.457,
   "p_outcome": 0.231,
   "score_outcome": "away"
+ },
+ {
+  "date": "2026-06-25",
+  "home": "Ecuador",
+  "away": "Germany",
+  "p_home": 0.314,
+  "p_draw": 0.28,
+  "p_away": 0.406,
+  "likely_score": "1-1",
+  "xg_home": 1.15,
+  "xg_away": 1.43,
+  "real_home": 2,
+  "real_away": 1,
+  "outcome": "home",
+  "fav_hit": false,
+  "tier": "parcial",
+  "p_fav": 0.406,
+  "p_outcome": 0.314,
+  "score_outcome": "draw"
+ },
+ {
+  "date": "2026-06-25",
+  "home": "Curaçao",
+  "away": "Ivory Coast",
+  "p_home": 0.181,
+  "p_draw": 0.264,
+  "p_away": 0.555,
+  "likely_score": "0-1",
+  "xg_home": 0.66,
+  "xg_away": 1.66,
+  "real_home": 0,
+  "real_away": 2,
+  "outcome": "away",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.555,
+  "p_outcome": 0.555,
+  "score_outcome": "away"
  }
 ]
