@@ -948,5 +948,43 @@
   "p_fav": 0.467,
   "p_outcome": 0.467,
   "score_outcome": "home"
+ },
+ {
+  "date": "2026-06-24",
+  "home": "Scotland",
+  "away": "Brazil",
+  "p_home": 0.198,
+  "p_draw": 0.275,
+  "p_away": 0.527,
+  "likely_score": "0-1",
+  "xg_home": 0.69,
+  "xg_away": 1.58,
+  "real_home": 0,
+  "real_away": 3,
+  "outcome": "away",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.527,
+  "p_outcome": 0.527,
+  "score_outcome": "away"
+ },
+ {
+  "date": "2026-06-24",
+  "home": "Morocco",
+  "away": "Haiti",
+  "p_home": 0.76,
+  "p_draw": 0.184,
+  "p_away": 0.056,
+  "likely_score": "1-0",
+  "xg_home": 1.96,
+  "xg_away": 0.37,
+  "real_home": 4,
+  "real_away": 2,
+  "outcome": "home",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.76,
+  "p_outcome": 0.76,
+  "score_outcome": "home"
  }
 ]
