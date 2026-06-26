@@ -1138,5 +1138,43 @@
   "p_fav": 0.391,
   "p_outcome": 0.337,
   "score_outcome": "draw"
+ },
+ {
+  "date": "2026-06-26",
+  "home": "Norway",
+  "away": "France",
+  "p_home": 0.311,
+  "p_draw": 0.293,
+  "p_away": 0.396,
+  "likely_score": "1-1",
+  "xg_home": 1.03,
+  "xg_away": 1.33,
+  "real_home": 1,
+  "real_away": 4,
+  "outcome": "away",
+  "fav_hit": false,
+  "tier": "parcial",
+  "p_fav": 0.396,
+  "p_outcome": 0.396,
+  "score_outcome": "draw"
+ },
+ {
+  "date": "2026-06-26",
+  "home": "Senegal",
+  "away": "Iraq",
+  "p_home": 0.552,
+  "p_draw": 0.303,
+  "p_away": 0.145,
+  "likely_score": "1-0",
+  "xg_home": 1.22,
+  "xg_away": 0.56,
+  "real_home": 5,
+  "real_away": 0,
+  "outcome": "home",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.552,
+  "p_outcome": 0.552,
+  "score_outcome": "home"
  }
 ]

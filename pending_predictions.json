@@ -44,28 +44,6 @@
   "xg_away": 1.72
  },
  {
-  "date": "2026-06-26",
-  "home": "Norway",
-  "away": "France",
-  "p_home": 0.311,
-  "p_draw": 0.293,
-  "p_away": 0.396,
-  "likely_score": "1-1",
-  "xg_home": 1.03,
-  "xg_away": 1.33
- },
- {
-  "date": "2026-06-26",
-  "home": "Senegal",
-  "away": "Iraq",
-  "p_home": 0.552,
-  "p_draw": 0.303,
-  "p_away": 0.145,
-  "likely_score": "1-0",
-  "xg_home": 1.22,
-  "xg_away": 0.56
- },
- {
   "date": "2026-06-27",
   "home": "Panama",
   "away": "England",
