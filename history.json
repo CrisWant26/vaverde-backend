@@ -1062,5 +1062,43 @@
   "p_fav": 0.555,
   "p_outcome": 0.555,
   "score_outcome": "away"
+ },
+ {
+  "date": "2026-06-25",
+  "home": "Tunisia",
+  "away": "Netherlands",
+  "p_home": 0.162,
+  "p_draw": 0.249,
+  "p_away": 0.589,
+  "likely_score": "0-1",
+  "xg_home": 0.64,
+  "xg_away": 1.77,
+  "real_home": 1,
+  "real_away": 3,
+  "outcome": "away",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.589,
+  "p_outcome": 0.589,
+  "score_outcome": "away"
+ },
+ {
+  "date": "2026-06-25",
+  "home": "Japan",
+  "away": "Sweden",
+  "p_home": 0.453,
+  "p_draw": 0.296,
+  "p_away": 0.252,
+  "likely_score": "1-0",
+  "xg_home": 1.28,
+  "xg_away": 0.95,
+  "real_home": 1,
+  "real_away": 1,
+  "outcome": "draw",
+  "fav_hit": false,
+  "tier": "fallo",
+  "p_fav": 0.453,
+  "p_outcome": 0.296,
+  "score_outcome": "home"
  }
 ]
