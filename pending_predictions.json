@@ -1,27 +1,5 @@
 [
  {
-  "date": "2026-06-25",
-  "home": "Paraguay",
-  "away": "Australia",
-  "p_home": 0.292,
-  "p_draw": 0.319,
-  "p_away": 0.389,
-  "likely_score": "0-1",
-  "xg_home": 0.81,
-  "xg_away": 1.19
- },
- {
-  "date": "2026-06-25",
-  "home": "United States",
-  "away": "Turkey",
-  "p_home": 0.391,
-  "p_draw": 0.272,
-  "p_away": 0.337,
-  "likely_score": "1-1",
-  "xg_home": 1.45,
-  "xg_away": 1.34
- },
- {
   "date": "2026-06-26",
   "home": "Egypt",
   "away": "Iran",

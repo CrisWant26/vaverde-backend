@@ -1100,5 +1100,43 @@
   "p_fav": 0.453,
   "p_outcome": 0.296,
   "score_outcome": "home"
+ },
+ {
+  "date": "2026-06-25",
+  "home": "Paraguay",
+  "away": "Australia",
+  "p_home": 0.292,
+  "p_draw": 0.319,
+  "p_away": 0.389,
+  "likely_score": "0-1",
+  "xg_home": 0.81,
+  "xg_away": 1.19,
+  "real_home": 0,
+  "real_away": 0,
+  "outcome": "draw",
+  "fav_hit": false,
+  "tier": "parcial",
+  "p_fav": 0.389,
+  "p_outcome": 0.319,
+  "score_outcome": "away"
+ },
+ {
+  "date": "2026-06-25",
+  "home": "United States",
+  "away": "Turkey",
+  "p_home": 0.391,
+  "p_draw": 0.272,
+  "p_away": 0.337,
+  "likely_score": "1-1",
+  "xg_home": 1.45,
+  "xg_away": 1.34,
+  "real_home": 2,
+  "real_away": 3,
+  "outcome": "away",
+  "fav_hit": false,
+  "tier": "parcial",
+  "p_fav": 0.391,
+  "p_outcome": 0.337,
+  "score_outcome": "draw"
  }
 ]
