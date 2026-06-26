@@ -174,5 +174,16 @@
   "likely_score": "0-1",
   "xg_home": 0.97,
   "xg_away": 1.4
+ },
+ {
+  "date": "2026-06-30",
+  "home": "Mexico",
+  "away": "Ecuador",
+  "p_home": 0.434,
+  "p_draw": 0.3,
+  "p_away": 0.266,
+  "likely_score": "1-1",
+  "xg_home": 1.28,
+  "xg_away": 1.06
  }
 ]
