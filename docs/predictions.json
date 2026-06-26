@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T03:03:51+00:00",
+ "generated_at": "2026-06-26T03:07:48+00:00",
  "model": "poisson-elo-calibrado",
  "training_matches": 11463,
  "last_result_date": "2026-06-25",
@@ -142,6 +142,21 @@
   },
   {
    "date": "2026-06-26",
+   "home": "Cape Verde",
+   "away": "Saudi Arabia",
+   "city": "Houston",
+   "neutral": true,
+   "p_home": 0.397,
+   "p_draw": 0.322,
+   "p_away": 0.28,
+   "p_over25": 0.288,
+   "p_btts": 0.369,
+   "xg_home": 0.96,
+   "xg_away": 0.91,
+   "likely_score": "0-0"
+  },
+  {
+   "date": "2026-06-26",
    "home": "New Zealand",
    "away": "Belgium",
    "city": "Vancouver",
@@ -169,36 +184,6 @@
    "xg_home": 0.78,
    "xg_away": 0.81,
    "likely_score": "0-0"
-  },
-  {
-   "date": "2026-06-26",
-   "home": "Cape Verde",
-   "away": "Saudi Arabia",
-   "city": "Houston",
-   "neutral": true,
-   "p_home": 0.397,
-   "p_draw": 0.322,
-   "p_away": 0.28,
-   "p_over25": 0.288,
-   "p_btts": 0.369,
-   "xg_home": 0.96,
-   "xg_away": 0.91,
-   "likely_score": "0-0"
-  },
-  {
-   "date": "2026-06-27",
-   "home": "Croatia",
-   "away": "Ghana",
-   "city": "Philadelphia",
-   "neutral": true,
-   "p_home": 0.632,
-   "p_draw": 0.244,
-   "p_away": 0.123,
-   "p_over25": 0.411,
-   "p_btts": 0.384,
-   "xg_home": 1.69,
-   "xg_away": 0.64,
-   "likely_score": "1-0"
   },
   {
    "date": "2026-06-27",
@@ -276,19 +261,19 @@
    "likely_score": "0-2"
   },
   {
-   "date": "2026-06-30",
-   "home": "Mexico",
-   "away": "Ecuador",
-   "city": "Mexico City",
-   "neutral": false,
-   "p_home": 0.434,
-   "p_draw": 0.3,
-   "p_away": 0.266,
-   "p_over25": 0.416,
-   "p_btts": 0.473,
-   "xg_home": 1.28,
-   "xg_away": 1.06,
-   "likely_score": "1-1"
+   "date": "2026-06-27",
+   "home": "Croatia",
+   "away": "Ghana",
+   "city": "Philadelphia",
+   "neutral": true,
+   "p_home": 0.632,
+   "p_draw": 0.244,
+   "p_away": 0.123,
+   "p_over25": 0.411,
+   "p_btts": 0.384,
+   "xg_home": 1.69,
+   "xg_away": 0.64,
+   "likely_score": "1-0"
   }
  ],
  "champion_probs": [
