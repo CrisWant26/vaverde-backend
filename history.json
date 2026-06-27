@@ -1176,5 +1176,43 @@
   "p_fav": 0.552,
   "p_outcome": 0.552,
   "score_outcome": "home"
+ },
+ {
+  "date": "2026-06-26",
+  "home": "Cape Verde",
+  "away": "Saudi Arabia",
+  "p_home": 0.355,
+  "p_draw": 0.33,
+  "p_away": 0.315,
+  "likely_score": "0-1",
+  "xg_home": 0.9,
+  "xg_away": 1.0,
+  "real_home": 0,
+  "real_away": 0,
+  "outcome": "draw",
+  "fav_hit": false,
+  "tier": "parcial",
+  "p_fav": 0.355,
+  "p_outcome": 0.33,
+  "score_outcome": "away"
+ },
+ {
+  "date": "2026-06-26",
+  "home": "Uruguay",
+  "away": "Spain",
+  "p_home": 0.185,
+  "p_draw": 0.257,
+  "p_away": 0.558,
+  "likely_score": "0-1",
+  "xg_home": 0.73,
+  "xg_away": 1.72,
+  "real_home": 0,
+  "real_away": 1,
+  "outcome": "away",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.558,
+  "p_outcome": 0.558,
+  "score_outcome": "away"
  }
 ]
