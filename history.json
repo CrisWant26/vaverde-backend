@@ -1252,5 +1252,43 @@
   "p_fav": 0.666,
   "p_outcome": 0.666,
   "score_outcome": "away"
+ },
+ {
+  "date": "2026-06-27",
+  "home": "Panama",
+  "away": "England",
+  "p_home": 0.119,
+  "p_draw": 0.212,
+  "p_away": 0.669,
+  "likely_score": "0-2",
+  "xg_home": 0.57,
+  "xg_away": 2.04,
+  "real_home": 0,
+  "real_away": 2,
+  "outcome": "away",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.669,
+  "p_outcome": 0.669,
+  "score_outcome": "away"
+ },
+ {
+  "date": "2026-06-27",
+  "home": "Croatia",
+  "away": "Ghana",
+  "p_home": 0.697,
+  "p_draw": 0.207,
+  "p_away": 0.096,
+  "likely_score": "1-0",
+  "xg_home": 1.95,
+  "xg_away": 0.56,
+  "real_home": 2,
+  "real_away": 1,
+  "outcome": "home",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.697,
+  "p_outcome": 0.697,
+  "score_outcome": "home"
  }
 ]
