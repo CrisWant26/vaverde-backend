@@ -1214,5 +1214,43 @@
   "p_fav": 0.558,
   "p_outcome": 0.558,
   "score_outcome": "away"
+ },
+ {
+  "date": "2026-06-26",
+  "home": "Egypt",
+  "away": "Iran",
+  "p_home": 0.34,
+  "p_draw": 0.364,
+  "p_away": 0.297,
+  "likely_score": "0-0",
+  "xg_home": 0.72,
+  "xg_away": 0.88,
+  "real_home": 1,
+  "real_away": 1,
+  "outcome": "draw",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.364,
+  "p_outcome": 0.364,
+  "score_outcome": "draw"
+ },
+ {
+  "date": "2026-06-26",
+  "home": "New Zealand",
+  "away": "Belgium",
+  "p_home": 0.123,
+  "p_draw": 0.21,
+  "p_away": 0.666,
+  "likely_score": "0-2",
+  "xg_home": 0.62,
+  "xg_away": 2.07,
+  "real_home": 1,
+  "real_away": 5,
+  "outcome": "away",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.666,
+  "p_outcome": 0.666,
+  "score_outcome": "away"
  }
 ]
