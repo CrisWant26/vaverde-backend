@@ -1152,7 +1152,7 @@
   "real_home": 1,
   "real_away": 4,
   "outcome": "away",
-  "fav_hit": false,
+  "fav_hit": true,
   "tier": "parcial",
   "p_fav": 0.396,
   "p_outcome": 0.396,
