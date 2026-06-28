@@ -1,23 +1,25 @@
 """
-Simulación Monte Carlo del Mundial 2026
-========================================
-Simula el torneo completo N veces usando el modelo Poisson+Elo calibrado.
+Simulación Monte Carlo del Mundial 2026 — DESDE DIECISEISAVOS
+=============================================================
+Versión de eliminatorias: los grupos YA terminaron. Esta simulación arranca
+directo con los 16 cruces REALES de dieciseisavos (las 32 selecciones que
+clasificaron) y juega el bracket oficial hasta la final.
 
 Cada simulación:
-  1. Juega los 72 partidos de grupos (marcadores muestreados de Poisson).
-  2. Aplica reglas FIFA: puntos, luego diferencia de goles, luego goles a favor.
-  3. Clasifica 1ro y 2do de cada grupo + los 8 mejores terceros = 32 equipos.
-  4. Arma el bracket de la Ronda de 32 y lo juega (empate -> penales).
-  5. Registra hasta dónde llegó cada equipo y quién ganó.
+  1. Juega los 16 dieciseisavos (empate -> penales).
+  2. Cruza los ganadores en octavos según el BRACKET OFICIAL.
+  3. Cascada: cuartos, semis, final.
+  4. Registra hasta dónde llegó cada equipo.
 
-Sobre N torneos, las frecuencias dan las probabilidades.
+Las selecciones eliminadas en grupos ya NO aparecen (no están en el bracket).
 
-NOTA sobre el formato 48 equipos: es nuevo (primer Mundial así), y el
-emparejamiento exacto de los 8 mejores terceros con los grupos es complejo
-(FIFA tiene una tabla de asignación según QUÉ grupos aportan los terceros).
-Aquí usamos un emparejamiento simplificado por siembra (mejor vs peor) que
-captura bien las probabilidades sin reproducir la tabla oficial exacta.
-Esto es una aproximación razonable y está documentada como tal.
+NIVELES de ronda (para compatibilidad con generate_predictions.py):
+  1 = dieciseisavos (R32, punto de partida de todos)
+  2 = octavos (R16)
+  3 = cuartos (QF)
+  4 = semifinal (SF)
+  5 = final (jugó la final)
+  6 = campeón (ganó la final)
 """
 import warnings
 warnings.filterwarnings("ignore")
@@ -27,8 +29,7 @@ from collections import defaultdict
 
 
 def lambdas(params, elos, home, away, neutral=True):
-    """Goles esperados del modelo Poisson+Elo (incrustada de modelo_elo.py
-    para no depender de elo.py en el pipeline)."""
+    """Goles esperados del modelo Poisson+Elo (idéntica a la original)."""
     atk, dfn = params["attack"], params["defense"]
     eh = elos.get(home, 1500); ea = elos.get(away, 1500)
     elo_diff = (eh - ea) / 400.0
@@ -40,22 +41,54 @@ def lambdas(params, elos, home, away, neutral=True):
     la = np.exp(np.clip(c + a_a - d_h - b*elo_diff, -2, 3))
     return lh, la
 
-# 12 grupos oficiales (sorteo 5-dic-2025). Nombres EXACTOS del dataset.
-GRUPOS = {
-    "A": ["Mexico", "South Africa", "South Korea", "Czech Republic"],
-    "B": ["Canada", "Switzerland", "Qatar", "Bosnia and Herzegovina"],
-    "C": ["Brazil", "Morocco", "Haiti", "Scotland"],
-    "D": ["United States", "Paraguay", "Australia", "Turkey"],
-    "E": ["Germany", "Curaçao", "Ivory Coast", "Ecuador"],
-    "F": ["Netherlands", "Japan", "Tunisia", "Sweden"],
-    "G": ["Belgium", "Egypt", "Iran", "New Zealand"],
-    "H": ["Spain", "Cape Verde", "Saudi Arabia", "Uruguay"],
-    "I": ["France", "Senegal", "Norway", "Iraq"],
-    "J": ["Argentina", "Algeria", "Austria", "Jordan"],
-    "K": ["Portugal", "Uzbekistan", "Colombia", "DR Congo"],
-    "L": ["England", "Croatia", "Ghana", "Panama"],
-}
-ANFITRIONES = {"Mexico", "United States", "Canada"}
+
+# ============================================================
+# BRACKET OFICIAL — Dieciseisavos en ORDEN DE LLAVE (imagen FIFA).
+# El orden define el camino: pares consecutivos se cruzan en octavos.
+# Mitad izquierda (índices 0-7), mitad derecha (índices 8-15).
+# ============================================================
+DIECISEISAVOS = [
+    # --- Mitad izquierda ---
+    ("Germany", "Paraguay"),                       # 0
+    ("France", "Sweden"),                          # 1
+    ("South Africa", "Canada"),                    # 2
+    ("Netherlands", "Morocco"),                    # 3
+    ("Portugal", "Croatia"),                       # 4
+    ("Spain", "Austria"),                          # 5
+    ("United States", "Bosnia and Herzegovina"),   # 6
+    ("Belgium", "Senegal"),                        # 7
+    # --- Mitad derecha ---
+    ("Brazil", "Japan"),                           # 8
+    ("Ivory Coast", "Norway"),                     # 9
+    ("Mexico", "Ecuador"),                         # 10
+    ("England", "DR Congo"),                       # 11
+    ("Argentina", "Cape Verde"),                   # 12
+    ("Australia", "Egypt"),                        # 13
+    ("Switzerland", "Algeria"),                    # 14
+    ("Colombia", "Ghana"),                         # 15
+]
+
+# Sedes de los dieciseisavos: True = neutral, False = local (anfitrión en casa).
+# Solo México (Azteca) y USA (Santa Clara) son locales en esta ronda.
+NEUTRAL_R32 = [
+    True,   # 0 Germany/Paraguay @ Foxborough
+    True,   # 1 France/Sweden @ East Rutherford
+    True,   # 2 South Africa/Canada @ Inglewood (Canadá NO juega en casa)
+    True,   # 3 Netherlands/Morocco @ Guadalupe
+    True,   # 4 Portugal/Croatia @ Toronto
+    True,   # 5 Spain/Austria @ Inglewood
+    False,  # 6 USA/Bosnia @ Santa Clara (USA local)
+    True,   # 7 Belgium/Senegal @ Seattle
+    True,   # 8 Brazil/Japan @ Houston
+    True,   # 9 Ivory Coast/Norway @ Arlington
+    False,  # 10 Mexico/Ecuador @ Azteca (México local)
+    True,   # 11 England/DR Congo @ Atlanta
+    True,   # 12 Argentina/Cape Verde @ Miami Gardens
+    True,   # 13 Australia/Egypt @ Arlington
+    True,   # 14 Switzerland/Algeria @ Vancouver
+    True,   # 15 Colombia/Ghana @ Kansas City
+]
+# A partir de octavos asumimos neutral (sedes aún no fijadas a un local).
 
 
 def cargar_modelo():
@@ -64,113 +97,68 @@ def cargar_modelo():
     return M["params"], M["elos"]
 
 
-def muestrear_marcador(params, elos, h, a, neutral, rng):
-    """Muestrea un marcador (goles_h, goles_a) de las distribuciones Poisson."""
+def jugar_partido(h, a, params, elos, rng, neutral=True):
+    """Partido a muerte: empate -> penales (calibrado 54.4%, divisor 1545)."""
     lh, la = lambdas(params, elos, h, a, neutral=neutral)
-    return rng.poisson(lh), rng.poisson(la)
-
-
-def jugar_grupo(equipos, params, elos, rng):
-    """Round-robin. Devuelve equipos ordenados por reglas FIFA con sus stats."""
-    pts = defaultdict(int); gf = defaultdict(int); gc = defaultdict(int)
-    for i in range(len(equipos)):
-        for j in range(i+1, len(equipos)):
-            h, a = equipos[i], equipos[j]
-            # anfitrión juega "en casa" si está en el partido
-            neutral = not (h in ANFITRIONES)
-            gh, ga = muestrear_marcador(params, elos, h, a, neutral, rng)
-            gf[h] += gh; gc[h] += ga; gf[a] += ga; gc[a] += gh
-            if gh > ga: pts[h] += 3
-            elif ga > gh: pts[a] += 3
-            else: pts[h] += 1; pts[a] += 1
-    tabla = sorted(equipos, key=lambda t: (pts[t], gf[t]-gc[t], gf[t]) ,
-                   reverse=True)
-    stats = {t: (pts[t], gf[t]-gc[t], gf[t]) for t in equipos}
-    return tabla, stats
-
-
-def jugar_eliminatoria(h, a, params, elos, rng):
-    """Partido a muerte: empate -> penales.
-
-    Modelo de penales CALIBRADO con los 677 shootouts históricos del dataset:
-    el favorito por Elo gana solo el 54.4% (IC 50.6-58.2%) — casi un volado.
-    El divisor 1545 es el MLE sobre esos datos (el 800 anterior sobre-premiaba
-    a los favoritos: implicaba ~58% donde la realidad da ~54%).
-    """
-    gh, ga = muestrear_marcador(params, elos, h, a, neutral=True, rng=rng)
+    gh, ga = rng.poisson(lh), rng.poisson(la)
     if gh > ga: return h
     if ga > gh: return a
     eh, ea = elos.get(h, 1500), elos.get(a, 1500)
-    p_h = 1 / (1 + 10 ** (-(eh - ea) / 1545))  # MLE sobre shootouts 1967-2024
+    p_h = 1 / (1 + 10 ** (-(eh - ea) / 1545))
     return h if rng.random() < p_h else a
 
 
 def simular_torneo(params, elos, rng):
-    """Una simulación completa. Devuelve dict equipo -> ronda alcanzada."""
-    ronda = {}  # equipo -> ronda máxima (0=grupos,1=R32,2=R16,3=QF,4=SF,5=Final,6=Campeón)
-    primeros, segundos, terceros = [], [], []
-    tercero_stats = []
+    """Una simulación desde dieciseisavos. Devuelve dict equipo -> nivel máx."""
+    ronda = {}
+    for a, b in DIECISEISAVOS:
+        ronda[a] = 1; ronda[b] = 1  # todos arrancan en R32 (nivel 1)
 
-    for g, equipos in GRUPOS.items():
-        for t in equipos:
-            ronda[t] = 0
-        tabla, stats = jugar_grupo(equipos, params, elos, rng)
-        primeros.append(tabla[0]); segundos.append(tabla[1])
-        terceros.append(tabla[2])
-        tercero_stats.append((tabla[2], stats[tabla[2]]))
+    # --- Dieciseisavos (con localía donde aplica) ---
+    ganadores = []
+    for idx, (h, a) in enumerate(DIECISEISAVOS):
+        w = jugar_partido(h, a, params, elos, rng, neutral=NEUTRAL_R32[idx])
+        ronda[w] = 2  # avanzó a octavos
+        ganadores.append(w)
 
-    # 8 mejores terceros por (pts, dg, gf)
-    terceros_ord = sorted(tercero_stats, key=lambda x: x[1], reverse=True)
-    mejores_terceros = [t for t, _ in terceros_ord[:8]]
-
-    # 32 clasificados
-    clasificados = primeros + segundos + mejores_terceros
-    for t in clasificados:
-        ronda[t] = 1  # llegó al menos a R32
-
-    # Bracket: sembrar por Elo (mejor vs peor) — aproximación al cruce real
-    clasificados_ord = sorted(clasificados, key=lambda t: elos.get(t, 1500), reverse=True)
-    # emparejar 1-32, 2-31, ... estilo siembra
-    bracket = []
-    n = len(clasificados_ord)
-    for i in range(n // 2):
-        bracket.append((clasificados_ord[i], clasificados_ord[n-1-i]))
-
-    rondas_nombres = [2, 3, 4, 5, 6]  # R16, QF, SF, Final, Campeón
-    for nivel in rondas_nombres:
-        ganadores = []
-        for h, a in bracket:
-            w = jugar_eliminatoria(h, a, params, elos, rng)
-            ganadores.append(w)
+    # --- Octavos, cuartos, semis, final en cascada (neutral) ---
+    # nivel 2=octavos ya asignado a ganadores R32; ahora jugamos rondas siguientes
+    nivel = 3  # ganador de octavos llega a nivel 3 (cuartos), etc.
+    actual = ganadores
+    while len(actual) > 1:
+        siguiente = []
+        for k in range(0, len(actual), 2):
+            w = jugar_partido(actual[k], actual[k+1], params, elos, rng, neutral=True)
             ronda[w] = nivel
-        if len(ganadores) == 1:
-            break
-        # re-emparejar ganadores en orden
-        bracket = [(ganadores[i], ganadores[i+1]) for i in range(0, len(ganadores), 2)]
-
+            siguiente.append(w)
+        actual = siguiente
+        nivel += 1
+    # Cuando queda 1, ese es el campeón. El último 'nivel' asignado fue 6.
     return ronda
 
 
 def simular(N=10000, seed=0):
     params, elos = cargar_modelo()
     rng = np.random.default_rng(seed)
-    todos = [t for eq in GRUPOS.values() for t in eq]
-    avanza = defaultdict(int)   # pasa de grupos (R32)
-    campeon = defaultdict(int)
-    final = defaultdict(int)
+    equipos = [t for par in DIECISEISAVOS for t in par]
+
+    avanza = defaultdict(int)   # gana dieciseisavos (llega a octavos, nivel>=2)
+    final = defaultdict(int)    # llega a la final (nivel>=5)
+    campeon = defaultdict(int)  # gana (nivel>=6)
     suma_ronda = defaultdict(int)
 
     for _ in range(N):
         r = simular_torneo(params, elos, rng)
-        for t in todos:
-            nivel = r.get(t, 0)
+        for t in equipos:
+            nivel = r.get(t, 1)
             suma_ronda[t] += nivel
-            if nivel >= 1: avanza[t] += 1
+            if nivel >= 2: avanza[t] += 1
             if nivel >= 5: final[t] += 1
             if nivel >= 6: campeon[t] += 1
 
+    import pandas as pd
     filas = []
-    for t in todos:
+    for t in equipos:
         filas.append({
             "equipo": t,
             "elo": round(elos.get(t, 1500)),
@@ -179,16 +167,15 @@ def simular(N=10000, seed=0):
             "p_campeon_%": round(100*campeon[t]/N, 1),
             "ronda_media": round(suma_ronda[t]/N, 2),
         })
-    import pandas as pd
     return pd.DataFrame(filas).sort_values("p_campeon_%", ascending=False).reset_index(drop=True)
 
 
 if __name__ == "__main__":
     import pandas as pd
-    print("Simulando el Mundial 2026 (10,000 torneos)...")
+    print("Simulando desde dieciseisavos (10,000 torneos)...")
     df = simular(N=10000, seed=42)
-    pd.set_option("display.max_rows", 60)
-    print("\n=== PROBABILIDADES (ordenado por prob. de ser campeón) ===\n")
+    pd.set_option("display.max_rows", 40)
+    print("\n=== PROBABILIDADES (32 equipos en eliminatorias) ===\n")
     print(df.to_string(index=False))
     df.to_csv("simulacion_mundial.csv", index=False)
     print("\nGuardado en simulacion_mundial.csv")
