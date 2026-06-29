@@ -1366,5 +1366,24 @@
   "p_fav": 0.353,
   "p_outcome": 0.353,
   "score_outcome": "draw"
+ },
+ {
+  "date": "2026-06-28",
+  "home": "South Africa",
+  "away": "Canada",
+  "p_home": 0.209,
+  "p_draw": 0.288,
+  "p_away": 0.503,
+  "likely_score": "0-1",
+  "xg_home": 0.68,
+  "xg_away": 1.5,
+  "real_home": 0,
+  "real_away": 1,
+  "outcome": "away",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.503,
+  "p_outcome": 0.503,
+  "score_outcome": "away"
  }
 ]
