@@ -1,25 +1,10 @@
 {
- "generated_at": "2026-06-29T00:25:40+00:00",
+ "generated_at": "2026-06-29T14:53:58+00:00",
  "model": "poisson-elo-calibrado",
  "training_matches": 11478,
  "last_result_date": "2026-06-28",
  "model_brier": 0.1843,
  "matches": [
-  {
-   "date": "2026-06-28",
-   "home": "South Africa",
-   "away": "Canada",
-   "city": "Inglewood",
-   "neutral": true,
-   "p_home": 0.188,
-   "p_draw": 0.279,
-   "p_away": 0.533,
-   "p_over25": 0.379,
-   "p_btts": 0.376,
-   "xg_home": 0.65,
-   "xg_away": 1.56,
-   "likely_score": "0-1"
-  },
   {
    "date": "2026-06-29",
    "home": "Germany",
