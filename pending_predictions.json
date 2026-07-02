@@ -22,39 +22,6 @@
   "xg_away": 1.4
  },
  {
-  "date": "2026-07-01",
-  "home": "United States",
-  "away": "Bosnia and Herzegovina",
-  "p_home": 0.622,
-  "p_draw": 0.235,
-  "p_away": 0.143,
-  "likely_score": "1-0",
-  "xg_home": 1.92,
-  "xg_away": 0.83
- },
- {
-  "date": "2026-07-01",
-  "home": "Belgium",
-  "away": "Senegal",
-  "p_home": 0.465,
-  "p_draw": 0.293,
-  "p_away": 0.242,
-  "likely_score": "1-0",
-  "xg_home": 1.33,
-  "xg_away": 0.97
- },
- {
-  "date": "2026-07-01",
-  "home": "England",
-  "away": "DR Congo",
-  "p_home": 0.685,
-  "p_draw": 0.223,
-  "p_away": 0.092,
-  "likely_score": "1-0",
-  "xg_home": 1.79,
-  "xg_away": 0.54
- },
- {
   "date": "2026-07-02",
   "home": "Portugal",
   "away": "Croatia",
