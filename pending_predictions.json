@@ -22,39 +22,6 @@
   "xg_away": 1.4
  },
  {
-  "date": "2026-07-02",
-  "home": "Portugal",
-  "away": "Croatia",
-  "p_home": 0.488,
-  "p_draw": 0.283,
-  "p_away": 0.229,
-  "likely_score": "1-0",
-  "xg_home": 1.45,
-  "xg_away": 0.98
- },
- {
-  "date": "2026-07-02",
-  "home": "Spain",
-  "away": "Austria",
-  "p_home": 0.672,
-  "p_draw": 0.217,
-  "p_away": 0.111,
-  "likely_score": "2-0",
-  "xg_home": 2.01,
-  "xg_away": 0.71
- },
- {
-  "date": "2026-07-02",
-  "home": "Switzerland",
-  "away": "Algeria",
-  "p_home": 0.41,
-  "p_draw": 0.283,
-  "p_away": 0.307,
-  "likely_score": "1-1",
-  "xg_home": 1.42,
-  "xg_away": 1.27
- },
- {
   "date": "2026-07-03",
   "home": "Argentina",
   "away": "Cape Verde",
