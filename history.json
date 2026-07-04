@@ -1670,5 +1670,43 @@
   "p_fav": 0.743,
   "p_outcome": 0.743,
   "score_outcome": "home"
+ },
+ {
+  "date": "2026-07-04",
+  "home": "Canada",
+  "away": "Morocco",
+  "p_home": 0.254,
+  "p_draw": 0.359,
+  "p_away": 0.387,
+  "likely_score": "0-1",
+  "xg_home": 0.6,
+  "xg_away": 1.16,
+  "real_home": 0,
+  "real_away": 3,
+  "outcome": "away",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.387,
+  "p_outcome": 0.387,
+  "score_outcome": "away"
+ },
+ {
+  "date": "2026-07-04",
+  "home": "Paraguay",
+  "away": "France",
+  "p_home": 0.185,
+  "p_draw": 0.275,
+  "p_away": 0.54,
+  "likely_score": "0-1",
+  "xg_home": 0.63,
+  "xg_away": 1.65,
+  "real_home": 0,
+  "real_away": 1,
+  "outcome": "away",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.54,
+  "p_outcome": 0.54,
+  "score_outcome": "away"
  }
 ]
