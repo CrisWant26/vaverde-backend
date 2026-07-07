@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T23:04:21+00:00",
+ "generated_at": "2026-07-07T23:15:20+00:00",
  "model": "poisson-elo-calibrado",
  "training_matches": 11501,
  "last_result_date": "2026-07-07",
@@ -34,6 +34,66 @@
    "xg_home": 0.91,
    "xg_away": 1.26,
    "likely_score": "0-1"
+  },
+  {
+   "date": "2026-07-09",
+   "home": "France",
+   "away": "Morocco",
+   "city": "Foxborough",
+   "neutral": true,
+   "p_home": 0.365,
+   "p_draw": 0.352,
+   "p_away": 0.283,
+   "p_over25": 0.233,
+   "p_btts": 0.319,
+   "xg_home": 0.84,
+   "xg_away": 0.82,
+   "likely_score": "0-0"
+  },
+  {
+   "date": "2026-07-10",
+   "home": "Spain",
+   "away": "Belgium",
+   "city": "Inglewood",
+   "neutral": true,
+   "p_home": 0.574,
+   "p_draw": 0.244,
+   "p_away": 0.183,
+   "p_over25": 0.573,
+   "p_btts": 0.552,
+   "xg_home": 1.95,
+   "xg_away": 1.03,
+   "likely_score": "1-1"
+  },
+  {
+   "date": "2026-07-11",
+   "home": "Norway",
+   "away": "England",
+   "city": "Miami Gardens",
+   "neutral": true,
+   "p_home": 0.279,
+   "p_draw": 0.299,
+   "p_away": 0.422,
+   "p_over25": 0.404,
+   "p_btts": 0.448,
+   "xg_home": 0.91,
+   "xg_away": 1.39,
+   "likely_score": "0-1"
+  },
+  {
+   "date": "2026-07-11",
+   "home": "Argentina",
+   "away": "Switzerland",
+   "city": "Kansas City",
+   "neutral": true,
+   "p_home": 0.568,
+   "p_draw": 0.271,
+   "p_away": 0.161,
+   "p_over25": 0.39,
+   "p_btts": 0.398,
+   "xg_home": 1.54,
+   "xg_away": 0.71,
+   "likely_score": "1-0"
   }
  ],
  "champion_probs": [

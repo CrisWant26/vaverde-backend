@@ -9,5 +9,49 @@
   "likely_score": "1-0",
   "xg_home": 1.78,
   "xg_away": 0.83
+ },
+ {
+  "date": "2026-07-09",
+  "home": "France",
+  "away": "Morocco",
+  "p_home": 0.365,
+  "p_draw": 0.352,
+  "p_away": 0.283,
+  "likely_score": "0-0",
+  "xg_home": 0.84,
+  "xg_away": 0.82
+ },
+ {
+  "date": "2026-07-10",
+  "home": "Spain",
+  "away": "Belgium",
+  "p_home": 0.574,
+  "p_draw": 0.244,
+  "p_away": 0.183,
+  "likely_score": "1-1",
+  "xg_home": 1.95,
+  "xg_away": 1.03
+ },
+ {
+  "date": "2026-07-11",
+  "home": "Norway",
+  "away": "England",
+  "p_home": 0.279,
+  "p_draw": 0.299,
+  "p_away": 0.422,
+  "likely_score": "0-1",
+  "xg_home": 0.91,
+  "xg_away": 1.39
+ },
+ {
+  "date": "2026-07-11",
+  "home": "Argentina",
+  "away": "Switzerland",
+  "p_home": 0.568,
+  "p_draw": 0.271,
+  "p_away": 0.161,
+  "likely_score": "1-0",
+  "xg_home": 1.54,
+  "xg_away": 0.71
  }
 ]
