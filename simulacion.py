@@ -1,20 +1,20 @@
 """
-Simulación Monte Carlo del Mundial 2026 — DESDE OCTAVOS
+Simulación Monte Carlo del Mundial 2026 — DESDE CUARTOS
 ========================================================
-Los dieciseisavos terminaron. La simulación arranca con los 8 cruces
-REALES de octavos (los 16 equipos que siguen vivos) y juega el bracket
-oficial hasta la final.
+Los octavos terminaron. La simulación arranca con los 4 cruces REALES
+de cuartos (los 8 equipos que siguen vivos) y juega el bracket oficial
+hasta la final.
 
 Cada simulación:
-  1. Juega los 8 octavos (empate -> penales), con localía donde aplica.
-  2. Cascada por el bracket oficial: cuartos, semis, final.
+  1. Juega los 4 cuartos (empate -> penales). Todo neutral (ya no hay
+     anfitriones vivos: USA, México y Canadá quedaron eliminados).
+  2. Cascada por el bracket oficial: semifinales y final.
   3. Registra hasta dónde llegó cada equipo.
 
-Los eliminados en 16vos ya NO aparecen.
+Los eliminados en octavos ya NO aparecen.
 
 NIVELES de ronda:
-  2 = octavos (punto de partida de los 16 vivos)
-  3 = cuartos
+  3 = cuartos (punto de partida de los 8 vivos)
   4 = semifinal
   5 = final (jugó la final)
   6 = campeón
@@ -41,39 +41,21 @@ def lambdas(params, elos, home, away, neutral=True):
 
 
 # ============================================================
-# BRACKET OFICIAL — Octavos en ORDEN DE LLAVE.
-# Pares consecutivos se cruzan en cuartos:
-#   QF1: ganador(0) vs ganador(1)   [Paraguay/France vs Canada/Morocco]
-#   QF2: ganador(2) vs ganador(3)   [Portugal/Spain vs USA/Belgium]
-#   QF3: ganador(4) vs ganador(5)   [Brazil/Norway vs Mexico/England]
-#   QF4: ganador(6) vs ganador(7)   [Argentina/Egypt vs Switzerland/Colombia]
-# Luego SF: QF1vsQF2, QF3vsQF4. Final: SF1vsSF2.
+# BRACKET OFICIAL — Cuartos en ORDEN DE LLAVE.
+# Pares consecutivos se cruzan en semifinales:
+#   SF1: ganador(0) vs ganador(1)   [France/Morocco vs Spain/Belgium]
+#   SF2: ganador(2) vs ganador(3)   [Norway/England vs Argentina/Switzerland]
+# Final: SF1 vs SF2.
 # ============================================================
-OCTAVOS = [
+CUARTOS = [
     # --- Mitad izquierda ---
-    ("Paraguay", "France"),              # 0
-    ("Canada", "Morocco"),               # 1
-    ("Portugal", "Spain"),               # 2
-    ("United States", "Belgium"),        # 3
+    ("France", "Morocco"),               # 0  @ Foxborough
+    ("Spain", "Belgium"),                # 1  @ Inglewood
     # --- Mitad derecha ---
-    ("Brazil", "Norway"),                # 4
-    ("Mexico", "England"),               # 5
-    ("Argentina", "Egypt"),              # 6
-    ("Switzerland", "Colombia"),         # 7
+    ("Norway", "England"),               # 2  @ Miami Gardens
+    ("Argentina", "Switzerland"),        # 3  @ Kansas City
 ]
-
-# Localía en octavos: False = el home es anfitrión jugando en su país.
-NEUTRAL_R16 = [
-    True,   # 0 Paraguay/France @ Philadelphia
-    True,   # 1 Canada/Morocco @ Houston (Canadá NO juega en su país)
-    True,   # 2 Portugal/Spain @ Arlington
-    False,  # 3 USA/Belgium @ Seattle (USA local)
-    True,   # 4 Brazil/Norway @ East Rutherford
-    False,  # 5 Mexico/England @ Azteca (México local)
-    True,   # 6 Argentina/Egypt @ Atlanta
-    True,   # 7 Switzerland/Colombia @ Vancouver
-]
-# De cuartos en adelante: neutral (sedes sin local definido).
+# Todo neutral: ya no queda ningún anfitrión vivo.
 
 
 def cargar_modelo():
@@ -94,20 +76,20 @@ def jugar_partido(h, a, params, elos, rng, neutral=True):
 
 
 def simular_torneo(params, elos, rng):
-    """Una simulación desde octavos. Devuelve dict equipo -> nivel máximo."""
+    """Una simulación desde cuartos. Devuelve dict equipo -> nivel máximo."""
     ronda = {}
-    for a, b in OCTAVOS:
-        ronda[a] = 2; ronda[b] = 2  # los 16 vivos arrancan en octavos
+    for a, b in CUARTOS:
+        ronda[a] = 3; ronda[b] = 3  # los 8 vivos arrancan en cuartos
 
-    # --- Octavos (con localía donde aplica) ---
+    # --- Cuartos ---
     ganadores = []
-    for idx, (h, a) in enumerate(OCTAVOS):
-        w = jugar_partido(h, a, params, elos, rng, neutral=NEUTRAL_R16[idx])
-        ronda[w] = 3  # avanzó a cuartos
+    for h, a in CUARTOS:
+        w = jugar_partido(h, a, params, elos, rng, neutral=True)
+        ronda[w] = 4  # avanzó a semifinales
         ganadores.append(w)
 
-    # --- Cuartos, semis, final en cascada (neutral) ---
-    nivel = 4
+    # --- Semifinales y final en cascada (neutral) ---
+    nivel = 5
     actual = ganadores
     while len(actual) > 1:
         siguiente = []
@@ -117,16 +99,16 @@ def simular_torneo(params, elos, rng):
             siguiente.append(w)
         actual = siguiente
         nivel += 1
-    # El último nivel asignado al ganador final es 6 (campeón).
+    # Semifinalistas ganadores quedan en 5 (finalistas); el campeón en 6.
     return ronda
 
 
 def simular(N=10000, seed=0):
     params, elos = cargar_modelo()
     rng = np.random.default_rng(seed)
-    equipos = [t for par in OCTAVOS for t in par]
+    equipos = [t for par in CUARTOS for t in par]
 
-    avanza = defaultdict(int)   # gana su octavo (llega a cuartos, nivel>=3)
+    avanza = defaultdict(int)   # gana su cuarto (llega a semis, nivel>=4)
     final = defaultdict(int)    # llega a la final (nivel>=5)
     campeon = defaultdict(int)  # campeón (nivel>=6)
     suma_ronda = defaultdict(int)
@@ -134,9 +116,9 @@ def simular(N=10000, seed=0):
     for _ in range(N):
         r = simular_torneo(params, elos, rng)
         for t in equipos:
-            nivel = r.get(t, 2)
+            nivel = r.get(t, 3)
             suma_ronda[t] += nivel
-            if nivel >= 3: avanza[t] += 1
+            if nivel >= 4: avanza[t] += 1
             if nivel >= 5: final[t] += 1
             if nivel >= 6: campeon[t] += 1
 
@@ -156,10 +138,10 @@ def simular(N=10000, seed=0):
 
 if __name__ == "__main__":
     import pandas as pd
-    print("Simulando desde octavos (10,000 torneos)...")
+    print("Simulando desde cuartos (10,000 torneos)...")
     df = simular(N=10000, seed=42)
-    pd.set_option("display.max_rows", 20)
-    print("\n=== PROBABILIDADES (16 equipos vivos) ===\n")
+    pd.set_option("display.max_rows", 10)
+    print("\n=== PROBABILIDADES (8 equipos vivos) ===\n")
     print(df.to_string(index=False))
     df.to_csv("simulacion_mundial.csv", index=False)
     print("\nGuardado en simulacion_mundial.csv")
