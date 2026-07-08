@@ -1,40 +1,10 @@
 {
- "generated_at": "2026-07-07T23:22:54+00:00",
+ "generated_at": "2026-07-08T12:52:00+00:00",
  "model": "poisson-elo-calibrado",
  "training_matches": 11501,
  "last_result_date": "2026-07-07",
  "model_brier": 0.1837,
  "matches": [
-  {
-   "date": "2026-07-07",
-   "home": "Argentina",
-   "away": "Egypt",
-   "city": "Atlanta",
-   "neutral": true,
-   "p_home": 0.628,
-   "p_draw": 0.262,
-   "p_away": 0.109,
-   "p_over25": 0.311,
-   "p_btts": 0.283,
-   "xg_home": 1.5,
-   "xg_away": 0.45,
-   "likely_score": "1-0"
-  },
-  {
-   "date": "2026-07-07",
-   "home": "Switzerland",
-   "away": "Colombia",
-   "city": "Vancouver",
-   "neutral": true,
-   "p_home": 0.299,
-   "p_draw": 0.311,
-   "p_away": 0.39,
-   "p_over25": 0.369,
-   "p_btts": 0.427,
-   "xg_home": 0.91,
-   "xg_away": 1.26,
-   "likely_score": "0-1"
-  },
   {
    "date": "2026-07-09",
    "home": "France",
@@ -100,58 +70,58 @@
   {
    "team": "Spain",
    "elo": 2245,
-   "p_advance": 0.713,
-   "p_final": 0.435,
-   "p_champion": 0.263
+   "p_advance": 0.712,
+   "p_final": 0.429,
+   "p_champion": 0.254
   },
   {
    "team": "Argentina",
    "elo": 2230,
    "p_advance": 0.718,
-   "p_final": 0.43,
-   "p_champion": 0.235
+   "p_final": 0.426,
+   "p_champion": 0.227
   },
   {
    "team": "England",
    "elo": 2153,
-   "p_advance": 0.631,
-   "p_final": 0.328,
-   "p_champion": 0.163
+   "p_advance": 0.619,
+   "p_final": 0.325,
+   "p_champion": 0.162
   },
   {
    "team": "France",
    "elo": 2211,
-   "p_advance": 0.522,
-   "p_final": 0.237,
-   "p_champion": 0.113
+   "p_advance": 0.527,
+   "p_final": 0.241,
+   "p_champion": 0.122
   },
   {
    "team": "Morocco",
    "elo": 2068,
-   "p_advance": 0.478,
-   "p_final": 0.212,
-   "p_champion": 0.099
+   "p_advance": 0.473,
+   "p_final": 0.211,
+   "p_champion": 0.102
   },
   {
    "team": "Norway",
    "elo": 2053,
-   "p_advance": 0.369,
-   "p_final": 0.142,
-   "p_champion": 0.052
+   "p_advance": 0.381,
+   "p_final": 0.149,
+   "p_champion": 0.055
   },
   {
    "team": "Belgium",
    "elo": 2035,
-   "p_advance": 0.287,
-   "p_final": 0.116,
-   "p_champion": 0.046
+   "p_advance": 0.288,
+   "p_final": 0.119,
+   "p_champion": 0.049
   },
   {
    "team": "Switzerland",
    "elo": 2018,
    "p_advance": 0.282,
    "p_final": 0.1,
-   "p_champion": 0.029
+   "p_champion": 0.03
   }
  ],
  "history": {
