@@ -1822,5 +1822,24 @@
   "p_fav": 0.402,
   "p_outcome": 0.307,
   "score_outcome": "away"
+ },
+ {
+  "date": "2026-07-09",
+  "home": "France",
+  "away": "Morocco",
+  "p_home": 0.365,
+  "p_draw": 0.352,
+  "p_away": 0.283,
+  "likely_score": "0-0",
+  "xg_home": 0.84,
+  "xg_away": 0.82,
+  "real_home": 2,
+  "real_away": 0,
+  "outcome": "home",
+  "fav_hit": false,
+  "tier": "parcial",
+  "p_fav": 0.365,
+  "p_outcome": 0.365,
+  "score_outcome": "draw"
  }
 ]
