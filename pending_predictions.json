@@ -31,5 +31,16 @@
   "likely_score": "1-0",
   "xg_home": 1.54,
   "xg_away": 0.71
+ },
+ {
+  "date": "2026-07-10",
+  "home": "Spain",
+  "away": "Belgium",
+  "p_home": 0.577,
+  "p_draw": 0.233,
+  "p_away": 0.191,
+  "likely_score": "1-1",
+  "xg_home": 1.95,
+  "xg_away": 1.03
  }
 ]

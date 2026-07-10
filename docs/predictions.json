@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-10T22:38:41+00:00",
+ "generated_at": "2026-07-10T23:01:00+00:00",
  "model": "poisson-elo-calibrado",
- "training_matches": 11503,
- "last_result_date": "2026-07-10",
+ "training_matches": 11502,
+ "last_result_date": "2026-07-09",
  "model_brier": 0.1837,
  "matches": [
   {
@@ -11,14 +11,14 @@
    "away": "Belgium",
    "city": "Inglewood",
    "neutral": true,
-   "p_home": 0.589,
-   "p_draw": 0.239,
-   "p_away": 0.172,
-   "p_over25": 0.581,
-   "p_btts": 0.547,
-   "xg_home": 2.02,
-   "xg_away": 1.0,
-   "likely_score": "2-0"
+   "p_home": 0.577,
+   "p_draw": 0.233,
+   "p_away": 0.191,
+   "p_over25": 0.572,
+   "p_btts": 0.552,
+   "xg_home": 1.95,
+   "xg_away": 1.03,
+   "likely_score": "1-1"
   },
   {
    "date": "2026-07-11",
@@ -26,10 +26,10 @@
    "away": "England",
    "city": "Miami Gardens",
    "neutral": true,
-   "p_home": 0.286,
-   "p_draw": 0.3,
-   "p_away": 0.414,
-   "p_over25": 0.403,
+   "p_home": 0.275,
+   "p_draw": 0.307,
+   "p_away": 0.418,
+   "p_over25": 0.404,
    "p_btts": 0.448,
    "xg_home": 0.91,
    "xg_away": 1.39,
@@ -41,9 +41,9 @@
    "away": "Switzerland",
    "city": "Kansas City",
    "neutral": true,
-   "p_home": 0.57,
-   "p_draw": 0.269,
-   "p_away": 0.161,
+   "p_home": 0.587,
+   "p_draw": 0.263,
+   "p_away": 0.151,
    "p_over25": 0.389,
    "p_btts": 0.398,
    "xg_home": 1.54,
@@ -54,82 +54,63 @@
  "champion_probs": [
   {
    "team": "Spain",
-   "elo": 2259,
-   "p_advance": 0.734,
-   "p_final": 0.448,
-   "p_champion": 0.277
+   "elo": 2245,
+   "p_advance": 0.717,
+   "p_final": 0.432,
+   "p_champion": 0.26
   },
   {
    "team": "Argentina",
    "elo": 2230,
-   "p_advance": 0.719,
-   "p_final": 0.421,
-   "p_champion": 0.218
+   "p_advance": 0.721,
+   "p_final": 0.42,
+   "p_champion": 0.222
   },
   {
    "team": "England",
    "elo": 2153,
-   "p_advance": 0.623,
-   "p_final": 0.327,
-   "p_champion": 0.156
+   "p_advance": 0.62,
+   "p_final": 0.326,
+   "p_champion": 0.159
   },
   {
    "team": "France",
    "elo": 2238,
-   "p_advance": 0.574,
-   "p_final": 0.268,
-   "p_champion": 0.144
+   "p_advance": 0.576,
+   "p_final": 0.271,
+   "p_champion": 0.141
   },
   {
    "team": "Morocco",
    "elo": 2040,
-   "p_advance": 0.426,
-   "p_final": 0.181,
-   "p_champion": 0.08
+   "p_advance": 0.424,
+   "p_final": 0.18,
+   "p_champion": 0.081
   },
   {
    "team": "Norway",
    "elo": 2053,
-   "p_advance": 0.377,
-   "p_final": 0.152,
-   "p_champion": 0.057
+   "p_advance": 0.38,
+   "p_final": 0.155,
+   "p_champion": 0.059
   },
   {
    "team": "Belgium",
-   "elo": 2021,
-   "p_advance": 0.266,
-   "p_final": 0.104,
-   "p_champion": 0.04
+   "elo": 2035,
+   "p_advance": 0.283,
+   "p_final": 0.116,
+   "p_champion": 0.047
   },
   {
    "team": "Switzerland",
    "elo": 2018,
-   "p_advance": 0.281,
-   "p_final": 0.099,
-   "p_champion": 0.028
+   "p_advance": 0.279,
+   "p_final": 0.1,
+   "p_champion": 0.031
   }
  ],
  "history": {
   "matches": [
-   {
-    "date": "2026-07-10",
-    "home": "Spain",
-    "away": "Belgium",
-    "p_home": 0.574,
-    "p_draw": 0.244,
-    "p_away": 0.183,
-    "likely_score": "1-1",
-    "xg_home": 1.95,
-    "xg_away": 1.03,
-    "real_home": 1,
-    "real_away": 2,
-    "outcome": "away",
-    "fav_hit": false,
-    "tier": "fallo",
-    "p_fav": 0.574,
-    "p_outcome": 0.183,
-    "score_outcome": "draw"
-   },
    {
     "date": "2026-07-09",
     "home": "France",
@@ -1975,13 +1956,13 @@
    }
   ],
   "summary": {
-   "n": 98,
+   "n": 97,
    "plenos": 62,
    "parciales": 15,
-   "fallos": 21,
+   "fallos": 20,
    "fav_hits": 62,
-   "fav_rate": 0.633,
-   "brier": 0.508
+   "fav_rate": 0.639,
+   "brier": 0.502
   }
  }
 }
