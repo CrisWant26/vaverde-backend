@@ -1,25 +1,10 @@
 {
- "generated_at": "2026-07-09T22:17:42+00:00",
+ "generated_at": "2026-07-10T13:19:39+00:00",
  "model": "poisson-elo-calibrado",
  "training_matches": 11502,
  "last_result_date": "2026-07-09",
  "model_brier": 0.1837,
  "matches": [
-  {
-   "date": "2026-07-09",
-   "home": "France",
-   "away": "Morocco",
-   "city": "Foxborough",
-   "neutral": true,
-   "p_home": 0.433,
-   "p_draw": 0.353,
-   "p_away": 0.214,
-   "p_over25": 0.239,
-   "p_btts": 0.321,
-   "xg_home": 0.93,
-   "xg_away": 0.76,
-   "likely_score": "0-0"
-  },
   {
    "date": "2026-07-10",
    "home": "Spain",
@@ -70,57 +55,57 @@
   {
    "team": "Spain",
    "elo": 2245,
-   "p_advance": 0.715,
-   "p_final": 0.429,
-   "p_champion": 0.256
+   "p_advance": 0.717,
+   "p_final": 0.432,
+   "p_champion": 0.26
   },
   {
    "team": "Argentina",
    "elo": 2230,
-   "p_advance": 0.718,
-   "p_final": 0.419,
-   "p_champion": 0.221
+   "p_advance": 0.721,
+   "p_final": 0.42,
+   "p_champion": 0.222
   },
   {
    "team": "England",
    "elo": 2153,
-   "p_advance": 0.627,
-   "p_final": 0.331,
-   "p_champion": 0.164
+   "p_advance": 0.62,
+   "p_final": 0.326,
+   "p_champion": 0.159
   },
   {
    "team": "France",
    "elo": 2238,
-   "p_advance": 0.581,
-   "p_final": 0.277,
-   "p_champion": 0.147
+   "p_advance": 0.576,
+   "p_final": 0.271,
+   "p_champion": 0.141
   },
   {
    "team": "Morocco",
    "elo": 2040,
-   "p_advance": 0.419,
-   "p_final": 0.176,
-   "p_champion": 0.079
+   "p_advance": 0.424,
+   "p_final": 0.18,
+   "p_champion": 0.081
   },
   {
    "team": "Norway",
    "elo": 2053,
-   "p_advance": 0.373,
-   "p_final": 0.15,
-   "p_champion": 0.054
+   "p_advance": 0.38,
+   "p_final": 0.155,
+   "p_champion": 0.059
   },
   {
    "team": "Belgium",
    "elo": 2035,
-   "p_advance": 0.285,
-   "p_final": 0.119,
-   "p_champion": 0.048
+   "p_advance": 0.283,
+   "p_final": 0.116,
+   "p_champion": 0.047
   },
   {
    "team": "Switzerland",
    "elo": 2018,
-   "p_advance": 0.282,
-   "p_final": 0.101,
+   "p_advance": 0.279,
+   "p_final": 0.1,
    "p_champion": 0.031
   }
  ],
