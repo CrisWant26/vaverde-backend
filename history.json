@@ -1841,5 +1841,24 @@
   "p_fav": 0.365,
   "p_outcome": 0.365,
   "score_outcome": "draw"
+ },
+ {
+  "date": "2026-07-10",
+  "home": "Spain",
+  "away": "Belgium",
+  "p_home": 0.577,
+  "p_draw": 0.233,
+  "p_away": 0.191,
+  "likely_score": "1-1",
+  "xg_home": 1.95,
+  "xg_away": 1.03,
+  "real_home": 2,
+  "real_away": 1,
+  "outcome": "home",
+  "fav_hit": false,
+  "tier": "parcial",
+  "p_fav": 0.577,
+  "p_outcome": 0.577,
+  "score_outcome": "draw"
  }
 ]
