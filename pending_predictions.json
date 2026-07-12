@@ -31,5 +31,27 @@
   "likely_score": "1-0",
   "xg_home": 1.54,
   "xg_away": 0.71
+ },
+ {
+  "date": "2026-07-14",
+  "home": "Spain",
+  "away": "France",
+  "p_home": 0.459,
+  "p_draw": 0.289,
+  "p_away": 0.252,
+  "likely_score": "1-1",
+  "xg_home": 1.43,
+  "xg_away": 1.07
+ },
+ {
+  "date": "2026-07-15",
+  "home": "Argentina",
+  "away": "England",
+  "p_home": 0.406,
+  "p_draw": 0.325,
+  "p_away": 0.269,
+  "likely_score": "1-0",
+  "xg_home": 1.03,
+  "xg_away": 0.91
  }
 ]
