@@ -1860,5 +1860,43 @@
   "p_fav": 0.577,
   "p_outcome": 0.577,
   "score_outcome": "draw"
+ },
+ {
+  "date": "2026-07-11",
+  "home": "Norway",
+  "away": "England",
+  "p_home": 0.279,
+  "p_draw": 0.299,
+  "p_away": 0.422,
+  "likely_score": "0-1",
+  "xg_home": 0.91,
+  "xg_away": 1.39,
+  "real_home": 1,
+  "real_away": 2,
+  "outcome": "away",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.422,
+  "p_outcome": 0.422,
+  "score_outcome": "away"
+ },
+ {
+  "date": "2026-07-11",
+  "home": "Argentina",
+  "away": "Switzerland",
+  "p_home": 0.568,
+  "p_draw": 0.271,
+  "p_away": 0.161,
+  "likely_score": "1-0",
+  "xg_home": 1.54,
+  "xg_away": 0.71,
+  "real_home": 3,
+  "real_away": 1,
+  "outcome": "home",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.568,
+  "p_outcome": 0.568,
+  "score_outcome": "home"
  }
 ]
