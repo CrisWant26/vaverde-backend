@@ -1,0 +1,24 @@
+[
+ {
+  "date": "2026-07-17",
+  "home": "Club America",
+  "away": "Guadalajara Chivas",
+  "p_home": 0.454,
+  "p_draw": 0.289,
+  "p_away": 0.257,
+  "likely_score": "1-0",
+  "xg_home": 1.47,
+  "xg_away": 0.93
+ },
+ {
+  "date": "2026-07-18",
+  "home": "Tigres UANL",
+  "away": "Cruz Azul",
+  "p_home": 0.393,
+  "p_draw": 0.311,
+  "p_away": 0.296,
+  "likely_score": "1-0",
+  "xg_home": 1.29,
+  "xg_away": 0.96
+ }
+]

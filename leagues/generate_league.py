@@ -48,7 +48,7 @@ LEAGUES = {
         "output_json": "docs/leagues/ligamx.json",
         "history_file": "leagues/history_ligamx.json",
         "pending_file": "leagues/pending_ligamx.json",
-        "desde_anio": 2015,     # ventana de entrenamiento de la regresión
+        "desde_anio": 2012,     # ventana de entrenamiento de la regresión
         "min_partidos": 30,     # filtro de equipos con muestra sólida
     },
 }
@@ -149,7 +149,8 @@ def main(league_key):
     calib_eval = ajustar_calibrador(tr_eval, params_eval, elos)
     brier = brier_pre_partido(ev_eval, params_eval, calib_eval)
     print(f"  Brier out-of-sample: {brier:.4f}")
-
+    p_base = (ev_eval["home_score"] > ev_eval["away_score"]).mean()
+    print(f"  Brier naïve local ({p_base:.1%}): {p_base*(1-p_base):.4f}")
     # Modelo de producción con TODO
     print(f"Entrenando producción ({len(train):,} partidos desde {cfg['desde_anio']})...")
     params = ajustar_modelo_elo(train)
