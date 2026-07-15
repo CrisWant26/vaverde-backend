@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-14T12:40:46+00:00",
+ "generated_at": "2026-07-15T01:38:48+00:00",
  "model": "poisson-elo-calibrado",
- "training_matches": 11505,
- "last_result_date": "2026-07-11",
+ "training_matches": 11506,
+ "last_result_date": "2026-07-14",
  "model_brier": 0.1837,
  "matches": [
   {
@@ -11,14 +11,14 @@
    "away": "France",
    "city": "Arlington",
    "neutral": true,
-   "p_home": 0.47,
-   "p_draw": 0.282,
-   "p_away": 0.248,
-   "p_over25": 0.455,
-   "p_btts": 0.498,
-   "xg_home": 1.43,
-   "xg_away": 1.06,
-   "likely_score": "1-1"
+   "p_home": 0.539,
+   "p_draw": 0.268,
+   "p_away": 0.193,
+   "p_over25": 0.469,
+   "p_btts": 0.487,
+   "xg_home": 1.61,
+   "xg_away": 0.94,
+   "likely_score": "1-0"
   },
   {
    "date": "2026-07-15",
@@ -26,48 +26,67 @@
    "away": "England",
    "city": "Atlanta",
    "neutral": true,
-   "p_home": 0.401,
+   "p_home": 0.41,
    "p_draw": 0.323,
-   "p_away": 0.275,
-   "p_over25": 0.309,
+   "p_away": 0.267,
+   "p_over25": 0.31,
    "p_btts": 0.386,
    "xg_home": 1.03,
-   "xg_away": 0.91,
+   "xg_away": 0.92,
    "likely_score": "1-0"
   }
  ],
  "champion_probs": [
   {
    "team": "Spain",
-   "elo": 2259,
-   "p_advance": 0.587,
-   "p_final": 0.587,
-   "p_champion": 0.315
+   "elo": 2301,
+   "p_advance": 0.672,
+   "p_final": 0.672,
+   "p_champion": 0.398
   },
   {
    "team": "Argentina",
    "elo": 2251,
-   "p_advance": 0.547,
-   "p_final": 0.547,
-   "p_champion": 0.279
+   "p_advance": 0.536,
+   "p_final": 0.536,
+   "p_champion": 0.259
   },
   {
    "team": "England",
    "elo": 2174,
-   "p_advance": 0.453,
-   "p_final": 0.453,
-   "p_champion": 0.213
+   "p_advance": 0.464,
+   "p_final": 0.464,
+   "p_champion": 0.204
   },
   {
    "team": "France",
-   "elo": 2238,
-   "p_advance": 0.413,
-   "p_final": 0.413,
-   "p_champion": 0.193
+   "elo": 2196,
+   "p_advance": 0.328,
+   "p_final": 0.328,
+   "p_champion": 0.139
   }
  ],
  "history": {
   "matches": [
+   {
+    "date": "2026-07-14",
+    "home": "Spain",
+    "away": "France",
+    "p_home": 0.459,
+    "p_draw": 0.289,
+    "p_away": 0.252,
+    "likely_score": "1-1",
+    "xg_home": 1.43,
+    "xg_away": 1.07,
+    "real_home": 2,
+    "real_away": 0,
+    "outcome": "home",
+    "fav_hit": false,
+    "tier": "parcial",
+    "p_fav": 0.459,
+    "p_outcome": 0.459,
+    "score_outcome": "draw"
+   },
    {
     "date": "2026-07-11",
     "home": "Norway",
@@ -1970,13 +1989,13 @@
    }
   ],
   "summary": {
-   "n": 100,
+   "n": 101,
    "plenos": 64,
-   "parciales": 16,
+   "parciales": 17,
    "fallos": 20,
    "fav_hits": 64,
-   "fav_rate": 0.64,
-   "brier": 0.498
+   "fav_rate": 0.634,
+   "brier": 0.497
   }
  }
 }

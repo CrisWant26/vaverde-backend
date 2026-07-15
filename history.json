@@ -1898,5 +1898,24 @@
   "p_fav": 0.568,
   "p_outcome": 0.568,
   "score_outcome": "home"
+ },
+ {
+  "date": "2026-07-14",
+  "home": "Spain",
+  "away": "France",
+  "p_home": 0.459,
+  "p_draw": 0.289,
+  "p_away": 0.252,
+  "likely_score": "1-1",
+  "xg_home": 1.43,
+  "xg_away": 1.07,
+  "real_home": 2,
+  "real_away": 0,
+  "outcome": "home",
+  "fav_hit": false,
+  "tier": "parcial",
+  "p_fav": 0.459,
+  "p_outcome": 0.459,
+  "score_outcome": "draw"
  }
 ]
