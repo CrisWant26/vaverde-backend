@@ -1,0 +1,20 @@
+# fixtures_ligamx.csv — Jornada(s) por venir de la Liga MX
+# =========================================================
+# Lo llenas TÚ una vez por semana (~5 min): los partidos de la
+# siguiente jornada. Los RESULTADOS llegan solos de football-data.
+#
+# REGLAS:
+#  - Nombres EXACTOS como football-data (sin acentos):
+#    Club America, Guadalajara Chivas, UNAM Pumas, Tigres UANL,
+#    Cruz Azul, Club Leon, Club Tijuana, Atl. San Luis, Santos Laguna,
+#    Monterrey, Toluca, Pachuca, Puebla, Queretaro, Atlas, ...
+#    (para los demás: tail -300 al MEX.csv descargado y copia la grafía)
+#  - date en formato YYYY-MM-DD (fecha LOCAL CDMX del partido; el
+#    emparejador tolera ±1 día contra la fecha UK de football-data)
+#  - NO borres filas de jornadas pasadas hasta que su resultado ya
+#    esté archivado en el historial (el pipeline las ignora solo).
+#
+# Ejemplo (BORRA estas dos filas y pon la Jornada 1 real):
+date,home,away
+2026-07-17,Club America,Guadalajara Chivas
+2026-07-18,Tigres UANL,Cruz Azul
