@@ -1,10 +1,11 @@
 {
- "generated_at": "2026-07-15T06:26:34+00:00",
+ "generated_at": "2026-07-15T14:54:34+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Liga MX",
  "training_matches": 4655,
  "last_result_date": "2026-05-25",
  "model_brier": 0.2287,
+ "model_brier_baseline": 0.2493,
  "matches": [
   {
    "date": "2026-07-17",

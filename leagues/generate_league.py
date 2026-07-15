@@ -148,9 +148,10 @@ def main(league_key):
     params_eval = ajustar_modelo_elo(tr_eval)
     calib_eval = ajustar_calibrador(tr_eval, params_eval, elos)
     brier = brier_pre_partido(ev_eval, params_eval, calib_eval)
-    print(f"  Brier out-of-sample: {brier:.4f}")
     p_base = (ev_eval["home_score"] > ev_eval["away_score"]).mean()
-    print(f"  Brier naïve local ({p_base:.1%}): {p_base*(1-p_base):.4f}")
+    brier_naive = p_base * (1 - p_base)
+    print(f"  Brier naïve local ({p_base:.1%}): {brier_naive:.4f}")
+    print(f"  Brier out-of-sample: {brier:.4f}")
     # Modelo de producción con TODO
     print(f"Entrenando producción ({len(train):,} partidos desde {cfg['desde_anio']})...")
     params = ajustar_modelo_elo(train)
@@ -195,6 +196,7 @@ def main(league_key):
         "training_matches": int(len(train)),
         "last_result_date": str(df["date"].max().date()),
         "model_brier": round(brier, 4),
+        "model_brier_baseline": round(brier_naive, 4),
         "matches": matches,
         "champion_probs": None,
         "history": historial.cargar_historial(),
