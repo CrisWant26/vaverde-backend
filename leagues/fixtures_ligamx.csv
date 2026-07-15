@@ -14,7 +14,14 @@
 #  - NO borres filas de jornadas pasadas hasta que su resultado ya
 #    esté archivado en el historial (el pipeline las ignora solo).
 #
-# Ejemplo (BORRA estas dos filas y pon la Jornada 1 real):
+# Jornada 1 real — Apertura 2026:
 date,home,away
-2026-07-17,Club America,Guadalajara Chivas
-2026-07-18,Tigres UANL,Cruz Azul
+2026-07-16,Necaxa,Atlante
+2026-07-16,Club Tijuana,Tigres UANL
+2026-07-17,Atl. San Luis,Cruz Azul
+2026-07-17,Club Leon,Atlas
+2026-07-17,Juarez,Puebla
+2026-07-18,UNAM Pumas,Pachuca
+2026-07-18,Guadalajara Chivas,Toluca
+2026-07-18,Monterrey,Santos Laguna
+2026-07-18,Queretaro,Club America
