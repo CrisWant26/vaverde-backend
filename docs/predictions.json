@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T03:14:23+00:00",
+ "generated_at": "2026-07-16T05:20:27+00:00",
  "model": "poisson-elo-calibrado",
  "training_matches": 11507,
  "last_result_date": "2026-07-15",
@@ -19,6 +19,21 @@
    "xg_home": 1.12,
    "xg_away": 0.86,
    "likely_score": "1-0"
+  },
+  {
+   "date": "2026-07-18",
+   "home": "France",
+   "away": "England",
+   "city": "Miami Gardens",
+   "neutral": true,
+   "p_home": 0.354,
+   "p_draw": 0.307,
+   "p_away": 0.339,
+   "p_over25": 0.384,
+   "p_btts": 0.449,
+   "xg_home": 1.04,
+   "xg_away": 1.18,
+   "likely_score": "1-1"
   },
   {
    "date": "2026-07-19",
