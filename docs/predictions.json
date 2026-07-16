@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T02:40:13+00:00",
+ "generated_at": "2026-07-16T02:58:34+00:00",
  "model": "poisson-elo-calibrado",
  "training_matches": 11507,
  "last_result_date": "2026-07-15",
@@ -19,6 +19,21 @@
    "xg_home": 1.12,
    "xg_away": 0.86,
    "likely_score": "1-0"
+  },
+  {
+   "date": "2026-07-19",
+   "home": "Spain",
+   "away": "Argentina",
+   "city": "East Rutherford",
+   "neutral": true,
+   "p_home": 0.423,
+   "p_draw": 0.308,
+   "p_away": 0.268,
+   "p_over25": 0.372,
+   "p_btts": 0.439,
+   "xg_home": 1.18,
+   "xg_away": 1.0,
+   "likely_score": "1-1"
   }
  ],
  "champion_probs": [
