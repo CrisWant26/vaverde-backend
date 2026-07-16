@@ -1917,5 +1917,24 @@
   "p_fav": 0.459,
   "p_outcome": 0.459,
   "score_outcome": "draw"
+ },
+ {
+  "date": "2026-07-15",
+  "home": "Argentina",
+  "away": "England",
+  "p_home": 0.406,
+  "p_draw": 0.325,
+  "p_away": 0.269,
+  "likely_score": "1-0",
+  "xg_home": 1.03,
+  "xg_away": 0.91,
+  "real_home": 2,
+  "real_away": 1,
+  "outcome": "home",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.406,
+  "p_outcome": 0.406,
+  "score_outcome": "home"
  }
 ]

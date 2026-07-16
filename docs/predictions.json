@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-15T12:42:56+00:00",
+ "generated_at": "2026-07-16T02:40:13+00:00",
  "model": "poisson-elo-calibrado",
- "training_matches": 11506,
- "last_result_date": "2026-07-14",
- "model_brier": 0.1837,
+ "training_matches": 11507,
+ "last_result_date": "2026-07-15",
+ "model_brier": 0.1838,
  "matches": [
   {
    "date": "2026-07-15",
@@ -11,13 +11,13 @@
    "away": "England",
    "city": "Atlanta",
    "neutral": true,
-   "p_home": 0.41,
-   "p_draw": 0.323,
-   "p_away": 0.267,
-   "p_over25": 0.31,
-   "p_btts": 0.386,
-   "xg_home": 1.03,
-   "xg_away": 0.92,
+   "p_home": 0.438,
+   "p_draw": 0.322,
+   "p_away": 0.24,
+   "p_over25": 0.318,
+   "p_btts": 0.389,
+   "xg_home": 1.12,
+   "xg_away": 0.86,
    "likely_score": "1-0"
   }
  ],
@@ -25,34 +25,53 @@
   {
    "team": "Spain",
    "elo": 2301,
-   "p_advance": 0.672,
-   "p_final": 0.672,
-   "p_champion": 0.398
+   "p_advance": 0.668,
+   "p_final": 0.668,
+   "p_champion": 0.383
   },
   {
    "team": "Argentina",
-   "elo": 2251,
-   "p_advance": 0.536,
-   "p_final": 0.536,
-   "p_champion": 0.259
+   "elo": 2274,
+   "p_advance": 0.588,
+   "p_final": 0.588,
+   "p_champion": 0.302
   },
   {
    "team": "England",
-   "elo": 2174,
-   "p_advance": 0.464,
-   "p_final": 0.464,
-   "p_champion": 0.204
+   "elo": 2151,
+   "p_advance": 0.412,
+   "p_final": 0.412,
+   "p_champion": 0.178
   },
   {
    "team": "France",
    "elo": 2196,
-   "p_advance": 0.328,
-   "p_final": 0.328,
-   "p_champion": 0.139
+   "p_advance": 0.332,
+   "p_final": 0.332,
+   "p_champion": 0.137
   }
  ],
  "history": {
   "matches": [
+   {
+    "date": "2026-07-15",
+    "home": "Argentina",
+    "away": "England",
+    "p_home": 0.406,
+    "p_draw": 0.325,
+    "p_away": 0.269,
+    "likely_score": "1-0",
+    "xg_home": 1.03,
+    "xg_away": 0.91,
+    "real_home": 2,
+    "real_away": 1,
+    "outcome": "home",
+    "fav_hit": true,
+    "tier": "pleno",
+    "p_fav": 0.406,
+    "p_outcome": 0.406,
+    "score_outcome": "home"
+   },
    {
     "date": "2026-07-14",
     "home": "Spain",
@@ -1974,13 +1993,13 @@
    }
   ],
   "summary": {
-   "n": 101,
-   "plenos": 64,
+   "n": 102,
+   "plenos": 65,
    "parciales": 17,
    "fallos": 20,
-   "fav_hits": 64,
-   "fav_rate": 0.634,
-   "brier": 0.497
+   "fav_hits": 65,
+   "fav_rate": 0.637,
+   "brier": 0.498
   }
  }
 }
