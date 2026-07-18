@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-17T12:21:05+00:00",
+ "generated_at": "2026-07-18T12:04:46+00:00",
  "model": "poisson-elo-calibrado",
  "training_matches": 11507,
  "last_result_date": "2026-07-15",
@@ -42,14 +42,14 @@
    "elo": 2301,
    "p_advance": 1.0,
    "p_final": 1.0,
-   "p_champion": 0.546
+   "p_champion": 0.539
   },
   {
    "team": "Argentina",
    "elo": 2274,
    "p_advance": 1.0,
    "p_final": 1.0,
-   "p_champion": 0.454
+   "p_champion": 0.461
   }
  ],
  "history": {
