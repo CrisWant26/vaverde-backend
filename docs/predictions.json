@@ -1,25 +1,10 @@
 {
- "generated_at": "2026-07-18T12:04:46+00:00",
+ "generated_at": "2026-07-19T12:06:51+00:00",
  "model": "poisson-elo-calibrado",
  "training_matches": 11507,
  "last_result_date": "2026-07-15",
  "model_brier": 0.1838,
  "matches": [
-  {
-   "date": "2026-07-18",
-   "home": "France",
-   "away": "England",
-   "city": "Miami Gardens",
-   "neutral": true,
-   "p_home": 0.354,
-   "p_draw": 0.307,
-   "p_away": 0.339,
-   "p_over25": 0.384,
-   "p_btts": 0.449,
-   "xg_home": 1.04,
-   "xg_away": 1.18,
-   "likely_score": "1-1"
-  },
   {
    "date": "2026-07-19",
    "home": "Spain",
@@ -42,14 +27,14 @@
    "elo": 2301,
    "p_advance": 1.0,
    "p_final": 1.0,
-   "p_champion": 0.539
+   "p_champion": 0.55
   },
   {
    "team": "Argentina",
    "elo": 2274,
    "p_advance": 1.0,
    "p_final": 1.0,
-   "p_champion": 0.461
+   "p_champion": 0.45
   }
  ],
  "history": {
