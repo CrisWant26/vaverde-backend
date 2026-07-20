@@ -1,40 +1,24 @@
 {
- "generated_at": "2026-07-19T12:06:51+00:00",
+ "generated_at": "2026-07-20T13:17:28+00:00",
  "model": "poisson-elo-calibrado",
  "training_matches": 11507,
  "last_result_date": "2026-07-15",
  "model_brier": 0.1838,
- "matches": [
-  {
-   "date": "2026-07-19",
-   "home": "Spain",
-   "away": "Argentina",
-   "city": "East Rutherford",
-   "neutral": true,
-   "p_home": 0.423,
-   "p_draw": 0.308,
-   "p_away": 0.268,
-   "p_over25": 0.372,
-   "p_btts": 0.439,
-   "xg_home": 1.18,
-   "xg_away": 1.0,
-   "likely_score": "1-1"
-  }
- ],
+ "matches": [],
  "champion_probs": [
   {
    "team": "Spain",
    "elo": 2301,
    "p_advance": 1.0,
    "p_final": 1.0,
-   "p_champion": 0.55
+   "p_champion": 0.546
   },
   {
    "team": "Argentina",
    "elo": 2274,
    "p_advance": 1.0,
    "p_final": 1.0,
-   "p_champion": 0.45
+   "p_champion": 0.454
   }
  ],
  "history": {
