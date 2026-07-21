@@ -7,7 +7,8 @@
 #  - Nombres EXACTOS como football-data (sin acentos):
 #    Club America, Guadalajara Chivas, UNAM Pumas, Tigres UANL,
 #    Cruz Azul, Club Leon, Club Tijuana, Atl. San Luis, Santos Laguna,
-#    Monterrey, Toluca, Pachuca, Puebla, Queretaro, Atlas, ...
+#    Monterrey, Toluca, Pachuca, Puebla, Queretaro, Atlas, Necaxa,
+#    Atlante, Juarez, ...
 #    (para los demás: tail -300 al MEX.csv descargado y copia la grafía)
 #  - date en formato YYYY-MM-DD (fecha LOCAL CDMX del partido; el
 #    emparejador tolera ±1 día contra la fecha UK de football-data)
@@ -25,3 +26,13 @@ date,home,away
 2026-07-18,Guadalajara Chivas,Toluca
 2026-07-18,Monterrey,Santos Laguna
 2026-07-18,Queretaro,Club America
+# Jornada 2:
+2026-07-21,Cruz Azul,Puebla
+2026-07-21,Toluca,UNAM Pumas
+2026-07-24,Atlante,Club America
+2026-07-24,Club Tijuana,Club Leon
+2026-07-25,Guadalajara Chivas,Juarez
+2026-07-25,Tigres UANL,Atl. San Luis
+2026-07-25,Santos Laguna,Atlas
+2026-07-26,Necaxa,Monterrey
+2026-07-26,Pachuca,Queretaro
