@@ -187,6 +187,9 @@ def main(league_key):
     historial.HISTORY_FILE = os.path.join(ROOT, cfg["history_file"])
     historial.PENDING_FILE = os.path.join(ROOT, cfg["pending_file"])
     historial._resultado_real = _resultado_real_tolerante
+    # Verificación: la inyección DEBE quedar activa o nada empareja.
+    assert historial._resultado_real is _resultado_real_tolerante
+    print("  Emparejador tolerante (±1 día) activo")
     historial.actualizar_historial(matches, df)
 
     payload = {
