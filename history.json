@@ -1936,5 +1936,43 @@
   "p_fav": 0.406,
   "p_outcome": 0.406,
   "score_outcome": "home"
+ },
+ {
+  "date": "2026-07-19",
+  "home": "Spain",
+  "away": "Argentina",
+  "p_home": 0.423,
+  "p_draw": 0.308,
+  "p_away": 0.268,
+  "likely_score": "1-1",
+  "xg_home": 1.18,
+  "xg_away": 1.0,
+  "real_home": 1,
+  "real_away": 0,
+  "outcome": "home",
+  "fav_hit": false,
+  "tier": "parcial",
+  "p_fav": 0.423,
+  "p_outcome": 0.423,
+  "score_outcome": "draw"
+ },
+ {
+  "date": "2026-07-18",
+  "home": "France",
+  "away": "England",
+  "p_home": 0.354,
+  "p_draw": 0.307,
+  "p_away": 0.339,
+  "likely_score": "1-1",
+  "xg_home": 1.04,
+  "xg_away": 1.18,
+  "real_home": 4,
+  "real_away": 6,
+  "outcome": "away",
+  "fav_hit": false,
+  "tier": "parcial",
+  "p_fav": 0.354,
+  "p_outcome": 0.339,
+  "score_outcome": "draw"
  }
 ]

@@ -1,28 +1,66 @@
 {
- "generated_at": "2026-07-21T12:44:00+00:00",
+ "generated_at": "2026-07-21T16:51:15+00:00",
  "model": "poisson-elo-calibrado",
- "training_matches": 11507,
- "last_result_date": "2026-07-15",
+ "training_matches": 11509,
+ "last_result_date": "2026-07-19",
  "model_brier": 0.1838,
  "matches": [],
  "champion_probs": [
   {
    "team": "Spain",
-   "elo": 2301,
+   "elo": 2329,
    "p_advance": 1.0,
    "p_final": 1.0,
-   "p_champion": 0.551
+   "p_champion": 0.605
   },
   {
    "team": "Argentina",
-   "elo": 2274,
+   "elo": 2247,
    "p_advance": 1.0,
    "p_final": 1.0,
-   "p_champion": 0.449
+   "p_champion": 0.395
   }
  ],
  "history": {
   "matches": [
+   {
+    "date": "2026-07-19",
+    "home": "Spain",
+    "away": "Argentina",
+    "p_home": 0.423,
+    "p_draw": 0.308,
+    "p_away": 0.268,
+    "likely_score": "1-1",
+    "xg_home": 1.18,
+    "xg_away": 1.0,
+    "real_home": 1,
+    "real_away": 0,
+    "outcome": "home",
+    "fav_hit": false,
+    "tier": "parcial",
+    "p_fav": 0.423,
+    "p_outcome": 0.423,
+    "score_outcome": "draw"
+   },
+   {
+    "date": "2026-07-18",
+    "home": "France",
+    "away": "England",
+    "p_home": 0.354,
+    "p_draw": 0.307,
+    "p_away": 0.339,
+    "likely_score": "1-1",
+    "xg_home": 1.04,
+    "xg_away": 1.18,
+    "real_home": 4,
+    "real_away": 6,
+    "outcome": "away",
+    "fav_hit": false,
+    "tier": "parcial",
+    "p_fav": 0.354,
+    "p_outcome": 0.339,
+    "score_outcome": "draw"
+   },
    {
     "date": "2026-07-15",
     "home": "Argentina",
@@ -1963,13 +2001,13 @@
    }
   ],
   "summary": {
-   "n": 102,
+   "n": 104,
    "plenos": 65,
-   "parciales": 17,
+   "parciales": 19,
    "fallos": 20,
    "fav_hits": 65,
-   "fav_rate": 0.637,
-   "brier": 0.498
+   "fav_rate": 0.625,
+   "brier": 0.499
   }
  }
 }
