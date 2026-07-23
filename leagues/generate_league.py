@@ -38,26 +38,36 @@ import historial
 # ============================================================
 # Configuración por liga. Agregar Premier/LaLiga = nueva entrada
 # (ojo: las ligas "main" de football-data usan archivos POR TEMPORADA
-#  con otro esquema — eso se resuelve cuando las agreguemos, no hoy).
+   #  con otro esquema — eso se resuelve cuando las agreguemos, no hoy).
 # ============================================================
 LEAGUES = {
-    "ligamx": {
-        "name": "Liga MX",
-        "csv_url": "https://www.football-data.co.uk/new/MEX.csv",
-        "fixtures_csv": "leagues/fixtures_ligamx.csv",
-        "output_json": "docs/leagues/ligamx.json",
-        "history_file": "leagues/history_ligamx.json",
-        "pending_file": "leagues/pending_ligamx.json",
-        "desde_anio": 2012,     # ventana de entrenamiento de la regresión
-        "min_partidos": 30,     # filtro de equipos con muestra sólida
+    "arg": {
+        "name": "Liga Argentina",
+        "csv_url": "https://www.football-data.co.uk/new/ARG.csv",
+        "fixtures_csv": "leagues/fixtures_arg.csv",
+        "output_json": "docs/leagues/arg.json",
+        "history_file": "leagues/history_arg.json",
+        "pending_file": "leagues/pending_arg.json",
+        "desde_anio": 2012,
+        "min_partidos": 30,
     },
-}
-
-
-# ------------------------------------------------------------
-# Carga y normalización al esquema canónico del motor
-# ------------------------------------------------------------
-def cargar_datos(cfg):
+    "ligamx": {
+            "name": "Liga MX",
+            "csv_url": "https://www.football-data.co.uk/new/MEX.csv",
+            "fixtures_csv": "leagues/fixtures_ligamx.csv",
+            "output_json": "docs/leagues/ligamx.json",
+            "history_file": "leagues/history_ligamx.json",
+            "pending_file": "leagues/pending_ligamx.json",
+            "desde_anio": 2012,     # ventana de entrenamiento de la regresión
+            "min_partidos": 30,     # filtro de equipos con muestra sólida
+        },
+    }
+    
+    
+    # ------------------------------------------------------------
+    # Carga y normalización al esquema canónico del motor
+    # ------------------------------------------------------------
+    def cargar_datos(cfg):
     """Descarga el CSV de football-data y lo normaliza a las columnas
     que esperan elo.py / modelo_elo.py."""
     raw = pd.read_csv(cfg["csv_url"], encoding="utf-8-sig")
@@ -74,9 +84,9 @@ def cargar_datos(cfg):
     df["home_score"] = df["home_score"].astype(int)
     df["away_score"] = df["away_score"].astype(int)
     return df.sort_values("date").reset_index(drop=True)
-
-
-def cargar_fixtures(cfg):
+    
+    
+    def cargar_fixtures(cfg):
     """Fixtures manuales de la jornada (date,home,away). Las líneas que
     empiezan con # son comentarios."""
     path = os.path.join(ROOT, cfg["fixtures_csv"])
@@ -214,3 +224,4 @@ def main(league_key):
 
 if __name__ == "__main__":
     main(sys.argv[1] if len(sys.argv) > 1 else "ligamx")
+
