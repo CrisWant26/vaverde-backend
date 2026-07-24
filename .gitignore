@@ -1,6 +1,3 @@
-venv/
-results.csv
-__pycache__/
-modelo_elo.pkl
-predictions.json
+comparar_*.py
+modelo_dc.py
 simulacion_BACKUP_*.py
