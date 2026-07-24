@@ -22,28 +22,6 @@
   "xg_away": 0.96
  },
  {
-  "date": "2026-07-21",
-  "home": "Cruz Azul",
-  "away": "Puebla",
-  "p_home": 0.632,
-  "p_draw": 0.228,
-  "p_away": 0.14,
-  "likely_score": "2-0",
-  "xg_home": 2.11,
-  "xg_away": 0.7
- },
- {
-  "date": "2026-07-21",
-  "home": "Toluca",
-  "away": "UNAM Pumas",
-  "p_home": 0.513,
-  "p_draw": 0.256,
-  "p_away": 0.231,
-  "likely_score": "1-1",
-  "xg_home": 1.76,
-  "xg_away": 1.08
- },
- {
   "date": "2026-07-24",
   "home": "Atlante",
   "away": "Club America",
