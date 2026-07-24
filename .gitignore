@@ -1,3 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+predictions.json
+results.csv
 comparar_*.py
 modelo_dc.py
 simulacion_BACKUP_*.py

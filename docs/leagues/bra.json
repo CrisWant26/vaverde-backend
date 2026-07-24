@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-24T20:01:24+00:00",
+ "generated_at": "2026-07-24T19:59:03+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Brasileirao",
  "training_matches": 5489,
@@ -91,7 +91,7 @@
    "p_home": 0.587,
    "p_draw": 0.238,
    "p_away": 0.175,
-   "p_over25": 0.494,
+   "p_over25": 0.493,
    "p_btts": 0.461,
    "xg_home": 1.86,
    "xg_away": 0.79,
