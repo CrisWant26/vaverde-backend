@@ -41,6 +41,19 @@ import historial
    #  con otro esquema — eso se resuelve cuando las agreguemos, no hoy).
 # ============================================================
 LEAGUES = {
+<<<<<<< HEAD
+=======
+    "bra": {
+        "name": "Brasileirao",
+        "csv_url": "https://www.football-data.co.uk/new/BRA.csv",
+        "fixtures_csv": "leagues/fixtures_bra.csv",
+        "output_json": "docs/leagues/bra.json",
+        "history_file": "leagues/history_bra.json",
+        "pending_file": "leagues/pending_bra.json",
+        "desde_anio": 2012,
+        "min_partidos": 30,
+    },
+>>>>>>> 7f4bc6b (Agregar Brasileirao al pipeline de ligas)
     "arg": {
         "name": "Liga Argentina",
         "csv_url": "https://www.football-data.co.uk/new/ARG.csv",
@@ -50,6 +63,19 @@ LEAGUES = {
         "pending_file": "leagues/pending_arg.json",
         "desde_anio": 2012,
         "min_partidos": 30,
+<<<<<<< HEAD
+=======
+    },
+    "ligamx": {
+        "name": "Liga MX",
+        "csv_url": "https://www.football-data.co.uk/new/MEX.csv",
+        "fixtures_csv": "leagues/fixtures_ligamx.csv",
+        "output_json": "docs/leagues/ligamx.json",
+        "history_file": "leagues/history_ligamx.json",
+        "pending_file": "leagues/pending_ligamx.json",
+        "desde_anio": 2012,     # ventana de entrenamiento de la regresión
+        "min_partidos": 30,     # filtro de equipos con muestra sólida
+>>>>>>> 7f4bc6b (Agregar Brasileirao al pipeline de ligas)
     },
     "ligamx": {
             "name": "Liga MX",
