@@ -33,6 +33,7 @@ from elo import calcular_elo
 from modelo_elo import ajustar_modelo_elo, ajustar_calibrador
 from generate_predictions import predecir_fixture, brier_pre_partido
 import historial
+from adaptador_main import cargar_liga_main
 
 # ============================================================
 # Configuración por liga. Agregar Premier/LaLiga = nueva entrada
@@ -40,6 +41,83 @@ import historial
    #  con otro esquema — eso se resuelve cuando las agreguemos, no hoy).
 # ============================================================
 LEAGUES = {
+    "premier": {
+        "name": "Premier League",
+        "formato": "main",
+        "codigo": "E0",
+        "fixtures_csv": "leagues/fixtures_premier.csv",
+        "output_json": "docs/leagues/premier.json",
+        "history_file": "leagues/history_premier.json",
+        "pending_file": "leagues/pending_premier.json",
+        "desde_anio": 2013,
+        "min_partidos": 30,
+    },
+    "laliga": {
+        "name": "LaLiga",
+        "formato": "main",
+        "codigo": "SP1",
+        "fixtures_csv": "leagues/fixtures_laliga.csv",
+        "output_json": "docs/leagues/laliga.json",
+        "history_file": "leagues/history_laliga.json",
+        "pending_file": "leagues/pending_laliga.json",
+        "desde_anio": 2013,
+        "min_partidos": 30,
+    },
+    "seriea": {
+        "name": "Serie A",
+        "formato": "main",
+        "codigo": "I1",
+        "fixtures_csv": "leagues/fixtures_seriea.csv",
+        "output_json": "docs/leagues/seriea.json",
+        "history_file": "leagues/history_seriea.json",
+        "pending_file": "leagues/pending_seriea.json",
+        "desde_anio": 2013,
+        "min_partidos": 30,
+    },
+    "bundesliga": {
+        "name": "Bundesliga",
+        "formato": "main",
+        "codigo": "D1",
+        "fixtures_csv": "leagues/fixtures_bundesliga.csv",
+        "output_json": "docs/leagues/bundesliga.json",
+        "history_file": "leagues/history_bundesliga.json",
+        "pending_file": "leagues/pending_bundesliga.json",
+        "desde_anio": 2013,
+        "min_partidos": 30,
+    },
+    "ligue1": {
+        "name": "Ligue 1",
+        "formato": "main",
+        "codigo": "F1",
+        "fixtures_csv": "leagues/fixtures_ligue1.csv",
+        "output_json": "docs/leagues/ligue1.json",
+        "history_file": "leagues/history_ligue1.json",
+        "pending_file": "leagues/pending_ligue1.json",
+        "desde_anio": 2013,
+        "min_partidos": 30,
+    },
+    "eredivisie": {
+        "name": "Eredivisie",
+        "formato": "main",
+        "codigo": "N1",
+        "fixtures_csv": "leagues/fixtures_eredivisie.csv",
+        "output_json": "docs/leagues/eredivisie.json",
+        "history_file": "leagues/history_eredivisie.json",
+        "pending_file": "leagues/pending_eredivisie.json",
+        "desde_anio": 2013,
+        "min_partidos": 30,
+    },
+    "primeira": {
+        "name": "Primeira Liga",
+        "formato": "main",
+        "codigo": "P1",
+        "fixtures_csv": "leagues/fixtures_primeira.csv",
+        "output_json": "docs/leagues/primeira.json",
+        "history_file": "leagues/history_primeira.json",
+        "pending_file": "leagues/pending_primeira.json",
+        "desde_anio": 2013,
+        "min_partidos": 30,
+    },
     "arg": {
         "name": "Liga Argentina",
         "csv_url": "https://www.football-data.co.uk/new/ARG.csv",
@@ -77,8 +155,21 @@ LEAGUES = {
 # Carga y normalización al esquema canónico del motor
 # ------------------------------------------------------------
 def cargar_datos(cfg):
-    """Descarga el CSV de football-data y lo normaliza a las columnas
-    que esperan elo.py / modelo_elo.py."""
+    """Descarga y normaliza al esquema canónico del motor.
+
+    Dos formatos de football-data:
+      - "extra" (default): archivo único, columnas Home/Away/HG/AG
+        (México, Brasil, Argentina)
+      - "main": archivos POR TEMPORADA, columnas HomeTeam/AwayTeam/FTHG/FTAG
+        (las grandes europeas) — lo maneja adaptador_main.py
+    """
+    if cfg.get("formato") == "main":
+        return cargar_liga_main(
+            cfg["codigo"],
+            desde=cfg.get("desde_descarga", 2013),
+            nombre=cfg["name"],
+        )
+
     raw = pd.read_csv(cfg["csv_url"], encoding="utf-8-sig")
     df = pd.DataFrame({
         "date": pd.to_datetime(raw["Date"], format="%d/%m/%Y", errors="coerce"),
