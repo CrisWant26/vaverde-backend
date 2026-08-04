@@ -38,3 +38,15 @@ raw['Date'] = pd.to_datetime(raw['Date'], format='%d/%m/%Y', errors='coerce')
 act = raw[raw['Date'] >= '2026-01-01']
 for e in sorted(set(act['Home'].dropna()) | set(act['Away'].dropna())): print(e)
 "
+
+## Primeira Liga (P1) — temporada 2025-26, 18 equipos
+AVS, Alverca, Arouca, Benfica, Casa Pia, Estoril, Estrela, Famalicao,
+Gil Vicente, Guimaraes, Moreirense, Nacional, Porto, Rio Ave,
+Santa Clara, Sp Braga, Sp Lisbon, Tondela
+OJO: "Sp Lisbon" = Sporting CP | "Guimaraes" = Vitória SC
+
+## Eredivisie (N1) — temporada 2025-26, 18 equipos
+AZ Alkmaar, Ajax, Excelsior, Feyenoord, For Sittard, Go Ahead Eagles,
+Groningen, Heerenveen, Heracles, NAC Breda, Nijmegen, PSV Eindhoven,
+Sparta Rotterdam, Telstar, Twente, Utrecht, Volendam, Zwolle
+OJO: "For Sittard" = Fortuna Sittard | "Nijmegen" = NEC
