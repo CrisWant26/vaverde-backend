@@ -90,6 +90,15 @@ def cargar_liga_main(codigo, desde=2013, hasta=None, nombre="Liga", verbose=True
             fallidas.append(f"{temp}(cols:{faltantes})")
             continue
 
+        # BLINDAJE: football-data a veces sube el contenido de una liga en
+        # el archivo de otra (visto en 2627/SP1.csv, que traía datos de P1).
+        # Si la columna Div no corresponde, se descarta el archivo entero.
+        if "Div" in raw.columns:
+            divs = set(raw["Div"].dropna().unique())
+            if divs and divs != {codigo}:
+                fallidas.append(f"{temp}(Div={divs}, esperaba {codigo})")
+                continue
+
         df = pd.DataFrame({
             "date": _parse_fecha(raw["Date"]),
             "home_team": raw["HomeTeam"].astype(str).str.strip(),
