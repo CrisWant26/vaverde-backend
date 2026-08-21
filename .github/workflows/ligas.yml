@@ -37,11 +37,13 @@ jobs:
         run: python leagues/generate_league.py primeira
       - name: Generar predicciones Eredivisie
         run: python leagues/generate_league.py eredivisie
+      - name: Generar predicciones LaLiga
+        run: python leagues/generate_league.py laliga
       - name: Publicar en /docs (GitHub Pages)
         run: |
           git config user.name "vaverde-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add docs/leagues leagues/history_ligamx.json leagues/pending_ligamx.json leagues/history_bra.json leagues/pending_bra.json leagues/history_primeira.json leagues/pending_primeira.json leagues/history_eredivisie.json leagues/pending_eredivisie.json
+          git add docs/leagues leagues/history_ligamx.json leagues/pending_ligamx.json leagues/history_bra.json leagues/pending_bra.json leagues/history_primeira.json leagues/pending_primeira.json leagues/history_eredivisie.json leagues/pending_eredivisie.json leagues/history_laliga.json leagues/pending_laliga.json
           git commit -m "Ligas $(date -u +%Y-%m-%d)" || echo "Sin cambios que publicar"
           # El bot del torneo también pushea a main: rebase antes de empujar
           git pull --rebase origin main

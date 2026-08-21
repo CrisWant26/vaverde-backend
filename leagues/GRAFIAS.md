@@ -50,3 +50,20 @@ AZ Alkmaar, Ajax, Excelsior, Feyenoord, For Sittard, Go Ahead Eagles,
 Groningen, Heerenveen, Heracles, NAC Breda, Nijmegen, PSV Eindhoven,
 Sparta Rotterdam, Telstar, Twente, Utrecht, Volendam, Zwolle
 OJO: "For Sittard" = Fortuna Sittard | "Nijmegen" = NEC
+
+## LaLiga (SP1) — temporada 2025-26, 20 equipos
+Alaves, Ath Bilbao, Ath Madrid, Barcelona, Betis, Celta, Elche, Espanol,
+Getafe, Girona, Levante, Mallorca, Osasuna, Oviedo, Real Madrid, Sevilla,
+Sociedad, Valencia, Vallecano, Villarreal
+OJO: "Ath Bilbao"=Athletic | "Ath Madrid"=Atlético | "Espanol" sin ñ
+     "Sociedad"=Real Sociedad | "Vallecano"=Rayo | "Celta"=Celta de Vigo
+NOTA: al 13-ago-2026 football-data tiene roto el archivo 2627/SP1.csv
+(contiene datos de P1). Verificar con: python adaptador_main.py laliga
+
+## LaLiga (SP1) — temporada 2026-27
+Alaves, Ath Bilbao, Ath Madrid, Barcelona, Betis, Celta, Dep. A Coruna,
+Elche, Espanol, Getafe, Girona, Levante, Mallorca, Osasuna, Oviedo,
+Real Madrid, Santander, Sevilla, Sociedad, Valencia, Vallecano, Villarreal
+OJO: "Ath Bilbao"=Athletic | "Ath Madrid"=Atletico | "Espanol" sin enye
+     "Sociedad"=Real Sociedad | "Vallecano"=Rayo | "Santander"=Racing
+     "Dep. A Coruna"=Deportivo (con punto y espacio)
