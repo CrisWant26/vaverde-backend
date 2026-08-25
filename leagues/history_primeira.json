@@ -12,8 +12,8 @@
   "real_home": 1,
   "real_away": 1,
   "outcome": "draw",
-  "fav_hit": true,
-  "tier": "pleno",
+  "fav_hit": false,
+  "tier": "parcial",
   "p_fav": 0.359,
   "p_outcome": 0.284,
   "score_outcome": "draw"
@@ -278,8 +278,8 @@
   "real_home": 4,
   "real_away": 0,
   "outcome": "home",
-  "fav_hit": false,
-  "tier": "parcial",
+  "fav_hit": true,
+  "tier": "pleno",
   "p_fav": 0.425,
   "p_outcome": 0.425,
   "score_outcome": "draw"

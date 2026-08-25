@@ -125,14 +125,15 @@ def actualizar_historial(matches, results_df):
             score_outcome = fav  # fallback si el marcador probable no parsea
 
         # Clasificación de tres niveles:
-        #   pleno   = el marcador probable predijo el RESULTADO correcto
-        #             (p.ej. modelo dijo 1-1 [empate] y salió 2-2 [empate])
+        #   pleno   = el resultado 1X2 MÁS PROBABLE fue el que salió
+        #             (se juzga por la probabilidad que ve el usuario,
+        #              no por el marcador probable)
         #   parcial = el marcador probable falló el resultado, PERO el resultado
         #             real estaba a <=12 pts del más probable (zona razonable)
         #   fallo   = falló el resultado y además era poco probable (p.ej.
         #             Canadá: marcador probable 2-0 y empató al 11%)
         gap = probs[fav] - probs[outcome]
-        if score_outcome == outcome:
+        if fav == outcome:
             tier = "pleno"
         elif gap <= 0.12:
             tier = "parcial"
