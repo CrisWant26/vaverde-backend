@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T21:44:28+00:00",
+ "generated_at": "2026-08-25T22:16:58+00:00",
  "model": "poisson-elo-calibrado",
  "training_matches": 11509,
  "last_result_date": "2026-07-19",
@@ -36,8 +36,8 @@
     "real_home": 1,
     "real_away": 0,
     "outcome": "home",
-    "fav_hit": false,
-    "tier": "parcial",
+    "fav_hit": true,
+    "tier": "pleno",
     "p_fav": 0.423,
     "p_outcome": 0.423,
     "score_outcome": "draw"
@@ -93,8 +93,8 @@
     "real_home": 2,
     "real_away": 0,
     "outcome": "home",
-    "fav_hit": false,
-    "tier": "parcial",
+    "fav_hit": true,
+    "tier": "pleno",
     "p_fav": 0.459,
     "p_outcome": 0.459,
     "score_outcome": "draw"
@@ -150,8 +150,8 @@
     "real_home": 2,
     "real_away": 1,
     "outcome": "home",
-    "fav_hit": false,
-    "tier": "parcial",
+    "fav_hit": true,
+    "tier": "pleno",
     "p_fav": 0.577,
     "p_outcome": 0.577,
     "score_outcome": "draw"
@@ -169,8 +169,8 @@
     "real_home": 2,
     "real_away": 0,
     "outcome": "home",
-    "fav_hit": false,
-    "tier": "parcial",
+    "fav_hit": true,
+    "tier": "pleno",
     "p_fav": 0.365,
     "p_outcome": 0.365,
     "score_outcome": "draw"
@@ -245,8 +245,8 @@
     "real_home": 1,
     "real_away": 4,
     "outcome": "away",
-    "fav_hit": false,
-    "tier": "parcial",
+    "fav_hit": true,
+    "tier": "pleno",
     "p_fav": 0.46,
     "p_outcome": 0.46,
     "score_outcome": "draw"
@@ -359,8 +359,8 @@
     "real_home": 1,
     "real_away": 1,
     "outcome": "draw",
-    "fav_hit": true,
-    "tier": "pleno",
+    "fav_hit": false,
+    "tier": "parcial",
     "p_fav": 0.402,
     "p_outcome": 0.335,
     "score_outcome": "draw"
@@ -435,8 +435,8 @@
     "real_home": 2,
     "real_away": 0,
     "outcome": "home",
-    "fav_hit": false,
-    "tier": "parcial",
+    "fav_hit": true,
+    "tier": "pleno",
     "p_fav": 0.41,
     "p_outcome": 0.41,
     "score_outcome": "draw"
@@ -511,8 +511,8 @@
     "real_home": 2,
     "real_away": 0,
     "outcome": "home",
-    "fav_hit": false,
-    "tier": "parcial",
+    "fav_hit": true,
+    "tier": "pleno",
     "p_fav": 0.434,
     "p_outcome": 0.434,
     "score_outcome": "draw"
@@ -682,8 +682,8 @@
     "real_home": 3,
     "real_away": 3,
     "outcome": "draw",
-    "fav_hit": true,
-    "tier": "pleno",
+    "fav_hit": false,
+    "tier": "parcial",
     "p_fav": 0.386,
     "p_outcome": 0.286,
     "score_outcome": "draw"
@@ -720,8 +720,8 @@
     "real_home": 0,
     "real_away": 0,
     "outcome": "draw",
-    "fav_hit": true,
-    "tier": "pleno",
+    "fav_hit": false,
+    "tier": "parcial",
     "p_fav": 0.382,
     "p_outcome": 0.307,
     "score_outcome": "draw"
@@ -739,8 +739,8 @@
     "real_home": 3,
     "real_away": 1,
     "outcome": "home",
-    "fav_hit": false,
-    "tier": "parcial",
+    "fav_hit": true,
+    "tier": "pleno",
     "p_fav": 0.353,
     "p_outcome": 0.353,
     "score_outcome": "draw"
@@ -759,7 +759,7 @@
     "real_away": 4,
     "outcome": "away",
     "fav_hit": true,
-    "tier": "parcial",
+    "tier": "pleno",
     "p_fav": 0.396,
     "p_outcome": 0.396,
     "score_outcome": "draw"
@@ -1442,8 +1442,8 @@
     "real_home": 2,
     "real_away": 0,
     "outcome": "home",
-    "fav_hit": false,
-    "tier": "parcial",
+    "fav_hit": true,
+    "tier": "pleno",
     "p_fav": 0.359,
     "p_outcome": 0.359,
     "score_outcome": "draw"
@@ -1822,8 +1822,8 @@
     "real_home": 2,
     "real_away": 2,
     "outcome": "draw",
-    "fav_hit": true,
-    "tier": "pleno",
+    "fav_hit": false,
+    "tier": "parcial",
     "p_fav": 0.413,
     "p_outcome": 0.293,
     "score_outcome": "draw"
@@ -1879,8 +1879,8 @@
     "real_home": 1,
     "real_away": 1,
     "outcome": "draw",
-    "fav_hit": true,
-    "tier": "pleno",
+    "fav_hit": false,
+    "tier": "parcial",
     "p_fav": 0.395,
     "p_outcome": 0.367,
     "score_outcome": "draw"
@@ -1955,8 +1955,8 @@
     "real_home": 4,
     "real_away": 1,
     "outcome": "home",
-    "fav_hit": false,
-    "tier": "parcial",
+    "fav_hit": true,
+    "tier": "pleno",
     "p_fav": 0.5,
     "p_outcome": 0.5,
     "score_outcome": "draw"
@@ -2002,11 +2002,11 @@
   ],
   "summary": {
    "n": 104,
-   "plenos": 65,
-   "parciales": 19,
+   "plenos": 71,
+   "parciales": 13,
    "fallos": 20,
-   "fav_hits": 65,
-   "fav_rate": 0.625,
+   "fav_hits": 71,
+   "fav_rate": 0.683,
    "brier": 0.499
   }
  }
