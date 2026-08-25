@@ -7,3 +7,4 @@ comparar_*.py
 modelo_dc.py
 simulacion_BACKUP_*.py
 evaluar_europeas.py
+*.bak
