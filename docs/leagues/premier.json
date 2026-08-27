@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-27T19:25:12+00:00",
+ "generated_at": "2026-08-27T22:14:09+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Premier League",
  "training_matches": 4949,
@@ -92,7 +92,7 @@
    "p_draw": 0.268,
    "p_away": 0.352,
    "p_over25": 0.447,
-   "p_btts": 0.501,
+   "p_btts": 0.502,
    "xg_home": 1.24,
    "xg_away": 1.22,
    "likely_score": "1-1"
@@ -135,7 +135,7 @@
    "neutral": false,
    "p_home": 0.76,
    "p_draw": 0.167,
-   "p_away": 0.073,
+   "p_away": 0.074,
    "p_over25": 0.66,
    "p_btts": 0.465,
    "xg_home": 2.71,

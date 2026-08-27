@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-27T19:24:40+00:00",
+ "generated_at": "2026-08-27T22:13:41+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Eredivisie",
  "training_matches": 3928,
@@ -64,7 +64,7 @@
    "p_over25": 0.558,
    "p_btts": 0.586,
    "xg_home": 1.35,
-   "xg_away": 1.57,
+   "xg_away": 1.56,
    "likely_score": "1-1"
   },
   {
