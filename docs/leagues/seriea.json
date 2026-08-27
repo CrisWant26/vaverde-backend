@@ -1,0 +1,23 @@
+{
+ "generated_at": "2026-08-27T18:48:57+00:00",
+ "model": "poisson-elo-calibrado",
+ "league": "Serie A",
+ "training_matches": 4950,
+ "last_result_date": "2026-08-24",
+ "model_brier": 0.2093,
+ "model_brier_baseline": 0.2383,
+ "matches": [],
+ "champion_probs": null,
+ "history": {
+  "matches": [],
+  "summary": {
+   "n": 0,
+   "plenos": 0,
+   "parciales": 0,
+   "fallos": 0,
+   "fav_hits": 0,
+   "fav_rate": 0.0,
+   "brier": null
+  }
+ }
+}

@@ -67,3 +67,27 @@ Real Madrid, Santander, Sevilla, Sociedad, Valencia, Vallecano, Villarreal
 OJO: "Ath Bilbao"=Athletic | "Ath Madrid"=Atletico | "Espanol" sin enye
      "Sociedad"=Real Sociedad | "Vallecano"=Rayo | "Santander"=Racing
      "Dep. A Coruna"=Deportivo (con punto y espacio)
+
+## Premier League (E0)
+Arsenal, Aston Villa, Bournemouth, Brentford, Brighton, Burnley, Chelsea,
+Crystal Palace, Everton, Fulham, Leeds, Liverpool, Man City, Man United,
+Newcastle, Nott'm Forest, Sunderland, Tottenham, West Ham, Wolves
+OJO: "Nott'm Forest" CON apostrofe | "Man City"/"Man United" abreviados
+
+## Serie A (I1)
+Atalanta, Bologna, Cagliari, Como, Cremonese, Fiorentina, Genoa, Inter,
+Juventus, Lazio, Lecce, Milan, Napoli, Parma, Pisa, Roma, Sassuolo,
+Torino, Udinese, Verona
+OJO: "Inter" (no Inter Milan) | "Milan" (no AC Milan) | "Verona" (Hellas)
+
+## Ligue 1 (F1)
+Angers, Auxerre, Brest, Le Havre, Le Mans, Lens, Lille, Lorient, Lyon,
+Marseille, Metz, Monaco, Nantes, Nice, Paris FC, Paris SG, Rennes,
+Strasbourg, Toulouse, Troyes
+OJO: "Paris SG" = PSG | "Paris FC" es OTRO equipo distinto
+
+## Bundesliga (D1)
+Augsburg, Bayern Munich, Dortmund, Ein Frankfurt, FC Koln, Freiburg,
+Hamburg, Heidenheim, Hoffenheim, Leverkusen, M'gladbach, Mainz,
+RB Leipzig, St Pauli, Stuttgart, Union Berlin, Werder Bremen, Wolfsburg
+OJO: "Ein Frankfurt" | "M'gladbach" con apostrofe | "FC Koln" sin dieresis
