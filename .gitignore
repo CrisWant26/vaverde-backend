@@ -8,3 +8,5 @@ modelo_dc.py
 simulacion_BACKUP_*.py
 evaluar_europeas.py
 *.bak
+parser_openfootball.py
+reprocesar_tiers.py
