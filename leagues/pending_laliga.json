@@ -1,1 +1,112 @@
-[]
+[
+ {
+  "date": "2026-08-28",
+  "home": "Alaves",
+  "away": "Villarreal",
+  "p_home": 0.275,
+  "p_draw": 0.307,
+  "p_away": 0.418,
+  "likely_score": "1-1",
+  "xg_home": 1.04,
+  "xg_away": 1.37
+ },
+ {
+  "date": "2026-08-28",
+  "home": "Santander",
+  "away": "Elche",
+  "p_home": 0.503,
+  "p_draw": 0.294,
+  "p_away": 0.203,
+  "likely_score": "1-0",
+  "xg_home": 1.46,
+  "xg_away": 0.88
+ },
+ {
+  "date": "2026-08-29",
+  "home": "Levante",
+  "away": "Betis",
+  "p_home": 0.348,
+  "p_draw": 0.301,
+  "p_away": 0.351,
+  "likely_score": "1-1",
+  "xg_home": 1.39,
+  "xg_away": 1.38
+ },
+ {
+  "date": "2026-08-29",
+  "home": "Sociedad",
+  "away": "Espanol",
+  "p_home": 0.529,
+  "p_draw": 0.276,
+  "p_away": 0.195,
+  "likely_score": "1-0",
+  "xg_home": 1.64,
+  "xg_away": 0.93
+ },
+ {
+  "date": "2026-08-29",
+  "home": "Sevilla",
+  "away": "Ath Madrid",
+  "p_home": 0.272,
+  "p_draw": 0.307,
+  "p_away": 0.421,
+  "likely_score": "1-1",
+  "xg_home": 1.02,
+  "xg_away": 1.37
+ },
+ {
+  "date": "2026-08-30",
+  "home": "Real Madrid",
+  "away": "Malaga",
+  "p_home": 0.844,
+  "p_draw": 0.107,
+  "p_away": 0.048,
+  "likely_score": "2-0",
+  "xg_home": 2.64,
+  "xg_away": 0.59
+ },
+ {
+  "date": "2026-08-30",
+  "home": "La Coruna",
+  "away": "Valencia",
+  "p_home": 0.271,
+  "p_draw": 0.296,
+  "p_away": 0.434,
+  "likely_score": "1-1",
+  "xg_home": 1.13,
+  "xg_away": 1.49
+ },
+ {
+  "date": "2026-08-30",
+  "home": "Celta",
+  "away": "Ath Bilbao",
+  "p_home": 0.398,
+  "p_draw": 0.312,
+  "p_away": 0.29,
+  "likely_score": "1-1",
+  "xg_home": 1.34,
+  "xg_away": 1.13
+ },
+ {
+  "date": "2026-08-31",
+  "home": "Osasuna",
+  "away": "Getafe",
+  "p_home": 0.398,
+  "p_draw": 0.336,
+  "p_away": 0.266,
+  "likely_score": "1-0",
+  "xg_home": 1.1,
+  "xg_away": 0.93
+ },
+ {
+  "date": "2026-08-31",
+  "home": "Barcelona",
+  "away": "Vallecano",
+  "p_home": 0.885,
+  "p_draw": 0.078,
+  "p_away": 0.037,
+  "likely_score": "3-0",
+  "xg_home": 3.2,
+  "xg_away": 0.68
+ }
+]

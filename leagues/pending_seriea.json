@@ -1,1 +1,112 @@
-[]
+[
+ {
+  "date": "2026-08-30",
+  "home": "Milan",
+  "away": "Venezia",
+  "p_home": 0.679,
+  "p_draw": 0.218,
+  "p_away": 0.103,
+  "likely_score": "2-0",
+  "xg_home": 2.07,
+  "xg_away": 0.66
+ },
+ {
+  "date": "2026-08-30",
+  "home": "Atalanta",
+  "away": "Bologna",
+  "p_home": 0.543,
+  "p_draw": 0.266,
+  "p_away": 0.19,
+  "likely_score": "1-0",
+  "xg_home": 1.82,
+  "xg_away": 0.98
+ },
+ {
+  "date": "2026-08-30",
+  "home": "Cagliari",
+  "away": "Inter",
+  "p_home": 0.145,
+  "p_draw": 0.197,
+  "p_away": 0.658,
+  "likely_score": "0-2",
+  "xg_home": 0.82,
+  "xg_away": 2.11
+ },
+ {
+  "date": "2026-08-30",
+  "home": "Fiorentina",
+  "away": "Frosinone",
+  "p_home": 0.642,
+  "p_draw": 0.227,
+  "p_away": 0.131,
+  "likely_score": "2-0",
+  "xg_home": 2.12,
+  "xg_away": 0.83
+ },
+ {
+  "date": "2026-08-30",
+  "home": "Juventus",
+  "away": "Parma",
+  "p_home": 0.682,
+  "p_draw": 0.216,
+  "p_away": 0.103,
+  "likely_score": "2-0",
+  "xg_home": 2.1,
+  "xg_away": 0.67
+ },
+ {
+  "date": "2026-08-30",
+  "home": "Lazio",
+  "away": "Genoa",
+  "p_home": 0.558,
+  "p_draw": 0.264,
+  "p_away": 0.178,
+  "likely_score": "1-0",
+  "xg_home": 1.83,
+  "xg_away": 0.93
+ },
+ {
+  "date": "2026-08-30",
+  "home": "Lecce",
+  "away": "Roma",
+  "p_home": 0.179,
+  "p_draw": 0.242,
+  "p_away": 0.58,
+  "likely_score": "0-1",
+  "xg_home": 0.77,
+  "xg_away": 1.75
+ },
+ {
+  "date": "2026-08-30",
+  "home": "Monza",
+  "away": "Udinese",
+  "p_home": 0.276,
+  "p_draw": 0.298,
+  "p_away": 0.426,
+  "likely_score": "0-1",
+  "xg_home": 0.99,
+  "xg_away": 1.39
+ },
+ {
+  "date": "2026-08-30",
+  "home": "Napoli",
+  "away": "Como",
+  "p_home": 0.422,
+  "p_draw": 0.299,
+  "p_away": 0.279,
+  "likely_score": "1-1",
+  "xg_home": 1.44,
+  "xg_away": 1.15
+ },
+ {
+  "date": "2026-08-30",
+  "home": "Sassuolo",
+  "away": "Torino",
+  "p_home": 0.396,
+  "p_draw": 0.289,
+  "p_away": 0.316,
+  "likely_score": "1-1",
+  "xg_home": 1.49,
+  "xg_away": 1.32
+ }
+]
