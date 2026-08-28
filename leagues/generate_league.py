@@ -34,6 +34,7 @@ from modelo_elo import ajustar_modelo_elo, ajustar_calibrador
 from generate_predictions import predecir_fixture, brier_pre_partido
 import historial
 from adaptador_main import cargar_liga_main
+from tendencias import calcular_tendencias
 
 # ============================================================
 # Configuración por liga. Agregar Premier/LaLiga = nueva entrada
@@ -168,6 +169,7 @@ def cargar_datos(cfg):
             cfg["codigo"],
             desde=cfg.get("desde_descarga", 2013),
             nombre=cfg["name"],
+            con_stats=True,
         )
 
     raw = pd.read_csv(cfg["csv_url"], encoding="utf-8-sig")
@@ -279,14 +281,18 @@ def main(league_key):
         pred = predecir_fixture(
             params, calibrador, elos, row["home"], row["away"], neutral=False,
         )
-        matches.append({
+        entrada = {
             "date": row["date"].strftime("%Y-%m-%d"),
             "home": row["home"],
             "away": row["away"],
             "city": "",
             "neutral": False,
             **pred,
-        })
+        }
+        trends = calcular_tendencias(df, row["home"], row["away"], n=10)
+        if trends:
+            entrada["trends"] = trends
+        matches.append(entrada)
 
     # Historial POR LIGA: redirigimos los archivos del módulo historial
     # y su emparejador de resultados, solo dentro de este proceso.

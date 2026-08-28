@@ -67,7 +67,8 @@ def _parse_fecha(serie):
     return pd.to_datetime(serie, dayfirst=True, errors="coerce")
 
 
-def cargar_liga_main(codigo, desde=2013, hasta=None, nombre="Liga", verbose=True):
+def cargar_liga_main(codigo, desde=2013, hasta=None, nombre="Liga", verbose=True,
+                     con_stats=False):
     """Descarga y concatena todas las temporadas de una liga main.
 
     Devuelve el DataFrame canónico: date, home_team, away_team,
@@ -106,6 +107,12 @@ def cargar_liga_main(codigo, desde=2013, hasta=None, nombre="Liga", verbose=True
             "home_score": pd.to_numeric(raw["FTHG"], errors="coerce"),
             "away_score": pd.to_numeric(raw["FTAG"], errors="coerce"),
         })
+        if con_stats:
+            for col in ("HS", "AS", "HST", "AST", "HC", "AC",
+                        "HY", "AY", "HR", "AR", "HF", "AF", "Referee"):
+                if col in raw.columns:
+                    df[col] = raw[col]
+
         frames.append(df.dropna(subset=["date", "home_score", "away_score"]))
 
     if verbose and fallidas:
