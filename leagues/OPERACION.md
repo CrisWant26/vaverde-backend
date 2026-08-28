@@ -46,3 +46,12 @@ Argentina (-0.0030), MLS (-0.0023)
 
 ## Pendientes de integrar (ya configuradas en LEAGUES, falta workflow + app)
 Premier League, Serie A, Ligue 1, Bundesliga
+
+## Experimentos de modelo rechazados (no repetir sin razón nueva)
+- Dixon-Coles (marcadores bajos): +0.0000 en 3 ligas
+- Decaimiento temporal (xi 0-2.0): curva monótona, xi=0 es óptimo
+- Localía por equipo (con y sin regularización): +0.0004
+- Barrido de K del Elo (10-60): K=30 ya era óptimo
+- Córners como mercado (Poisson/NegBin, 4 líneas, Premier y LaLiga):
+  ningún modelo le gana al promedio simple de la liga. Los córners
+  quedan como TENDENCIA DESCRIPTIVA, no como probabilidad.
