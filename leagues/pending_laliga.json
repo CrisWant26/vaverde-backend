@@ -1,1 +1,101 @@
-[]
+[
+ {
+  "date": "2026-09-03",
+  "home": "Sociedad",
+  "away": "Celta",
+  "p_home": 0.487,
+  "p_draw": 0.28,
+  "p_away": 0.233,
+  "likely_score": "1-1",
+  "xg_home": 1.66,
+  "xg_away": 1.09
+ },
+ {
+  "date": "2026-09-04",
+  "home": "Betis",
+  "away": "Real Madrid",
+  "p_home": 0.18,
+  "p_draw": 0.236,
+  "p_away": 0.585,
+  "likely_score": "1-2",
+  "xg_home": 1.11,
+  "xg_away": 2.01
+ },
+ {
+  "date": "2026-09-05",
+  "home": "Ath Bilbao",
+  "away": "Ath Madrid",
+  "p_home": 0.288,
+  "p_draw": 0.331,
+  "p_away": 0.381,
+  "likely_score": "0-1",
+  "xg_home": 0.9,
+  "xg_away": 1.21
+ },
+ {
+  "date": "2026-09-05",
+  "home": "Vallecano",
+  "away": "Santander",
+  "p_home": 0.42,
+  "p_draw": 0.306,
+  "p_away": 0.273,
+  "likely_score": "1-1",
+  "xg_home": 1.39,
+  "xg_away": 1.1
+ },
+ {
+  "date": "2026-09-05",
+  "home": "Villarreal",
+  "away": "La Coruna",
+  "p_home": 0.728,
+  "p_draw": 0.171,
+  "p_away": 0.101,
+  "likely_score": "2-0",
+  "xg_home": 2.31,
+  "xg_away": 0.8
+ },
+ {
+  "date": "2026-09-06",
+  "home": "Malaga",
+  "away": "Levante",
+  "p_home": 0.405,
+  "p_draw": 0.317,
+  "p_away": 0.278,
+  "likely_score": "1-1",
+  "xg_home": 1.27,
+  "xg_away": 1.07
+ },
+ {
+  "date": "2026-09-06",
+  "home": "Valencia",
+  "away": "Barcelona",
+  "p_home": 0.162,
+  "p_draw": 0.223,
+  "p_away": 0.615,
+  "likely_score": "1-2",
+  "xg_home": 1.03,
+  "xg_away": 2.06
+ },
+ {
+  "date": "2026-09-06",
+  "home": "Alaves",
+  "away": "Osasuna",
+  "p_home": 0.449,
+  "p_draw": 0.314,
+  "p_away": 0.237,
+  "likely_score": "1-0",
+  "xg_home": 1.29,
+  "xg_away": 0.94
+ },
+ {
+  "date": "2026-09-06",
+  "home": "Espanol",
+  "away": "Sevilla",
+  "p_home": 0.341,
+  "p_draw": 0.31,
+  "p_away": 0.349,
+  "likely_score": "1-1",
+  "xg_home": 1.27,
+  "xg_away": 1.29
+ }
+]

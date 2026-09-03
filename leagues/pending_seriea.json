@@ -9,5 +9,115 @@
   "likely_score": "2-0",
   "xg_home": 2.07,
   "xg_away": 0.66
+ },
+ {
+  "date": "2026-09-04",
+  "home": "Genoa",
+  "away": "Como",
+  "p_home": 0.205,
+  "p_draw": 0.269,
+  "p_away": 0.526,
+  "likely_score": "0-1",
+  "xg_home": 0.83,
+  "xg_away": 1.62
+ },
+ {
+  "date": "2026-09-05",
+  "home": "Fiorentina",
+  "away": "Torino",
+  "p_home": 0.456,
+  "p_draw": 0.295,
+  "p_away": 0.249,
+  "likely_score": "1-1",
+  "xg_home": 1.55,
+  "xg_away": 1.09
+ },
+ {
+  "date": "2026-09-05",
+  "home": "Inter",
+  "away": "Napoli",
+  "p_home": 0.484,
+  "p_draw": 0.282,
+  "p_away": 0.234,
+  "likely_score": "1-1",
+  "xg_home": 1.7,
+  "xg_away": 1.1
+ },
+ {
+  "date": "2026-09-05",
+  "home": "Roma",
+  "away": "Atalanta",
+  "p_home": 0.474,
+  "p_draw": 0.282,
+  "p_away": 0.244,
+  "likely_score": "1-1",
+  "xg_home": 1.71,
+  "xg_away": 1.14
+ },
+ {
+  "date": "2026-09-06",
+  "home": "Parma",
+  "away": "Monza",
+  "p_home": 0.501,
+  "p_draw": 0.289,
+  "p_away": 0.21,
+  "likely_score": "1-0",
+  "xg_home": 1.59,
+  "xg_away": 0.95
+ },
+ {
+  "date": "2026-09-06",
+  "home": "Frosinone",
+  "away": "Venezia",
+  "p_home": 0.43,
+  "p_draw": 0.315,
+  "p_away": 0.255,
+  "likely_score": "1-1",
+  "xg_home": 1.34,
+  "xg_away": 1.01
+ },
+ {
+  "date": "2026-09-06",
+  "home": "Bologna",
+  "away": "Sassuolo",
+  "p_home": 0.428,
+  "p_draw": 0.294,
+  "p_away": 0.278,
+  "likely_score": "1-1",
+  "xg_home": 1.56,
+  "xg_away": 1.21
+ },
+ {
+  "date": "2026-09-06",
+  "home": "Juventus",
+  "away": "Milan",
+  "p_home": 0.498,
+  "p_draw": 0.295,
+  "p_away": 0.207,
+  "likely_score": "1-0",
+  "xg_home": 1.53,
+  "xg_away": 0.91
+ },
+ {
+  "date": "2026-09-07",
+  "home": "Cagliari",
+  "away": "Lecce",
+  "p_home": 0.443,
+  "p_draw": 0.314,
+  "p_away": 0.243,
+  "likely_score": "1-0",
+  "xg_home": 1.35,
+  "xg_away": 0.97
+ },
+ {
+  "date": "2026-09-07",
+  "home": "Udinese",
+  "away": "Lazio",
+  "p_home": 0.302,
+  "p_draw": 0.293,
+  "p_away": 0.405,
+  "likely_score": "1-1",
+  "xg_home": 1.23,
+  "xg_away": 1.49
  }
 ]

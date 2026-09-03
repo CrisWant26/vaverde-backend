@@ -1,1 +1,112 @@
-[]
+[
+ {
+  "date": "2026-09-05",
+  "home": "Bragantino",
+  "away": "Bahia",
+  "p_home": 0.488,
+  "p_draw": 0.265,
+  "p_away": 0.247,
+  "likely_score": "1-1",
+  "xg_home": 1.49,
+  "xg_away": 1.0
+ },
+ {
+  "date": "2026-09-05",
+  "home": "Sao Paulo",
+  "away": "Atletico-MG",
+  "p_home": 0.446,
+  "p_draw": 0.275,
+  "p_away": 0.278,
+  "likely_score": "1-1",
+  "xg_home": 1.33,
+  "xg_away": 1.08
+ },
+ {
+  "date": "2026-09-06",
+  "home": "Corinthians",
+  "away": "Chapecoense-SC",
+  "p_home": 0.624,
+  "p_draw": 0.233,
+  "p_away": 0.143,
+  "likely_score": "1-0",
+  "xg_home": 1.82,
+  "xg_away": 0.6
+ },
+ {
+  "date": "2026-09-06",
+  "home": "Fluminense",
+  "away": "Vasco",
+  "p_home": 0.597,
+  "p_draw": 0.229,
+  "p_away": 0.174,
+  "likely_score": "1-0",
+  "xg_home": 1.89,
+  "xg_away": 0.79
+ },
+ {
+  "date": "2026-09-06",
+  "home": "Coritiba",
+  "away": "Mirassol",
+  "p_home": 0.426,
+  "p_draw": 0.265,
+  "p_away": 0.309,
+  "likely_score": "1-1",
+  "xg_home": 1.37,
+  "xg_away": 1.23
+ },
+ {
+  "date": "2026-09-06",
+  "home": "Cruzeiro",
+  "away": "Athletico-PR",
+  "p_home": 0.484,
+  "p_draw": 0.281,
+  "p_away": 0.235,
+  "likely_score": "1-0",
+  "xg_home": 1.35,
+  "xg_away": 0.89
+ },
+ {
+  "date": "2026-09-06",
+  "home": "Internacional",
+  "away": "Santos",
+  "p_home": 0.47,
+  "p_draw": 0.28,
+  "p_away": 0.251,
+  "likely_score": "1-0",
+  "xg_home": 1.33,
+  "xg_away": 0.96
+ },
+ {
+  "date": "2026-09-06",
+  "home": "Remo",
+  "away": "Flamengo RJ",
+  "p_home": 0.309,
+  "p_draw": 0.264,
+  "p_away": 0.427,
+  "likely_score": "0-1",
+  "xg_home": 1.0,
+  "xg_away": 1.5
+ },
+ {
+  "date": "2026-09-06",
+  "home": "Botafogo RJ",
+  "away": "Palmeiras",
+  "p_home": 0.38,
+  "p_draw": 0.276,
+  "p_away": 0.344,
+  "likely_score": "1-1",
+  "xg_home": 1.16,
+  "xg_away": 1.27
+ },
+ {
+  "date": "2026-09-08",
+  "home": "Vitoria",
+  "away": "Gremio",
+  "p_home": 0.425,
+  "p_draw": 0.272,
+  "p_away": 0.303,
+  "likely_score": "1-1",
+  "xg_home": 1.31,
+  "xg_away": 1.18
+ }
+]
