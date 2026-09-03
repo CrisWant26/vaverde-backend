@@ -91,3 +91,11 @@ Augsburg, Bayern Munich, Dortmund, Ein Frankfurt, FC Koln, Freiburg,
 Hamburg, Heidenheim, Hoffenheim, Leverkusen, M'gladbach, Mainz,
 RB Leipzig, St Pauli, Stuttgart, Union Berlin, Werder Bremen, Wolfsburg
 OJO: "Ein Frankfurt" | "M'gladbach" con apostrofe | "FC Koln" sin dieresis
+
+## Bundesliga (D1) — temporada 2026-27, ACTUALIZADO 3-sep
+Augsburg, Bayern Munich, Dortmund, Ein Frankfurt, Elversberg, FC Koln,
+Freiburg, Hamburg, Heidenheim, Hoffenheim, Leverkusen, M'gladbach,
+Mainz, Paderborn, RB Leipzig, Schalke 04, St Pauli, Stuttgart,
+Union Berlin, Werder Bremen, Wolfsburg
+OJO: "Schalke 04" CON el 04 | "Ein Frankfurt"=Eintracht
+     "M'gladbach" con apostrofe | "FC Koln" sin dieresis
