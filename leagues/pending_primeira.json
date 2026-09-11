@@ -11,25 +11,102 @@
   "xg_away": 0.79
  },
  {
-  "date": "2026-09-09",
-  "home": "Moreirense",
-  "away": "Benfica",
-  "p_home": 0.102,
-  "p_draw": 0.159,
-  "p_away": 0.739,
-  "likely_score": "0-2",
-  "xg_home": 0.68,
-  "xg_away": 2.17
+  "date": "2026-09-12",
+  "home": "Nacional",
+  "away": "Alverca",
+  "p_home": 0.419,
+  "p_draw": 0.291,
+  "p_away": 0.289,
+  "likely_score": "1-1",
+  "xg_home": 1.4,
+  "xg_away": 1.12
  },
  {
-  "date": "2026-09-10",
-  "home": "Estrela",
-  "away": "Sp Braga",
-  "p_home": 0.174,
-  "p_draw": 0.223,
-  "p_away": 0.602,
+  "date": "2026-09-12",
+  "home": "Casa Pia",
+  "away": "Porto",
+  "p_home": 0.102,
+  "p_draw": 0.177,
+  "p_away": 0.721,
+  "likely_score": "0-2",
+  "xg_home": 0.58,
+  "xg_away": 2.04
+ },
+ {
+  "date": "2026-09-12",
+  "home": "Academico Viseu",
+  "away": "Guimaraes",
+  "p_home": 0.344,
+  "p_draw": 0.304,
+  "p_away": 0.352,
+  "likely_score": "1-1",
+  "xg_home": 1.19,
+  "xg_away": 1.21
+ },
+ {
+  "date": "2026-09-13",
+  "home": "Arouca",
+  "away": "Santa Clara",
+  "p_home": 0.392,
+  "p_draw": 0.314,
+  "p_away": 0.294,
+  "likely_score": "1-1",
+  "xg_home": 1.25,
+  "xg_away": 1.06
+ },
+ {
+  "date": "2026-09-13",
+  "home": "Benfica",
+  "away": "Gil Vicente",
+  "p_home": 0.854,
+  "p_draw": 0.108,
+  "p_away": 0.039,
+  "likely_score": "2-0",
+  "xg_home": 2.6,
+  "xg_away": 0.55
+ },
+ {
+  "date": "2026-09-13",
+  "home": "Famalicao",
+  "away": "Sp Lisbon",
+  "p_home": 0.173,
+  "p_draw": 0.216,
+  "p_away": 0.611,
   "likely_score": "0-1",
-  "xg_home": 0.88,
-  "xg_away": 1.8
+  "xg_home": 0.9,
+  "xg_away": 1.86
+ },
+ {
+  "date": "2026-09-14",
+  "home": "Rio Ave",
+  "away": "Estrela",
+  "p_home": 0.478,
+  "p_draw": 0.297,
+  "p_away": 0.226,
+  "likely_score": "1-0",
+  "xg_home": 1.43,
+  "xg_away": 0.93
+ },
+ {
+  "date": "2026-09-14",
+  "home": "Moreirense",
+  "away": "Maritimo",
+  "p_home": 0.429,
+  "p_draw": 0.311,
+  "p_away": 0.26,
+  "likely_score": "1-0",
+  "xg_home": 1.31,
+  "xg_away": 0.99
+ },
+ {
+  "date": "2026-09-14",
+  "home": "Sp Braga",
+  "away": "Estoril",
+  "p_home": 0.69,
+  "p_draw": 0.19,
+  "p_away": 0.121,
+  "likely_score": "2-0",
+  "xg_home": 2.16,
+  "xg_away": 0.86
  }
 ]

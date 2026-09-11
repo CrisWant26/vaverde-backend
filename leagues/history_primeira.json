@@ -796,5 +796,43 @@
   "p_fav": 0.427,
   "p_outcome": 0.282,
   "score_outcome": "draw"
+ },
+ {
+  "date": "2026-09-09",
+  "home": "Moreirense",
+  "away": "Benfica",
+  "p_home": 0.102,
+  "p_draw": 0.159,
+  "p_away": 0.739,
+  "likely_score": "0-2",
+  "xg_home": 0.68,
+  "xg_away": 2.17,
+  "real_home": 0,
+  "real_away": 4,
+  "outcome": "away",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.739,
+  "p_outcome": 0.739,
+  "score_outcome": "away"
+ },
+ {
+  "date": "2026-09-10",
+  "home": "Estrela",
+  "away": "Sp Braga",
+  "p_home": 0.174,
+  "p_draw": 0.223,
+  "p_away": 0.602,
+  "likely_score": "0-1",
+  "xg_home": 0.88,
+  "xg_away": 1.8,
+  "real_home": 2,
+  "real_away": 1,
+  "outcome": "home",
+  "fav_hit": false,
+  "tier": "fallo",
+  "p_fav": 0.602,
+  "p_outcome": 0.174,
+  "score_outcome": "away"
  }
 ]

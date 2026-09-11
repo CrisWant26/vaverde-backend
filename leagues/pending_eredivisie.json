@@ -11,17 +11,6 @@
   "xg_away": 1.07
  },
  {
-  "date": "2026-09-09",
-  "home": "Twente",
-  "away": "Telstar",
-  "p_home": 0.54,
-  "p_draw": 0.252,
-  "p_away": 0.208,
-  "likely_score": "1-1",
-  "xg_home": 1.95,
-  "xg_away": 1.12
- },
- {
   "date": "2026-09-15",
   "home": "Ajax",
   "away": "Willem II",
@@ -42,5 +31,104 @@
   "likely_score": "1-1",
   "xg_home": 1.9,
   "xg_away": 1.14
+ },
+ {
+  "date": "2026-09-11",
+  "home": "AZ Alkmaar",
+  "away": "Willem II",
+  "p_home": 0.74,
+  "p_draw": 0.178,
+  "p_away": 0.082,
+  "likely_score": "2-0",
+  "xg_home": 2.66,
+  "xg_away": 0.77
+ },
+ {
+  "date": "2026-09-12",
+  "home": "Go Ahead Eagles",
+  "away": "Groningen",
+  "p_home": 0.403,
+  "p_draw": 0.291,
+  "p_away": 0.305,
+  "likely_score": "1-1",
+  "xg_home": 1.43,
+  "xg_away": 1.22
+ },
+ {
+  "date": "2026-09-12",
+  "home": "For Sittard",
+  "away": "Ajax",
+  "p_home": 0.178,
+  "p_draw": 0.221,
+  "p_away": 0.601,
+  "likely_score": "0-2",
+  "xg_home": 0.99,
+  "xg_away": 2.22
+ },
+ {
+  "date": "2026-09-12",
+  "home": "Twente",
+  "away": "Den Haag",
+  "p_home": 0.722,
+  "p_draw": 0.186,
+  "p_away": 0.091,
+  "likely_score": "2-0",
+  "xg_home": 2.59,
+  "xg_away": 0.8
+ },
+ {
+  "date": "2026-09-12",
+  "home": "Cambuur",
+  "away": "Nijmegen",
+  "p_home": 0.22,
+  "p_draw": 0.242,
+  "p_away": 0.538,
+  "likely_score": "1-2",
+  "xg_home": 1.1,
+  "xg_away": 2.0
+ },
+ {
+  "date": "2026-09-13",
+  "home": "Heerenveen",
+  "away": "Telstar",
+  "p_home": 0.477,
+  "p_draw": 0.262,
+  "p_away": 0.261,
+  "likely_score": "1-1",
+  "xg_home": 1.82,
+  "xg_away": 1.29
+ },
+ {
+  "date": "2026-09-13",
+  "home": "PSV Eindhoven",
+  "away": "Sparta Rotterdam",
+  "p_home": 0.805,
+  "p_draw": 0.14,
+  "p_away": 0.055,
+  "likely_score": "3-0",
+  "xg_home": 3.08,
+  "xg_away": 0.73
+ },
+ {
+  "date": "2026-09-13",
+  "home": "Zwolle",
+  "away": "Feyenoord",
+  "p_home": 0.204,
+  "p_draw": 0.236,
+  "p_away": 0.56,
+  "likely_score": "1-2",
+  "xg_home": 1.05,
+  "xg_away": 2.06
+ },
+ {
+  "date": "2026-09-13",
+  "home": "Excelsior",
+  "away": "Utrecht",
+  "p_home": 0.346,
+  "p_draw": 0.268,
+  "p_away": 0.386,
+  "likely_score": "1-1",
+  "xg_home": 1.46,
+  "xg_away": 1.6
  }
 ]

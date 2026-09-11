@@ -777,5 +777,24 @@
   "p_fav": 0.365,
   "p_outcome": 0.359,
   "score_outcome": "draw"
+ },
+ {
+  "date": "2026-09-09",
+  "home": "Twente",
+  "away": "Telstar",
+  "p_home": 0.54,
+  "p_draw": 0.252,
+  "p_away": 0.208,
+  "likely_score": "1-1",
+  "xg_home": 1.95,
+  "xg_away": 1.12,
+  "real_home": 1,
+  "real_away": 0,
+  "outcome": "home",
+  "fav_hit": false,
+  "tier": "pleno",
+  "p_fav": 0.54,
+  "p_outcome": 0.54,
+  "score_outcome": "draw"
  }
 ]

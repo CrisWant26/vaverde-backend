@@ -1,1 +1,101 @@
-[]
+[
+ {
+  "date": "2026-09-11",
+  "home": "Union Berlin",
+  "away": "Schalke 04",
+  "p_home": 0.467,
+  "p_draw": 0.284,
+  "p_away": 0.249,
+  "likely_score": "1-1",
+  "xg_home": 1.49,
+  "xg_away": 1.04
+ },
+ {
+  "date": "2026-09-12",
+  "home": "Dortmund",
+  "away": "Paderborn",
+  "p_home": 0.839,
+  "p_draw": 0.116,
+  "p_away": 0.045,
+  "likely_score": "3-0",
+  "xg_home": 3.46,
+  "xg_away": 0.66
+ },
+ {
+  "date": "2026-09-12",
+  "home": "Augsburg",
+  "away": "Leverkusen",
+  "p_home": 0.294,
+  "p_draw": 0.264,
+  "p_away": 0.442,
+  "likely_score": "1-1",
+  "xg_home": 1.23,
+  "xg_away": 1.69
+ },
+ {
+  "date": "2026-09-12",
+  "home": "Mainz",
+  "away": "Ein Frankfurt",
+  "p_home": 0.44,
+  "p_draw": 0.274,
+  "p_away": 0.285,
+  "likely_score": "1-1",
+  "xg_home": 1.62,
+  "xg_away": 1.28
+ },
+ {
+  "date": "2026-09-12",
+  "home": "Freiburg",
+  "away": "M'gladbach",
+  "p_home": 0.422,
+  "p_draw": 0.274,
+  "p_away": 0.304,
+  "likely_score": "1-1",
+  "xg_home": 1.59,
+  "xg_away": 1.35
+ },
+ {
+  "date": "2026-09-12",
+  "home": "Hoffenheim",
+  "away": "Stuttgart",
+  "p_home": 0.433,
+  "p_draw": 0.259,
+  "p_away": 0.308,
+  "likely_score": "1-1",
+  "xg_home": 1.89,
+  "xg_away": 1.59
+ },
+ {
+  "date": "2026-09-12",
+  "home": "FC Koln",
+  "away": "Werder Bremen",
+  "p_home": 0.423,
+  "p_draw": 0.276,
+  "p_away": 0.301,
+  "likely_score": "1-1",
+  "xg_home": 1.56,
+  "xg_away": 1.32
+ },
+ {
+  "date": "2026-09-13",
+  "home": "RB Leipzig",
+  "away": "Hamburg",
+  "p_home": 0.678,
+  "p_draw": 0.208,
+  "p_away": 0.114,
+  "likely_score": "2-0",
+  "xg_home": 2.3,
+  "xg_away": 0.75
+ },
+ {
+  "date": "2026-09-13",
+  "home": "Elversberg",
+  "away": "Bayern Munich",
+  "p_home": 0.12,
+  "p_draw": 0.164,
+  "p_away": 0.716,
+  "likely_score": "0-2",
+  "xg_home": 0.86,
+  "xg_away": 2.64
+ }
+]

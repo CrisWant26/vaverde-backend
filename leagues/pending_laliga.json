@@ -1,1 +1,112 @@
-[]
+[
+ {
+  "date": "2026-09-11",
+  "home": "Sevilla",
+  "away": "Valencia",
+  "p_home": 0.457,
+  "p_draw": 0.291,
+  "p_away": 0.252,
+  "likely_score": "1-1",
+  "xg_home": 1.56,
+  "xg_away": 1.11
+ },
+ {
+  "date": "2026-09-12",
+  "home": "Santander",
+  "away": "Alaves",
+  "p_home": 0.446,
+  "p_draw": 0.313,
+  "p_away": 0.241,
+  "likely_score": "1-0",
+  "xg_home": 1.3,
+  "xg_away": 0.95
+ },
+ {
+  "date": "2026-09-12",
+  "home": "Osasuna",
+  "away": "Espanol",
+  "p_home": 0.421,
+  "p_draw": 0.31,
+  "p_away": 0.27,
+  "likely_score": "1-1",
+  "xg_home": 1.35,
+  "xg_away": 1.06
+ },
+ {
+  "date": "2026-09-12",
+  "home": "Ath Bilbao",
+  "away": "Elche",
+  "p_home": 0.624,
+  "p_draw": 0.244,
+  "p_away": 0.132,
+  "likely_score": "1-0",
+  "xg_home": 1.65,
+  "xg_away": 0.7
+ },
+ {
+  "date": "2026-09-12",
+  "home": "Real Madrid",
+  "away": "Vallecano",
+  "p_home": 0.844,
+  "p_draw": 0.104,
+  "p_away": 0.052,
+  "likely_score": "2-0",
+  "xg_home": 2.92,
+  "xg_away": 0.73
+ },
+ {
+  "date": "2026-09-13",
+  "home": "Celta",
+  "away": "Malaga",
+  "p_home": 0.53,
+  "p_draw": 0.281,
+  "p_away": 0.189,
+  "likely_score": "1-0",
+  "xg_home": 1.53,
+  "xg_away": 0.87
+ },
+ {
+  "date": "2026-09-13",
+  "home": "Levante",
+  "away": "Barcelona",
+  "p_home": 0.099,
+  "p_draw": 0.156,
+  "p_away": 0.746,
+  "likely_score": "0-2",
+  "xg_home": 0.95,
+  "xg_away": 2.53
+ },
+ {
+  "date": "2026-09-13",
+  "home": "Getafe",
+  "away": "La Coruna",
+  "p_home": 0.512,
+  "p_draw": 0.294,
+  "p_away": 0.193,
+  "likely_score": "1-0",
+  "xg_home": 1.41,
+  "xg_away": 0.83
+ },
+ {
+  "date": "2026-09-13",
+  "home": "Sociedad",
+  "away": "Ath Madrid",
+  "p_home": 0.273,
+  "p_draw": 0.311,
+  "p_away": 0.416,
+  "likely_score": "0-1",
+  "xg_home": 0.98,
+  "xg_away": 1.33
+ },
+ {
+  "date": "2026-09-14",
+  "home": "Villarreal",
+  "away": "Betis",
+  "p_home": 0.538,
+  "p_draw": 0.262,
+  "p_away": 0.2,
+  "likely_score": "1-1",
+  "xg_home": 1.81,
+  "xg_away": 1.03
+ }
+]
