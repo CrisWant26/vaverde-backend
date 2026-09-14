@@ -68,3 +68,19 @@ Premier League, Serie A, Ligue 1, Bundesliga
   mejora, lo que confirma que el calibrador YA absorbe el sesgo de
   localía. Esto explica por qué Dixon-Coles y otras correcciones
   sistemáticas tampoco aportaron: el Platt las neutraliza.
+
+## Elo unificado europeo (LISTO, en pausa por falta de datos)
+Validado el 14-sep-2026:
+- Neutral en predicciones domésticas (+0.0001 promedio, 7 ligas)
+- +0.0278 sobre baseline en partidos UEFA (evaluado en 179 partidos)
+
+Archivos: parser_openfootball_v2.py, generar_mapeo.py, elo_unificado.py
+Mapeo: leagues/mapeo_uefa.csv (73 equipos AUTO, 117 sin puente)
+
+BLOQUEO: openfootball no tiene la temporada 2026-27. Revisar con:
+  cd ~/champions-league && git pull && ls
+
+PENDIENTES cuando haya datos:
+- Decidir qué hacer con equipos sin mapeo en fixtures reales
+- Entrada 'uefa' en LEAGUES, paso en el workflow, case en la app
+- La validación cubrió solo élite vs élite (911 de 4,023 partidos UEFA)
