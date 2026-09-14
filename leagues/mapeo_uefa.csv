@@ -1,7 +1,7 @@
 liga,football_data,openfootball,score,estado
 laliga,Alaves,,0.2,SIN_MATCH
 laliga,Almeria,,0.267,SIN_MATCH
-laliga,Ath Bilbao,athletic club,0.75,REVISAR
+laliga,Ath Bilbao,athletic club,0.75,AUTO
 laliga,Ath Madrid,atlético madrid,1.0,AUTO
 laliga,Barcelona,barcelona,1.0,AUTO
 laliga,Betis,real betis,0.917,AUTO
@@ -32,7 +32,7 @@ premier,Arsenal,arsenal,1.0,AUTO
 premier,Aston Villa,aston villa,1.0,AUTO
 premier,Bournemouth,,0.143,SIN_MATCH
 premier,Brentford,,0.15,SIN_MATCH
-premier,Brighton,brighton & hove albion,0.779,REVISAR
+premier,Brighton,brighton & hove albion,0.779,AUTO
 premier,Burnley,,0.171,SIN_MATCH
 premier,Chelsea,chelsea,1.0,AUTO
 premier,Coventry,,0.145,SIN_MATCH
@@ -129,8 +129,8 @@ ligue1,Monaco,monaco,1.0,AUTO
 ligue1,Montpellier,montpellier hsc,0.988,AUTO
 ligue1,Nantes,nantes,1.0,AUTO
 ligue1,Nice,ogc nice,0.917,AUTO
-ligue1,Paris FC,paris saint-germain,0.717,REVISAR
-ligue1,Paris SG,paris saint-germain,0.707,REVISAR
+ligue1,Paris FC,,0.717,SIN_MATCH
+ligue1,Paris SG,paris saint-germain,0.707,AUTO
 ligue1,Reims,,0.178,SIN_MATCH
 ligue1,Rennes,,0.267,SIN_MATCH
 ligue1,St Etienne,,0.209,SIN_MATCH
@@ -153,7 +153,7 @@ eredivisie,Heracles,,0.209,SIN_MATCH
 eredivisie,NAC Breda,,0.15,SIN_MATCH
 eredivisie,Nijmegen,,0.16,SIN_MATCH
 eredivisie,PSV Eindhoven,psv,1.0,AUTO
-eredivisie,Sparta Rotterdam,feyenoord rotterdam,0.756,REVISAR
+eredivisie,Sparta Rotterdam,,0.756,SIN_MATCH
 eredivisie,Telstar,,0.171,SIN_MATCH
 eredivisie,Twente,twente,1.0,AUTO
 eredivisie,Utrecht,utrecht,1.0,AUTO
