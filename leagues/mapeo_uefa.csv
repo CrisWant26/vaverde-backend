@@ -1,0 +1,191 @@
+liga,football_data,openfootball,score,estado
+laliga,Alaves,,0.2,SIN_MATCH
+laliga,Almeria,,0.267,SIN_MATCH
+laliga,Ath Bilbao,athletic club,0.75,REVISAR
+laliga,Ath Madrid,atlético madrid,1.0,AUTO
+laliga,Barcelona,barcelona,1.0,AUTO
+laliga,Betis,real betis,0.917,AUTO
+laliga,Cadiz,,0.16,SIN_MATCH
+laliga,Celta,,0.229,SIN_MATCH
+laliga,Elche,,0.178,SIN_MATCH
+laliga,Espanol,,0.188,SIN_MATCH
+laliga,Getafe,,0.15,SIN_MATCH
+laliga,Girona,girona,1.0,AUTO
+laliga,Granada,granada,1.0,AUTO
+laliga,La Coruna,,0.2,SIN_MATCH
+laliga,Las Palmas,,0.167,SIN_MATCH
+laliga,Leganes,,0.185,SIN_MATCH
+laliga,Levante,,0.171,SIN_MATCH
+laliga,Malaga,málaga,1.0,AUTO
+laliga,Mallorca,,0.229,SIN_MATCH
+laliga,Osasuna,,0.185,SIN_MATCH
+laliga,Oviedo,,0.168,SIN_MATCH
+laliga,Real Madrid,real madrid,1.0,AUTO
+laliga,Santander,,0.2,SIN_MATCH
+laliga,Sevilla,sevilla,1.0,AUTO
+laliga,Sociedad,real sociedad,0.955,AUTO
+laliga,Valencia,valencia,1.0,AUTO
+laliga,Valladolid,,0.2,SIN_MATCH
+laliga,Vallecano,rayo vallecano,0.963,AUTO
+laliga,Villarreal,villarreal,1.0,AUTO
+premier,Arsenal,arsenal,1.0,AUTO
+premier,Aston Villa,aston villa,1.0,AUTO
+premier,Bournemouth,,0.143,SIN_MATCH
+premier,Brentford,,0.15,SIN_MATCH
+premier,Brighton,brighton & hove albion,0.779,REVISAR
+premier,Burnley,,0.171,SIN_MATCH
+premier,Chelsea,chelsea,1.0,AUTO
+premier,Coventry,,0.145,SIN_MATCH
+premier,Crystal Palace,crystal palace,1.0,AUTO
+premier,Everton,,0.2,SIN_MATCH
+premier,Fulham,,0.139,SIN_MATCH
+premier,Hull,,0.145,SIN_MATCH
+premier,Ipswich,,0.114,SIN_MATCH
+premier,Leeds,,0.168,SIN_MATCH
+premier,Leicester,leicester city,0.963,AUTO
+premier,Liverpool,liverpool,1.0,AUTO
+premier,Luton,,0.15,SIN_MATCH
+premier,Man City,manchester city,1.0,AUTO
+premier,Man United,manchester united,1.0,AUTO
+premier,Newcastle,newcastle united,0.938,AUTO
+premier,Norwich,,0.114,SIN_MATCH
+premier,Nott'm Forest,,0.178,SIN_MATCH
+premier,Sheffield United,manchester united,0.792,AUTO
+premier,Southampton,,0.171,SIN_MATCH
+premier,Sunderland,,0.152,SIN_MATCH
+premier,Tottenham,tottenham hotspur,0.927,AUTO
+premier,Watford,,0.139,SIN_MATCH
+premier,West Ham,west ham united,1.0,AUTO
+premier,Wolves,,0.123,SIN_MATCH
+seriea,Atalanta,atalanta,1.0,AUTO
+seriea,Bologna,bologna,1.0,AUTO
+seriea,Cagliari,,0.15,SIN_MATCH
+seriea,Como,,0.2,SIN_MATCH
+seriea,Cremonese,,0.141,SIN_MATCH
+seriea,Empoli,,0.2,SIN_MATCH
+seriea,Fiorentina,acf fiorentina,0.983,AUTO
+seriea,Frosinone,,0.171,SIN_MATCH
+seriea,Genoa,,0.2,SIN_MATCH
+seriea,Inter,inter,1.0,AUTO
+seriea,Juventus,juventus,1.0,AUTO
+seriea,Lazio,ss lazio,0.958,AUTO
+seriea,Lecce,,0.107,SIN_MATCH
+seriea,Milan,milan,1.0,AUTO
+seriea,Monza,,0.2,SIN_MATCH
+seriea,Napoli,ssc napoli,0.95,AUTO
+seriea,Parma,,0.267,SIN_MATCH
+seriea,Pisa,,0.178,SIN_MATCH
+seriea,Roma,roma,1.0,AUTO
+seriea,Salernitana,,0.211,SIN_MATCH
+seriea,Sampdoria,,0.174,SIN_MATCH
+seriea,Sassuolo,,0.16,SIN_MATCH
+seriea,Spezia,,0.15,SIN_MATCH
+seriea,Torino,,0.16,SIN_MATCH
+seriea,Udinese,,0.2,SIN_MATCH
+seriea,Venezia,,0.16,SIN_MATCH
+seriea,Verona,,0.24,SIN_MATCH
+bundesliga,Augsburg,,0.235,SIN_MATCH
+bundesliga,Bayern Munich,bayern münchen,0.906,AUTO
+bundesliga,Bielefeld,,0.16,SIN_MATCH
+bundesliga,Bochum,,0.139,SIN_MATCH
+bundesliga,Darmstadt,,0.133,SIN_MATCH
+bundesliga,Dortmund,borussia dortmund,0.906,AUTO
+bundesliga,Ein Frankfurt,eintracht frankfurt,1.0,AUTO
+bundesliga,Elversberg,,0.215,SIN_MATCH
+bundesliga,FC Koln,1. fc köln,1.0,AUTO
+bundesliga,Freiburg,freiburg,1.0,AUTO
+bundesliga,Greuther Furth,,0.145,SIN_MATCH
+bundesliga,Hamburg,,0.213,SIN_MATCH
+bundesliga,Heidenheim,1. fc heidenheim,1.0,AUTO
+bundesliga,Hertha,,0.15,SIN_MATCH
+bundesliga,Hoffenheim,1899 hoffenheim,0.97,AUTO
+bundesliga,Holstein Kiel,,0.174,SIN_MATCH
+bundesliga,Leverkusen,bayer 04 leverkusen,0.958,AUTO
+bundesliga,M'gladbach,,0.237,SIN_MATCH
+bundesliga,Mainz,1. fsv mainz,0.936,AUTO
+bundesliga,Paderborn,,0.16,SIN_MATCH
+bundesliga,RB Leipzig,rb leipzig,1.0,AUTO
+bundesliga,Schalke 04,schalke,1.0,AUTO
+bundesliga,St Pauli,,0.133,SIN_MATCH
+bundesliga,Stuttgart,stuttgart,1.0,AUTO
+bundesliga,Union Berlin,1. fc union berlin,1.0,AUTO
+bundesliga,Werder Bremen,,0.15,SIN_MATCH
+bundesliga,Wolfsburg,wolfsburg,1.0,AUTO
+ligue1,Ajaccio,,0.185,SIN_MATCH
+ligue1,Angers,,0.267,SIN_MATCH
+ligue1,Auxerre,,0.123,SIN_MATCH
+ligue1,Bordeaux,,0.128,SIN_MATCH
+ligue1,Brest,,0.182,SIN_MATCH
+ligue1,Clermont,,0.174,SIN_MATCH
+ligue1,Le Havre,,0.178,SIN_MATCH
+ligue1,Le Mans,,0.229,SIN_MATCH
+ligue1,Lens,rc lens,0.941,AUTO
+ligue1,Lille,lille osc,0.936,AUTO
+ligue1,Lorient,,0.171,SIN_MATCH
+ligue1,Lyon,,0.16,SIN_MATCH
+ligue1,Marseille,olympique de marseille,0.907,AUTO
+ligue1,Metz,,0.094,SIN_MATCH
+ligue1,Monaco,monaco,1.0,AUTO
+ligue1,Montpellier,montpellier hsc,0.988,AUTO
+ligue1,Nantes,nantes,1.0,AUTO
+ligue1,Nice,ogc nice,0.917,AUTO
+ligue1,Paris FC,paris saint-germain,0.717,REVISAR
+ligue1,Paris SG,paris saint-germain,0.707,REVISAR
+ligue1,Reims,,0.178,SIN_MATCH
+ligue1,Rennes,,0.267,SIN_MATCH
+ligue1,St Etienne,,0.209,SIN_MATCH
+ligue1,Strasbourg,rc strasbourg,0.998,AUTO
+ligue1,Toulouse,toulouse,1.0,AUTO
+ligue1,Troyes,,0.2,SIN_MATCH
+eredivisie,AZ Alkmaar,az alkmaar,1.0,AUTO
+eredivisie,Ajax,ajax,1.0,AUTO
+eredivisie,Almere City,,0.178,SIN_MATCH
+eredivisie,Cambuur,,0.096,SIN_MATCH
+eredivisie,Den Haag,,0.16,SIN_MATCH
+eredivisie,Excelsior,,0.178,SIN_MATCH
+eredivisie,FC Emmen,,0.171,SIN_MATCH
+eredivisie,Feyenoord,feyenoord,1.0,AUTO
+eredivisie,For Sittard,,0.188,SIN_MATCH
+eredivisie,Go Ahead Eagles,go ahead eagles,1.0,AUTO
+eredivisie,Groningen,,0.123,SIN_MATCH
+eredivisie,Heerenveen,,0.15,SIN_MATCH
+eredivisie,Heracles,,0.209,SIN_MATCH
+eredivisie,NAC Breda,,0.15,SIN_MATCH
+eredivisie,Nijmegen,,0.16,SIN_MATCH
+eredivisie,PSV Eindhoven,psv,1.0,AUTO
+eredivisie,Sparta Rotterdam,feyenoord rotterdam,0.756,REVISAR
+eredivisie,Telstar,,0.171,SIN_MATCH
+eredivisie,Twente,twente,1.0,AUTO
+eredivisie,Utrecht,utrecht,1.0,AUTO
+eredivisie,Vitesse,vitesse,1.0,AUTO
+eredivisie,Volendam,,0.148,SIN_MATCH
+eredivisie,Waalwijk,,0.133,SIN_MATCH
+eredivisie,Willem II,,0.123,SIN_MATCH
+eredivisie,Zwolle,,0.133,SIN_MATCH
+primeira,AVS,,0.123,SIN_MATCH
+primeira,Academico Viseu,,0.15,SIN_MATCH
+primeira,Alverca,,0.141,SIN_MATCH
+primeira,Arouca,,0.145,SIN_MATCH
+primeira,Belenenses,,0.133,SIN_MATCH
+primeira,Benfica,sl benfica,0.979,AUTO
+primeira,Boavista,,0.16,SIN_MATCH
+primeira,Casa Pia,,0.182,SIN_MATCH
+primeira,Chaves,,0.15,SIN_MATCH
+primeira,Estoril,,0.2,SIN_MATCH
+primeira,Estrela,,0.167,SIN_MATCH
+primeira,Famalicao,,0.168,SIN_MATCH
+primeira,Farense,,0.141,SIN_MATCH
+primeira,Gil Vicente,,0.171,SIN_MATCH
+primeira,Guimaraes,vitória guimarães,0.927,AUTO
+primeira,Maritimo,,0.192,SIN_MATCH
+primeira,Moreirense,,0.152,SIN_MATCH
+primeira,Nacional,,0.143,SIN_MATCH
+primeira,Pacos Ferreira,,0.167,SIN_MATCH
+primeira,Portimonense,,0.235,SIN_MATCH
+primeira,Porto,porto,1.0,AUTO
+primeira,Rio Ave,,0.152,SIN_MATCH
+primeira,Santa Clara,cd santa clara,1.0,AUTO
+primeira,Sp Braga,sporting braga,1.0,AUTO
+primeira,Sp Lisbon,sporting cp,0.827,AUTO
+primeira,Tondela,,0.133,SIN_MATCH
+primeira,Vizela,,0.104,SIN_MATCH
