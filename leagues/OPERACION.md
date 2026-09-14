@@ -55,3 +55,16 @@ Premier League, Serie A, Ligue 1, Bundesliga
 - Córners como mercado (Poisson/NegBin, 4 líneas, Premier y LaLiga):
   ningún modelo le gana al promedio simple de la liga. Los córners
   quedan como TENDENCIA DESCRIPTIVA, no como probabilidad.
+- Entrenar solo con 3 temporadas recientes: -0.0096 promedio, mejora
+  solo en 3 de 9 ligas. NOTA: la localía SÍ bajó (8 de 9 ligas, -2.6%
+  promedio) y el home_adv reciente es menor en 8 de 9, pero entrenar
+  con menos datos pierde precisión en ataque/defensa y sale peor neto.
+- Entrenar solo con 3 temporadas recientes: -0.0096, gana en 3/9. La
+  localía SÍ bajó (8/9 ligas, -2.6%) pero entrenar con menos datos
+  pierde precisión en ataque/defensa y sale peor neto.
+- Corregir SOLO home_adv (4 variantes: reciente, promediado, con y sin
+  recalibrar Platt): -0.0005 a +0.0000, gana en 4-5/9. CONCLUSIÓN
+  IMPORTANTE: la variante que recalibra Platt da exactamente 0.0000 de
+  mejora, lo que confirma que el calibrador YA absorbe el sesgo de
+  localía. Esto explica por qué Dixon-Coles y otras correcciones
+  sistemáticas tampoco aportaron: el Platt las neutraliza.
