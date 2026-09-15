@@ -1,12 +1,391 @@
 {
- "generated_at": "2026-09-15T05:01:31+00:00",
+ "generated_at": "2026-09-15T04:51:24+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Ligue 1",
  "training_matches": 4649,
  "last_result_date": "2026-09-13",
- "model_brier": 0.2201,
+ "model_brier": 0.2202,
  "model_brier_baseline": 0.2458,
- "matches": [],
+ "matches": [
+  {
+   "date": "2026-09-18",
+   "home": "Monaco",
+   "away": "Lens",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.46,
+   "p_draw": 0.269,
+   "p_away": 0.27,
+   "p_over25": 0.553,
+   "p_btts": 0.571,
+   "xg_home": 1.69,
+   "xg_away": 1.21,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 6.0,
+     "corners_against": 4.1,
+     "shots_on_target_for": 4.7,
+     "shots_on_target_against": 4.6,
+     "yellow_cards_for": 1.7,
+     "yellow_cards_against": 1.6
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 7.7,
+     "corners_against": 4.7,
+     "shots_on_target_for": 7.1,
+     "shots_on_target_against": 3.6,
+     "yellow_cards_for": 2.3,
+     "yellow_cards_against": 1.5
+    },
+    "liga": {
+     "partidos": 621,
+     "corners_total": 9.5,
+     "shots_on_target_total": 9.0,
+     "yellow_cards_total": 3.7
+    }
+   }
+  },
+  {
+   "date": "2026-09-19",
+   "home": "Paris FC",
+   "away": "Strasbourg",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.461,
+   "p_draw": 0.269,
+   "p_away": 0.27,
+   "p_over25": 0.552,
+   "p_btts": 0.571,
+   "xg_home": 1.68,
+   "xg_away": 1.21,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 3.7,
+     "corners_against": 5.2,
+     "shots_on_target_for": 4.9,
+     "shots_on_target_against": 3.5,
+     "yellow_cards_for": 2.0,
+     "yellow_cards_against": 1.1
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 3.6,
+     "corners_against": 5.9,
+     "shots_on_target_for": 5.1,
+     "shots_on_target_against": 6.3,
+     "yellow_cards_for": 1.3,
+     "yellow_cards_against": 1.4
+    },
+    "liga": {
+     "partidos": 621,
+     "corners_total": 9.5,
+     "shots_on_target_total": 9.0,
+     "yellow_cards_total": 3.7
+    }
+   }
+  },
+  {
+   "date": "2026-09-19",
+   "home": "Angers",
+   "away": "Troyes",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.523,
+   "p_draw": 0.271,
+   "p_away": 0.206,
+   "p_over25": 0.443,
+   "p_btts": 0.459,
+   "xg_home": 1.59,
+   "xg_away": 0.86,
+   "likely_score": "1-0",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 5.7,
+     "corners_against": 5.0,
+     "shots_on_target_for": 3.1,
+     "shots_on_target_against": 7.2,
+     "yellow_cards_for": 1.6,
+     "yellow_cards_against": 1.7
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 4.6,
+     "corners_against": 6.3,
+     "shots_on_target_for": 2.9,
+     "shots_on_target_against": 7.6,
+     "yellow_cards_for": 0.7,
+     "yellow_cards_against": 1.1
+    },
+    "liga": {
+     "partidos": 621,
+     "corners_total": 9.5,
+     "shots_on_target_total": 9.0,
+     "yellow_cards_total": 3.7
+    }
+   }
+  },
+  {
+   "date": "2026-09-19",
+   "home": "Le Mans",
+   "away": "Lorient",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.411,
+   "p_draw": 0.282,
+   "p_away": 0.307,
+   "p_over25": 0.501,
+   "p_btts": 0.542,
+   "xg_home": 1.44,
+   "xg_away": 1.24,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 4,
+     "corners_for": 3.0,
+     "corners_against": 8.0,
+     "shots_on_target_for": 4.5,
+     "shots_on_target_against": 5.8,
+     "yellow_cards_for": 1.8,
+     "yellow_cards_against": 2.2
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 3.6,
+     "corners_against": 6.3,
+     "shots_on_target_for": 4.2,
+     "shots_on_target_against": 3.7,
+     "yellow_cards_for": 0.9,
+     "yellow_cards_against": 1.8
+    },
+    "liga": {
+     "partidos": 621,
+     "corners_total": 9.5,
+     "shots_on_target_total": 9.0,
+     "yellow_cards_total": 3.7
+    }
+   }
+  },
+  {
+   "date": "2026-09-19",
+   "home": "Lyon",
+   "away": "Rennes",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.46,
+   "p_draw": 0.268,
+   "p_away": 0.272,
+   "p_over25": 0.562,
+   "p_btts": 0.579,
+   "xg_home": 1.71,
+   "xg_away": 1.23,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 7.2,
+     "corners_against": 6.2,
+     "shots_on_target_for": 4.8,
+     "shots_on_target_against": 4.2,
+     "yellow_cards_for": 1.4,
+     "yellow_cards_against": 2.8
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 6.7,
+     "corners_against": 5.9,
+     "shots_on_target_for": 6.0,
+     "shots_on_target_against": 5.2,
+     "yellow_cards_for": 1.5,
+     "yellow_cards_against": 1.8
+    },
+    "liga": {
+     "partidos": 621,
+     "corners_total": 9.5,
+     "shots_on_target_total": 9.0,
+     "yellow_cards_total": 3.7
+    }
+   }
+  },
+  {
+   "date": "2026-09-19",
+   "home": "Toulouse",
+   "away": "Le Havre",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.467,
+   "p_draw": 0.285,
+   "p_away": 0.247,
+   "p_over25": 0.433,
+   "p_btts": 0.474,
+   "xg_home": 1.44,
+   "xg_away": 0.97,
+   "likely_score": "1-0",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 3.8,
+     "corners_against": 5.4,
+     "shots_on_target_for": 3.9,
+     "shots_on_target_against": 5.4,
+     "yellow_cards_for": 2.0,
+     "yellow_cards_against": 1.1
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 4.1,
+     "corners_against": 5.2,
+     "shots_on_target_for": 4.5,
+     "shots_on_target_against": 5.2,
+     "yellow_cards_for": 2.2,
+     "yellow_cards_against": 1.3
+    },
+    "liga": {
+     "partidos": 621,
+     "corners_total": 9.5,
+     "shots_on_target_total": 9.0,
+     "yellow_cards_total": 3.7
+    }
+   }
+  },
+  {
+   "date": "2026-09-20",
+   "home": "Nice",
+   "away": "Lille",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.321,
+   "p_draw": 0.304,
+   "p_away": 0.375,
+   "p_over25": 0.369,
+   "p_btts": 0.433,
+   "xg_home": 0.96,
+   "xg_away": 1.21,
+   "likely_score": "0-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 5.3,
+     "corners_against": 4.6,
+     "shots_on_target_for": 3.1,
+     "shots_on_target_against": 4.2,
+     "yellow_cards_for": 1.2,
+     "yellow_cards_against": 1.6
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 3.7,
+     "corners_against": 5.0,
+     "shots_on_target_for": 5.4,
+     "shots_on_target_against": 3.0,
+     "yellow_cards_for": 1.9,
+     "yellow_cards_against": 1.9
+    },
+    "liga": {
+     "partidos": 621,
+     "corners_total": 9.5,
+     "shots_on_target_total": 9.0,
+     "yellow_cards_total": 3.7
+    }
+   }
+  },
+  {
+   "date": "2026-09-20",
+   "home": "Auxerre",
+   "away": "Brest",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.404,
+   "p_draw": 0.282,
+   "p_away": 0.314,
+   "p_over25": 0.505,
+   "p_btts": 0.546,
+   "xg_home": 1.44,
+   "xg_away": 1.26,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 4.7,
+     "corners_against": 6.1,
+     "shots_on_target_for": 4.8,
+     "shots_on_target_against": 5.4,
+     "yellow_cards_for": 1.7,
+     "yellow_cards_against": 2.0
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 4.1,
+     "corners_against": 5.4,
+     "shots_on_target_for": 4.6,
+     "shots_on_target_against": 5.0,
+     "yellow_cards_for": 1.2,
+     "yellow_cards_against": 1.6
+    },
+    "liga": {
+     "partidos": 621,
+     "corners_total": 9.5,
+     "shots_on_target_total": 9.0,
+     "yellow_cards_total": 3.7
+    }
+   }
+  },
+  {
+   "date": "2026-09-20",
+   "home": "Marseille",
+   "away": "Paris SG",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.255,
+   "p_draw": 0.251,
+   "p_away": 0.495,
+   "p_over25": 0.601,
+   "p_btts": 0.596,
+   "xg_home": 1.21,
+   "xg_away": 1.9,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 5.3,
+     "corners_against": 4.3,
+     "shots_on_target_for": 5.9,
+     "shots_on_target_against": 4.3,
+     "yellow_cards_for": 2.1,
+     "yellow_cards_against": 1.8
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 6.5,
+     "corners_against": 2.7,
+     "shots_on_target_for": 5.9,
+     "shots_on_target_against": 4.2,
+     "yellow_cards_for": 1.3,
+     "yellow_cards_against": 1.0
+    },
+    "liga": {
+     "partidos": 621,
+     "corners_total": 9.5,
+     "shots_on_target_total": 9.0,
+     "yellow_cards_total": 3.7
+    }
+   }
+  }
+ ],
  "champion_probs": null,
  "history": {
   "matches": [

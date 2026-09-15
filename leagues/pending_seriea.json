@@ -9,5 +9,115 @@
   "likely_score": "2-0",
   "xg_home": 2.07,
   "xg_away": 0.66
+ },
+ {
+  "date": "2026-09-18",
+  "home": "Monza",
+  "away": "Sassuolo",
+  "p_home": 0.264,
+  "p_draw": 0.274,
+  "p_away": 0.462,
+  "likely_score": "1-1",
+  "xg_home": 1.13,
+  "xg_away": 1.62
+ },
+ {
+  "date": "2026-09-19",
+  "home": "Venezia",
+  "away": "Lazio",
+  "p_home": 0.167,
+  "p_draw": 0.228,
+  "p_away": 0.605,
+  "likely_score": "0-1",
+  "xg_home": 0.85,
+  "xg_away": 1.91
+ },
+ {
+  "date": "2026-09-19",
+  "home": "Bologna",
+  "away": "Torino",
+  "p_home": 0.407,
+  "p_draw": 0.304,
+  "p_away": 0.288,
+  "likely_score": "1-1",
+  "xg_home": 1.35,
+  "xg_away": 1.11
+ },
+ {
+  "date": "2026-09-19",
+  "home": "Udinese",
+  "away": "Cagliari",
+  "p_home": 0.436,
+  "p_draw": 0.298,
+  "p_away": 0.265,
+  "likely_score": "1-1",
+  "xg_home": 1.45,
+  "xg_away": 1.08
+ },
+ {
+  "date": "2026-09-19",
+  "home": "Roma",
+  "away": "Inter",
+  "p_home": 0.349,
+  "p_draw": 0.293,
+  "p_away": 0.358,
+  "likely_score": "1-1",
+  "xg_home": 1.32,
+  "xg_away": 1.36
+ },
+ {
+  "date": "2026-09-20",
+  "home": "Parma",
+  "away": "Genoa",
+  "p_home": 0.385,
+  "p_draw": 0.307,
+  "p_away": 0.308,
+  "likely_score": "1-1",
+  "xg_home": 1.29,
+  "xg_away": 1.14
+ },
+ {
+  "date": "2026-09-20",
+  "home": "Juventus",
+  "away": "Atalanta",
+  "p_home": 0.487,
+  "p_draw": 0.288,
+  "p_away": 0.225,
+  "likely_score": "1-0",
+  "xg_home": 1.59,
+  "xg_away": 0.99
+ },
+ {
+  "date": "2026-09-20",
+  "home": "Fiorentina",
+  "away": "Napoli",
+  "p_home": 0.265,
+  "p_draw": 0.273,
+  "p_away": 0.462,
+  "likely_score": "1-1",
+  "xg_home": 1.15,
+  "xg_away": 1.63
+ },
+ {
+  "date": "2026-09-20",
+  "home": "Frosinone",
+  "away": "Como",
+  "p_home": 0.134,
+  "p_draw": 0.201,
+  "p_away": 0.665,
+  "likely_score": "0-2",
+  "xg_home": 0.78,
+  "xg_away": 2.09
+ },
+ {
+  "date": "2026-09-20",
+  "home": "Milan",
+  "away": "Lecce",
+  "p_home": 0.622,
+  "p_draw": 0.245,
+  "p_away": 0.133,
+  "likely_score": "1-0",
+  "xg_home": 1.89,
+  "xg_away": 0.71
  }
 ]

@@ -1,0 +1,37 @@
+date,home,away,home_score,away_score,competicion
+2026-09-08,AEK Athens,LASK,1,0,CL
+2026-09-08,Club Brugge,Aston Villa,2,3,CL
+2026-09-08,Dortmund,Villarreal,3,2,CL
+2026-09-08,Porto,Man City,0,2,CL
+2026-09-08,Lille,Betis,2,3,CL
+2026-09-08,Real Madrid,Inter,2,1,CL
+2026-09-09,Barcelona,Feyenoord,5,1,CL
+2026-09-09,Stuttgart,Viking,3,1,CL
+2026-09-09,Liverpool,Ath Madrid,2,1,CL
+2026-09-09,Paris SG,Slovan Bratislava,6,1,CL
+2026-09-09,Sp Lisbon,Galatasaray,3,1,CL
+2026-09-09,Napoli,Arsenal,0,1,CL
+2026-09-10,Fenerbahce,Roma,1,1,CL
+2026-09-10,PSV Eindhoven,Shakhtar Donetsk,1,1,CL
+2026-09-10,Como,RB Leipzig,4,1,CL
+2026-09-10,Bayern Munich,Bodo/Glimt,5,0,CL
+2026-09-10,Man United,Sabah,4,0,CL
+2026-09-10,Slavia Prague,Lens,2,3,CL
+2026-10-13,Lens,Sp Lisbon,NA,NA,CL
+2026-10-13,Sabah,Slavia Prague,NA,NA,CL
+2026-10-13,Arsenal,Lille,NA,NA,CL
+2026-10-13,Ath Madrid,Man United,NA,NA,CL
+2026-10-13,Inter,Club Brugge,NA,NA,CL
+2026-10-13,Galatasaray,Barcelona,NA,NA,CL
+2026-10-13,RB Leipzig,PSV Eindhoven,NA,NA,CL
+2026-10-13,Viking,Bayern Munich,NA,NA,CL
+2026-10-13,Villarreal,Napoli,NA,NA,CL
+2026-10-14,Feyenoord,Como,NA,NA,CL
+2026-10-14,LASK,Liverpool,NA,NA,CL
+2026-10-14,Roma,Real Madrid,NA,NA,CL
+2026-10-14,Aston Villa,Fenerbahce,NA,NA,CL
+2026-10-14,Shakhtar Donetsk,AEK Athens,NA,NA,CL
+2026-10-14,Bodo/Glimt,Dortmund,NA,NA,CL
+2026-10-14,Man City,Paris SG,NA,NA,CL
+2026-10-14,Betis,Porto,NA,NA,CL
+2026-10-14,Slovan Bratislava,Stuttgart,NA,NA,CL

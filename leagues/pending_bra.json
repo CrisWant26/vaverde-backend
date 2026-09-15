@@ -119,5 +119,115 @@
   "likely_score": "1-0",
   "xg_home": 1.42,
   "xg_away": 0.91
+ },
+ {
+  "date": "2026-09-19",
+  "home": "Sao Paulo",
+  "away": "Internacional",
+  "p_home": 0.488,
+  "p_draw": 0.281,
+  "p_away": 0.231,
+  "likely_score": "1-0",
+  "xg_home": 1.39,
+  "xg_away": 0.86
+ },
+ {
+  "date": "2026-09-19",
+  "home": "Atletico-MG",
+  "away": "Chapecoense-SC",
+  "p_home": 0.647,
+  "p_draw": 0.204,
+  "p_away": 0.149,
+  "likely_score": "2-0",
+  "xg_home": 2.14,
+  "xg_away": 0.7
+ },
+ {
+  "date": "2026-09-19",
+  "home": "Mirassol",
+  "away": "Botafogo RJ",
+  "p_home": 0.49,
+  "p_draw": 0.255,
+  "p_away": 0.255,
+  "likely_score": "1-1",
+  "xg_home": 1.58,
+  "xg_away": 1.02
+ },
+ {
+  "date": "2026-09-19",
+  "home": "Remo",
+  "away": "Santos",
+  "p_home": 0.403,
+  "p_draw": 0.284,
+  "p_away": 0.314,
+  "likely_score": "1-1",
+  "xg_home": 1.16,
+  "xg_away": 1.12
+ },
+ {
+  "date": "2026-09-19",
+  "home": "Vasco",
+  "away": "Coritiba",
+  "p_home": 0.456,
+  "p_draw": 0.266,
+  "p_away": 0.278,
+  "likely_score": "1-1",
+  "xg_home": 1.42,
+  "xg_away": 1.07
+ },
+ {
+  "date": "2026-09-20",
+  "home": "Vitoria",
+  "away": "Cruzeiro",
+  "p_home": 0.381,
+  "p_draw": 0.269,
+  "p_away": 0.351,
+  "likely_score": "1-1",
+  "xg_home": 1.17,
+  "xg_away": 1.27
+ },
+ {
+  "date": "2026-09-20",
+  "home": "Flamengo RJ",
+  "away": "Bragantino",
+  "p_home": 0.609,
+  "p_draw": 0.212,
+  "p_away": 0.178,
+  "likely_score": "2-0",
+  "xg_home": 2.08,
+  "xg_away": 0.83
+ },
+ {
+  "date": "2026-09-20",
+  "home": "Gremio",
+  "away": "Palmeiras",
+  "p_home": 0.37,
+  "p_draw": 0.272,
+  "p_away": 0.358,
+  "likely_score": "1-1",
+  "xg_home": 1.11,
+  "xg_away": 1.28
+ },
+ {
+  "date": "2026-09-20",
+  "home": "Corinthians",
+  "away": "Fluminense",
+  "p_home": 0.437,
+  "p_draw": 0.298,
+  "p_away": 0.265,
+  "likely_score": "1-0",
+  "xg_home": 1.19,
+  "xg_away": 0.94
+ },
+ {
+  "date": "2026-09-20",
+  "home": "Athletico-PR",
+  "away": "Bahia",
+  "p_home": 0.491,
+  "p_draw": 0.273,
+  "p_away": 0.236,
+  "likely_score": "1-0",
+  "xg_home": 1.45,
+  "xg_away": 0.9
  }
 ]
