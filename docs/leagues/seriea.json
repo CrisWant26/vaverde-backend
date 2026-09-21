@@ -1,562 +1,205 @@
 {
- "generated_at": "2026-09-15T04:50:56+00:00",
+ "generated_at": "2026-09-21T18:13:37+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Serie A",
- "training_matches": 4980,
- "last_result_date": "2026-09-14",
- "model_brier": 0.2096,
- "model_brier_baseline": 0.2383,
- "matches": [
-  {
-   "date": "2026-09-14",
-   "home": "Inter",
-   "away": "Udinese",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.699,
-   "p_draw": 0.2,
-   "p_away": 0.101,
-   "p_over25": 0.585,
-   "p_btts": 0.464,
-   "xg_home": 2.31,
-   "xg_away": 0.72,
-   "likely_score": "2-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 6.1,
-     "corners_against": 4.2,
-     "shots_on_target_for": 6.3,
-     "shots_on_target_against": 3.1,
-     "yellow_cards_for": 1.1,
-     "yellow_cards_against": 1.4
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.9,
-     "corners_against": 5.8,
-     "shots_on_target_for": 4.8,
-     "shots_on_target_against": 5.1,
-     "yellow_cards_for": 1.8,
-     "yellow_cards_against": 1.1
-    },
-    "liga": {
-     "partidos": 770,
-     "corners_total": 9.1,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
-  {
-   "date": "2026-09-14",
-   "home": "Como",
-   "away": "Parma",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.69,
-   "p_draw": 0.206,
-   "p_away": 0.104,
-   "p_over25": 0.565,
-   "p_btts": 0.453,
-   "xg_home": 2.24,
-   "xg_away": 0.71,
-   "likely_score": "2-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 7.2,
-     "corners_against": 3.2,
-     "shots_on_target_for": 5.5,
-     "shots_on_target_against": 2.3,
-     "yellow_cards_for": 1.4,
-     "yellow_cards_against": 1.6
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.6,
-     "corners_against": 7.0,
-     "shots_on_target_for": 2.6,
-     "shots_on_target_against": 4.9,
-     "yellow_cards_for": 1.2,
-     "yellow_cards_against": 1.6
-    },
-    "liga": {
-     "partidos": 770,
-     "corners_total": 9.1,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
-  {
-   "date": "2026-09-14",
-   "home": "Torino",
-   "away": "Roma",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.217,
-   "p_draw": 0.26,
-   "p_away": 0.523,
-   "p_over25": 0.501,
-   "p_btts": 0.508,
-   "xg_home": 0.97,
-   "xg_away": 1.71,
-   "likely_score": "0-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 3.3,
-     "corners_against": 5.1,
-     "shots_on_target_for": 2.8,
-     "shots_on_target_against": 5.4,
-     "yellow_cards_for": 1.2,
-     "yellow_cards_against": 1.4
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 6.3,
-     "corners_against": 3.7,
-     "shots_on_target_for": 7.0,
-     "shots_on_target_against": 2.5,
-     "yellow_cards_for": 1.5,
-     "yellow_cards_against": 1.8
-    },
-    "liga": {
-     "partidos": 770,
-     "corners_total": 9.1,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
-  {
-   "date": "2026-09-18",
-   "home": "Monza",
-   "away": "Sassuolo",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.264,
-   "p_draw": 0.274,
-   "p_away": 0.462,
-   "p_over25": 0.52,
-   "p_btts": 0.544,
-   "xg_home": 1.13,
-   "xg_away": 1.62,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 3.7,
-     "corners_against": 4.7,
-     "shots_on_target_for": 4.2,
-     "shots_on_target_against": 4.6,
-     "yellow_cards_for": 1.7,
-     "yellow_cards_against": 1.6
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.7,
-     "corners_against": 6.1,
-     "shots_on_target_for": 5.0,
-     "shots_on_target_against": 4.6,
-     "yellow_cards_for": 1.9,
-     "yellow_cards_against": 2.5
-    },
-    "liga": {
-     "partidos": 770,
-     "corners_total": 9.1,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
-  {
-   "date": "2026-09-19",
-   "home": "Venezia",
-   "away": "Lazio",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.167,
-   "p_draw": 0.228,
-   "p_away": 0.605,
-   "p_over25": 0.523,
-   "p_btts": 0.49,
-   "xg_home": 0.85,
-   "xg_away": 1.91,
-   "likely_score": "0-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 4.0,
-     "corners_against": 4.2,
-     "shots_on_target_for": 3.8,
-     "shots_on_target_against": 4.9,
-     "yellow_cards_for": 1.5,
-     "yellow_cards_against": 1.7
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 4.0,
-     "corners_against": 4.7,
-     "shots_on_target_for": 4.8,
-     "shots_on_target_against": 4.5,
-     "yellow_cards_for": 2.3,
-     "yellow_cards_against": 2.1
-    },
-    "liga": {
-     "partidos": 770,
-     "corners_total": 9.1,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
-  {
-   "date": "2026-09-19",
-   "home": "Bologna",
-   "away": "Torino",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.407,
-   "p_draw": 0.304,
-   "p_away": 0.288,
-   "p_over25": 0.447,
-   "p_btts": 0.497,
-   "xg_home": 1.35,
-   "xg_away": 1.11,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 4.2,
-     "corners_against": 5.2,
-     "shots_on_target_for": 3.3,
-     "shots_on_target_against": 3.3,
-     "yellow_cards_for": 1.5,
-     "yellow_cards_against": 1.5
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.3,
-     "corners_against": 5.1,
-     "shots_on_target_for": 2.8,
-     "shots_on_target_against": 5.4,
-     "yellow_cards_for": 1.2,
-     "yellow_cards_against": 1.4
-    },
-    "liga": {
-     "partidos": 770,
-     "corners_total": 9.1,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
-  {
-   "date": "2026-09-19",
-   "home": "Udinese",
-   "away": "Cagliari",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.436,
-   "p_draw": 0.298,
-   "p_away": 0.265,
-   "p_over25": 0.463,
-   "p_btts": 0.505,
-   "xg_home": 1.45,
-   "xg_away": 1.08,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 3.9,
-     "corners_against": 5.8,
-     "shots_on_target_for": 4.8,
-     "shots_on_target_against": 5.1,
-     "yellow_cards_for": 1.8,
-     "yellow_cards_against": 1.1
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 5.2,
-     "corners_against": 4.4,
-     "shots_on_target_for": 4.5,
-     "shots_on_target_against": 4.3,
-     "yellow_cards_for": 1.2,
-     "yellow_cards_against": 1.0
-    },
-    "liga": {
-     "partidos": 770,
-     "corners_total": 9.1,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
-  {
-   "date": "2026-09-19",
-   "home": "Roma",
-   "away": "Inter",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.349,
-   "p_draw": 0.293,
-   "p_away": 0.358,
-   "p_over25": 0.502,
-   "p_btts": 0.545,
-   "xg_home": 1.32,
-   "xg_away": 1.36,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 6.3,
-     "corners_against": 3.7,
-     "shots_on_target_for": 7.0,
-     "shots_on_target_against": 2.5,
-     "yellow_cards_for": 1.5,
-     "yellow_cards_against": 1.8
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 6.1,
-     "corners_against": 4.2,
-     "shots_on_target_for": 6.3,
-     "shots_on_target_against": 3.1,
-     "yellow_cards_for": 1.1,
-     "yellow_cards_against": 1.4
-    },
-    "liga": {
-     "partidos": 770,
-     "corners_total": 9.1,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
-  {
-   "date": "2026-09-20",
-   "home": "Parma",
-   "away": "Genoa",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.385,
-   "p_draw": 0.307,
-   "p_away": 0.308,
-   "p_over25": 0.438,
-   "p_btts": 0.493,
-   "xg_home": 1.29,
-   "xg_away": 1.14,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 3.6,
-     "corners_against": 7.0,
-     "shots_on_target_for": 2.6,
-     "shots_on_target_against": 4.9,
-     "yellow_cards_for": 1.2,
-     "yellow_cards_against": 1.6
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 4.2,
-     "corners_against": 4.5,
-     "shots_on_target_for": 2.4,
-     "shots_on_target_against": 4.5,
-     "yellow_cards_for": 1.4,
-     "yellow_cards_against": 1.8
-    },
-    "liga": {
-     "partidos": 770,
-     "corners_total": 9.1,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
-  {
-   "date": "2026-09-20",
-   "home": "Juventus",
-   "away": "Atalanta",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.487,
-   "p_draw": 0.288,
-   "p_away": 0.225,
-   "p_over25": 0.476,
-   "p_btts": 0.5,
-   "xg_home": 1.59,
-   "xg_away": 0.99,
-   "likely_score": "1-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 8.1,
-     "corners_against": 2.1,
-     "shots_on_target_for": 5.9,
-     "shots_on_target_against": 2.8,
-     "yellow_cards_for": 1.6,
-     "yellow_cards_against": 2.1
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.4,
-     "corners_against": 4.5,
-     "shots_on_target_for": 4.2,
-     "shots_on_target_against": 5.9,
-     "yellow_cards_for": 1.2,
-     "yellow_cards_against": 0.7
-    },
-    "liga": {
-     "partidos": 770,
-     "corners_total": 9.1,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
-  {
-   "date": "2026-09-20",
-   "home": "Fiorentina",
-   "away": "Napoli",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.265,
-   "p_draw": 0.273,
-   "p_away": 0.462,
-   "p_over25": 0.526,
-   "p_btts": 0.549,
-   "xg_home": 1.15,
-   "xg_away": 1.63,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 4.1,
-     "corners_against": 3.9,
-     "shots_on_target_for": 4.2,
-     "shots_on_target_against": 5.1,
-     "yellow_cards_for": 1.7,
-     "yellow_cards_against": 1.5
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 5.9,
-     "corners_against": 3.5,
-     "shots_on_target_for": 4.2,
-     "shots_on_target_against": 4.3,
-     "yellow_cards_for": 0.9,
-     "yellow_cards_against": 1.7
-    },
-    "liga": {
-     "partidos": 770,
-     "corners_total": 9.1,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
-  {
-   "date": "2026-09-20",
-   "home": "Frosinone",
-   "away": "Como",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.134,
-   "p_draw": 0.201,
-   "p_away": 0.665,
-   "p_over25": 0.546,
-   "p_btts": 0.474,
-   "xg_home": 0.78,
-   "xg_away": 2.09,
-   "likely_score": "0-2",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 6.4,
-     "corners_against": 5.0,
-     "shots_on_target_for": 5.2,
-     "shots_on_target_against": 3.5,
-     "yellow_cards_for": 1.8,
-     "yellow_cards_against": 2.1
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 7.2,
-     "corners_against": 3.2,
-     "shots_on_target_for": 5.5,
-     "shots_on_target_against": 2.3,
-     "yellow_cards_for": 1.4,
-     "yellow_cards_against": 1.6
-    },
-    "liga": {
-     "partidos": 770,
-     "corners_total": 9.1,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
-  {
-   "date": "2026-09-20",
-   "home": "Milan",
-   "away": "Lecce",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.622,
-   "p_draw": 0.245,
-   "p_away": 0.133,
-   "p_over25": 0.483,
-   "p_btts": 0.433,
-   "xg_home": 1.89,
-   "xg_away": 0.71,
-   "likely_score": "1-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 2.8,
-     "corners_against": 3.6,
-     "shots_on_target_for": 4.0,
-     "shots_on_target_against": 4.2,
-     "yellow_cards_for": 2.2,
-     "yellow_cards_against": 2.2
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.4,
-     "corners_against": 4.4,
-     "shots_on_target_for": 3.7,
-     "shots_on_target_against": 6.1,
-     "yellow_cards_for": 2.5,
-     "yellow_cards_against": 1.5
-    },
-    "liga": {
-     "partidos": 770,
-     "corners_total": 9.1,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 3.7
-    }
-   }
-  }
- ],
+ "training_matches": 4990,
+ "last_result_date": "2026-09-20",
+ "model_brier": 0.21,
+ "model_brier_baseline": 0.2387,
+ "matches": [],
  "champion_probs": null,
  "history": {
   "matches": [
+   {
+    "date": "2026-09-20",
+    "home": "Parma",
+    "away": "Genoa",
+    "p_home": 0.385,
+    "p_draw": 0.307,
+    "p_away": 0.308,
+    "likely_score": "1-1",
+    "xg_home": 1.29,
+    "xg_away": 1.14,
+    "real_home": 2,
+    "real_away": 1,
+    "outcome": "home",
+    "fav_hit": false,
+    "tier": "pleno",
+    "p_fav": 0.385,
+    "p_outcome": 0.385,
+    "score_outcome": "draw"
+   },
+   {
+    "date": "2026-09-20",
+    "home": "Juventus",
+    "away": "Atalanta",
+    "p_home": 0.487,
+    "p_draw": 0.288,
+    "p_away": 0.225,
+    "likely_score": "1-0",
+    "xg_home": 1.59,
+    "xg_away": 0.99,
+    "real_home": 2,
+    "real_away": 0,
+    "outcome": "home",
+    "fav_hit": true,
+    "tier": "pleno",
+    "p_fav": 0.487,
+    "p_outcome": 0.487,
+    "score_outcome": "home"
+   },
+   {
+    "date": "2026-09-20",
+    "home": "Fiorentina",
+    "away": "Napoli",
+    "p_home": 0.265,
+    "p_draw": 0.273,
+    "p_away": 0.462,
+    "likely_score": "1-1",
+    "xg_home": 1.15,
+    "xg_away": 1.63,
+    "real_home": 1,
+    "real_away": 1,
+    "outcome": "draw",
+    "fav_hit": true,
+    "tier": "fallo",
+    "p_fav": 0.462,
+    "p_outcome": 0.273,
+    "score_outcome": "draw"
+   },
+   {
+    "date": "2026-09-20",
+    "home": "Frosinone",
+    "away": "Como",
+    "p_home": 0.134,
+    "p_draw": 0.201,
+    "p_away": 0.665,
+    "likely_score": "0-2",
+    "xg_home": 0.78,
+    "xg_away": 2.09,
+    "real_home": 2,
+    "real_away": 0,
+    "outcome": "home",
+    "fav_hit": false,
+    "tier": "fallo",
+    "p_fav": 0.665,
+    "p_outcome": 0.134,
+    "score_outcome": "away"
+   },
+   {
+    "date": "2026-09-20",
+    "home": "Milan",
+    "away": "Lecce",
+    "p_home": 0.622,
+    "p_draw": 0.245,
+    "p_away": 0.133,
+    "likely_score": "1-0",
+    "xg_home": 1.89,
+    "xg_away": 0.71,
+    "real_home": 3,
+    "real_away": 0,
+    "outcome": "home",
+    "fav_hit": true,
+    "tier": "pleno",
+    "p_fav": 0.622,
+    "p_outcome": 0.622,
+    "score_outcome": "home"
+   },
+   {
+    "date": "2026-09-19",
+    "home": "Venezia",
+    "away": "Lazio",
+    "p_home": 0.167,
+    "p_draw": 0.228,
+    "p_away": 0.605,
+    "likely_score": "0-1",
+    "xg_home": 0.85,
+    "xg_away": 1.91,
+    "real_home": 0,
+    "real_away": 2,
+    "outcome": "away",
+    "fav_hit": true,
+    "tier": "pleno",
+    "p_fav": 0.605,
+    "p_outcome": 0.605,
+    "score_outcome": "away"
+   },
+   {
+    "date": "2026-09-19",
+    "home": "Bologna",
+    "away": "Torino",
+    "p_home": 0.407,
+    "p_draw": 0.304,
+    "p_away": 0.288,
+    "likely_score": "1-1",
+    "xg_home": 1.35,
+    "xg_away": 1.11,
+    "real_home": 1,
+    "real_away": 1,
+    "outcome": "draw",
+    "fav_hit": true,
+    "tier": "parcial",
+    "p_fav": 0.407,
+    "p_outcome": 0.304,
+    "score_outcome": "draw"
+   },
+   {
+    "date": "2026-09-19",
+    "home": "Udinese",
+    "away": "Cagliari",
+    "p_home": 0.436,
+    "p_draw": 0.298,
+    "p_away": 0.265,
+    "likely_score": "1-1",
+    "xg_home": 1.45,
+    "xg_away": 1.08,
+    "real_home": 0,
+    "real_away": 1,
+    "outcome": "away",
+    "fav_hit": false,
+    "tier": "fallo",
+    "p_fav": 0.436,
+    "p_outcome": 0.265,
+    "score_outcome": "draw"
+   },
+   {
+    "date": "2026-09-19",
+    "home": "Roma",
+    "away": "Inter",
+    "p_home": 0.349,
+    "p_draw": 0.293,
+    "p_away": 0.358,
+    "likely_score": "1-1",
+    "xg_home": 1.32,
+    "xg_away": 1.36,
+    "real_home": 2,
+    "real_away": 2,
+    "outcome": "draw",
+    "fav_hit": true,
+    "tier": "parcial",
+    "p_fav": 0.358,
+    "p_outcome": 0.293,
+    "score_outcome": "draw"
+   },
+   {
+    "date": "2026-09-18",
+    "home": "Monza",
+    "away": "Sassuolo",
+    "p_home": 0.264,
+    "p_draw": 0.274,
+    "p_away": 0.462,
+    "likely_score": "1-1",
+    "xg_home": 1.13,
+    "xg_away": 1.62,
+    "real_home": 2,
+    "real_away": 1,
+    "outcome": "home",
+    "fav_hit": false,
+    "tier": "fallo",
+    "p_fav": 0.462,
+    "p_outcome": 0.264,
+    "score_outcome": "draw"
+   },
    {
     "date": "2026-09-14",
     "home": "Torino",
@@ -1110,13 +753,13 @@
    }
   ],
   "summary": {
-   "n": 29,
-   "plenos": 19,
-   "parciales": 1,
-   "fallos": 9,
-   "fav_hits": 19,
-   "fav_rate": 0.655,
-   "brier": 0.536
+   "n": 39,
+   "plenos": 23,
+   "parciales": 3,
+   "fallos": 13,
+   "fav_hits": 23,
+   "fav_rate": 0.59,
+   "brier": 0.568
   }
  }
 }
