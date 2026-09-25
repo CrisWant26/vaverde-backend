@@ -49508,3 +49508,161 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral
 2026-07-15,Argentina,England,2,1,FIFA World Cup,Atlanta,United States,TRUE
 2026-07-18,France,England,4,6,FIFA World Cup,Miami Gardens,United States,TRUE
 2026-07-19,Spain,Argentina,1,0,FIFA World Cup,East Rutherford,United States,TRUE
+2026-09-25,Australia,Brazil,NA,NA,Friendly,Townsville,Australia,FALSE
+2026-09-25,India,Panama,NA,NA,Friendly,Bangalore,India,FALSE
+2026-09-25,Armenia,Latvia,NA,NA,UEFA Nations League,Yerevan,Armenia,FALSE
+2026-09-25,Georgia,Northern Ireland,NA,NA,UEFA Nations League,Tbilisi,Georgia,FALSE
+2026-09-25,Hungary,Ukraine,NA,NA,UEFA Nations League,Budapest,Hungary,FALSE
+2026-09-25,Italy,Belgium,NA,NA,UEFA Nations League,Roma,Italy,FALSE
+2026-09-25,Montenegro,Cyprus,NA,NA,UEFA Nations League,Podgorica,Montenegro,FALSE
+2026-09-25,Poland,Bosnia and Herzegovina,NA,NA,UEFA Nations League,Warsaw,Poland,FALSE
+2026-09-25,Sweden,Romania,NA,NA,UEFA Nations League,Stockholm,Sweden,FALSE
+2026-09-25,Turkey,France,NA,NA,UEFA Nations League,Kocaeli,Turkey,FALSE
+2026-09-26,Canada,Chile,NA,NA,Friendly,Toronto,Canada,FALSE
+2026-09-26,Mexico,Colombia,NA,NA,Friendly,"Baltimore, Maryland",United States,TRUE
+2026-09-26,United States,Peru,NA,NA,Friendly,"Orlando, Florida",United States,FALSE
+2026-09-26,Albania,Belarus,NA,NA,UEFA Nations League,Tirana,Albania,FALSE
+2026-09-26,Bulgaria,Luxembourg,NA,NA,UEFA Nations League,Plovdiv,Bulgaria,FALSE
+2026-09-26,Czech Republic,Croatia,NA,NA,UEFA Nations League,Prague,Czech Republic,FALSE
+2026-09-26,England,Spain,NA,NA,UEFA Nations League,London,England,FALSE
+2026-09-26,Faroe Islands,Kazakhstan,NA,NA,UEFA Nations League,Tórshavn,Faroe Islands,FALSE
+2026-09-26,Iceland,Estonia,NA,NA,UEFA Nations League,Reykjavik,Iceland,FALSE
+2026-09-26,North Macedonia,Switzerland,NA,NA,UEFA Nations League,Skopje,North Macedonia,FALSE
+2026-09-26,San Marino,Finland,NA,NA,UEFA Nations League,Serravalle,San Marino,FALSE
+2026-09-26,Slovakia,Moldova,NA,NA,UEFA Nations League,Prešov,Slovakia,FALSE
+2026-09-26,Slovenia,Scotland,NA,NA,UEFA Nations League,Ljubljana,Slovenia,FALSE
+2026-09-27,Bolivia,Paraguay,NA,NA,Friendly,"Washington, District of Columbia",United States,TRUE
+2026-09-27,China,New Zealand,NA,NA,Friendly,Chongqing,China,FALSE
+2026-09-27,Cook Islands,Tahiti,NA,NA,Friendly,Avarua,Cook Islands,FALSE
+2026-09-27,Fiji,Papua New Guinea,NA,NA,Friendly,Suva,Fiji,FALSE
+2026-09-27,Jordan,Syria,NA,NA,Friendly,Amman,Jordan,FALSE
+2026-09-27,Kyrgyzstan,Maldives,NA,NA,Friendly,Bishkek,Kyrgyzstan,FALSE
+2026-09-27,Malta,Liechtenstein,NA,NA,Friendly,Attard,Malta,FALSE
+2026-09-27,Seychelles,Sri Lanka,NA,NA,Friendly,Victoria,Seychelles,FALSE
+2026-09-27,Vanuatu,New Caledonia,NA,NA,Friendly,Suva,Fiji,TRUE
+2026-09-27,Austria,Kosovo,NA,NA,UEFA Nations League,Wien,Austria,FALSE
+2026-09-27,Denmark,Wales,NA,NA,UEFA Nations League,Copenhagen,Denmark,FALSE
+2026-09-27,Germany,Greece,NA,NA,UEFA Nations League,Augsburg,Germany,FALSE
+2026-09-27,Gibraltar,Andorra,NA,NA,UEFA Nations League,Gibraltar,Gibraltar,FALSE
+2026-09-27,Israel,Republic of Ireland,NA,NA,UEFA Nations League,Debrecen,Hungary,TRUE
+2026-09-27,Lithuania,Azerbaijan,NA,NA,UEFA Nations League,Kaunas,Lithuania,FALSE
+2026-09-27,Norway,Portugal,NA,NA,UEFA Nations League,Oslo,Norway,FALSE
+2026-09-27,Serbia,Netherlands,NA,NA,UEFA Nations League,Belgrade,Serbia,FALSE
+2026-09-28,Japan,Venezuela,NA,NA,Friendly,Hiroshima,Japan,FALSE
+2026-09-28,South Korea,Uruguay,NA,NA,Friendly,Seoul,South Korea,FALSE
+2026-09-28,Tajikistan,Palestine,NA,NA,Friendly,Chongqing,China,TRUE
+2026-09-28,Armenia,Montenegro,NA,NA,UEFA Nations League,Yerevan,Armenia,FALSE
+2026-09-28,Belgium,France,NA,NA,UEFA Nations League,Brussels,Belgium,FALSE
+2026-09-28,Georgia,Ukraine,NA,NA,UEFA Nations League,Tbilisi,Georgia,FALSE
+2026-09-28,Latvia,Cyprus,NA,NA,UEFA Nations League,Riga,Latvia,FALSE
+2026-09-28,Northern Ireland,Hungary,NA,NA,UEFA Nations League,Belfast,Northern Ireland,FALSE
+2026-09-28,Romania,Bosnia and Herzegovina,NA,NA,UEFA Nations League,Bucuresti,Romania,FALSE
+2026-09-28,Sweden,Poland,NA,NA,UEFA Nations League,Stockholm,Sweden,FALSE
+2026-09-28,Turkey,Italy,NA,NA,UEFA Nations League,Bursa,Turkey,FALSE
+2026-09-29,Australia,Brazil,NA,NA,Friendly,Brisbane,Australia,FALSE
+2026-09-29,Mexico,Peru,NA,NA,Friendly,"Harrison, New Jersey",United States,TRUE
+2026-09-29,Russia,Iran,NA,NA,Friendly,Kazan,Russia,FALSE
+2026-09-29,United States,Chile,NA,NA,Friendly,"St. Louis, Missouri",United States,FALSE
+2026-09-29,Bulgaria,Estonia,NA,NA,UEFA Nations League,Plovdiv,Bulgaria,FALSE
+2026-09-29,Czech Republic,England,NA,NA,UEFA Nations League,Prague,Czech Republic,FALSE
+2026-09-29,Finland,Belarus,NA,NA,UEFA Nations League,Helsinki,Finland,FALSE
+2026-09-29,Luxembourg,Iceland,NA,NA,UEFA Nations League,Luxembourg City,Luxembourg,FALSE
+2026-09-29,Moldova,Faroe Islands,NA,NA,UEFA Nations League,Chisinau,Moldova,FALSE
+2026-09-29,San Marino,Albania,NA,NA,UEFA Nations League,Serravalle,San Marino,FALSE
+2026-09-29,Scotland,Switzerland,NA,NA,UEFA Nations League,Glasgow,Scotland,FALSE
+2026-09-29,Slovakia,Kazakhstan,NA,NA,UEFA Nations League,Kosice,Slovakia,FALSE
+2026-09-29,Slovenia,North Macedonia,NA,NA,UEFA Nations League,Ljubljana,Slovenia,FALSE
+2026-09-29,Spain,Croatia,NA,NA,UEFA Nations League,Sevilla,Spain,FALSE
+2026-09-30,Argentina,Bolivia,NA,NA,Friendly,Córdoba,Argentina,FALSE
+2026-09-30,Botswana,Mozambique,NA,NA,Friendly,Gaborone,Botswana,FALSE
+2026-09-30,Cook Islands,Tahiti,NA,NA,Friendly,Avarua,Cook Islands,FALSE
+2026-09-30,Fiji,New Caledonia,NA,NA,Friendly,Suva,Fiji,FALSE
+2026-09-30,Lithuania,Andorra,NA,NA,Friendly,Kaunas,Lithuania,FALSE
+2026-09-30,Mauritius,Djibouti,NA,NA,Friendly,TBD,TBD,FALSE
+2026-09-30,Papua New Guinea,Solomon Islands,NA,NA,Friendly,Suva,Fiji,TRUE
+2026-09-30,Seychelles,Sri Lanka,NA,NA,Friendly,Victoria,Seychelles,FALSE
+2026-10-01,Maldives,Lebanon,NA,NA,Friendly,TBD,TBD,FALSE
+2026-10-01,Panama,New Zealand,NA,NA,Friendly,TBD,TBD,FALSE
+2026-10-01,Uzbekistan,Syria,NA,NA,Friendly,TBD,TBD,FALSE
+2026-10-01,Azerbaijan,Liechtenstein,NA,NA,UEFA Nations League,Baku,Azerbaijan,FALSE
+2026-10-01,Denmark,Portugal,NA,NA,UEFA Nations League,Copenhagen,Denmark,FALSE
+2026-10-01,Germany,Serbia,NA,NA,UEFA Nations League,München,Germany,FALSE
+2026-10-01,Greece,Netherlands,NA,NA,UEFA Nations League,Thessaloniki,Greece,FALSE
+2026-10-01,Israel,Kosovo,NA,NA,UEFA Nations League,Debrecen,Hungary,TRUE
+2026-10-01,Malta,Gibraltar,NA,NA,UEFA Nations League,Attard,Malta,FALSE
+2026-10-01,Republic of Ireland,Austria,NA,NA,UEFA Nations League,Dublin,Ireland,FALSE
+2026-10-01,Wales,Norway,NA,NA,UEFA Nations League,Cardiff,Wales,FALSE
+2026-10-02,China,Turkmenistan,NA,NA,Friendly,Chongqing,China,FALSE
+2026-10-02,Colombia,Paraguay,NA,NA,Friendly,"Harrison, New Jersey",United States,TRUE
+2026-10-02,DR Congo,Uganda,NA,NA,Friendly,TBD,TBD,FALSE
+2026-10-02,Mauritius,Sri Lanka,NA,NA,Friendly,Saint Pierre,Mauritius,FALSE
+2026-10-02,South Korea,Venezuela,NA,NA,Friendly,Ulsan,South Korea,FALSE
+2026-10-02,Belgium,Turkey,NA,NA,UEFA Nations League,Liege,Belgium,FALSE
+2026-10-02,Bosnia and Herzegovina,Sweden,NA,NA,UEFA Nations League,Zenica,Bosnia and Herzegovina,FALSE
+2026-10-02,Cyprus,Armenia,NA,NA,UEFA Nations League,Nicosia,Cyprus,FALSE
+2026-10-02,Faroe Islands,Slovakia,NA,NA,UEFA Nations League,Tórshavn,Faroe Islands,FALSE
+2026-10-02,France,Italy,NA,NA,UEFA Nations League,Saint-Denis,France,FALSE
+2026-10-02,Hungary,Georgia,NA,NA,UEFA Nations League,Budapest,Hungary,FALSE
+2026-10-02,Kazakhstan,Moldova,NA,NA,UEFA Nations League,Astana,Kazakhstan,FALSE
+2026-10-02,Latvia,Montenegro,NA,NA,UEFA Nations League,Riga,Latvia,FALSE
+2026-10-02,Poland,Romania,NA,NA,UEFA Nations League,Warsaw,Poland,FALSE
+2026-10-02,Ukraine,Northern Ireland,NA,NA,UEFA Nations League,Trnava,Slovakia,TRUE
+2026-10-03,Argentina,Burkina Faso,NA,NA,Friendly,Buenos Aires,Argentina,FALSE
+2026-10-03,Canada,Peru,NA,NA,Friendly,Montreal,Canada,FALSE
+2026-10-03,India,Brazil,NA,NA,Friendly,Kolkata,India,FALSE
+2026-10-03,Ivory Coast,Cameroon,NA,NA,Friendly,Abidjan,Ivory Coast,FALSE
+2026-10-03,Russia,Namibia,NA,NA,Friendly,Ekaterinburg,Russia,FALSE
+2026-10-03,Sri Lanka,Djibouti,NA,NA,Friendly,TBD,TBD,FALSE
+2026-10-03,Tunisia,Mali,NA,NA,Friendly,TBD,TBD,FALSE
+2026-10-03,United States,Mexico,NA,NA,Friendly,"Glendale, Arizona",United States,FALSE
+2026-10-03,Belarus,San Marino,NA,NA,UEFA Nations League,Budapest,Hungary,TRUE
+2026-10-03,Croatia,England,NA,NA,UEFA Nations League,Rijeka,Croatia,FALSE
+2026-10-03,Estonia,Luxembourg,NA,NA,UEFA Nations League,Tallinn,Estonia,FALSE
+2026-10-03,Finland,Albania,NA,NA,UEFA Nations League,Helsinki,Finland,FALSE
+2026-10-03,Iceland,Bulgaria,NA,NA,UEFA Nations League,Reykjavik,Iceland,FALSE
+2026-10-03,North Macedonia,Scotland,NA,NA,UEFA Nations League,Skopje,North Macedonia,FALSE
+2026-10-03,Spain,Czech Republic,NA,NA,UEFA Nations League,Oviedo,Spain,FALSE
+2026-10-03,Switzerland,Slovenia,NA,NA,UEFA Nations League,Luzern,Switzerland,FALSE
+2026-10-04,Comoros,Senegal,NA,NA,Friendly,Marseille,France,TRUE
+2026-10-04,Egypt,South Africa,NA,NA,Friendly,Cairo,Egypt,FALSE
+2026-10-04,Kyrgyzstan,Lebanon,NA,NA,Friendly,Bishkek,Kyrgyzstan,FALSE
+2026-10-04,Morocco,Ghana,NA,NA,Friendly,Tanger,Morocco,FALSE
+2026-10-04,Azerbaijan,Lithuania,NA,NA,UEFA Nations League,Baku,Azerbaijan,FALSE
+2026-10-04,Greece,Germany,NA,NA,UEFA Nations League,Thessaloniki,Greece,FALSE
+2026-10-04,Kosovo,Austria,NA,NA,UEFA Nations League,Prishtina,Kosovo,FALSE
+2026-10-04,Malta,Andorra,NA,NA,UEFA Nations League,Attard,Malta,FALSE
+2026-10-04,Netherlands,Serbia,NA,NA,UEFA Nations League,Eindhoven,Netherlands,FALSE
+2026-10-04,Portugal,Norway,NA,NA,UEFA Nations League,Porto,Portugal,FALSE
+2026-10-04,Republic of Ireland,Israel,NA,NA,UEFA Nations League,Backa Topola,Serbia,TRUE
+2026-10-04,Wales,Denmark,NA,NA,UEFA Nations League,Cardiff,Wales,FALSE
+2026-10-05,Liechtenstein,Gibraltar,NA,NA,Friendly,Vaduz,Liechtenstein,FALSE
+2026-10-05,Mauritius,Sri Lanka,NA,NA,Friendly,Saint Pierre,Mauritius,FALSE
+2026-10-05,Uganda,DR Congo,NA,NA,Friendly,TBD,TBD,FALSE
+2026-10-05,Bosnia and Herzegovina,Poland,NA,NA,UEFA Nations League,Zenica,Bosnia and Herzegovina,FALSE
+2026-10-05,Cyprus,Latvia,NA,NA,UEFA Nations League,Nicosia,Cyprus,FALSE
+2026-10-05,France,Belgium,NA,NA,UEFA Nations League,Saint-Denis,France,FALSE
+2026-10-05,Italy,Turkey,NA,NA,UEFA Nations League,Bologna,Italy,FALSE
+2026-10-05,Montenegro,Armenia,NA,NA,UEFA Nations League,Podgorica,Montenegro,FALSE
+2026-10-05,Northern Ireland,Georgia,NA,NA,UEFA Nations League,Belfast,Northern Ireland,FALSE
+2026-10-05,Romania,Sweden,NA,NA,UEFA Nations League,Bucuresti,Romania,FALSE
+2026-10-05,Ukraine,Hungary,NA,NA,UEFA Nations League,Trnava,Slovakia,TRUE
+2026-10-06,Algeria,Niger,NA,NA,Friendly,Tizi Ouzou,Algeria,FALSE
+2026-10-06,Argentina,Benin,NA,NA,Friendly,Buenos Aires,Argentina,FALSE
+2026-10-06,China,Tajikistan,NA,NA,Friendly,Chongqing,China,FALSE
+2026-10-06,Colombia,Peru,NA,NA,Friendly,"Miami, Florida",United States,TRUE
+2026-10-06,India,Uruguay,NA,NA,Friendly,Kolkata,India,FALSE
+2026-10-06,Jordan,Venezuela,NA,NA,Friendly,Amman,Jordan,FALSE
+2026-10-06,Mexico,Chile,NA,NA,Friendly,"Los Angeles, California",United States,TRUE
+2026-10-06,Russia,Nigeria,NA,NA,Friendly,Nizhny Novgorod,Russia,FALSE
+2026-10-06,South Korea,Uzbekistan,NA,NA,Friendly,Gyeonggi-do,South Korea,FALSE
+2026-10-06,United States,Canada,NA,NA,Friendly,"Saint Paul, Minnesota",United States,FALSE
+2026-10-06,Albania,San Marino,NA,NA,UEFA Nations League,Tirana,Albania,FALSE
+2026-10-06,Belarus,Finland,NA,NA,UEFA Nations League,Budapest,Hungary,TRUE
+2026-10-06,Croatia,Spain,NA,NA,UEFA Nations League,Split,Croatia,FALSE
+2026-10-06,England,Czech Republic,NA,NA,UEFA Nations League,London,England,FALSE
+2026-10-06,Estonia,Iceland,NA,NA,UEFA Nations League,Tallinn,Estonia,FALSE
+2026-10-06,Kazakhstan,Faroe Islands,NA,NA,UEFA Nations League,Astana,Kazakhstan,FALSE
+2026-10-06,Luxembourg,Bulgaria,NA,NA,UEFA Nations League,Luxembourg City,Luxembourg,FALSE
+2026-10-06,Moldova,Slovakia,NA,NA,UEFA Nations League,Chisinau,Moldova,FALSE
+2026-10-06,Scotland,Slovenia,NA,NA,UEFA Nations League,Glasgow,Scotland,FALSE
+2026-10-06,Switzerland,North Macedonia,NA,NA,UEFA Nations League,Luzern,Switzerland,FALSE

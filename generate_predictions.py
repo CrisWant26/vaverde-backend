@@ -34,6 +34,17 @@ MODEL_PATH = "modelo_elo.pkl"
 DESDE_ANIO = 2014        # ventana de entrenamiento de la regresión
 MIN_PARTIDOS = 20        # filtro de equipos con muestra sólida (para la regresión)
 N_SIMULACIONES = 10_000
+PREDICTION_TOURNAMENTS = {
+    "FIFA World Cup",
+    "FIFA World Cup qualification",
+    "Friendly",
+    "UEFA Nations League",
+}
+
+
+def es_neutral(value):
+    """Normaliza el campo neutral cuando viene como texto desde CSV."""
+    return value is True or str(value).strip().upper() in {"TRUE", "1", "YES"}
 
 
 def entrenar():
@@ -96,7 +107,7 @@ def brier_pre_partido(ev_df, params, calibrador, max_goals=10, n_max=3000):
     i = np.arange(max_goals + 1)
     for r in sub.itertuples():
         elos_row = {r.home_team: r.elo_home, r.away_team: r.elo_away}
-        neutral = r.neutral in (True, "TRUE", "True")
+        neutral = es_neutral(r.neutral)
         lh, la = lambdas(params, elos_row, r.home_team, r.away_team, neutral=neutral)
         M = np.outer(poisson.pmf(i, lh), poisson.pmf(i, la))
         M /= M.sum()
@@ -177,7 +188,7 @@ def main():
     now_cdmx = datetime.now(timezone.utc) - timedelta(hours=6)
     today = pd.Timestamp(now_cdmx.date())
     fixtures = raw[
-        (raw["tournament"] == "FIFA World Cup")
+        raw["tournament"].isin(PREDICTION_TOURNAMENTS)
         & (raw["date"] >= today)
     ].sort_values("date")
 
@@ -185,14 +196,14 @@ def main():
     for _, row in fixtures.iterrows():
         pred = predecir_fixture(
             params, calibrador, elos,
-            row["home_team"], row["away_team"], neutral=bool(row["neutral"]),
+            row["home_team"], row["away_team"], neutral=es_neutral(row["neutral"]),
         )
         matches.append({
             "date": row["date"].strftime("%Y-%m-%d"),
             "home": row["home_team"],
             "away": row["away_team"],
             "city": row["city"],
-            "neutral": bool(row["neutral"]),
+            "neutral": es_neutral(row["neutral"]),
             **pred,
         })
 
