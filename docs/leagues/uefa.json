@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T01:27:39+00:00",
+ "generated_at": "2026-09-28T19:44:48+00:00",
  "model": "poisson-elo-unificado",
  "league": "Champions League",
  "training_matches": 31578,
@@ -106,7 +106,7 @@
    "p_draw": 0.256,
    "p_away": 0.416,
    "p_over25": 0.622,
-   "p_btts": 0.636,
+   "p_btts": 0.635,
    "xg_home": 1.48,
    "xg_away": 1.73,
    "likely_score": "1-1"
@@ -254,7 +254,7 @@
    "neutral": false,
    "p_home": 0.193,
    "p_draw": 0.254,
-   "p_away": 0.554,
+   "p_away": 0.553,
    "p_over25": 0.479,
    "p_btts": 0.464,
    "xg_home": 0.82,
@@ -273,7 +273,7 @@
    "p_over25": 0.549,
    "p_btts": 0.578,
    "xg_home": 1.31,
-   "xg_away": 1.56,
+   "xg_away": 1.57,
    "likely_score": "1-1"
   }
  ],
