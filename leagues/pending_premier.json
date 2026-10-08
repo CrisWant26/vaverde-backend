@@ -1,1 +1,112 @@
-[]
+[
+ {
+  "date": "2026-10-10",
+  "home": "Sunderland",
+  "away": "Brighton",
+  "p_home": 0.319,
+  "p_draw": 0.262,
+  "p_away": 0.419,
+  "likely_score": "1-1",
+  "xg_home": 1.03,
+  "xg_away": 1.37
+ },
+ {
+  "date": "2026-10-10",
+  "home": "Man United",
+  "away": "Tottenham",
+  "p_home": 0.56,
+  "p_draw": 0.224,
+  "p_away": 0.215,
+  "likely_score": "1-1",
+  "xg_home": 1.92,
+  "xg_away": 1.05
+ },
+ {
+  "date": "2026-10-10",
+  "home": "Arsenal",
+  "away": "Leeds",
+  "p_home": 0.676,
+  "p_draw": 0.186,
+  "p_away": 0.138,
+  "likely_score": "2-0",
+  "xg_home": 2.44,
+  "xg_away": 0.93
+ },
+ {
+  "date": "2026-10-10",
+  "home": "Aston Villa",
+  "away": "Brentford",
+  "p_home": 0.397,
+  "p_draw": 0.238,
+  "p_away": 0.365,
+  "likely_score": "1-1",
+  "xg_home": 1.4,
+  "xg_away": 1.43
+ },
+ {
+  "date": "2026-10-10",
+  "home": "Chelsea",
+  "away": "Bournemouth",
+  "p_home": 0.508,
+  "p_draw": 0.229,
+  "p_away": 0.262,
+  "likely_score": "1-1",
+  "xg_home": 1.77,
+  "xg_away": 1.2
+ },
+ {
+  "date": "2026-10-10",
+  "home": "Ipswich",
+  "away": "Fulham",
+  "p_home": 0.316,
+  "p_draw": 0.226,
+  "p_away": 0.458,
+  "likely_score": "1-1",
+  "xg_home": 1.19,
+  "xg_away": 1.73
+ },
+ {
+  "date": "2026-10-11",
+  "home": "Liverpool",
+  "away": "Man City",
+  "p_home": 0.342,
+  "p_draw": 0.217,
+  "p_away": 0.441,
+  "likely_score": "1-1",
+  "xg_home": 1.35,
+  "xg_away": 1.8
+ },
+ {
+  "date": "2026-10-11",
+  "home": "Crystal Palace",
+  "away": "Nott'm Forest",
+  "p_home": 0.39,
+  "p_draw": 0.263,
+  "p_away": 0.347,
+  "likely_score": "1-1",
+  "xg_home": 1.25,
+  "xg_away": 1.21
+ },
+ {
+  "date": "2026-10-11",
+  "home": "Hull",
+  "away": "Everton",
+  "p_home": 0.302,
+  "p_draw": 0.264,
+  "p_away": 0.434,
+  "likely_score": "0-1",
+  "xg_home": 0.96,
+  "xg_away": 1.38
+ },
+ {
+  "date": "2026-10-12",
+  "home": "Coventry",
+  "away": "Newcastle",
+  "p_home": 0.363,
+  "p_draw": 0.247,
+  "p_away": 0.391,
+  "likely_score": "1-1",
+  "xg_home": 1.24,
+  "xg_away": 1.42
+ }
+]

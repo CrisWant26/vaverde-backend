@@ -1,1 +1,101 @@
-[]
+[
+ {
+  "date": "2026-10-09",
+  "home": "Lens",
+  "away": "Lyon",
+  "p_home": 0.392,
+  "p_draw": 0.273,
+  "p_away": 0.335,
+  "likely_score": "1-1",
+  "xg_home": 1.5,
+  "xg_away": 1.39
+ },
+ {
+  "date": "2026-10-10",
+  "home": "Lorient",
+  "away": "Paris FC",
+  "p_home": 0.311,
+  "p_draw": 0.269,
+  "p_away": 0.42,
+  "likely_score": "1-1",
+  "xg_home": 1.26,
+  "xg_away": 1.6
+ },
+ {
+  "date": "2026-10-10",
+  "home": "Monaco",
+  "away": "Toulouse",
+  "p_home": 0.593,
+  "p_draw": 0.233,
+  "p_away": 0.174,
+  "likely_score": "2-0",
+  "xg_home": 2.1,
+  "xg_away": 0.94
+ },
+ {
+  "date": "2026-10-10",
+  "home": "Lille",
+  "away": "Le Havre",
+  "p_home": 0.591,
+  "p_draw": 0.251,
+  "p_away": 0.158,
+  "likely_score": "1-0",
+  "xg_home": 1.73,
+  "xg_away": 0.7
+ },
+ {
+  "date": "2026-10-10",
+  "home": "Brest",
+  "away": "Angers",
+  "p_home": 0.483,
+  "p_draw": 0.275,
+  "p_away": 0.243,
+  "likely_score": "1-1",
+  "xg_home": 1.56,
+  "xg_away": 1.0
+ },
+ {
+  "date": "2026-10-10",
+  "home": "Paris SG",
+  "away": "Le Mans",
+  "p_home": 0.76,
+  "p_draw": 0.158,
+  "p_away": 0.082,
+  "likely_score": "2-0",
+  "xg_home": 2.82,
+  "xg_away": 0.68
+ },
+ {
+  "date": "2026-10-11",
+  "home": "Nice",
+  "away": "Strasbourg",
+  "p_home": 0.381,
+  "p_draw": 0.285,
+  "p_away": 0.334,
+  "likely_score": "1-1",
+  "xg_home": 1.31,
+  "xg_away": 1.25
+ },
+ {
+  "date": "2026-10-11",
+  "home": "Rennes",
+  "away": "Auxerre",
+  "p_home": 0.547,
+  "p_draw": 0.256,
+  "p_away": 0.197,
+  "likely_score": "1-0",
+  "xg_home": 1.78,
+  "xg_away": 0.9
+ },
+ {
+  "date": "2026-10-11",
+  "home": "Troyes",
+  "away": "Marseille",
+  "p_home": 0.193,
+  "p_draw": 0.229,
+  "p_away": 0.578,
+  "likely_score": "0-2",
+  "xg_home": 0.92,
+  "xg_away": 2.01
+ }
+]

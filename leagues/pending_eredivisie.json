@@ -20,5 +20,104 @@
   "likely_score": "1-1",
   "xg_home": 1.9,
   "xg_away": 1.14
+ },
+ {
+  "date": "2026-10-09",
+  "home": "PSV Eindhoven",
+  "away": "Heerenveen",
+  "p_home": 0.769,
+  "p_draw": 0.155,
+  "p_away": 0.076,
+  "likely_score": "3-0",
+  "xg_home": 3.04,
+  "xg_away": 0.9
+ },
+ {
+  "date": "2026-10-10",
+  "home": "Go Ahead Eagles",
+  "away": "Sparta Rotterdam",
+  "p_home": 0.465,
+  "p_draw": 0.281,
+  "p_away": 0.254,
+  "likely_score": "1-1",
+  "xg_home": 1.63,
+  "xg_away": 1.14
+ },
+ {
+  "date": "2026-10-10",
+  "home": "Feyenoord",
+  "away": "AZ Alkmaar",
+  "p_home": 0.542,
+  "p_draw": 0.247,
+  "p_away": 0.211,
+  "likely_score": "2-1",
+  "xg_home": 2.03,
+  "xg_away": 1.18
+ },
+ {
+  "date": "2026-10-10",
+  "home": "For Sittard",
+  "away": "Twente",
+  "p_home": 0.258,
+  "p_draw": 0.258,
+  "p_away": 0.484,
+  "likely_score": "1-1",
+  "xg_home": 1.18,
+  "xg_away": 1.82
+ },
+ {
+  "date": "2026-10-10",
+  "home": "Ajax",
+  "away": "Nijmegen",
+  "p_home": 0.668,
+  "p_draw": 0.208,
+  "p_away": 0.124,
+  "likely_score": "2-0",
+  "xg_home": 2.42,
+  "xg_away": 0.92
+ },
+ {
+  "date": "2026-10-11",
+  "home": "Utrecht",
+  "away": "Willem II",
+  "p_home": 0.642,
+  "p_draw": 0.224,
+  "p_away": 0.134,
+  "likely_score": "2-0",
+  "xg_home": 2.24,
+  "xg_away": 0.89
+ },
+ {
+  "date": "2026-10-11",
+  "home": "Telstar",
+  "away": "Den Haag",
+  "p_home": 0.577,
+  "p_draw": 0.249,
+  "p_away": 0.174,
+  "likely_score": "2-0",
+  "xg_home": 2.01,
+  "xg_away": 0.98
+ },
+ {
+  "date": "2026-10-11",
+  "home": "Zwolle",
+  "away": "Cambuur",
+  "p_home": 0.533,
+  "p_draw": 0.258,
+  "p_away": 0.209,
+  "likely_score": "1-1",
+  "xg_home": 1.91,
+  "xg_away": 1.09
+ },
+ {
+  "date": "2026-10-11",
+  "home": "Excelsior",
+  "away": "Groningen",
+  "p_home": 0.371,
+  "p_draw": 0.289,
+  "p_away": 0.341,
+  "likely_score": "1-1",
+  "xg_home": 1.38,
+  "xg_away": 1.35
  }
 ]
