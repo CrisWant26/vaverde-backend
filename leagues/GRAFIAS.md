@@ -60,13 +60,15 @@ OJO: "Ath Bilbao"=Athletic | "Ath Madrid"=Atlético | "Espanol" sin ñ
 NOTA: al 13-ago-2026 football-data tiene roto el archivo 2627/SP1.csv
 (contiene datos de P1). Verificar con: python adaptador_main.py laliga
 
-## LaLiga (SP1) — temporada 2026-27
-Alaves, Ath Bilbao, Ath Madrid, Barcelona, Betis, Celta, Dep. A Coruna,
-Elche, Espanol, Getafe, Girona, Levante, Mallorca, Osasuna, Oviedo,
-Real Madrid, Santander, Sevilla, Sociedad, Valencia, Vallecano, Villarreal
+## LaLiga (SP1) — temporada 2026-27  [CORREGIDO 08-oct-2026]
+Alaves, Ath Bilbao, Ath Madrid, Barcelona, Betis, Celta, Elche, Espanol, Getafe, La Coruna, Levante, Malaga, Osasuna, Real Madrid, Santander, Sevilla, Sociedad, Valencia, Vallecano, Villarreal
 OJO: "Ath Bilbao"=Athletic | "Ath Madrid"=Atletico | "Espanol" sin enye
      "Sociedad"=Real Sociedad | "Vallecano"=Rayo | "Santander"=Racing
-     "Dep. A Coruna"=Deportivo (con punto y espacio)
+     "La Coruna"=Deportivo | "Malaga"=Malaga CF
+La lista anterior decia 22 equipos e incluia Girona, Mallorca, Oviedo
+y "Dep. A Coruna": salio del 2627/SP1.csv que football-data tenia
+roto en agosto. Esta lista son los 20 equipos que YA emparejaron
+contra resultados reales en history_laliga.json.
 
 ## Premier League (E0)
 Arsenal, Aston Villa, Bournemouth, Brentford, Brighton, Burnley, Chelsea,
