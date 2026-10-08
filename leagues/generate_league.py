@@ -188,7 +188,61 @@ def cargar_datos(cfg):
     return df.sort_values("date").reset_index(drop=True)
 
 
+FIXTURES_URL = "https://www.football-data.co.uk/fixtures.csv"
+
+
+def fixtures_football_data(cfg):
+    """Fixtures de la jornada por venir, directo de football-data.
+
+    Solo aplica a las ligas 'main': su columna Div trae EXACTAMENTE el
+    mismo codigo que ya usamos (E0, SP1, I1, D1, F1, N1, P1) y, al ser
+    la misma fuente que el historico, las grafias coinciden por
+    construccion. Eso mata el paso manual y el riesgo de inventar
+    equipos.
+
+    football-data publica con 1-3 dias de anticipacion y en los parones
+    deja el archivo viejo, asi que esto COMPLEMENTA al CSV manual, no lo
+    reemplaza. Si la red falla, devuelve vacio y el pipeline sigue.
+    """
+    vacio = pd.DataFrame(columns=["date", "home", "away"])
+    if cfg.get("formato") != "main":
+        return vacio
+    try:
+        raw = pd.read_csv(FIXTURES_URL, encoding="utf-8-sig",
+                          on_bad_lines="skip")
+    except Exception as e:
+        print(f"  AVISO: no bajo fixtures.csv ({type(e).__name__}) - uso el manual.")
+        return vacio
+    faltantes = {"Div", "Date", "HomeTeam", "AwayTeam"} - set(raw.columns)
+    if faltantes:
+        print(f"  AVISO: fixtures.csv sin columnas {faltantes} - uso el manual.")
+        return vacio
+    mio = raw[raw["Div"].astype(str).str.strip() == cfg["codigo"]].copy()
+    if mio.empty:
+        print(f"  fixtures.csv: aun sin partidos de {cfg['codigo']}.")
+        return vacio
+    fx = pd.DataFrame({
+        "date": pd.to_datetime(mio["Date"], dayfirst=True, errors="coerce"),
+        "home": mio["HomeTeam"].astype(str).str.strip(),
+        "away": mio["AwayTeam"].astype(str).str.strip(),
+    }).dropna(subset=["date"])
+    print(f"  fixtures.csv: {len(fx)} partidos de {cfg['codigo']}.")
+    return fx
+
+
 def cargar_fixtures(cfg):
+    """Une los fixtures automaticos con los manuales, deduplicando por
+    (fecha, local, visitante)."""
+    auto = fixtures_football_data(cfg)
+    manual = _fixtures_manuales(cfg)
+    fx = pd.concat([auto, manual], ignore_index=True)
+    if fx.empty:
+        return fx
+    fx = fx.drop_duplicates(subset=["date", "home", "away"], keep="first")
+    return fx.sort_values("date").reset_index(drop=True)
+
+
+def _fixtures_manuales(cfg):
     """Fixtures manuales de la jornada (date,home,away). Las líneas que
     empiezan con # son comentarios."""
     path = os.path.join(ROOT, cfg["fixtures_csv"])

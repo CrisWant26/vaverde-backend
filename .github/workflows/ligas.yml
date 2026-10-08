@@ -11,7 +11,7 @@
 name: Actualizar ligas
 on:
   schedule:
-    - cron: "13 12 * * 1,4"   # 6:13 AM CDMX lunes y jueves
+    - cron: "13 12 * * *"     # 6:13 AM CDMX diario
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -31,25 +31,36 @@ jobs:
           pip install --quiet pandas scipy numpy scikit-learn
       - name: Generar predicciones Liga MX
         run: python leagues/generate_league.py ligamx
+        continue-on-error: true
       - name: Generar predicciones Brasileirao
         run: python leagues/generate_league.py bra
+        continue-on-error: true
       - name: Generar predicciones Primeira Liga
         run: python leagues/generate_league.py primeira
+        continue-on-error: true
       - name: Generar predicciones Eredivisie
         run: python leagues/generate_league.py eredivisie
+        continue-on-error: true
       - name: Generar predicciones LaLiga
         run: python leagues/generate_league.py laliga
+        continue-on-error: true
       - name: Generar predicciones Premier League
         run: python leagues/generate_league.py premier
+        continue-on-error: true
       - name: Generar predicciones Serie A
         run: python leagues/generate_league.py seriea
+        continue-on-error: true
       - name: Generar predicciones Ligue 1
         run: python leagues/generate_league.py ligue1
+        continue-on-error: true
       - name: Generar predicciones Bundesliga
         run: python leagues/generate_league.py bundesliga
+        continue-on-error: true
       - name: Generar predicciones Champions
         run: python leagues/generate_uefa.py
+        continue-on-error: true
       - name: Publicar en /docs (GitHub Pages)
+        if: always()
         run: |
           git config user.name "vaverde-bot"
           git config user.email "actions@users.noreply.github.com"

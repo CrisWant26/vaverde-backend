@@ -285,7 +285,17 @@ def main():
     historial.PENDING_FILE = os.path.join(ROOT, CFG["pending_file"])
     historial._resultado_real = _resultado_manual
     todos_manuales = pd.concat([jugados, futuros], ignore_index=True)
-    historial.actualizar_historial(matches, todos_manuales)
+    # BUGFIX alias: 'matches' guarda el nombre BONITO (MOSTRAR_UEFA) y
+    # 'todos_manuales' el nombre INTERNO (ALIAS_UEFA). El emparejador
+    # compara con ==, asi que los 4 equipos con alias nunca archivaban:
+    # se quedaban en pending para siempre y se duplicaban cada corrida.
+    # Alineamos las dos puntas al espacio mostrado SOLO para emparejar;
+    # el Elo sigue usando el nombre interno.
+    para_historial = todos_manuales.copy()
+    for col in ("home", "away"):
+        para_historial[col] = para_historial[col].map(
+            lambda x: MOSTRAR_UEFA.get(x, x))
+    historial.actualizar_historial(matches, para_historial)
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
