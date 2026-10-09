@@ -1,49 +1,5 @@
 [
  {
-  "date": "2026-10-08",
-  "home": "Santos",
-  "away": "Flamengo RJ",
-  "p_home": 0.402,
-  "p_draw": 0.263,
-  "p_away": 0.336,
-  "likely_score": "1-1",
-  "xg_home": 1.23,
-  "xg_away": 1.28
- },
- {
-  "date": "2026-10-08",
-  "home": "Athletico-PR",
-  "away": "Atletico-MG",
-  "p_home": 0.487,
-  "p_draw": 0.262,
-  "p_away": 0.252,
-  "likely_score": "1-1",
-  "xg_home": 1.45,
-  "xg_away": 1.01
- },
- {
-  "date": "2026-10-08",
-  "home": "Fluminense",
-  "away": "Coritiba",
-  "p_home": 0.589,
-  "p_draw": 0.231,
-  "p_away": 0.179,
-  "likely_score": "1-0",
-  "xg_home": 1.83,
-  "xg_away": 0.79
- },
- {
-  "date": "2026-10-08",
-  "home": "Palmeiras",
-  "away": "Bahia",
-  "p_home": 0.596,
-  "p_draw": 0.227,
-  "p_away": 0.177,
-  "likely_score": "1-0",
-  "xg_home": 1.88,
-  "xg_away": 0.79
- },
- {
   "date": "2026-10-10",
   "home": "Vasco",
   "away": "Remo",
