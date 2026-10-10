@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T18:22:21+00:00",
+ "generated_at": "2026-10-10T17:22:32+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Eredivisie",
  "training_matches": 3967,
@@ -7,48 +7,6 @@
  "model_brier": 0.2079,
  "model_brier_baseline": 0.246,
  "matches": [
-  {
-   "date": "2026-10-09",
-   "home": "PSV Eindhoven",
-   "away": "Heerenveen",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.769,
-   "p_draw": 0.155,
-   "p_away": 0.076,
-   "p_over25": 0.752,
-   "p_btts": 0.564,
-   "xg_home": 3.04,
-   "xg_away": 0.9,
-   "likely_score": "3-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 7.2,
-     "corners_against": 4.0,
-     "shots_on_target_for": 7.8,
-     "shots_on_target_against": 4.4,
-     "yellow_cards_for": 1.4,
-     "yellow_cards_against": 1.4
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 5.4,
-     "corners_against": 5.9,
-     "shots_on_target_for": 5.4,
-     "shots_on_target_against": 4.4,
-     "yellow_cards_for": 1.1,
-     "yellow_cards_against": 1.7
-    },
-    "liga": {
-     "partidos": 632,
-     "corners_total": 10.2,
-     "shots_on_target_total": 9.9,
-     "yellow_cards_total": 3.0
-    }
-   }
-  },
   {
    "date": "2026-10-10",
    "home": "Ajax",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T18:22:00+00:00",
+ "generated_at": "2026-10-10T17:22:02+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Primeira Liga",
  "training_matches": 3967,
@@ -7,90 +7,6 @@
  "model_brier": 0.194,
  "model_brier_baseline": 0.2443,
  "matches": [
-  {
-   "date": "2026-10-09",
-   "home": "Sp Braga",
-   "away": "Sp Lisbon",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.286,
-   "p_draw": 0.262,
-   "p_away": 0.452,
-   "p_over25": 0.522,
-   "p_btts": 0.554,
-   "xg_home": 1.22,
-   "xg_away": 1.54,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 3.9,
-     "corners_against": 3.7,
-     "shots_on_target_for": 3.7,
-     "shots_on_target_against": 3.3,
-     "yellow_cards_for": 2.4,
-     "yellow_cards_against": 3.1
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 4.8,
-     "corners_against": 3.1,
-     "shots_on_target_for": 6.1,
-     "shots_on_target_against": 2.8,
-     "yellow_cards_for": 2.0,
-     "yellow_cards_against": 2.7
-    },
-    "liga": {
-     "partidos": 629,
-     "corners_total": 9.4,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 4.9
-    }
-   }
-  },
-  {
-   "date": "2026-10-09",
-   "home": "Moreirense",
-   "away": "Gil Vicente",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.391,
-   "p_draw": 0.325,
-   "p_away": 0.284,
-   "p_over25": 0.381,
-   "p_btts": 0.446,
-   "xg_home": 1.2,
-   "xg_away": 1.02,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 2.9,
-     "corners_against": 4.4,
-     "shots_on_target_for": 3.1,
-     "shots_on_target_against": 4.3,
-     "yellow_cards_for": 2.7,
-     "yellow_cards_against": 2.0
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 4.0,
-     "corners_against": 5.0,
-     "shots_on_target_for": 3.5,
-     "shots_on_target_against": 2.9,
-     "yellow_cards_for": 2.0,
-     "yellow_cards_against": 1.6
-    },
-    "liga": {
-     "partidos": 629,
-     "corners_total": 9.4,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 4.9
-    }
-   }
-  },
   {
    "date": "2026-10-10",
    "home": "Academico Viseu",
@@ -182,7 +98,7 @@
    "city": "",
    "neutral": false,
    "p_home": 0.331,
-   "p_draw": 0.333,
+   "p_draw": 0.334,
    "p_away": 0.336,
    "p_over25": 0.363,
    "p_btts": 0.433,

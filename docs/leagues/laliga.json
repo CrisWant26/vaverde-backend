@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T18:22:42+00:00",
+ "generated_at": "2026-10-10T17:23:04+00:00",
  "model": "poisson-elo-calibrado",
  "league": "LaLiga",
  "training_matches": 5002,
@@ -7,48 +7,6 @@
  "model_brier": 0.2123,
  "model_brier_baseline": 0.2482,
  "matches": [
-  {
-   "date": "2026-10-09",
-   "home": "Malaga",
-   "away": "Espanol",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.395,
-   "p_draw": 0.33,
-   "p_away": 0.275,
-   "p_over25": 0.359,
-   "p_btts": 0.427,
-   "xg_home": 1.16,
-   "xg_away": 0.98,
-   "likely_score": "1-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 4.9,
-     "corners_against": 5.8,
-     "shots_on_target_for": 2.3,
-     "shots_on_target_against": 5.7,
-     "yellow_cards_for": 2.1,
-     "yellow_cards_against": 1.5
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 2.8,
-     "corners_against": 5.2,
-     "shots_on_target_for": 4.3,
-     "shots_on_target_against": 4.9,
-     "yellow_cards_for": 2.3,
-     "yellow_cards_against": 1.9
-    },
-    "liga": {
-     "partidos": 777,
-     "corners_total": 9.6,
-     "shots_on_target_total": 8.5,
-     "yellow_cards_total": 4.4
-    }
-   }
-  },
   {
    "date": "2026-10-10",
    "home": "Real Madrid",
@@ -268,7 +226,7 @@
    "p_home": 0.556,
    "p_draw": 0.26,
    "p_away": 0.184,
-   "p_over25": 0.5,
+   "p_over25": 0.499,
    "p_btts": 0.498,
    "xg_home": 1.75,
    "xg_away": 0.93,
@@ -352,7 +310,7 @@
    "p_home": 0.331,
    "p_draw": 0.311,
    "p_away": 0.358,
-   "p_over25": 0.455,
+   "p_over25": 0.456,
    "p_btts": 0.508,
    "xg_home": 1.22,
    "xg_away": 1.28,
