@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T17:21:31+00:00",
+ "generated_at": "2026-10-11T17:41:53+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Brasileirao",
  "training_matches": 5579,
@@ -7,36 +7,6 @@
  "model_brier": 0.2375,
  "model_brier_baseline": 0.2496,
  "matches": [
-  {
-   "date": "2026-10-10",
-   "home": "Vasco",
-   "away": "Remo",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.521,
-   "p_draw": 0.256,
-   "p_away": 0.223,
-   "p_over25": 0.445,
-   "p_btts": 0.472,
-   "xg_home": 1.54,
-   "xg_away": 0.92,
-   "likely_score": "1-0"
-  },
-  {
-   "date": "2026-10-10",
-   "home": "Sao Paulo",
-   "away": "Vitoria",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.544,
-   "p_draw": 0.244,
-   "p_away": 0.212,
-   "p_over25": 0.473,
-   "p_btts": 0.482,
-   "xg_home": 1.67,
-   "xg_away": 0.9,
-   "likely_score": "1-0"
-  },
   {
    "date": "2026-10-11",
    "home": "Atletico-MG",
