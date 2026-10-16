@@ -17,21 +17,39 @@ date,home,away,home_score,away_score,competicion
 2026-09-10,Bayern Munich,Bodo/Glimt,5,0,CL
 2026-09-10,Man United,Sabah,4,0,CL
 2026-09-10,Slavia Prague,Lens,2,3,CL
-2026-10-13,Lens,Sp Lisbon,NA,NA,CL
-2026-10-13,Sabah,Slavia Prague,NA,NA,CL
-2026-10-13,Arsenal,Lille,NA,NA,CL
-2026-10-13,Ath Madrid,Man United,NA,NA,CL
-2026-10-13,Inter,Club Brugge,NA,NA,CL
-2026-10-13,Galatasaray,Barcelona,NA,NA,CL
-2026-10-13,RB Leipzig,PSV Eindhoven,NA,NA,CL
-2026-10-13,Viking,Bayern Munich,NA,NA,CL
-2026-10-13,Villarreal,Napoli,NA,NA,CL
-2026-10-14,Feyenoord,Como,NA,NA,CL
-2026-10-14,LASK,Liverpool,NA,NA,CL
-2026-10-14,Roma,Real Madrid,NA,NA,CL
-2026-10-14,Aston Villa,Fenerbahce,NA,NA,CL
-2026-10-14,Shakhtar Donetsk,AEK Athens,NA,NA,CL
-2026-10-14,Bodo/Glimt,Dortmund,NA,NA,CL
-2026-10-14,Man City,Paris SG,NA,NA,CL
-2026-10-14,Betis,Porto,NA,NA,CL
-2026-10-14,Slovan Bratislava,Stuttgart,NA,NA,CL
+2026-10-13,Lens,Sp Lisbon,0,2,CL
+2026-10-13,Sabah,Slavia Prague,2,0,CL
+2026-10-13,Arsenal,Lille,3,0,CL
+2026-10-13,Ath Madrid,Man United,2,0,CL
+2026-10-13,Inter,Club Brugge,3,4,CL
+2026-10-13,Galatasaray,Barcelona,1,4,CL
+2026-10-13,RB Leipzig,PSV Eindhoven,1,0,CL
+2026-10-13,Viking,Bayern Munich,3,3,CL
+2026-10-13,Villarreal,Napoli,3,1,CL
+2026-10-14,Feyenoord,Como,3,2,CL
+2026-10-14,LASK,Liverpool,3,6,CL
+2026-10-14,Roma,Real Madrid,3,4,CL
+2026-10-14,Aston Villa,Fenerbahce,6,0,CL
+2026-10-14,Shakhtar Donetsk,AEK Athens,3,1,CL
+2026-10-14,Bodo/Glimt,Dortmund,1,0,CL
+2026-10-14,Man City,Paris SG,2,4,CL
+2026-10-14,Betis,Porto,3,2,CL
+2026-10-14,Slovan Bratislava,Stuttgart,0,3,CL
+2026-10-20,Fenerbahce,Slavia Prague,NA,NA,CL
+2026-10-20,Sabah,Dortmund,NA,NA,CL
+2026-10-20,Roma,Slovan Bratislava,NA,NA,CL
+2026-10-20,Porto,PSV Eindhoven,NA,NA,CL
+2026-10-20,Liverpool,Villarreal,NA,NA,CL
+2026-10-20,Man City,AEK Athens,NA,NA,CL
+2026-10-20,Paris SG,Barcelona,NA,NA,CL
+2026-10-20,Napoli,Bodo/Glimt,NA,NA,CL
+2026-10-20,Stuttgart,Ath Madrid,NA,NA,CL
+2026-10-21,Como,Man United,NA,NA,CL
+2026-10-21,Lille,Galatasaray,NA,NA,CL
+2026-10-21,Aston Villa,Viking,NA,NA,CL
+2026-10-21,Club Brugge,Lens,NA,NA,CL
+2026-10-21,Bayern Munich,Arsenal,NA,NA,CL
+2026-10-21,Inter,Shakhtar Donetsk,NA,NA,CL
+2026-10-21,Real Madrid,RB Leipzig,NA,NA,CL
+2026-10-21,Betis,Feyenoord,NA,NA,CL
+2026-10-21,Sp Lisbon,LASK,NA,NA,CL
