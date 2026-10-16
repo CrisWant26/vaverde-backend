@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-16T16:43:10+00:00",
+ "generated_at": "2026-10-16T17:01:48+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Ligue 1",
  "training_matches": 4665,
  "last_result_date": "2026-10-11",
- "model_brier": 0.2247,
+ "model_brier": 0.2248,
  "model_brier_baseline": 0.2466,
  "matches": [
   {
@@ -351,7 +351,7 @@
    "neutral": false,
    "p_home": 0.275,
    "p_draw": 0.278,
-   "p_away": 0.448,
+   "p_away": 0.447,
    "p_over25": 0.472,
    "p_btts": 0.503,
    "xg_home": 1.03,

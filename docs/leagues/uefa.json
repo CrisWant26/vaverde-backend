@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-16T16:47:32+00:00",
+ "generated_at": "2026-10-16T17:06:09+00:00",
  "model": "poisson-elo-unificado",
  "league": "Champions League",
  "training_matches": 31638,
  "last_result_date": "2026-10-14",
- "model_brier": 0.2111,
+ "model_brier": 0.211,
  "matches": [
   {
    "date": "2026-10-20",

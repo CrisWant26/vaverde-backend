@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:41:01+00:00",
+ "generated_at": "2026-10-16T16:59:32+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Primeira Liga",
  "training_matches": 3975,
@@ -14,7 +14,7 @@
    "city": "",
    "neutral": false,
    "p_home": 0.647,
-   "p_draw": 0.224,
+   "p_draw": 0.223,
    "p_away": 0.13,
    "p_over25": 0.503,
    "p_btts": 0.464,
