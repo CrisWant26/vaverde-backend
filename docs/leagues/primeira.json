@@ -1,12 +1,55 @@
 {
- "generated_at": "2026-10-15T17:01:56+00:00",
+ "generated_at": "2026-10-16T15:50:18+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Primeira Liga",
  "training_matches": 3975,
  "last_result_date": "2026-10-12",
  "model_brier": 0.1931,
  "model_brier_baseline": 0.2438,
- "matches": [],
+ "matches": [
+  {
+   "date": "2026-10-19",
+   "home": "Sp Braga",
+   "away": "Gil Vicente",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.647,
+   "p_draw": 0.223,
+   "p_away": 0.13,
+   "p_over25": 0.503,
+   "p_btts": 0.464,
+   "xg_home": 1.89,
+   "xg_away": 0.79,
+   "likely_score": "1-0",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 4.3,
+     "corners_against": 3.5,
+     "shots_on_target_for": 3.9,
+     "shots_on_target_against": 3.3,
+     "yellow_cards_for": 2.1,
+     "yellow_cards_against": 2.8
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 3.9,
+     "corners_against": 5.1,
+     "shots_on_target_for": 3.4,
+     "shots_on_target_against": 2.9,
+     "yellow_cards_for": 1.9,
+     "yellow_cards_against": 1.6
+    },
+    "liga": {
+     "partidos": 612,
+     "corners_total": 9.4,
+     "shots_on_target_total": 8.3,
+     "yellow_cards_total": 4.9
+    }
+   }
+  }
+ ],
  "champion_probs": null,
  "history": {
   "matches": [
