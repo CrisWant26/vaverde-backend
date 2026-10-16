@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T15:50:56+00:00",
+ "generated_at": "2026-10-16T16:12:49+00:00",
  "model": "poisson-elo-calibrado",
  "league": "LaLiga",
  "training_matches": 5010,
@@ -58,7 +58,7 @@
    "p_home": 0.396,
    "p_draw": 0.325,
    "p_away": 0.279,
-   "p_over25": 0.407,
+   "p_over25": 0.406,
    "p_btts": 0.466,
    "xg_home": 1.26,
    "xg_away": 1.05,
