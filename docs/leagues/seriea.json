@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T17:01:21+00:00",
+ "generated_at": "2026-10-17T15:37:46+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Serie A",
  "training_matches": 5000,
@@ -7,48 +7,6 @@
  "model_brier": 0.2092,
  "model_brier_baseline": 0.2386,
  "matches": [
-  {
-   "date": "2026-10-16",
-   "home": "Frosinone",
-   "away": "Sassuolo",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.316,
-   "p_draw": 0.29,
-   "p_away": 0.394,
-   "p_over25": 0.555,
-   "p_btts": 0.584,
-   "xg_home": 1.34,
-   "xg_away": 1.57,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 6.4,
-     "corners_against": 5.5,
-     "shots_on_target_for": 5.2,
-     "shots_on_target_against": 4.7,
-     "yellow_cards_for": 1.7,
-     "yellow_cards_against": 2.1
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.6,
-     "corners_against": 5.8,
-     "shots_on_target_for": 5.7,
-     "shots_on_target_against": 5.0,
-     "yellow_cards_for": 1.7,
-     "yellow_cards_against": 2.8
-    },
-    "liga": {
-     "partidos": 750,
-     "corners_total": 9.1,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
   {
    "date": "2026-10-17",
    "home": "Roma",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:59:05+00:00",
+ "generated_at": "2026-10-17T15:35:31+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Brasileirao",
  "training_matches": 5618,
@@ -7,21 +7,6 @@
  "model_brier": 0.237,
  "model_brier_baseline": 0.2497,
  "matches": [
-  {
-   "date": "2026-10-16",
-   "home": "Mirassol",
-   "away": "Internacional",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.52,
-   "p_draw": 0.257,
-   "p_away": 0.223,
-   "p_over25": 0.469,
-   "p_btts": 0.488,
-   "xg_home": 1.61,
-   "xg_away": 0.94,
-   "likely_score": "1-0"
-  },
   {
    "date": "2026-10-17",
    "home": "Botafogo RJ",

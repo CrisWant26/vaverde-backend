@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T17:02:14+00:00",
+ "generated_at": "2026-10-17T15:38:40+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Bundesliga",
  "training_matches": 4018,
@@ -7,48 +7,6 @@
  "model_brier": 0.2136,
  "model_brier_baseline": 0.2432,
  "matches": [
-  {
-   "date": "2026-10-16",
-   "home": "Ein Frankfurt",
-   "away": "FC Koln",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.515,
-   "p_draw": 0.261,
-   "p_away": 0.224,
-   "p_over25": 0.565,
-   "p_btts": 0.565,
-   "xg_home": 1.83,
-   "xg_away": 1.12,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 5.3,
-     "corners_against": 5.2,
-     "shots_on_target_for": 5.6,
-     "shots_on_target_against": 6.9,
-     "yellow_cards_for": 2.2,
-     "yellow_cards_against": 1.5
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 5.6,
-     "corners_against": 5.5,
-     "shots_on_target_for": 5.3,
-     "shots_on_target_against": 5.5,
-     "yellow_cards_for": 1.7,
-     "yellow_cards_against": 1.9
-    },
-    "liga": {
-     "partidos": 603,
-     "corners_total": 9.7,
-     "shots_on_target_total": 9.5,
-     "yellow_cards_total": 3.8
-    }
-   }
-  },
   {
    "date": "2026-10-17",
    "home": "Bayern Munich",

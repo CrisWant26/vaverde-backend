@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:58:57+00:00",
+ "generated_at": "2026-10-17T15:35:20+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Liga MX",
  "training_matches": 4752,
@@ -7,51 +7,6 @@
  "model_brier": 0.2275,
  "model_brier_baseline": 0.2484,
  "matches": [
-  {
-   "date": "2026-10-16",
-   "home": "Necaxa",
-   "away": "Atlas",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.402,
-   "p_draw": 0.302,
-   "p_away": 0.296,
-   "p_over25": 0.446,
-   "p_btts": 0.495,
-   "xg_home": 1.37,
-   "xg_away": 1.09,
-   "likely_score": "1-1"
-  },
-  {
-   "date": "2026-10-16",
-   "home": "Atlante",
-   "away": "UNAM Pumas",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.31,
-   "p_draw": 0.291,
-   "p_away": 0.399,
-   "p_over25": 0.561,
-   "p_btts": 0.58,
-   "xg_home": 1.24,
-   "xg_away": 1.69,
-   "likely_score": "1-1"
-  },
-  {
-   "date": "2026-10-16",
-   "home": "Club Tijuana",
-   "away": "Puebla",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.521,
-   "p_draw": 0.258,
-   "p_away": 0.222,
-   "p_over25": 0.5,
-   "p_btts": 0.508,
-   "xg_home": 1.71,
-   "xg_away": 0.97,
-   "likely_score": "1-0"
-  },
   {
    "date": "2026-10-17",
    "home": "Guadalajara Chivas",

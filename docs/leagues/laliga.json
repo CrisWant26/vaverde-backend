@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T17:00:25+00:00",
+ "generated_at": "2026-10-17T15:36:51+00:00",
  "model": "poisson-elo-calibrado",
  "league": "LaLiga",
  "training_matches": 5010,
@@ -7,48 +7,6 @@
  "model_brier": 0.2118,
  "model_brier_baseline": 0.2482,
  "matches": [
-  {
-   "date": "2026-10-16",
-   "home": "La Coruna",
-   "away": "Levante",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.376,
-   "p_draw": 0.301,
-   "p_away": 0.323,
-   "p_over25": 0.531,
-   "p_btts": 0.566,
-   "xg_home": 1.48,
-   "xg_away": 1.32,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 5.9,
-     "corners_against": 5.2,
-     "shots_on_target_for": 4.8,
-     "shots_on_target_against": 4.7,
-     "yellow_cards_for": 1.8,
-     "yellow_cards_against": 1.5
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.9,
-     "corners_against": 5.1,
-     "shots_on_target_for": 4.6,
-     "shots_on_target_against": 5.7,
-     "yellow_cards_for": 1.4,
-     "yellow_cards_against": 1.7
-    },
-    "liga": {
-     "partidos": 748,
-     "corners_total": 9.6,
-     "shots_on_target_total": 8.6,
-     "yellow_cards_total": 4.4
-    }
-   }
-  },
   {
    "date": "2026-10-17",
    "home": "Valencia",

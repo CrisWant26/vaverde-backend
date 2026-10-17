@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:59:57+00:00",
+ "generated_at": "2026-10-17T15:36:23+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Eredivisie",
  "training_matches": 3976,
@@ -7,48 +7,6 @@
  "model_brier": 0.2077,
  "model_brier_baseline": 0.246,
  "matches": [
-  {
-   "date": "2026-10-16",
-   "home": "Heerenveen",
-   "away": "Excelsior",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.537,
-   "p_draw": 0.249,
-   "p_away": 0.214,
-   "p_over25": 0.621,
-   "p_btts": 0.603,
-   "xg_home": 2.01,
-   "xg_away": 1.19,
-   "likely_score": "2-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 5.5,
-     "corners_against": 5.6,
-     "shots_on_target_for": 5.5,
-     "shots_on_target_against": 4.1,
-     "yellow_cards_for": 1.0,
-     "yellow_cards_against": 1.5
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 4.0,
-     "corners_against": 4.7,
-     "shots_on_target_for": 4.1,
-     "shots_on_target_against": 4.7,
-     "yellow_cards_for": 1.2,
-     "yellow_cards_against": 1.4
-    },
-    "liga": {
-     "partidos": 614,
-     "corners_total": 10.2,
-     "shots_on_target_total": 9.9,
-     "yellow_cards_total": 3.0
-    }
-   }
-  },
   {
    "date": "2026-10-17",
    "home": "Sparta Rotterdam",
