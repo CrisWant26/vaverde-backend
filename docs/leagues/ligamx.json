@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T15:52:27+00:00",
+ "generated_at": "2026-10-19T18:43:45+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Liga MX",
  "training_matches": 4752,
@@ -7,21 +7,6 @@
  "model_brier": 0.2275,
  "model_brier_baseline": 0.2484,
  "matches": [
-  {
-   "date": "2026-10-18",
-   "home": "Monterrey",
-   "away": "Pachuca",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.436,
-   "p_draw": 0.278,
-   "p_away": 0.286,
-   "p_over25": 0.519,
-   "p_btts": 0.553,
-   "xg_home": 1.53,
-   "xg_away": 1.22,
-   "likely_score": "1-1"
-  },
   {
    "date": "2026-10-28",
    "home": "Club America",

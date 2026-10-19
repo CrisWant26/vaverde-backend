@@ -1,97 +1,12 @@
 {
- "generated_at": "2026-10-18T15:55:18+00:00",
+ "generated_at": "2026-10-19T19:01:08+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Bundesliga",
- "training_matches": 4018,
+ "training_matches": 3712,
  "last_result_date": "2026-10-11",
- "model_brier": 0.2136,
- "model_brier_baseline": 0.2432,
- "matches": [
-  {
-   "date": "2026-10-18",
-   "home": "M'gladbach",
-   "away": "Hoffenheim",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.433,
-   "p_draw": 0.26,
-   "p_away": 0.307,
-   "p_over25": 0.661,
-   "p_btts": 0.665,
-   "xg_home": 1.85,
-   "xg_away": 1.56,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 4.3,
-     "corners_against": 5.3,
-     "shots_on_target_for": 4.4,
-     "shots_on_target_against": 7.0,
-     "yellow_cards_for": 3.3,
-     "yellow_cards_against": 2.1
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 6.8,
-     "corners_against": 4.2,
-     "shots_on_target_for": 5.0,
-     "shots_on_target_against": 4.4,
-     "yellow_cards_for": 2.5,
-     "yellow_cards_against": 1.4
-    },
-    "liga": {
-     "partidos": 603,
-     "corners_total": 9.7,
-     "shots_on_target_total": 9.5,
-     "yellow_cards_total": 3.8
-    }
-   }
-  },
-  {
-   "date": "2026-10-18",
-   "home": "Leverkusen",
-   "away": "Freiburg",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.578,
-   "p_draw": 0.241,
-   "p_away": 0.181,
-   "p_over25": 0.608,
-   "p_btts": 0.569,
-   "xg_home": 2.1,
-   "xg_away": 1.04,
-   "likely_score": "2-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 7.7,
-     "corners_against": 3.6,
-     "shots_on_target_for": 6.7,
-     "shots_on_target_against": 5.4,
-     "yellow_cards_for": 1.5,
-     "yellow_cards_against": 2.1
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.9,
-     "corners_against": 3.7,
-     "shots_on_target_for": 4.9,
-     "shots_on_target_against": 3.2,
-     "yellow_cards_for": 1.2,
-     "yellow_cards_against": 1.6
-    },
-    "liga": {
-     "partidos": 603,
-     "corners_total": 9.7,
-     "shots_on_target_total": 9.5,
-     "yellow_cards_total": 3.8
-    }
-   }
-  }
- ],
+ "model_brier": 0.2124,
+ "model_brier_baseline": 0.2439,
+ "matches": [],
  "champion_probs": null,
  "history": {
   "matches": [
