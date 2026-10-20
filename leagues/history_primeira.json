@@ -1347,5 +1347,24 @@
   "p_fav": 0.535,
   "p_outcome": 0.197,
   "score_outcome": "home"
+ },
+ {
+  "date": "2026-10-19",
+  "home": "Sp Braga",
+  "away": "Gil Vicente",
+  "p_home": 0.647,
+  "p_draw": 0.223,
+  "p_away": 0.13,
+  "likely_score": "1-0",
+  "xg_home": 1.89,
+  "xg_away": 0.79,
+  "real_home": 1,
+  "real_away": 2,
+  "outcome": "away",
+  "fav_hit": false,
+  "tier": "fallo",
+  "p_fav": 0.647,
+  "p_outcome": 0.13,
+  "score_outcome": "home"
  }
 ]

@@ -1,58 +1,34 @@
 {
- "generated_at": "2026-10-19T18:48:34+00:00",
+ "generated_at": "2026-10-20T17:05:05+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Primeira Liga",
- "training_matches": 3429,
- "last_result_date": "2026-10-12",
- "model_brier": 0.1948,
- "model_brier_baseline": 0.2435,
- "matches": [
-  {
-   "date": "2026-10-19",
-   "home": "Sp Braga",
-   "away": "Gil Vicente",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.627,
-   "p_draw": 0.232,
-   "p_away": 0.14,
-   "p_over25": 0.507,
-   "p_btts": 0.482,
-   "xg_home": 1.86,
-   "xg_away": 0.85,
-   "likely_score": "1-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 4.3,
-     "corners_against": 3.5,
-     "shots_on_target_for": 3.9,
-     "shots_on_target_against": 3.3,
-     "yellow_cards_for": 2.1,
-     "yellow_cards_against": 2.8
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.9,
-     "corners_against": 5.1,
-     "shots_on_target_for": 3.4,
-     "shots_on_target_against": 2.9,
-     "yellow_cards_for": 1.9,
-     "yellow_cards_against": 1.6
-    },
-    "liga": {
-     "partidos": 612,
-     "corners_total": 9.4,
-     "shots_on_target_total": 8.3,
-     "yellow_cards_total": 4.9
-    }
-   }
-  }
- ],
+ "training_matches": 3976,
+ "last_result_date": "2026-10-19",
+ "model_brier": 0.1926,
+ "model_brier_baseline": 0.2436,
+ "matches": [],
  "champion_probs": null,
  "history": {
   "matches": [
+   {
+    "date": "2026-10-19",
+    "home": "Sp Braga",
+    "away": "Gil Vicente",
+    "p_home": 0.647,
+    "p_draw": 0.223,
+    "p_away": 0.13,
+    "likely_score": "1-0",
+    "xg_home": 1.89,
+    "xg_away": 0.79,
+    "real_home": 1,
+    "real_away": 2,
+    "outcome": "away",
+    "fav_hit": false,
+    "tier": "fallo",
+    "p_fav": 0.647,
+    "p_outcome": 0.13,
+    "score_outcome": "home"
+   },
    {
     "date": "2026-10-12",
     "home": "Famalicao",
@@ -1404,13 +1380,13 @@
    }
   ],
   "summary": {
-   "n": 71,
+   "n": 72,
    "plenos": 37,
    "parciales": 11,
-   "fallos": 23,
+   "fallos": 24,
    "fav_hits": 37,
-   "fav_rate": 0.521,
-   "brier": 0.561
+   "fav_rate": 0.514,
+   "brier": 0.571
   }
  }
 }
