@@ -1404,5 +1404,24 @@
   "p_fav": 0.438,
   "p_outcome": 0.328,
   "score_outcome": "home"
+ },
+ {
+  "date": "2026-10-21",
+  "home": "Levante",
+  "away": "Ath Bilbao",
+  "p_home": 0.319,
+  "p_draw": 0.317,
+  "p_away": 0.364,
+  "likely_score": "1-1",
+  "xg_home": 1.17,
+  "xg_away": 1.29,
+  "real_home": 3,
+  "real_away": 1,
+  "outcome": "home",
+  "fav_hit": false,
+  "tier": "parcial",
+  "p_fav": 0.364,
+  "p_outcome": 0.319,
+  "score_outcome": "draw"
  }
 ]
