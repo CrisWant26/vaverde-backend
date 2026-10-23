@@ -42,5 +42,104 @@
   "likely_score": "1-1",
   "xg_home": 1.27,
   "xg_away": 1.29
+ },
+ {
+  "date": "2026-10-23",
+  "home": "Atlante",
+  "away": "Atl. San Luis",
+  "p_home": 0.401,
+  "p_draw": 0.269,
+  "p_away": 0.33,
+  "likely_score": "1-1",
+  "xg_home": 1.49,
+  "xg_away": 1.55
+ },
+ {
+  "date": "2026-10-23",
+  "home": "Necaxa",
+  "away": "Juarez",
+  "p_home": 0.512,
+  "p_draw": 0.262,
+  "p_away": 0.225,
+  "likely_score": "1-1",
+  "xg_home": 1.69,
+  "xg_away": 1.01
+ },
+ {
+  "date": "2026-10-24",
+  "home": "Club Leon",
+  "away": "Toluca",
+  "p_home": 0.407,
+  "p_draw": 0.273,
+  "p_away": 0.319,
+  "likely_score": "1-1",
+  "xg_home": 1.48,
+  "xg_away": 1.45
+ },
+ {
+  "date": "2026-10-24",
+  "home": "UNAM Pumas",
+  "away": "Tigres UANL",
+  "p_home": 0.349,
+  "p_draw": 0.317,
+  "p_away": 0.334,
+  "likely_score": "1-1",
+  "xg_home": 1.22,
+  "xg_away": 1.17
+ },
+ {
+  "date": "2026-10-24",
+  "home": "Monterrey",
+  "away": "Guadalajara Chivas",
+  "p_home": 0.41,
+  "p_draw": 0.304,
+  "p_away": 0.286,
+  "likely_score": "1-1",
+  "xg_home": 1.37,
+  "xg_away": 1.05
+ },
+ {
+  "date": "2026-10-25",
+  "home": "Club America",
+  "away": "Pachuca",
+  "p_home": 0.555,
+  "p_draw": 0.245,
+  "p_away": 0.199,
+  "likely_score": "1-0",
+  "xg_home": 1.82,
+  "xg_away": 0.97
+ },
+ {
+  "date": "2026-10-25",
+  "home": "Atlas",
+  "away": "Puebla",
+  "p_home": 0.459,
+  "p_draw": 0.292,
+  "p_away": 0.249,
+  "likely_score": "1-0",
+  "xg_home": 1.5,
+  "xg_away": 0.94
+ },
+ {
+  "date": "2026-10-25",
+  "home": "Queretaro",
+  "away": "Cruz Azul",
+  "p_home": 0.284,
+  "p_draw": 0.322,
+  "p_away": 0.394,
+  "likely_score": "1-1",
+  "xg_home": 1.05,
+  "xg_away": 1.34
+ },
+ {
+  "date": "2026-10-25",
+  "home": "Club Tijuana",
+  "away": "Santos Laguna",
+  "p_home": 0.476,
+  "p_draw": 0.262,
+  "p_away": 0.262,
+  "likely_score": "1-1",
+  "xg_home": 1.64,
+  "xg_away": 1.23
  }
 ]
