@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T17:07:48+00:00",
+ "generated_at": "2026-10-24T15:58:03+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Liga MX",
  "training_matches": 4770,
@@ -7,36 +7,6 @@
  "model_brier": 0.2277,
  "model_brier_baseline": 0.2485,
  "matches": [
-  {
-   "date": "2026-10-23",
-   "home": "Atlante",
-   "away": "Atl. San Luis",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.401,
-   "p_draw": 0.269,
-   "p_away": 0.33,
-   "p_over25": 0.585,
-   "p_btts": 0.61,
-   "xg_home": 1.49,
-   "xg_away": 1.55,
-   "likely_score": "1-1"
-  },
-  {
-   "date": "2026-10-23",
-   "home": "Necaxa",
-   "away": "Juarez",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.512,
-   "p_draw": 0.262,
-   "p_away": 0.225,
-   "p_over25": 0.507,
-   "p_btts": 0.519,
-   "xg_home": 1.69,
-   "xg_away": 1.01,
-   "likely_score": "1-1"
-  },
   {
    "date": "2026-10-24",
    "home": "Club Leon",

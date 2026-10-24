@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T17:10:50+00:00",
+ "generated_at": "2026-10-24T16:00:59+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Bundesliga",
  "training_matches": 4026,
@@ -7,48 +7,6 @@
  "model_brier": 0.2132,
  "model_brier_baseline": 0.2434,
  "matches": [
-  {
-   "date": "2026-10-23",
-   "home": "Stuttgart",
-   "away": "M'gladbach",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.487,
-   "p_draw": 0.259,
-   "p_away": 0.253,
-   "p_over25": 0.626,
-   "p_btts": 0.624,
-   "xg_home": 1.91,
-   "xg_away": 1.32,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 7.2,
-     "corners_against": 5.4,
-     "shots_on_target_for": 6.0,
-     "shots_on_target_against": 5.7,
-     "yellow_cards_for": 1.2,
-     "yellow_cards_against": 2.1
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 4.6,
-     "corners_against": 5.3,
-     "shots_on_target_for": 4.3,
-     "shots_on_target_against": 7.1,
-     "yellow_cards_for": 3.1,
-     "yellow_cards_against": 2.1
-    },
-    "liga": {
-     "partidos": 612,
-     "corners_total": 9.8,
-     "shots_on_target_total": 9.5,
-     "yellow_cards_total": 3.8
-    }
-   }
-  },
   {
    "date": "2026-10-24",
    "home": "Dortmund",

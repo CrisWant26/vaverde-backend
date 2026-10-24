@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T17:10:01+00:00",
+ "generated_at": "2026-10-24T16:00:12+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Serie A",
  "training_matches": 5010,
@@ -7,48 +7,6 @@
  "model_brier": 0.2095,
  "model_brier_baseline": 0.2388,
  "matches": [
-  {
-   "date": "2026-10-23",
-   "home": "Torino",
-   "away": "Monza",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.55,
-   "p_draw": 0.27,
-   "p_away": 0.18,
-   "p_over25": 0.48,
-   "p_btts": 0.479,
-   "xg_home": 1.71,
-   "xg_away": 0.88,
-   "likely_score": "1-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 3.7,
-     "corners_against": 4.5,
-     "shots_on_target_for": 3.4,
-     "shots_on_target_against": 4.7,
-     "yellow_cards_for": 1.2,
-     "yellow_cards_against": 1.5
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.8,
-     "corners_against": 5.2,
-     "shots_on_target_for": 5.0,
-     "shots_on_target_against": 5.1,
-     "yellow_cards_for": 1.5,
-     "yellow_cards_against": 1.5
-    },
-    "liga": {
-     "partidos": 760,
-     "corners_total": 9.1,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
   {
    "date": "2026-10-24",
    "home": "Lazio",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T17:08:20+00:00",
+ "generated_at": "2026-10-24T15:58:35+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Primeira Liga",
  "training_matches": 3976,
@@ -7,48 +7,6 @@
  "model_brier": 0.1926,
  "model_brier_baseline": 0.2436,
  "matches": [
-  {
-   "date": "2026-10-23",
-   "home": "Guimaraes",
-   "away": "Maritimo",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.523,
-   "p_draw": 0.276,
-   "p_away": 0.201,
-   "p_over25": 0.454,
-   "p_btts": 0.476,
-   "xg_home": 1.57,
-   "xg_away": 0.92,
-   "likely_score": "1-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 5.8,
-     "corners_against": 3.7,
-     "shots_on_target_for": 3.9,
-     "shots_on_target_against": 3.2,
-     "yellow_cards_for": 2.6,
-     "yellow_cards_against": 2.5
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.3,
-     "corners_against": 4.6,
-     "shots_on_target_for": 3.7,
-     "shots_on_target_against": 5.2,
-     "yellow_cards_for": 2.1,
-     "yellow_cards_against": 2.4
-    },
-    "liga": {
-     "partidos": 613,
-     "corners_total": 9.4,
-     "shots_on_target_total": 8.3,
-     "yellow_cards_total": 4.9
-    }
-   }
-  },
   {
    "date": "2026-10-24",
    "home": "Gil Vicente",

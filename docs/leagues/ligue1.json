@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T17:10:26+00:00",
+ "generated_at": "2026-10-24T16:00:37+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Ligue 1",
  "training_matches": 4673,
@@ -7,48 +7,6 @@
  "model_brier": 0.2247,
  "model_brier_baseline": 0.2467,
  "matches": [
-  {
-   "date": "2026-10-23",
-   "home": "Brest",
-   "away": "Nice",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.429,
-   "p_draw": 0.285,
-   "p_away": 0.286,
-   "p_over25": 0.475,
-   "p_btts": 0.519,
-   "xg_home": 1.42,
-   "xg_away": 1.15,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 4.7,
-     "corners_against": 4.8,
-     "shots_on_target_for": 5.3,
-     "shots_on_target_against": 4.3,
-     "yellow_cards_for": 1.0,
-     "yellow_cards_against": 1.2
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 5.8,
-     "corners_against": 4.3,
-     "shots_on_target_for": 3.8,
-     "shots_on_target_against": 4.3,
-     "yellow_cards_for": 1.7,
-     "yellow_cards_against": 1.0
-    },
-    "liga": {
-     "partidos": 612,
-     "corners_total": 9.5,
-     "shots_on_target_total": 9.0,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
   {
    "date": "2026-10-24",
    "home": "Lens",

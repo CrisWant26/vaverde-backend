@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T17:09:36+00:00",
+ "generated_at": "2026-10-24T15:59:47+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Premier League",
  "training_matches": 5003,
@@ -7,48 +7,6 @@
  "model_brier": 0.217,
  "model_brier_baseline": 0.2436,
  "matches": [
-  {
-   "date": "2026-10-23",
-   "home": "Ipswich",
-   "away": "Nott'm Forest",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.3,
-   "p_draw": 0.231,
-   "p_away": 0.47,
-   "p_over25": 0.557,
-   "p_btts": 0.571,
-   "xg_home": 1.19,
-   "xg_away": 1.73,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 3.4,
-     "corners_against": 4.1,
-     "shots_on_target_for": 4.1,
-     "shots_on_target_against": 5.3,
-     "yellow_cards_for": 1.5,
-     "yellow_cards_against": 2.1
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 4.7,
-     "corners_against": 4.5,
-     "shots_on_target_for": 4.0,
-     "shots_on_target_against": 4.1,
-     "yellow_cards_for": 2.0,
-     "yellow_cards_against": 1.5
-    },
-    "liga": {
-     "partidos": 760,
-     "corners_total": 10.0,
-     "shots_on_target_total": 8.7,
-     "yellow_cards_total": 3.8
-    }
-   }
-  },
   {
    "date": "2026-10-24",
    "home": "Chelsea",
