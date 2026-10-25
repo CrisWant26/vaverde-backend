@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T16:00:37+00:00",
+ "generated_at": "2026-10-25T16:22:05+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Ligue 1",
  "training_matches": 4673,
@@ -7,48 +7,6 @@
  "model_brier": 0.2247,
  "model_brier_baseline": 0.2467,
  "matches": [
-  {
-   "date": "2026-10-24",
-   "home": "Lens",
-   "away": "Paris FC",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.454,
-   "p_draw": 0.277,
-   "p_away": 0.269,
-   "p_over25": 0.518,
-   "p_btts": 0.548,
-   "xg_home": 1.57,
-   "xg_away": 1.17,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 6.8,
-     "corners_against": 5.1,
-     "shots_on_target_for": 6.1,
-     "shots_on_target_against": 4.5,
-     "yellow_cards_for": 2.0,
-     "yellow_cards_against": 1.3
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.9,
-     "corners_against": 3.9,
-     "shots_on_target_for": 5.3,
-     "shots_on_target_against": 3.3,
-     "yellow_cards_for": 2.2,
-     "yellow_cards_against": 1.3
-    },
-    "liga": {
-     "partidos": 612,
-     "corners_total": 9.5,
-     "shots_on_target_total": 9.0,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
   {
    "date": "2026-10-25",
    "home": "Toulouse",

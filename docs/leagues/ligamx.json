@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T15:58:03+00:00",
+ "generated_at": "2026-10-25T16:19:54+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Liga MX",
  "training_matches": 4770,
@@ -7,51 +7,6 @@
  "model_brier": 0.2277,
  "model_brier_baseline": 0.2485,
  "matches": [
-  {
-   "date": "2026-10-24",
-   "home": "Club Leon",
-   "away": "Toluca",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.407,
-   "p_draw": 0.273,
-   "p_away": 0.319,
-   "p_over25": 0.56,
-   "p_btts": 0.591,
-   "xg_home": 1.48,
-   "xg_away": 1.45,
-   "likely_score": "1-1"
-  },
-  {
-   "date": "2026-10-24",
-   "home": "UNAM Pumas",
-   "away": "Tigres UANL",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.349,
-   "p_draw": 0.317,
-   "p_away": 0.334,
-   "p_over25": 0.426,
-   "p_btts": 0.485,
-   "xg_home": 1.22,
-   "xg_away": 1.17,
-   "likely_score": "1-1"
-  },
-  {
-   "date": "2026-10-24",
-   "home": "Monterrey",
-   "away": "Guadalajara Chivas",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.41,
-   "p_draw": 0.304,
-   "p_away": 0.286,
-   "p_over25": 0.435,
-   "p_btts": 0.484,
-   "xg_home": 1.37,
-   "xg_away": 1.05,
-   "likely_score": "1-1"
-  },
   {
    "date": "2026-10-25",
    "home": "Club America",
