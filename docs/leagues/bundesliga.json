@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T18:03:06+00:00",
+ "generated_at": "2026-10-28T18:24:37+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Bundesliga",
  "training_matches": 4034,
  "last_result_date": "2026-10-25",
- "model_brier": 0.2125,
+ "model_brier": 0.2126,
  "model_brier_baseline": 0.2433,
  "matches": [],
  "champion_probs": null,
