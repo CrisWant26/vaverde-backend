@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T18:21:24+00:00",
+ "generated_at": "2026-10-29T18:28:42+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Liga MX",
  "training_matches": 4779,
@@ -7,21 +7,6 @@
  "model_brier": 0.2278,
  "model_brier_baseline": 0.2483,
  "matches": [
-  {
-   "date": "2026-10-28",
-   "home": "Club America",
-   "away": "Club Tijuana",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.586,
-   "p_draw": 0.232,
-   "p_away": 0.182,
-   "p_over25": 0.531,
-   "p_btts": 0.506,
-   "xg_home": 1.9,
-   "xg_away": 0.91,
-   "likely_score": "1-0"
-  },
   {
    "date": "2026-11-14",
    "home": "Queretaro",
@@ -32,7 +17,7 @@
    "p_draw": 0.306,
    "p_away": 0.353,
    "p_over25": 0.47,
-   "p_btts": 0.519,
+   "p_btts": 0.52,
    "xg_home": 1.23,
    "xg_away": 1.33,
    "likely_score": "1-1"
