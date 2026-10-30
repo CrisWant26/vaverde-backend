@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-29T18:28:42+00:00",
+ "generated_at": "2026-10-30T18:00:31+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Liga MX",
- "training_matches": 4779,
- "last_result_date": "2026-10-26",
- "model_brier": 0.2278,
- "model_brier_baseline": 0.2483,
+ "training_matches": 4780,
+ "last_result_date": "2026-10-29",
+ "model_brier": 0.2279,
+ "model_brier_baseline": 0.2482,
  "matches": [
   {
    "date": "2026-11-14",
@@ -13,9 +13,9 @@
    "away": "Monterrey",
    "city": "",
    "neutral": false,
-   "p_home": 0.341,
+   "p_home": 0.338,
    "p_draw": 0.306,
-   "p_away": 0.353,
+   "p_away": 0.355,
    "p_over25": 0.47,
    "p_btts": 0.52,
    "xg_home": 1.23,
@@ -26,6 +26,25 @@
  "champion_probs": null,
  "history": {
   "matches": [
+   {
+    "date": "2026-10-28",
+    "home": "Club America",
+    "away": "Club Tijuana",
+    "p_home": 0.558,
+    "p_draw": 0.247,
+    "p_away": 0.194,
+    "likely_score": "1-0",
+    "xg_home": 1.83,
+    "xg_away": 0.92,
+    "real_home": 1,
+    "real_away": 1,
+    "outcome": "draw",
+    "fav_hit": false,
+    "tier": "fallo",
+    "p_fav": 0.558,
+    "p_outcome": 0.247,
+    "score_outcome": "home"
+   },
    {
     "date": "2026-10-25",
     "home": "Club America",
@@ -2042,13 +2061,13 @@
    }
   ],
   "summary": {
-   "n": 106,
+   "n": 107,
    "plenos": 50,
    "parciales": 18,
-   "fallos": 38,
+   "fallos": 39,
    "fav_hits": 50,
-   "fav_rate": 0.472,
-   "brier": 0.649
+   "fav_rate": 0.467,
+   "brier": 0.652
   }
  }
 }
