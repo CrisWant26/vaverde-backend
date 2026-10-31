@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T18:01:00+00:00",
+ "generated_at": "2026-10-31T17:15:46+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Primeira Liga",
  "training_matches": 3984,
@@ -7,48 +7,6 @@
  "model_brier": 0.1928,
  "model_brier_baseline": 0.2429,
  "matches": [
-  {
-   "date": "2026-10-30",
-   "home": "Casa Pia",
-   "away": "Sp Lisbon",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.117,
-   "p_draw": 0.175,
-   "p_away": 0.708,
-   "p_over25": 0.527,
-   "p_btts": 0.444,
-   "xg_home": 0.71,
-   "xg_away": 2.08,
-   "likely_score": "0-2",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 4.6,
-     "corners_against": 5.7,
-     "shots_on_target_for": 3.0,
-     "shots_on_target_against": 5.0,
-     "yellow_cards_for": 2.1,
-     "yellow_cards_against": 1.8
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 5.3,
-     "corners_against": 2.4,
-     "shots_on_target_for": 5.3,
-     "shots_on_target_against": 2.7,
-     "yellow_cards_for": 2.1,
-     "yellow_cards_against": 2.4
-    },
-    "liga": {
-     "partidos": 620,
-     "corners_total": 9.3,
-     "shots_on_target_total": 8.3,
-     "yellow_cards_total": 4.9
-    }
-   }
-  },
   {
    "date": "2026-10-31",
    "home": "Porto",

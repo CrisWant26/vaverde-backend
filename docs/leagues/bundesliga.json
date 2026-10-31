@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T18:03:18+00:00",
+ "generated_at": "2026-10-31T17:18:10+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Bundesliga",
  "training_matches": 4034,
@@ -7,48 +7,6 @@
  "model_brier": 0.2125,
  "model_brier_baseline": 0.2433,
  "matches": [
-  {
-   "date": "2026-10-30",
-   "home": "Elversberg",
-   "away": "Mainz",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.396,
-   "p_draw": 0.283,
-   "p_away": 0.322,
-   "p_over25": 0.505,
-   "p_btts": 0.547,
-   "xg_home": 1.4,
-   "xg_away": 1.29,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 7,
-     "corners_for": 4.0,
-     "corners_against": 7.4,
-     "shots_on_target_for": 4.1,
-     "shots_on_target_against": 5.3,
-     "yellow_cards_for": 2.0,
-     "yellow_cards_against": 1.7
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 5.2,
-     "corners_against": 5.1,
-     "shots_on_target_for": 6.2,
-     "shots_on_target_against": 4.8,
-     "yellow_cards_for": 2.0,
-     "yellow_cards_against": 1.8
-    },
-    "liga": {
-     "partidos": 612,
-     "corners_total": 9.8,
-     "shots_on_target_total": 9.5,
-     "yellow_cards_total": 3.8
-    }
-   }
-  },
   {
    "date": "2026-10-31",
    "home": "Bayern Munich",

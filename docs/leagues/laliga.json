@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T18:01:47+00:00",
+ "generated_at": "2026-10-31T17:16:33+00:00",
  "model": "poisson-elo-calibrado",
  "league": "LaLiga",
  "training_matches": 5029,
@@ -7,48 +7,6 @@
  "model_brier": 0.2121,
  "model_brier_baseline": 0.2482,
  "matches": [
-  {
-   "date": "2026-10-30",
-   "home": "Villarreal",
-   "away": "Espanol",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.627,
-   "p_draw": 0.231,
-   "p_away": 0.142,
-   "p_over25": 0.529,
-   "p_btts": 0.49,
-   "xg_home": 1.95,
-   "xg_away": 0.85,
-   "likely_score": "1-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 7.3,
-     "corners_against": 4.6,
-     "shots_on_target_for": 6.0,
-     "shots_on_target_against": 3.6,
-     "yellow_cards_for": 1.8,
-     "yellow_cards_against": 2.5
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 2.5,
-     "corners_against": 5.8,
-     "shots_on_target_for": 3.4,
-     "shots_on_target_against": 5.5,
-     "yellow_cards_for": 3.1,
-     "yellow_cards_against": 2.7
-    },
-    "liga": {
-     "partidos": 758,
-     "corners_total": 9.6,
-     "shots_on_target_total": 8.6,
-     "yellow_cards_total": 4.4
-    }
-   }
-  },
   {
    "date": "2026-10-31",
    "home": "Barcelona",
