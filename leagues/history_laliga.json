@@ -1784,5 +1784,24 @@
   "p_fav": 0.342,
   "p_outcome": 0.342,
   "score_outcome": "draw"
+ },
+ {
+  "date": "2026-11-02",
+  "home": "La Coruna",
+  "away": "Osasuna",
+  "p_home": 0.398,
+  "p_draw": 0.308,
+  "p_away": 0.293,
+  "likely_score": "1-1",
+  "xg_home": 1.39,
+  "xg_away": 1.16,
+  "real_home": 2,
+  "real_away": 1,
+  "outcome": "home",
+  "fav_hit": false,
+  "tier": "pleno",
+  "p_fav": 0.398,
+  "p_outcome": 0.398,
+  "score_outcome": "draw"
  }
 ]

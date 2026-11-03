@@ -1499,5 +1499,24 @@
   "p_fav": 0.384,
   "p_outcome": 0.384,
   "score_outcome": "draw"
+ },
+ {
+  "date": "2026-11-02",
+  "home": "Newcastle",
+  "away": "Everton",
+  "p_home": 0.432,
+  "p_draw": 0.27,
+  "p_away": 0.298,
+  "likely_score": "1-1",
+  "xg_home": 1.45,
+  "xg_away": 1.13,
+  "real_home": 0,
+  "real_away": 1,
+  "outcome": "away",
+  "fav_hit": false,
+  "tier": "fallo",
+  "p_fav": 0.432,
+  "p_outcome": 0.298,
+  "score_outcome": "draw"
  }
 ]

@@ -9,27 +9,5 @@
   "likely_score": "1-0",
   "xg_home": 1.94,
   "xg_away": 0.79
- },
- {
-  "date": "2026-11-02",
-  "home": "Benfica",
-  "away": "Alverca",
-  "p_home": 0.882,
-  "p_draw": 0.087,
-  "p_away": 0.031,
-  "likely_score": "2-0",
-  "xg_home": 2.87,
-  "xg_away": 0.58
- },
- {
-  "date": "2026-11-02",
-  "home": "Gil Vicente",
-  "away": "Guimaraes",
-  "p_home": 0.365,
-  "p_draw": 0.312,
-  "p_away": 0.323,
-  "likely_score": "1-1",
-  "xg_home": 1.2,
-  "xg_away": 1.12
  }
 ]

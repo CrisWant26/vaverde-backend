@@ -1651,5 +1651,43 @@
   "p_fav": 0.78,
   "p_outcome": 0.78,
   "score_outcome": "home"
+ },
+ {
+  "date": "2026-11-02",
+  "home": "Atalanta",
+  "away": "Parma",
+  "p_home": 0.621,
+  "p_draw": 0.231,
+  "p_away": 0.148,
+  "likely_score": "2-0",
+  "xg_home": 2.12,
+  "xg_away": 0.91,
+  "real_home": 0,
+  "real_away": 3,
+  "outcome": "away",
+  "fav_hit": false,
+  "tier": "fallo",
+  "p_fav": 0.621,
+  "p_outcome": 0.148,
+  "score_outcome": "home"
+ },
+ {
+  "date": "2026-11-02",
+  "home": "Sassuolo",
+  "away": "Fiorentina",
+  "p_home": 0.343,
+  "p_draw": 0.29,
+  "p_away": 0.367,
+  "likely_score": "1-1",
+  "xg_home": 1.43,
+  "xg_away": 1.49,
+  "real_home": 2,
+  "real_away": 4,
+  "outcome": "away",
+  "fav_hit": false,
+  "tier": "pleno",
+  "p_fav": 0.367,
+  "p_outcome": 0.367,
+  "score_outcome": "draw"
  }
 ]

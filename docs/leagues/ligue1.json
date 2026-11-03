@@ -1,58 +1,34 @@
 {
- "generated_at": "2026-11-02T21:45:13+00:00",
+ "generated_at": "2026-11-03T19:33:02+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Ligue 1",
- "training_matches": 4688,
- "last_result_date": "2026-11-01",
- "model_brier": 0.2256,
- "model_brier_baseline": 0.2473,
- "matches": [
-  {
-   "date": "2026-11-02",
-   "home": "Lorient",
-   "away": "Brest",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.419,
-   "p_draw": 0.276,
-   "p_away": 0.304,
-   "p_over25": 0.557,
-   "p_btts": 0.584,
-   "xg_home": 1.6,
-   "xg_away": 1.32,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 3.4,
-     "corners_against": 5.3,
-     "shots_on_target_for": 3.4,
-     "shots_on_target_against": 3.8,
-     "yellow_cards_for": 1.3,
-     "yellow_cards_against": 2.1
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 4.8,
-     "corners_against": 4.2,
-     "shots_on_target_for": 5.8,
-     "shots_on_target_against": 3.9,
-     "yellow_cards_for": 1.3,
-     "yellow_cards_against": 1.7
-    },
-    "liga": {
-     "partidos": 611,
-     "corners_total": 9.4,
-     "shots_on_target_total": 9.0,
-     "yellow_cards_total": 3.7
-    }
-   }
-  }
- ],
+ "training_matches": 4689,
+ "last_result_date": "2026-11-02",
+ "model_brier": 0.2255,
+ "model_brier_baseline": 0.2472,
+ "matches": [],
  "champion_probs": null,
  "history": {
   "matches": [
+   {
+    "date": "2026-11-02",
+    "home": "Lorient",
+    "away": "Brest",
+    "p_home": 0.422,
+    "p_draw": 0.278,
+    "p_away": 0.3,
+    "likely_score": "1-1",
+    "xg_home": 1.6,
+    "xg_away": 1.32,
+    "real_home": 0,
+    "real_away": 2,
+    "outcome": "away",
+    "fav_hit": false,
+    "tier": "fallo",
+    "p_fav": 0.422,
+    "p_outcome": 0.3,
+    "score_outcome": "draw"
+   },
    {
     "date": "2026-11-01",
     "home": "Marseille",
@@ -1423,13 +1399,13 @@
    }
   ],
   "summary": {
-   "n": 72,
+   "n": 73,
    "plenos": 44,
    "parciales": 8,
-   "fallos": 20,
+   "fallos": 21,
    "fav_hits": 44,
-   "fav_rate": 0.611,
-   "brier": 0.559
+   "fav_rate": 0.603,
+   "brier": 0.562
   }
  }
 }

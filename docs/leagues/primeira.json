@@ -1,100 +1,53 @@
 {
- "generated_at": "2026-11-02T21:43:28+00:00",
+ "generated_at": "2026-11-03T19:30:28+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Primeira Liga",
- "training_matches": 3990,
- "last_result_date": "2026-11-01",
- "model_brier": 0.1924,
- "model_brier_baseline": 0.2432,
- "matches": [
-  {
-   "date": "2026-11-02",
-   "home": "Benfica",
-   "away": "Alverca",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.882,
-   "p_draw": 0.087,
-   "p_away": 0.031,
-   "p_over25": 0.67,
-   "p_btts": 0.415,
-   "xg_home": 2.87,
-   "xg_away": 0.58,
-   "likely_score": "2-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 7.4,
-     "corners_against": 2.2,
-     "shots_on_target_for": 6.6,
-     "shots_on_target_against": 2.9,
-     "yellow_cards_for": 2.1,
-     "yellow_cards_against": 3.2
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 4.6,
-     "corners_against": 3.8,
-     "shots_on_target_for": 3.5,
-     "shots_on_target_against": 4.1,
-     "yellow_cards_for": 2.1,
-     "yellow_cards_against": 1.9
-    },
-    "liga": {
-     "partidos": 620,
-     "corners_total": 9.3,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 4.9
-    }
-   }
-  },
-  {
-   "date": "2026-11-02",
-   "home": "Gil Vicente",
-   "away": "Guimaraes",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.365,
-   "p_draw": 0.312,
-   "p_away": 0.322,
-   "p_over25": 0.408,
-   "p_btts": 0.47,
-   "xg_home": 1.2,
-   "xg_away": 1.12,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 3.0,
-     "corners_against": 5.2,
-     "shots_on_target_for": 3.3,
-     "shots_on_target_against": 3.1,
-     "yellow_cards_for": 1.8,
-     "yellow_cards_against": 1.8
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 5.8,
-     "corners_against": 3.8,
-     "shots_on_target_for": 4.5,
-     "shots_on_target_against": 2.9,
-     "yellow_cards_for": 2.8,
-     "yellow_cards_against": 2.7
-    },
-    "liga": {
-     "partidos": 620,
-     "corners_total": 9.3,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 4.9
-    }
-   }
-  }
- ],
+ "training_matches": 3992,
+ "last_result_date": "2026-11-02",
+ "model_brier": 0.1919,
+ "model_brier_baseline": 0.2435,
+ "matches": [],
  "champion_probs": null,
  "history": {
   "matches": [
+   {
+    "date": "2026-11-02",
+    "home": "Benfica",
+    "away": "Alverca",
+    "p_home": 0.882,
+    "p_draw": 0.087,
+    "p_away": 0.031,
+    "likely_score": "2-0",
+    "xg_home": 2.87,
+    "xg_away": 0.58,
+    "real_home": 1,
+    "real_away": 0,
+    "outcome": "home",
+    "fav_hit": true,
+    "tier": "pleno",
+    "p_fav": 0.882,
+    "p_outcome": 0.882,
+    "score_outcome": "home"
+   },
+   {
+    "date": "2026-11-02",
+    "home": "Gil Vicente",
+    "away": "Guimaraes",
+    "p_home": 0.365,
+    "p_draw": 0.312,
+    "p_away": 0.323,
+    "likely_score": "1-1",
+    "xg_home": 1.2,
+    "xg_away": 1.12,
+    "real_home": 0,
+    "real_away": 0,
+    "outcome": "draw",
+    "fav_hit": true,
+    "tier": "parcial",
+    "p_fav": 0.365,
+    "p_outcome": 0.312,
+    "score_outcome": "draw"
+   },
    {
     "date": "2026-11-01",
     "home": "Sp Braga",
@@ -1769,13 +1722,13 @@
    }
   ],
   "summary": {
-   "n": 88,
-   "plenos": 46,
-   "parciales": 13,
+   "n": 90,
+   "plenos": 47,
+   "parciales": 14,
    "fallos": 29,
-   "fav_hits": 46,
-   "fav_rate": 0.523,
-   "brier": 0.566
+   "fav_hits": 47,
+   "fav_rate": 0.522,
+   "brier": 0.562
   }
  }
 }

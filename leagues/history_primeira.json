@@ -1670,5 +1670,43 @@
   "p_fav": 0.505,
   "p_outcome": 0.505,
   "score_outcome": "draw"
+ },
+ {
+  "date": "2026-11-02",
+  "home": "Benfica",
+  "away": "Alverca",
+  "p_home": 0.882,
+  "p_draw": 0.087,
+  "p_away": 0.031,
+  "likely_score": "2-0",
+  "xg_home": 2.87,
+  "xg_away": 0.58,
+  "real_home": 1,
+  "real_away": 0,
+  "outcome": "home",
+  "fav_hit": true,
+  "tier": "pleno",
+  "p_fav": 0.882,
+  "p_outcome": 0.882,
+  "score_outcome": "home"
+ },
+ {
+  "date": "2026-11-02",
+  "home": "Gil Vicente",
+  "away": "Guimaraes",
+  "p_home": 0.365,
+  "p_draw": 0.312,
+  "p_away": 0.323,
+  "likely_score": "1-1",
+  "xg_home": 1.2,
+  "xg_away": 1.12,
+  "real_home": 0,
+  "real_away": 0,
+  "outcome": "draw",
+  "fav_hit": true,
+  "tier": "parcial",
+  "p_fav": 0.365,
+  "p_outcome": 0.312,
+  "score_outcome": "draw"
  }
 ]
