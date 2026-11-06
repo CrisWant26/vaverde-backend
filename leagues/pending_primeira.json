@@ -9,5 +9,104 @@
   "likely_score": "1-0",
   "xg_home": 1.94,
   "xg_away": 0.79
+ },
+ {
+  "date": "2026-11-06",
+  "home": "Famalicao",
+  "away": "Arouca",
+  "p_home": 0.487,
+  "p_draw": 0.279,
+  "p_away": 0.234,
+  "likely_score": "1-1",
+  "xg_home": 1.54,
+  "xg_away": 1.01
+ },
+ {
+  "date": "2026-11-07",
+  "home": "Sp Lisbon",
+  "away": "Moreirense",
+  "p_home": 0.825,
+  "p_draw": 0.125,
+  "p_away": 0.05,
+  "likely_score": "2-0",
+  "xg_home": 2.5,
+  "xg_away": 0.61
+ },
+ {
+  "date": "2026-11-07",
+  "home": "Alverca",
+  "away": "Casa Pia",
+  "p_home": 0.463,
+  "p_draw": 0.302,
+  "p_away": 0.235,
+  "likely_score": "1-0",
+  "xg_home": 1.39,
+  "xg_away": 0.94
+ },
+ {
+  "date": "2026-11-07",
+  "home": "Nacional",
+  "away": "Academico Viseu",
+  "p_home": 0.349,
+  "p_draw": 0.298,
+  "p_away": 0.353,
+  "likely_score": "1-1",
+  "xg_home": 1.22,
+  "xg_away": 1.22
+ },
+ {
+  "date": "2026-11-08",
+  "home": "Estrela",
+  "away": "Benfica",
+  "p_home": 0.078,
+  "p_draw": 0.121,
+  "p_away": 0.801,
+  "likely_score": "0-2",
+  "xg_home": 0.63,
+  "xg_away": 2.48
+ },
+ {
+  "date": "2026-11-08",
+  "home": "Guimaraes",
+  "away": "Porto",
+  "p_home": 0.153,
+  "p_draw": 0.218,
+  "p_away": 0.629,
+  "likely_score": "0-1",
+  "xg_home": 0.75,
+  "xg_away": 1.82
+ },
+ {
+  "date": "2026-11-08",
+  "home": "Santa Clara",
+  "away": "Gil Vicente",
+  "p_home": 0.425,
+  "p_draw": 0.328,
+  "p_away": 0.247,
+  "likely_score": "1-0",
+  "xg_home": 1.23,
+  "xg_away": 0.91
+ },
+ {
+  "date": "2026-11-08",
+  "home": "Estoril",
+  "away": "Maritimo",
+  "p_home": 0.456,
+  "p_draw": 0.285,
+  "p_away": 0.259,
+  "likely_score": "1-1",
+  "xg_home": 1.47,
+  "xg_away": 1.06
+ },
+ {
+  "date": "2026-11-08",
+  "home": "Rio Ave",
+  "away": "Sp Braga",
+  "p_home": 0.231,
+  "p_draw": 0.258,
+  "p_away": 0.511,
+  "likely_score": "1-1",
+  "xg_home": 1.0,
+  "xg_away": 1.59
  }
 ]

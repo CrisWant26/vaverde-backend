@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-05T19:57:25+00:00",
+ "generated_at": "2026-11-06T19:25:09+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Brasileirao",
- "training_matches": 5649,
- "last_result_date": "2026-11-02",
- "model_brier": 0.2367,
- "model_brier_baseline": 0.2498,
+ "training_matches": 5657,
+ "last_result_date": "2026-11-06",
+ "model_brier": 0.2365,
+ "model_brier_baseline": 0.2499,
  "matches": [],
  "champion_probs": null,
  "history": {

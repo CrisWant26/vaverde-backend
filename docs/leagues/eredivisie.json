@@ -1,12 +1,391 @@
 {
- "generated_at": "2026-11-05T19:58:13+00:00",
+ "generated_at": "2026-11-06T19:26:04+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Eredivisie",
  "training_matches": 4003,
  "last_result_date": "2026-11-01",
  "model_brier": 0.2094,
  "model_brier_baseline": 0.246,
- "matches": [],
+ "matches": [
+  {
+   "date": "2026-11-06",
+   "home": "Willem II",
+   "away": "Zwolle",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.33,
+   "p_draw": 0.287,
+   "p_away": 0.383,
+   "p_over25": 0.516,
+   "p_btts": 0.554,
+   "xg_home": 1.28,
+   "xg_away": 1.46,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 4.7,
+     "corners_against": 6.8,
+     "shots_on_target_for": 2.7,
+     "shots_on_target_against": 7.5,
+     "yellow_cards_for": 1.5,
+     "yellow_cards_against": 0.8
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 4.7,
+     "corners_against": 6.4,
+     "shots_on_target_for": 4.7,
+     "shots_on_target_against": 6.4,
+     "yellow_cards_for": 1.5,
+     "yellow_cards_against": 1.2
+    },
+    "liga": {
+     "partidos": 622,
+     "corners_total": 10.2,
+     "shots_on_target_total": 10.0,
+     "yellow_cards_total": 3.0
+    }
+   }
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Excelsior",
+   "away": "Go Ahead Eagles",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.396,
+   "p_draw": 0.274,
+   "p_away": 0.33,
+   "p_over25": 0.573,
+   "p_btts": 0.599,
+   "xg_home": 1.55,
+   "xg_away": 1.43,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 3.0,
+     "corners_against": 5.6,
+     "shots_on_target_for": 2.9,
+     "shots_on_target_against": 6.5,
+     "yellow_cards_for": 1.4,
+     "yellow_cards_against": 1.0
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 5.7,
+     "corners_against": 4.9,
+     "shots_on_target_for": 5.4,
+     "shots_on_target_against": 5.7,
+     "yellow_cards_for": 0.7,
+     "yellow_cards_against": 1.0
+    },
+    "liga": {
+     "partidos": 622,
+     "corners_total": 10.2,
+     "shots_on_target_total": 10.0,
+     "yellow_cards_total": 3.0
+    }
+   }
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Den Haag",
+   "away": "Sparta Rotterdam",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.332,
+   "p_draw": 0.285,
+   "p_away": 0.383,
+   "p_over25": 0.523,
+   "p_btts": 0.56,
+   "xg_home": 1.3,
+   "xg_away": 1.47,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 3.4,
+     "corners_against": 5.3,
+     "shots_on_target_for": 4.1,
+     "shots_on_target_against": 6.9,
+     "yellow_cards_for": 1.9,
+     "yellow_cards_against": 1.6
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 5.8,
+     "corners_against": 5.7,
+     "shots_on_target_for": 5.5,
+     "shots_on_target_against": 5.9,
+     "yellow_cards_for": 1.6,
+     "yellow_cards_against": 1.3
+    },
+    "liga": {
+     "partidos": 622,
+     "corners_total": 10.2,
+     "shots_on_target_total": 10.0,
+     "yellow_cards_total": 3.0
+    }
+   }
+  },
+  {
+   "date": "2026-11-07",
+   "home": "For Sittard",
+   "away": "Telstar",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.403,
+   "p_draw": 0.269,
+   "p_away": 0.328,
+   "p_over25": 0.591,
+   "p_btts": 0.613,
+   "xg_home": 1.6,
+   "xg_away": 1.46,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 2.8,
+     "corners_against": 7.7,
+     "shots_on_target_for": 4.2,
+     "shots_on_target_against": 5.8,
+     "yellow_cards_for": 1.5,
+     "yellow_cards_against": 1.6
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 4.5,
+     "corners_against": 5.4,
+     "shots_on_target_for": 3.5,
+     "shots_on_target_against": 6.8,
+     "yellow_cards_for": 1.2,
+     "yellow_cards_against": 1.7
+    },
+    "liga": {
+     "partidos": 622,
+     "corners_total": 10.2,
+     "shots_on_target_total": 10.0,
+     "yellow_cards_total": 3.0
+    }
+   }
+  },
+  {
+   "date": "2026-11-08",
+   "home": "Utrecht",
+   "away": "Nijmegen",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.47,
+   "p_draw": 0.264,
+   "p_away": 0.266,
+   "p_over25": 0.593,
+   "p_btts": 0.603,
+   "xg_home": 1.78,
+   "xg_away": 1.29,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 4.9,
+     "corners_against": 5.6,
+     "shots_on_target_for": 4.2,
+     "shots_on_target_against": 7.0,
+     "yellow_cards_for": 2.1,
+     "yellow_cards_against": 1.0
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 5.7,
+     "corners_against": 3.4,
+     "shots_on_target_for": 4.5,
+     "shots_on_target_against": 4.0,
+     "yellow_cards_for": 1.4,
+     "yellow_cards_against": 2.1
+    },
+    "liga": {
+     "partidos": 622,
+     "corners_total": 10.2,
+     "shots_on_target_total": 10.0,
+     "yellow_cards_total": 3.0
+    }
+   }
+  },
+  {
+   "date": "2026-11-08",
+   "home": "Cambuur",
+   "away": "PSV Eindhoven",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.11,
+   "p_draw": 0.165,
+   "p_away": 0.724,
+   "p_over25": 0.724,
+   "p_btts": 0.563,
+   "xg_home": 0.91,
+   "xg_away": 2.85,
+   "likely_score": "0-2",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 4.0,
+     "corners_against": 5.9,
+     "shots_on_target_for": 5.5,
+     "shots_on_target_against": 4.6,
+     "yellow_cards_for": 1.9,
+     "yellow_cards_against": 2.0
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 6.7,
+     "corners_against": 3.2,
+     "shots_on_target_for": 7.4,
+     "shots_on_target_against": 4.4,
+     "yellow_cards_for": 1.7,
+     "yellow_cards_against": 2.1
+    },
+    "liga": {
+     "partidos": 622,
+     "corners_total": 10.2,
+     "shots_on_target_total": 10.0,
+     "yellow_cards_total": 3.0
+    }
+   }
+  },
+  {
+   "date": "2026-11-08",
+   "home": "AZ Alkmaar",
+   "away": "Groningen",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.542,
+   "p_draw": 0.26,
+   "p_away": 0.198,
+   "p_over25": 0.559,
+   "p_btts": 0.547,
+   "xg_home": 1.89,
+   "xg_away": 1.03,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 7.4,
+     "corners_against": 3.3,
+     "shots_on_target_for": 6.5,
+     "shots_on_target_against": 3.3,
+     "yellow_cards_for": 1.6,
+     "yellow_cards_against": 1.5
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 4.3,
+     "corners_against": 5.8,
+     "shots_on_target_for": 6.0,
+     "shots_on_target_against": 5.9,
+     "yellow_cards_for": 1.3,
+     "yellow_cards_against": 1.4
+    },
+    "liga": {
+     "partidos": 622,
+     "corners_total": 10.2,
+     "shots_on_target_total": 10.0,
+     "yellow_cards_total": 3.0
+    }
+   }
+  },
+  {
+   "date": "2026-11-08",
+   "home": "Twente",
+   "away": "Ajax",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.323,
+   "p_draw": 0.273,
+   "p_away": 0.404,
+   "p_over25": 0.563,
+   "p_btts": 0.589,
+   "xg_home": 1.34,
+   "xg_away": 1.6,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 7.0,
+     "corners_against": 3.4,
+     "shots_on_target_for": 8.1,
+     "shots_on_target_against": 3.6,
+     "yellow_cards_for": 1.0,
+     "yellow_cards_against": 1.7
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 5.8,
+     "corners_against": 3.7,
+     "shots_on_target_for": 7.2,
+     "shots_on_target_against": 4.4,
+     "yellow_cards_for": 1.8,
+     "yellow_cards_against": 1.4
+    },
+    "liga": {
+     "partidos": 622,
+     "corners_total": 10.2,
+     "shots_on_target_total": 10.0,
+     "yellow_cards_total": 3.0
+    }
+   }
+  },
+  {
+   "date": "2026-11-08",
+   "home": "Heerenveen",
+   "away": "Feyenoord",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.258,
+   "p_draw": 0.251,
+   "p_away": 0.492,
+   "p_over25": 0.611,
+   "p_btts": 0.606,
+   "xg_home": 1.24,
+   "xg_away": 1.92,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 4.9,
+     "corners_against": 5.1,
+     "shots_on_target_for": 5.7,
+     "shots_on_target_against": 3.8,
+     "yellow_cards_for": 1.0,
+     "yellow_cards_against": 1.5
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 5.9,
+     "corners_against": 4.0,
+     "shots_on_target_for": 8.4,
+     "shots_on_target_against": 4.0,
+     "yellow_cards_for": 1.3,
+     "yellow_cards_against": 1.5
+    },
+    "liga": {
+     "partidos": 622,
+     "corners_total": 10.2,
+     "shots_on_target_total": 10.0,
+     "yellow_cards_total": 3.0
+    }
+   }
+  }
+ ],
  "champion_probs": null,
  "history": {
   "matches": [
