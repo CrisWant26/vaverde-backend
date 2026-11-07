@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T19:27:02+00:00",
+ "generated_at": "2026-11-07T17:46:52+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Premier League",
  "training_matches": 5021,
@@ -7,48 +7,6 @@
  "model_brier": 0.2186,
  "model_brier_baseline": 0.2434,
  "matches": [
-  {
-   "date": "2026-11-06",
-   "home": "Everton",
-   "away": "Coventry",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.487,
-   "p_draw": 0.267,
-   "p_away": 0.246,
-   "p_over25": 0.464,
-   "p_btts": 0.49,
-   "xg_home": 1.56,
-   "xg_away": 0.97,
-   "likely_score": "1-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 4.6,
-     "corners_against": 5.8,
-     "shots_on_target_for": 4.6,
-     "shots_on_target_against": 4.2,
-     "yellow_cards_for": 2.0,
-     "yellow_cards_against": 2.4
-    },
-    "away": {
-     "partidos": 9,
-     "corners_for": 3.8,
-     "corners_against": 4.8,
-     "shots_on_target_for": 3.2,
-     "shots_on_target_against": 4.2,
-     "yellow_cards_for": 1.1,
-     "yellow_cards_against": 1.6
-    },
-    "liga": {
-     "partidos": 760,
-     "corners_total": 10.0,
-     "shots_on_target_total": 8.6,
-     "yellow_cards_total": 3.8
-    }
-   }
-  },
   {
    "date": "2026-11-07",
    "home": "Nott'm Forest",
@@ -183,7 +141,7 @@
    "neutral": false,
    "p_home": 0.408,
    "p_draw": 0.232,
-   "p_away": 0.36,
+   "p_away": 0.361,
    "p_over25": 0.604,
    "p_btts": 0.624,
    "xg_home": 1.59,

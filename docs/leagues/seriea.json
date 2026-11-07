@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T19:27:32+00:00",
+ "generated_at": "2026-11-07T17:47:16+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Serie A",
  "training_matches": 5040,
@@ -7,48 +7,6 @@
  "model_brier": 0.2096,
  "model_brier_baseline": 0.239,
  "matches": [
-  {
-   "date": "2026-11-06",
-   "home": "Venezia",
-   "away": "Udinese",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.299,
-   "p_draw": 0.304,
-   "p_away": 0.397,
-   "p_over25": 0.395,
-   "p_btts": 0.453,
-   "xg_home": 0.99,
-   "xg_away": 1.27,
-   "likely_score": "0-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 4.0,
-     "corners_against": 5.2,
-     "shots_on_target_for": 4.0,
-     "shots_on_target_against": 6.1,
-     "yellow_cards_for": 2.2,
-     "yellow_cards_against": 1.1
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 4.5,
-     "corners_against": 5.1,
-     "shots_on_target_for": 4.4,
-     "shots_on_target_against": 6.4,
-     "yellow_cards_for": 1.7,
-     "yellow_cards_against": 0.7
-    },
-    "liga": {
-     "partidos": 761,
-     "corners_total": 9.1,
-     "shots_on_target_total": 8.3,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
   {
    "date": "2026-11-07",
    "home": "Roma",
@@ -100,7 +58,7 @@
    "p_home": 0.323,
    "p_draw": 0.299,
    "p_away": 0.378,
-   "p_over25": 0.457,
+   "p_over25": 0.456,
    "p_btts": 0.507,
    "xg_home": 1.17,
    "xg_away": 1.33,
@@ -142,7 +100,7 @@
    "p_home": 0.532,
    "p_draw": 0.275,
    "p_away": 0.192,
-   "p_over25": 0.433,
+   "p_over25": 0.434,
    "p_btts": 0.452,
    "xg_home": 1.57,
    "xg_away": 0.85,
@@ -183,7 +141,7 @@
    "neutral": false,
    "p_home": 0.403,
    "p_draw": 0.293,
-   "p_away": 0.304,
+   "p_away": 0.303,
    "p_over25": 0.512,
    "p_btts": 0.55,
    "xg_home": 1.47,

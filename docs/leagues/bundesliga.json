@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T19:28:30+00:00",
+ "generated_at": "2026-11-07T17:48:04+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Bundesliga",
  "training_matches": 4042,
@@ -7,48 +7,6 @@
  "model_brier": 0.2138,
  "model_brier_baseline": 0.243,
  "matches": [
-  {
-   "date": "2026-11-06",
-   "home": "Hamburg",
-   "away": "M'gladbach",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.335,
-   "p_draw": 0.279,
-   "p_away": 0.387,
-   "p_over25": 0.508,
-   "p_btts": 0.547,
-   "xg_home": 1.25,
-   "xg_away": 1.46,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 3.7,
-     "corners_against": 6.0,
-     "shots_on_target_for": 3.7,
-     "shots_on_target_against": 6.2,
-     "yellow_cards_for": 1.8,
-     "yellow_cards_against": 1.6
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 4.9,
-     "corners_against": 5.7,
-     "shots_on_target_for": 4.7,
-     "shots_on_target_against": 7.5,
-     "yellow_cards_for": 3.1,
-     "yellow_cards_against": 2.4
-    },
-    "liga": {
-     "partidos": 612,
-     "corners_total": 9.8,
-     "shots_on_target_total": 9.5,
-     "yellow_cards_total": 3.8
-    }
-   }
-  },
   {
    "date": "2026-11-07",
    "home": "Stuttgart",
@@ -141,9 +99,9 @@
    "neutral": false,
    "p_home": 0.258,
    "p_draw": 0.256,
-   "p_away": 0.485,
+   "p_away": 0.486,
    "p_over25": 0.54,
-   "p_btts": 0.549,
+   "p_btts": 0.548,
    "xg_home": 1.09,
    "xg_away": 1.75,
    "likely_score": "1-1",
@@ -181,7 +139,7 @@
    "away": "Bayern Munich",
    "city": "",
    "neutral": false,
-   "p_home": 0.14,
+   "p_home": 0.139,
    "p_draw": 0.18,
    "p_away": 0.681,
    "p_over25": 0.667,

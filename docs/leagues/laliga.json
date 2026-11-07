@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T19:26:33+00:00",
+ "generated_at": "2026-11-07T17:46:28+00:00",
  "model": "poisson-elo-calibrado",
  "league": "LaLiga",
  "training_matches": 5038,
@@ -7,48 +7,6 @@
  "model_brier": 0.2125,
  "model_brier_baseline": 0.2485,
  "matches": [
-  {
-   "date": "2026-11-06",
-   "home": "Sevilla",
-   "away": "Alaves",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.555,
-   "p_draw": 0.267,
-   "p_away": 0.178,
-   "p_over25": 0.461,
-   "p_btts": 0.469,
-   "xg_home": 1.65,
-   "xg_away": 0.87,
-   "likely_score": "1-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 3.5,
-     "corners_against": 3.5,
-     "shots_on_target_for": 4.6,
-     "shots_on_target_against": 4.9,
-     "yellow_cards_for": 2.7,
-     "yellow_cards_against": 1.7
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.9,
-     "corners_against": 4.8,
-     "shots_on_target_for": 4.2,
-     "shots_on_target_against": 4.7,
-     "yellow_cards_for": 1.6,
-     "yellow_cards_against": 1.9
-    },
-    "liga": {
-     "partidos": 758,
-     "corners_total": 9.6,
-     "shots_on_target_total": 8.6,
-     "yellow_cards_total": 4.4
-    }
-   }
-  },
   {
    "date": "2026-11-07",
    "home": "Valencia",
@@ -394,7 +352,7 @@
    "p_home": 0.342,
    "p_draw": 0.304,
    "p_away": 0.354,
-   "p_over25": 0.491,
+   "p_over25": 0.492,
    "p_btts": 0.537,
    "xg_home": 1.31,
    "xg_away": 1.33,

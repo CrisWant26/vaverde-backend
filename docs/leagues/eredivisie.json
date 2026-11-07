@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T19:26:04+00:00",
+ "generated_at": "2026-11-07T17:46:04+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Eredivisie",
  "training_matches": 4003,
@@ -7,48 +7,6 @@
  "model_brier": 0.2094,
  "model_brier_baseline": 0.246,
  "matches": [
-  {
-   "date": "2026-11-06",
-   "home": "Willem II",
-   "away": "Zwolle",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.33,
-   "p_draw": 0.287,
-   "p_away": 0.383,
-   "p_over25": 0.516,
-   "p_btts": 0.554,
-   "xg_home": 1.28,
-   "xg_away": 1.46,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 4.7,
-     "corners_against": 6.8,
-     "shots_on_target_for": 2.7,
-     "shots_on_target_against": 7.5,
-     "yellow_cards_for": 1.5,
-     "yellow_cards_against": 0.8
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 4.7,
-     "corners_against": 6.4,
-     "shots_on_target_for": 4.7,
-     "shots_on_target_against": 6.4,
-     "yellow_cards_for": 1.5,
-     "yellow_cards_against": 1.2
-    },
-    "liga": {
-     "partidos": 622,
-     "corners_total": 10.2,
-     "shots_on_target_total": 10.0,
-     "yellow_cards_total": 3.0
-    }
-   }
-  },
   {
    "date": "2026-11-07",
    "home": "Excelsior",
@@ -309,7 +267,7 @@
    "neutral": false,
    "p_home": 0.323,
    "p_draw": 0.273,
-   "p_away": 0.404,
+   "p_away": 0.403,
    "p_over25": 0.563,
    "p_btts": 0.589,
    "xg_home": 1.34,
