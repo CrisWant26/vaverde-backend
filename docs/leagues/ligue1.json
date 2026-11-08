@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T17:47:40+00:00",
+ "generated_at": "2026-11-08T18:01:28+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Ligue 1",
  "training_matches": 4689,
@@ -7,90 +7,6 @@
  "model_brier": 0.2255,
  "model_brier_baseline": 0.2472,
  "matches": [
-  {
-   "date": "2026-11-07",
-   "home": "Paris SG",
-   "away": "Troyes",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.884,
-   "p_draw": 0.082,
-   "p_away": 0.034,
-   "p_over25": 0.803,
-   "p_btts": 0.394,
-   "xg_home": 3.79,
-   "xg_away": 0.52,
-   "likely_score": "3-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 5.3,
-     "corners_against": 2.5,
-     "shots_on_target_for": 7.3,
-     "shots_on_target_against": 4.7,
-     "yellow_cards_for": 1.0,
-     "yellow_cards_against": 1.8
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 5.8,
-     "corners_against": 2.9,
-     "shots_on_target_for": 3.3,
-     "shots_on_target_against": 4.4,
-     "yellow_cards_for": 1.6,
-     "yellow_cards_against": 2.3
-    },
-    "liga": {
-     "partidos": 610,
-     "corners_total": 9.4,
-     "shots_on_target_total": 9.0,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
-  {
-   "date": "2026-11-07",
-   "home": "Auxerre",
-   "away": "Paris FC",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.3,
-   "p_draw": 0.272,
-   "p_away": 0.428,
-   "p_over25": 0.527,
-   "p_btts": 0.555,
-   "xg_home": 1.2,
-   "xg_away": 1.59,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 4.8,
-     "corners_against": 6.3,
-     "shots_on_target_for": 4.7,
-     "shots_on_target_against": 5.4,
-     "yellow_cards_for": 1.7,
-     "yellow_cards_against": 1.7
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.4,
-     "corners_against": 3.6,
-     "shots_on_target_for": 5.5,
-     "shots_on_target_against": 3.2,
-     "yellow_cards_for": 2.3,
-     "yellow_cards_against": 1.7
-    },
-    "liga": {
-     "partidos": 610,
-     "corners_total": 9.4,
-     "shots_on_target_total": 9.0,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
   {
    "date": "2026-11-08",
    "home": "Lens",
