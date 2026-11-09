@@ -1,226 +1,167 @@
 {
- "generated_at": "2026-11-08T17:57:04+00:00",
+ "generated_at": "2026-11-09T22:22:30+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Primeira Liga",
- "training_matches": 3992,
- "last_result_date": "2026-11-02",
+ "training_matches": 3999,
+ "last_result_date": "2026-11-08",
  "model_brier": 0.1919,
- "model_brier_baseline": 0.2435,
- "matches": [
-  {
-   "date": "2026-11-08",
-   "home": "Estrela",
-   "away": "Benfica",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.078,
-   "p_draw": 0.121,
-   "p_away": 0.801,
-   "p_over25": 0.603,
-   "p_btts": 0.431,
-   "xg_home": 0.63,
-   "xg_away": 2.48,
-   "likely_score": "0-2",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 4.4,
-     "corners_against": 4.3,
-     "shots_on_target_for": 4.1,
-     "shots_on_target_against": 4.6,
-     "yellow_cards_for": 2.1,
-     "yellow_cards_against": 2.1
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 7.3,
-     "corners_against": 2.5,
-     "shots_on_target_for": 6.2,
-     "shots_on_target_against": 2.7,
-     "yellow_cards_for": 2.0,
-     "yellow_cards_against": 3.2
-    },
-    "liga": {
-     "partidos": 621,
-     "corners_total": 9.3,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 4.9
-    }
-   }
-  },
-  {
-   "date": "2026-11-08",
-   "home": "Guimaraes",
-   "away": "Porto",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.153,
-   "p_draw": 0.218,
-   "p_away": 0.629,
-   "p_over25": 0.475,
-   "p_btts": 0.444,
-   "xg_home": 0.75,
-   "xg_away": 1.82,
-   "likely_score": "0-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 5.5,
-     "corners_against": 3.8,
-     "shots_on_target_for": 4.3,
-     "shots_on_target_against": 2.7,
-     "yellow_cards_for": 2.6,
-     "yellow_cards_against": 2.5
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 7.0,
-     "corners_against": 3.2,
-     "shots_on_target_for": 6.8,
-     "shots_on_target_against": 2.4,
-     "yellow_cards_for": 1.0,
-     "yellow_cards_against": 1.4
-    },
-    "liga": {
-     "partidos": 621,
-     "corners_total": 9.3,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 4.9
-    }
-   }
-  },
-  {
-   "date": "2026-11-08",
-   "home": "Santa Clara",
-   "away": "Gil Vicente",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.425,
-   "p_draw": 0.328,
-   "p_away": 0.247,
-   "p_over25": 0.363,
-   "p_btts": 0.424,
-   "xg_home": 1.23,
-   "xg_away": 0.91,
-   "likely_score": "1-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 3.7,
-     "corners_against": 5.0,
-     "shots_on_target_for": 3.9,
-     "shots_on_target_against": 2.8,
-     "yellow_cards_for": 3.0,
-     "yellow_cards_against": 2.5
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.1,
-     "corners_against": 4.9,
-     "shots_on_target_for": 3.3,
-     "shots_on_target_against": 2.8,
-     "yellow_cards_for": 1.9,
-     "yellow_cards_against": 1.9
-    },
-    "liga": {
-     "partidos": 621,
-     "corners_total": 9.3,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 4.9
-    }
-   }
-  },
-  {
-   "date": "2026-11-08",
-   "home": "Estoril",
-   "away": "Maritimo",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.456,
-   "p_draw": 0.285,
-   "p_away": 0.259,
-   "p_over25": 0.464,
-   "p_btts": 0.503,
-   "xg_home": 1.47,
-   "xg_away": 1.06,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 4.5,
-     "corners_against": 4.8,
-     "shots_on_target_for": 4.7,
-     "shots_on_target_against": 5.0,
-     "yellow_cards_for": 2.2,
-     "yellow_cards_against": 1.3
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.3,
-     "corners_against": 4.4,
-     "shots_on_target_for": 3.4,
-     "shots_on_target_against": 5.9,
-     "yellow_cards_for": 2.0,
-     "yellow_cards_against": 2.5
-    },
-    "liga": {
-     "partidos": 621,
-     "corners_total": 9.3,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 4.9
-    }
-   }
-  },
-  {
-   "date": "2026-11-08",
-   "home": "Rio Ave",
-   "away": "Sp Braga",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.231,
-   "p_draw": 0.258,
-   "p_away": 0.511,
-   "p_over25": 0.479,
-   "p_btts": 0.503,
-   "xg_home": 1.0,
-   "xg_away": 1.59,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 4.0,
-     "corners_against": 5.6,
-     "shots_on_target_for": 3.2,
-     "shots_on_target_against": 5.7,
-     "yellow_cards_for": 1.7,
-     "yellow_cards_against": 1.0
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 4.6,
-     "corners_against": 2.8,
-     "shots_on_target_for": 4.2,
-     "shots_on_target_against": 2.6,
-     "yellow_cards_for": 2.3,
-     "yellow_cards_against": 2.9
-    },
-    "liga": {
-     "partidos": 621,
-     "corners_total": 9.3,
-     "shots_on_target_total": 8.2,
-     "yellow_cards_total": 4.9
-    }
-   }
-  }
- ],
+ "model_brier_baseline": 0.2434,
+ "matches": [],
  "champion_probs": null,
  "history": {
   "matches": [
+   {
+    "date": "2026-11-08",
+    "home": "Estrela",
+    "away": "Benfica",
+    "p_home": 0.078,
+    "p_draw": 0.121,
+    "p_away": 0.801,
+    "likely_score": "0-2",
+    "xg_home": 0.63,
+    "xg_away": 2.48,
+    "real_home": 2,
+    "real_away": 3,
+    "outcome": "away",
+    "fav_hit": true,
+    "tier": "pleno",
+    "p_fav": 0.801,
+    "p_outcome": 0.801,
+    "score_outcome": "away"
+   },
+   {
+    "date": "2026-11-08",
+    "home": "Guimaraes",
+    "away": "Porto",
+    "p_home": 0.153,
+    "p_draw": 0.218,
+    "p_away": 0.629,
+    "likely_score": "0-1",
+    "xg_home": 0.75,
+    "xg_away": 1.82,
+    "real_home": 1,
+    "real_away": 2,
+    "outcome": "away",
+    "fav_hit": true,
+    "tier": "pleno",
+    "p_fav": 0.629,
+    "p_outcome": 0.629,
+    "score_outcome": "away"
+   },
+   {
+    "date": "2026-11-08",
+    "home": "Santa Clara",
+    "away": "Gil Vicente",
+    "p_home": 0.425,
+    "p_draw": 0.328,
+    "p_away": 0.247,
+    "likely_score": "1-0",
+    "xg_home": 1.23,
+    "xg_away": 0.91,
+    "real_home": 1,
+    "real_away": 2,
+    "outcome": "away",
+    "fav_hit": false,
+    "tier": "fallo",
+    "p_fav": 0.425,
+    "p_outcome": 0.247,
+    "score_outcome": "home"
+   },
+   {
+    "date": "2026-11-08",
+    "home": "Rio Ave",
+    "away": "Sp Braga",
+    "p_home": 0.231,
+    "p_draw": 0.258,
+    "p_away": 0.511,
+    "likely_score": "1-1",
+    "xg_home": 1.0,
+    "xg_away": 1.59,
+    "real_home": 0,
+    "real_away": 1,
+    "outcome": "away",
+    "fav_hit": false,
+    "tier": "pleno",
+    "p_fav": 0.511,
+    "p_outcome": 0.511,
+    "score_outcome": "draw"
+   },
+   {
+    "date": "2026-11-07",
+    "home": "Sp Lisbon",
+    "away": "Moreirense",
+    "p_home": 0.825,
+    "p_draw": 0.125,
+    "p_away": 0.05,
+    "likely_score": "2-0",
+    "xg_home": 2.5,
+    "xg_away": 0.61,
+    "real_home": 1,
+    "real_away": 0,
+    "outcome": "home",
+    "fav_hit": true,
+    "tier": "pleno",
+    "p_fav": 0.825,
+    "p_outcome": 0.825,
+    "score_outcome": "home"
+   },
+   {
+    "date": "2026-11-07",
+    "home": "Alverca",
+    "away": "Casa Pia",
+    "p_home": 0.463,
+    "p_draw": 0.302,
+    "p_away": 0.235,
+    "likely_score": "1-0",
+    "xg_home": 1.39,
+    "xg_away": 0.94,
+    "real_home": 1,
+    "real_away": 1,
+    "outcome": "draw",
+    "fav_hit": false,
+    "tier": "fallo",
+    "p_fav": 0.463,
+    "p_outcome": 0.302,
+    "score_outcome": "home"
+   },
+   {
+    "date": "2026-11-07",
+    "home": "Nacional",
+    "away": "Academico Viseu",
+    "p_home": 0.349,
+    "p_draw": 0.298,
+    "p_away": 0.353,
+    "likely_score": "1-1",
+    "xg_home": 1.22,
+    "xg_away": 1.22,
+    "real_home": 1,
+    "real_away": 0,
+    "outcome": "home",
+    "fav_hit": false,
+    "tier": "parcial",
+    "p_fav": 0.353,
+    "p_outcome": 0.349,
+    "score_outcome": "draw"
+   },
+   {
+    "date": "2026-11-06",
+    "home": "Famalicao",
+    "away": "Arouca",
+    "p_home": 0.487,
+    "p_draw": 0.279,
+    "p_away": 0.234,
+    "likely_score": "1-1",
+    "xg_home": 1.54,
+    "xg_away": 1.01,
+    "real_home": 1,
+    "real_away": 0,
+    "outcome": "home",
+    "fav_hit": false,
+    "tier": "pleno",
+    "p_fav": 0.487,
+    "p_outcome": 0.487,
+    "score_outcome": "draw"
+   },
    {
     "date": "2026-11-02",
     "home": "Benfica",
@@ -1933,13 +1874,13 @@
    }
   ],
   "summary": {
-   "n": 90,
-   "plenos": 47,
-   "parciales": 14,
-   "fallos": 29,
-   "fav_hits": 47,
-   "fav_rate": 0.522,
-   "brier": 0.562
+   "n": 98,
+   "plenos": 52,
+   "parciales": 15,
+   "fallos": 31,
+   "fav_hits": 52,
+   "fav_rate": 0.531,
+   "brier": 0.55
   }
  }
 }
