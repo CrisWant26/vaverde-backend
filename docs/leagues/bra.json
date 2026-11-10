@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-09T22:22:06+00:00",
+ "generated_at": "2026-11-10T19:44:05+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Brasileirao",
- "training_matches": 5657,
+ "training_matches": 5658,
  "last_result_date": "2026-11-06",
  "model_brier": 0.2365,
  "model_brier_baseline": 0.2499,
