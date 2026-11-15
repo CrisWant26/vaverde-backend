@@ -1,28 +1,12 @@
 {
- "generated_at": "2026-11-14T18:01:53+00:00",
+ "generated_at": "2026-11-15T18:51:30+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Liga MX",
  "training_matches": 4798,
  "last_result_date": "2026-11-09",
  "model_brier": 0.2286,
  "model_brier_baseline": 0.2482,
- "matches": [
-  {
-   "date": "2026-11-14",
-   "home": "Queretaro",
-   "away": "Monterrey",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.329,
-   "p_draw": 0.303,
-   "p_away": 0.368,
-   "p_over25": 0.473,
-   "p_btts": 0.521,
-   "xg_home": 1.19,
-   "xg_away": 1.37,
-   "likely_score": "1-1"
-  }
- ],
+ "matches": [],
  "champion_probs": null,
  "history": {
   "matches": [
