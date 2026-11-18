@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-11-17T19:51:06+00:00",
+ "generated_at": "2026-11-18T08:50:49+00:00",
  "model": "poisson-elo-calibrado",
- "training_matches": 11659,
- "last_result_date": "2026-10-06",
- "model_brier": 0.1853,
+ "training_matches": 11911,
+ "last_result_date": "2026-11-17",
+ "model_brier": 0.185,
  "matches": [],
  "champion_probs": [
   {
    "team": "Spain",
-   "elo": 2363,
+   "elo": 2327,
    "p_advance": 1.0,
    "p_final": 1.0,
-   "p_champion": 0.62
+   "p_champion": 0.576
   },
   {
    "team": "Argentina",
    "elo": 2249,
    "p_advance": 1.0,
    "p_final": 1.0,
-   "p_champion": 0.38
+   "p_champion": 0.424
   }
  ],
  "history": {
