@@ -42,5 +42,203 @@
   "likely_score": "1-2",
   "xg_home": 1.11,
   "xg_away": 2.06
+ },
+ {
+  "date": "2026-11-24",
+  "home": "Bodø/Glimt",
+  "away": "LASK",
+  "p_home": 0.427,
+  "p_draw": 0.289,
+  "p_away": 0.283,
+  "likely_score": "1-1",
+  "xg_home": 1.42,
+  "xg_away": 1.15
+ },
+ {
+  "date": "2026-11-24",
+  "home": "Galatasaray",
+  "away": "Aston Villa",
+  "p_home": 0.36,
+  "p_draw": 0.283,
+  "p_away": 0.357,
+  "likely_score": "1-1",
+  "xg_home": 1.28,
+  "xg_away": 1.36
+ },
+ {
+  "date": "2026-11-24",
+  "home": "Arsenal",
+  "away": "Dortmund",
+  "p_home": 0.511,
+  "p_draw": 0.245,
+  "p_away": 0.244,
+  "likely_score": "1-1",
+  "xg_home": 1.98,
+  "xg_away": 1.24
+ },
+ {
+  "date": "2026-11-24",
+  "home": "Como",
+  "away": "AEK Athens",
+  "p_home": 0.672,
+  "p_draw": 0.21,
+  "p_away": 0.117,
+  "likely_score": "2-0",
+  "xg_home": 2.13,
+  "xg_away": 0.7
+ },
+ {
+  "date": "2026-11-24",
+  "home": "Feyenoord",
+  "away": "Porto",
+  "p_home": 0.302,
+  "p_draw": 0.275,
+  "p_away": 0.422,
+  "likely_score": "1-1",
+  "xg_home": 1.09,
+  "xg_away": 1.49
+ },
+ {
+  "date": "2026-11-24",
+  "home": "Man City",
+  "away": "Napoli",
+  "p_home": 0.564,
+  "p_draw": 0.238,
+  "p_away": 0.198,
+  "likely_score": "2-1",
+  "xg_home": 2.03,
+  "xg_away": 1.05
+ },
+ {
+  "date": "2026-11-24",
+  "home": "RB Leipzig",
+  "away": "Lens",
+  "p_home": 0.529,
+  "p_draw": 0.255,
+  "p_away": 0.216,
+  "likely_score": "1-1",
+  "xg_home": 1.84,
+  "xg_away": 1.05
+ },
+ {
+  "date": "2026-11-24",
+  "home": "Real Madrid",
+  "away": "PSV Eindhoven",
+  "p_home": 0.495,
+  "p_draw": 0.24,
+  "p_away": 0.264,
+  "likely_score": "2-1",
+  "xg_home": 2.04,
+  "xg_away": 1.36
+ },
+ {
+  "date": "2026-11-24",
+  "home": "Slovan Bratislava",
+  "away": "Betis",
+  "p_home": 0.319,
+  "p_draw": 0.274,
+  "p_away": 0.407,
+  "likely_score": "1-1",
+  "xg_home": 1.18,
+  "xg_away": 1.48
+ },
+ {
+  "date": "2026-11-25",
+  "home": "Sabah",
+  "away": "Barcelona",
+  "p_home": 0.12,
+  "p_draw": 0.13,
+  "p_away": 0.75,
+  "likely_score": "0-2",
+  "xg_home": 0.83,
+  "xg_away": 2.64
+ },
+ {
+  "date": "2026-11-25",
+  "home": "Slavia Praha",
+  "away": "Villarreal",
+  "p_home": 0.311,
+  "p_draw": 0.272,
+  "p_away": 0.418,
+  "likely_score": "1-1",
+  "xg_home": 1.16,
+  "xg_away": 1.51
+ },
+ {
+  "date": "2026-11-25",
+  "home": "Ath Madrid",
+  "away": "Viking",
+  "p_home": 0.661,
+  "p_draw": 0.223,
+  "p_away": 0.116,
+  "likely_score": "1-0",
+  "xg_home": 1.98,
+  "xg_away": 0.65
+ },
+ {
+  "date": "2026-11-25",
+  "home": "Club Brugge",
+  "away": "Liverpool",
+  "p_home": 0.249,
+  "p_draw": 0.233,
+  "p_away": 0.518,
+  "likely_score": "1-1",
+  "xg_home": 1.09,
+  "xg_away": 1.84
+ },
+ {
+  "date": "2026-11-25",
+  "home": "Inter",
+  "away": "Stuttgart",
+  "p_home": 0.677,
+  "p_draw": 0.191,
+  "p_away": 0.133,
+  "likely_score": "2-0",
+  "xg_home": 2.46,
+  "xg_away": 0.89
+ },
+ {
+  "date": "2026-11-25",
+  "home": "Shakhtar Donetsk",
+  "away": "Fenerbahçe",
+  "p_home": 0.432,
+  "p_draw": 0.289,
+  "p_away": 0.279,
+  "likely_score": "1-1",
+  "xg_home": 1.43,
+  "xg_away": 1.14
+ },
+ {
+  "date": "2026-11-25",
+  "home": "Lille",
+  "away": "Bayern Munich",
+  "p_home": 0.218,
+  "p_draw": 0.224,
+  "p_away": 0.558,
+  "likely_score": "0-1",
+  "xg_home": 0.93,
+  "xg_away": 1.88
+ },
+ {
+  "date": "2026-11-25",
+  "home": "Paris SG",
+  "away": "Roma",
+  "p_home": 0.599,
+  "p_draw": 0.227,
+  "p_away": 0.174,
+  "likely_score": "2-0",
+  "xg_home": 2.12,
+  "xg_away": 0.97
+ },
+ {
+  "date": "2026-11-25",
+  "home": "Sp Lisbon",
+  "away": "Man United",
+  "p_home": 0.609,
+  "p_draw": 0.232,
+  "p_away": 0.159,
+  "likely_score": "2-0",
+  "xg_home": 2.02,
+  "xg_away": 0.87
  }
 ]
