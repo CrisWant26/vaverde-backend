@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T20:22:25+00:00",
+ "generated_at": "2026-11-21T19:19:47+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Bundesliga",
  "training_matches": 4050,
@@ -7,48 +7,6 @@
  "model_brier": 0.2137,
  "model_brier_baseline": 0.2434,
  "matches": [
-  {
-   "date": "2026-11-20",
-   "home": "Bayern Munich",
-   "away": "FC Koln",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.847,
-   "p_draw": 0.111,
-   "p_away": 0.042,
-   "p_over25": 0.776,
-   "p_btts": 0.454,
-   "xg_home": 3.47,
-   "xg_away": 0.63,
-   "likely_score": "3-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 8.2,
-     "corners_against": 3.5,
-     "shots_on_target_for": 9.2,
-     "shots_on_target_against": 3.0,
-     "yellow_cards_for": 1.0,
-     "yellow_cards_against": 2.1
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 5.5,
-     "corners_against": 5.6,
-     "shots_on_target_for": 4.7,
-     "shots_on_target_against": 5.6,
-     "yellow_cards_for": 2.3,
-     "yellow_cards_against": 2.3
-    },
-    "liga": {
-     "partidos": 612,
-     "corners_total": 9.8,
-     "shots_on_target_total": 9.5,
-     "yellow_cards_total": 3.8
-    }
-   }
-  },
   {
    "date": "2026-11-21",
    "home": "Schalke 04",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T20:22:04+00:00",
+ "generated_at": "2026-11-21T19:19:19+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Ligue 1",
  "training_matches": 4697,
@@ -7,48 +7,6 @@
  "model_brier": 0.2227,
  "model_brier_baseline": 0.2472,
  "matches": [
-  {
-   "date": "2026-11-20",
-   "home": "Troyes",
-   "away": "Le Havre",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.357,
-   "p_draw": 0.289,
-   "p_away": 0.354,
-   "p_over25": 0.439,
-   "p_btts": 0.495,
-   "xg_home": 1.19,
-   "xg_away": 1.24,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 5.7,
-     "corners_against": 2.6,
-     "shots_on_target_for": 3.3,
-     "shots_on_target_against": 4.4,
-     "yellow_cards_for": 1.7,
-     "yellow_cards_against": 2.2
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 5.3,
-     "corners_against": 4.1,
-     "shots_on_target_for": 5.0,
-     "shots_on_target_against": 5.2,
-     "yellow_cards_for": 1.5,
-     "yellow_cards_against": 1.5
-    },
-    "liga": {
-     "partidos": 612,
-     "corners_total": 9.4,
-     "shots_on_target_total": 9.0,
-     "yellow_cards_total": 3.7
-    }
-   }
-  },
   {
    "date": "2026-11-21",
    "home": "Strasbourg",

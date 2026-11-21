@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T20:19:49+00:00",
+ "generated_at": "2026-11-21T19:16:18+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Liga MX",
  "training_matches": 4799,
@@ -7,51 +7,6 @@
  "model_brier": 0.2284,
  "model_brier_baseline": 0.248,
  "matches": [
-  {
-   "date": "2026-11-20",
-   "home": "Puebla",
-   "away": "Atl. San Luis",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.418,
-   "p_draw": 0.282,
-   "p_away": 0.3,
-   "p_over25": 0.511,
-   "p_btts": 0.549,
-   "xg_home": 1.46,
-   "xg_away": 1.26,
-   "likely_score": "1-1"
-  },
-  {
-   "date": "2026-11-20",
-   "home": "Juarez",
-   "away": "Atlas",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.355,
-   "p_draw": 0.312,
-   "p_away": 0.333,
-   "p_over25": 0.436,
-   "p_btts": 0.493,
-   "xg_home": 1.22,
-   "xg_away": 1.2,
-   "likely_score": "1-1"
-  },
-  {
-   "date": "2026-11-20",
-   "home": "Club Tijuana",
-   "away": "Atlante",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.623,
-   "p_draw": 0.211,
-   "p_away": 0.166,
-   "p_over25": 0.595,
-   "p_btts": 0.544,
-   "xg_home": 2.12,
-   "xg_away": 0.96,
-   "likely_score": "2-0"
-  },
   {
    "date": "2026-11-21",
    "home": "Pachuca",

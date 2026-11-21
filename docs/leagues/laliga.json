@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T20:20:59+00:00",
+ "generated_at": "2026-11-21T19:17:50+00:00",
  "model": "poisson-elo-calibrado",
  "league": "LaLiga",
  "training_matches": 5047,
@@ -7,48 +7,6 @@
  "model_brier": 0.211,
  "model_brier_baseline": 0.2483,
  "matches": [
-  {
-   "date": "2026-11-20",
-   "home": "Ath Bilbao",
-   "away": "Espanol",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.557,
-   "p_draw": 0.273,
-   "p_away": 0.17,
-   "p_over25": 0.421,
-   "p_btts": 0.435,
-   "xg_home": 1.56,
-   "xg_away": 0.8,
-   "likely_score": "1-0",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 5.3,
-     "corners_against": 4.9,
-     "shots_on_target_for": 3.7,
-     "shots_on_target_against": 3.9,
-     "yellow_cards_for": 1.8,
-     "yellow_cards_against": 2.0
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 3.7,
-     "corners_against": 6.1,
-     "shots_on_target_for": 3.2,
-     "shots_on_target_against": 5.2,
-     "yellow_cards_for": 3.0,
-     "yellow_cards_against": 3.3
-    },
-    "liga": {
-     "partidos": 761,
-     "corners_total": 9.6,
-     "shots_on_target_total": 8.6,
-     "yellow_cards_total": 4.4
-    }
-   }
-  },
   {
    "date": "2026-11-21",
    "home": "Real Madrid",
