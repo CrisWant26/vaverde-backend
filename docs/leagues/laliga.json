@@ -1,55 +1,12 @@
 {
- "generated_at": "2026-11-23T23:55:19+00:00",
+ "generated_at": "2026-11-24T22:28:00+00:00",
  "model": "poisson-elo-calibrado",
  "league": "LaLiga",
  "training_matches": 5056,
  "last_result_date": "2026-11-23",
  "model_brier": 0.2112,
  "model_brier_baseline": 0.2483,
- "matches": [
-  {
-   "date": "2026-11-23",
-   "home": "Levante",
-   "away": "Elche",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.474,
-   "p_draw": 0.294,
-   "p_away": 0.231,
-   "p_over25": 0.466,
-   "p_btts": 0.499,
-   "xg_home": 1.53,
-   "xg_away": 1.01,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 3.5,
-     "corners_against": 4.4,
-     "shots_on_target_for": 3.8,
-     "shots_on_target_against": 4.8,
-     "yellow_cards_for": 1.9,
-     "yellow_cards_against": 1.6
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 4.1,
-     "corners_against": 5.2,
-     "shots_on_target_for": 3.8,
-     "shots_on_target_against": 4.3,
-     "yellow_cards_for": 2.9,
-     "yellow_cards_against": 2.2
-    },
-    "liga": {
-     "partidos": 761,
-     "corners_total": 9.6,
-     "shots_on_target_total": 8.6,
-     "yellow_cards_total": 4.4
-    }
-   }
-  }
- ],
+ "matches": [],
  "champion_probs": null,
  "history": {
   "matches": [

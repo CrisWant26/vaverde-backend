@@ -1,55 +1,12 @@
 {
- "generated_at": "2026-11-23T23:55:46+00:00",
+ "generated_at": "2026-11-24T22:28:25+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Premier League",
  "training_matches": 5039,
  "last_result_date": "2026-11-23",
  "model_brier": 0.22,
  "model_brier_baseline": 0.2438,
- "matches": [
-  {
-   "date": "2026-11-23",
-   "home": "Brentford",
-   "away": "Everton",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.509,
-   "p_draw": 0.248,
-   "p_away": 0.242,
-   "p_over25": 0.519,
-   "p_btts": 0.531,
-   "xg_home": 1.7,
-   "xg_away": 1.05,
-   "likely_score": "1-1",
-   "trends": {
-    "n_partidos": 10,
-    "home": {
-     "partidos": 10,
-     "corners_for": 3.8,
-     "corners_against": 5.2,
-     "shots_on_target_for": 3.5,
-     "shots_on_target_against": 4.2,
-     "yellow_cards_for": 2.3,
-     "yellow_cards_against": 2.0
-    },
-    "away": {
-     "partidos": 10,
-     "corners_for": 4.5,
-     "corners_against": 6.0,
-     "shots_on_target_for": 4.7,
-     "shots_on_target_against": 4.3,
-     "yellow_cards_for": 1.9,
-     "yellow_cards_against": 1.9
-    },
-    "liga": {
-     "partidos": 760,
-     "corners_total": 9.9,
-     "shots_on_target_total": 8.6,
-     "yellow_cards_total": 3.8
-    }
-   }
-  }
- ],
+ "matches": [],
  "champion_probs": null,
  "history": {
   "matches": [
