@@ -1,43 +1,12 @@
 {
- "generated_at": "2026-11-22T19:40:29+00:00",
+ "generated_at": "2026-11-23T23:53:54+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Liga MX",
  "training_matches": 4799,
  "last_result_date": "2026-11-14",
  "model_brier": 0.2284,
  "model_brier_baseline": 0.248,
- "matches": [
-  {
-   "date": "2026-11-22",
-   "home": "Guadalajara Chivas",
-   "away": "Cruz Azul",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.343,
-   "p_draw": 0.33,
-   "p_away": 0.328,
-   "p_over25": 0.387,
-   "p_btts": 0.453,
-   "xg_home": 1.15,
-   "xg_away": 1.09,
-   "likely_score": "1-1"
-  },
-  {
-   "date": "2026-11-22",
-   "home": "Queretaro",
-   "away": "Necaxa",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.409,
-   "p_draw": 0.298,
-   "p_away": 0.293,
-   "p_over25": 0.457,
-   "p_btts": 0.506,
-   "xg_home": 1.38,
-   "xg_away": 1.13,
-   "likely_score": "1-1"
-  }
- ],
+ "matches": [],
  "champion_probs": null,
  "history": {
   "matches": [

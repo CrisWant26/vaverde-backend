@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T19:40:36+00:00",
+ "generated_at": "2026-11-23T23:54:02+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Brasileirao",
  "training_matches": 5669,
@@ -7,51 +7,6 @@
  "model_brier": 0.2369,
  "model_brier_baseline": 0.2499,
  "matches": [
-  {
-   "date": "2026-11-22",
-   "home": "Athletico-PR",
-   "away": "Remo",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.575,
-   "p_draw": 0.236,
-   "p_away": 0.189,
-   "p_over25": 0.512,
-   "p_btts": 0.488,
-   "xg_home": 1.86,
-   "xg_away": 0.86,
-   "likely_score": "1-0"
-  },
-  {
-   "date": "2026-11-22",
-   "home": "Fluminense",
-   "away": "Mirassol",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.512,
-   "p_draw": 0.258,
-   "p_away": 0.23,
-   "p_over25": 0.475,
-   "p_btts": 0.498,
-   "xg_home": 1.59,
-   "xg_away": 0.98,
-   "likely_score": "1-0"
-  },
-  {
-   "date": "2026-11-22",
-   "home": "Bragantino",
-   "away": "Vasco",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.526,
-   "p_draw": 0.251,
-   "p_away": 0.224,
-   "p_over25": 0.497,
-   "p_btts": 0.509,
-   "xg_home": 1.68,
-   "xg_away": 0.98,
-   "likely_score": "1-0"
-  },
   {
    "date": "2026-11-23",
    "home": "Botafogo RJ",
