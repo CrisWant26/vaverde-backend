@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T22:26:47+00:00",
+ "generated_at": "2026-11-25T21:42:08+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Brasileirao",
  "training_matches": 5678,
@@ -7,21 +7,6 @@
  "model_brier": 0.2368,
  "model_brier_baseline": 0.2499,
  "matches": [
-  {
-   "date": "2026-11-24",
-   "home": "Chapecoense-SC",
-   "away": "Palmeiras",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.22,
-   "p_draw": 0.231,
-   "p_away": 0.55,
-   "p_over25": 0.492,
-   "p_btts": 0.454,
-   "xg_home": 0.77,
-   "xg_away": 1.87,
-   "likely_score": "0-1"
-  },
   {
    "date": "2026-11-25",
    "home": "Atletico-MG",
