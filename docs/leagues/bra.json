@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T21:42:08+00:00",
+ "generated_at": "2026-11-26T21:32:12+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Brasileirao",
  "training_matches": 5678,
@@ -7,21 +7,6 @@
  "model_brier": 0.2368,
  "model_brier_baseline": 0.2499,
  "matches": [
-  {
-   "date": "2026-11-25",
-   "home": "Atletico-MG",
-   "away": "Corinthians",
-   "city": "",
-   "neutral": false,
-   "p_home": 0.501,
-   "p_draw": 0.279,
-   "p_away": 0.22,
-   "p_over25": 0.41,
-   "p_btts": 0.447,
-   "xg_home": 1.44,
-   "xg_away": 0.88,
-   "likely_score": "1-0"
-  },
   {
    "date": "2026-11-26",
    "home": "Sao Paulo",
