@@ -11,39 +11,6 @@
   "xg_away": 1.1
  },
  {
-  "date": "2026-11-24",
-  "home": "Chapecoense-SC",
-  "away": "Palmeiras",
-  "p_home": 0.222,
-  "p_draw": 0.222,
-  "p_away": 0.555,
-  "likely_score": "0-1",
-  "xg_home": 0.77,
-  "xg_away": 1.88
- },
- {
-  "date": "2026-11-25",
-  "home": "Atletico-MG",
-  "away": "Corinthians",
-  "p_home": 0.515,
-  "p_draw": 0.266,
-  "p_away": 0.219,
-  "likely_score": "1-0",
-  "xg_home": 1.47,
-  "xg_away": 0.86
- },
- {
-  "date": "2026-11-26",
-  "home": "Sao Paulo",
-  "away": "Remo",
-  "p_home": 0.573,
-  "p_draw": 0.238,
-  "p_away": 0.189,
-  "likely_score": "1-0",
-  "xg_home": 1.86,
-  "xg_away": 0.84
- },
- {
   "date": "2026-11-27",
   "home": "Fluminense",
   "away": "Cruzeiro",

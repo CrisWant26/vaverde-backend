@@ -1,12 +1,433 @@
 {
- "generated_at": "2026-11-26T21:33:11+00:00",
+ "generated_at": "2026-11-27T21:22:00+00:00",
  "model": "poisson-elo-calibrado",
  "league": "LaLiga",
  "training_matches": 5056,
  "last_result_date": "2026-11-23",
  "model_brier": 0.2112,
  "model_brier_baseline": 0.2483,
- "matches": [],
+ "matches": [
+  {
+   "date": "2026-11-27",
+   "home": "Levante",
+   "away": "Santander",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.414,
+   "p_draw": 0.302,
+   "p_away": 0.284,
+   "p_over25": 0.487,
+   "p_btts": 0.528,
+   "xg_home": 1.45,
+   "xg_away": 1.17,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 3.5,
+     "corners_against": 4.4,
+     "shots_on_target_for": 3.8,
+     "shots_on_target_against": 4.8,
+     "yellow_cards_for": 1.9,
+     "yellow_cards_against": 1.6
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 4.8,
+     "corners_against": 7.6,
+     "shots_on_target_for": 5.3,
+     "shots_on_target_against": 6.8,
+     "yellow_cards_for": 2.6,
+     "yellow_cards_against": 2.8
+    },
+    "liga": {
+     "partidos": 761,
+     "corners_total": 9.6,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 4.4
+    }
+   }
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Real Madrid",
+   "away": "Alaves",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.837,
+   "p_draw": 0.11,
+   "p_away": 0.054,
+   "p_over25": 0.644,
+   "p_btts": 0.437,
+   "xg_home": 2.68,
+   "xg_away": 0.63,
+   "likely_score": "2-0",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 6.2,
+     "corners_against": 3.6,
+     "shots_on_target_for": 6.8,
+     "shots_on_target_against": 4.6,
+     "yellow_cards_for": 2.3,
+     "yellow_cards_against": 2.5
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 3.9,
+     "corners_against": 3.7,
+     "shots_on_target_for": 4.7,
+     "shots_on_target_against": 4.3,
+     "yellow_cards_for": 1.8,
+     "yellow_cards_against": 2.3
+    },
+    "liga": {
+     "partidos": 761,
+     "corners_total": 9.6,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 4.4
+    }
+   }
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Elche",
+   "away": "Ath Madrid",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.189,
+   "p_draw": 0.264,
+   "p_away": 0.547,
+   "p_over25": 0.401,
+   "p_btts": 0.398,
+   "xg_home": 0.69,
+   "xg_away": 1.6,
+   "likely_score": "0-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 4.1,
+     "corners_against": 5.2,
+     "shots_on_target_for": 3.8,
+     "shots_on_target_against": 4.3,
+     "yellow_cards_for": 2.9,
+     "yellow_cards_against": 2.2
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 6.1,
+     "corners_against": 3.0,
+     "shots_on_target_for": 6.6,
+     "shots_on_target_against": 3.0,
+     "yellow_cards_for": 2.3,
+     "yellow_cards_against": 1.4
+    },
+    "liga": {
+     "partidos": 761,
+     "corners_total": 9.6,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 4.4
+    }
+   }
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Malaga",
+   "away": "Ath Bilbao",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.308,
+   "p_draw": 0.343,
+   "p_away": 0.35,
+   "p_over25": 0.328,
+   "p_btts": 0.399,
+   "xg_home": 0.89,
+   "xg_away": 1.12,
+   "likely_score": "0-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 4.8,
+     "corners_against": 4.9,
+     "shots_on_target_for": 3.9,
+     "shots_on_target_against": 5.4,
+     "yellow_cards_for": 2.1,
+     "yellow_cards_against": 2.4
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 5.7,
+     "corners_against": 3.9,
+     "shots_on_target_for": 4.3,
+     "shots_on_target_against": 3.2,
+     "yellow_cards_for": 1.9,
+     "yellow_cards_against": 2.0
+    },
+    "liga": {
+     "partidos": 761,
+     "corners_total": 9.6,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 4.4
+    }
+   }
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Betis",
+   "away": "Vallecano",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.543,
+   "p_draw": 0.262,
+   "p_away": 0.194,
+   "p_over25": 0.525,
+   "p_btts": 0.522,
+   "xg_home": 1.79,
+   "xg_away": 0.99,
+   "likely_score": "1-0",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 5.3,
+     "corners_against": 6.2,
+     "shots_on_target_for": 6.1,
+     "shots_on_target_against": 5.6,
+     "yellow_cards_for": 1.6,
+     "yellow_cards_against": 2.7
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 5.5,
+     "corners_against": 6.1,
+     "shots_on_target_for": 5.2,
+     "shots_on_target_against": 5.0,
+     "yellow_cards_for": 2.4,
+     "yellow_cards_against": 1.9
+    },
+    "liga": {
+     "partidos": 761,
+     "corners_total": 9.6,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 4.4
+    }
+   }
+  },
+  {
+   "date": "2026-11-29",
+   "home": "Sociedad",
+   "away": "Sevilla",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.435,
+   "p_draw": 0.296,
+   "p_away": 0.27,
+   "p_over25": 0.504,
+   "p_btts": 0.537,
+   "xg_home": 1.53,
+   "xg_away": 1.16,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 7.5,
+     "corners_against": 5.4,
+     "shots_on_target_for": 5.1,
+     "shots_on_target_against": 5.1,
+     "yellow_cards_for": 1.9,
+     "yellow_cards_against": 2.2
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 4.0,
+     "corners_against": 2.9,
+     "shots_on_target_for": 4.6,
+     "shots_on_target_against": 4.1,
+     "yellow_cards_for": 2.7,
+     "yellow_cards_against": 2.0
+    },
+    "liga": {
+     "partidos": 761,
+     "corners_total": 9.6,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 4.4
+    }
+   }
+  },
+  {
+   "date": "2026-11-29",
+   "home": "Celta",
+   "away": "Villarreal",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.328,
+   "p_draw": 0.296,
+   "p_away": 0.377,
+   "p_over25": 0.524,
+   "p_btts": 0.562,
+   "xg_home": 1.34,
+   "xg_away": 1.43,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 2.9,
+     "corners_against": 4.8,
+     "shots_on_target_for": 3.8,
+     "shots_on_target_against": 4.2,
+     "yellow_cards_for": 1.8,
+     "yellow_cards_against": 2.0
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 6.7,
+     "corners_against": 4.7,
+     "shots_on_target_for": 5.4,
+     "shots_on_target_against": 4.0,
+     "yellow_cards_for": 2.2,
+     "yellow_cards_against": 2.4
+    },
+    "liga": {
+     "partidos": 761,
+     "corners_total": 9.6,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 4.4
+    }
+   }
+  },
+  {
+   "date": "2026-11-29",
+   "home": "La Coruna",
+   "away": "Barcelona",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.086,
+   "p_draw": 0.117,
+   "p_away": 0.797,
+   "p_over25": 0.695,
+   "p_btts": 0.528,
+   "xg_home": 0.83,
+   "xg_away": 2.76,
+   "likely_score": "0-2",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 5.5,
+     "corners_against": 5.3,
+     "shots_on_target_for": 4.3,
+     "shots_on_target_against": 4.5,
+     "yellow_cards_for": 1.9,
+     "yellow_cards_against": 2.9
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 6.5,
+     "corners_against": 2.2,
+     "shots_on_target_for": 7.6,
+     "shots_on_target_against": 3.5,
+     "yellow_cards_for": 1.9,
+     "yellow_cards_against": 2.8
+    },
+    "liga": {
+     "partidos": 761,
+     "corners_total": 9.6,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 4.4
+    }
+   }
+  },
+  {
+   "date": "2026-11-29",
+   "home": "Valencia",
+   "away": "Osasuna",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.554,
+   "p_draw": 0.267,
+   "p_away": 0.179,
+   "p_over25": 0.477,
+   "p_btts": 0.481,
+   "xg_home": 1.69,
+   "xg_away": 0.89,
+   "likely_score": "1-0",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 3.7,
+     "corners_against": 5.9,
+     "shots_on_target_for": 2.7,
+     "shots_on_target_against": 5.8,
+     "yellow_cards_for": 2.7,
+     "yellow_cards_against": 2.3
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 3.5,
+     "corners_against": 5.2,
+     "shots_on_target_for": 3.6,
+     "shots_on_target_against": 4.9,
+     "yellow_cards_for": 2.9,
+     "yellow_cards_against": 1.4
+    },
+    "liga": {
+     "partidos": 761,
+     "corners_total": 9.6,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 4.4
+    }
+   }
+  },
+  {
+   "date": "2026-11-30",
+   "home": "Espanol",
+   "away": "Getafe",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.434,
+   "p_draw": 0.335,
+   "p_away": 0.231,
+   "p_over25": 0.334,
+   "p_btts": 0.401,
+   "xg_home": 1.17,
+   "xg_away": 0.87,
+   "likely_score": "1-0",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 3.6,
+     "corners_against": 6.3,
+     "shots_on_target_for": 3.2,
+     "shots_on_target_against": 4.8,
+     "yellow_cards_for": 2.7,
+     "yellow_cards_against": 3.4
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 3.6,
+     "corners_against": 6.2,
+     "shots_on_target_for": 2.8,
+     "shots_on_target_against": 5.6,
+     "yellow_cards_for": 3.0,
+     "yellow_cards_against": 1.9
+    },
+    "liga": {
+     "partidos": 761,
+     "corners_total": 9.6,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 4.4
+    }
+   }
+  }
+ ],
  "champion_probs": null,
  "history": {
   "matches": [

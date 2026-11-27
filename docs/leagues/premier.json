@@ -1,12 +1,433 @@
 {
- "generated_at": "2026-11-26T21:33:32+00:00",
+ "generated_at": "2026-11-27T21:23:43+00:00",
  "model": "poisson-elo-calibrado",
  "league": "Premier League",
- "training_matches": 5039,
+ "training_matches": 4659,
  "last_result_date": "2026-11-23",
- "model_brier": 0.22,
- "model_brier_baseline": 0.2438,
- "matches": [],
+ "model_brier": 0.2204,
+ "model_brier_baseline": 0.2436,
+ "matches": [
+  {
+   "date": "2026-11-27",
+   "home": "Nott'm Forest",
+   "away": "Chelsea",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.357,
+   "p_draw": 0.261,
+   "p_away": 0.382,
+   "p_over25": 0.492,
+   "p_btts": 0.537,
+   "xg_home": 1.27,
+   "xg_away": 1.37,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 4.6,
+     "corners_against": 4.8,
+     "shots_on_target_for": 3.5,
+     "shots_on_target_against": 3.5,
+     "yellow_cards_for": 2.1,
+     "yellow_cards_against": 1.6
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 5.4,
+     "corners_against": 4.9,
+     "shots_on_target_for": 5.4,
+     "shots_on_target_against": 5.4,
+     "yellow_cards_for": 2.0,
+     "yellow_cards_against": 3.6
+    },
+    "liga": {
+     "partidos": 760,
+     "corners_total": 9.9,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 3.8
+    }
+   }
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Ipswich",
+   "away": "Aston Villa",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.255,
+   "p_draw": 0.222,
+   "p_away": 0.523,
+   "p_over25": 0.57,
+   "p_btts": 0.566,
+   "xg_home": 1.11,
+   "xg_away": 1.86,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 3.1,
+     "corners_against": 5.4,
+     "shots_on_target_for": 3.9,
+     "shots_on_target_against": 5.6,
+     "yellow_cards_for": 1.9,
+     "yellow_cards_against": 2.3
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 3.9,
+     "corners_against": 4.9,
+     "shots_on_target_for": 4.0,
+     "shots_on_target_against": 4.7,
+     "yellow_cards_for": 1.9,
+     "yellow_cards_against": 3.0
+    },
+    "liga": {
+     "partidos": 760,
+     "corners_total": 9.9,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 3.8
+    }
+   }
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Man United",
+   "away": "Brentford",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.414,
+   "p_draw": 0.257,
+   "p_away": 0.329,
+   "p_over25": 0.535,
+   "p_btts": 0.568,
+   "xg_home": 1.51,
+   "xg_away": 1.31,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 6.2,
+     "corners_against": 5.2,
+     "shots_on_target_for": 5.2,
+     "shots_on_target_against": 5.8,
+     "yellow_cards_for": 2.2,
+     "yellow_cards_against": 2.0
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 3.8,
+     "corners_against": 5.2,
+     "shots_on_target_for": 3.5,
+     "shots_on_target_against": 4.2,
+     "yellow_cards_for": 2.3,
+     "yellow_cards_against": 2.0
+    },
+    "liga": {
+     "partidos": 760,
+     "corners_total": 9.9,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 3.8
+    }
+   }
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Leeds",
+   "away": "Coventry",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.523,
+   "p_draw": 0.244,
+   "p_away": 0.233,
+   "p_over25": 0.562,
+   "p_btts": 0.56,
+   "xg_home": 1.84,
+   "xg_away": 1.1,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 4.3,
+     "corners_against": 4.1,
+     "shots_on_target_for": 4.2,
+     "shots_on_target_against": 4.4,
+     "yellow_cards_for": 2.0,
+     "yellow_cards_against": 2.1
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 3.8,
+     "corners_against": 4.3,
+     "shots_on_target_for": 3.9,
+     "shots_on_target_against": 4.4,
+     "yellow_cards_for": 1.1,
+     "yellow_cards_against": 1.6
+    },
+    "liga": {
+     "partidos": 760,
+     "corners_total": 9.9,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 3.8
+    }
+   }
+  },
+  {
+   "date": "2026-11-29",
+   "home": "Arsenal",
+   "away": "Man City",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.426,
+   "p_draw": 0.253,
+   "p_away": 0.321,
+   "p_over25": 0.559,
+   "p_btts": 0.586,
+   "xg_home": 1.59,
+   "xg_away": 1.33,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 5.1,
+     "corners_against": 4.6,
+     "shots_on_target_for": 4.6,
+     "shots_on_target_against": 2.8,
+     "yellow_cards_for": 1.8,
+     "yellow_cards_against": 3.5
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 6.1,
+     "corners_against": 4.1,
+     "shots_on_target_for": 5.1,
+     "shots_on_target_against": 3.9,
+     "yellow_cards_for": 1.5,
+     "yellow_cards_against": 2.1
+    },
+    "liga": {
+     "partidos": 760,
+     "corners_total": 9.9,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 3.8
+    }
+   }
+  },
+  {
+   "date": "2026-11-29",
+   "home": "Sunderland",
+   "away": "Tottenham",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.316,
+   "p_draw": 0.256,
+   "p_away": 0.429,
+   "p_over25": 0.484,
+   "p_btts": 0.524,
+   "xg_home": 1.14,
+   "xg_away": 1.47,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 3.7,
+     "corners_against": 4.4,
+     "shots_on_target_for": 3.3,
+     "shots_on_target_against": 4.2,
+     "yellow_cards_for": 2.1,
+     "yellow_cards_against": 2.1
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 8.0,
+     "corners_against": 4.0,
+     "shots_on_target_for": 4.9,
+     "shots_on_target_against": 3.0,
+     "yellow_cards_for": 1.8,
+     "yellow_cards_against": 2.2
+    },
+    "liga": {
+     "partidos": 760,
+     "corners_total": 9.9,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 3.8
+    }
+   }
+  },
+  {
+   "date": "2026-11-29",
+   "home": "Fulham",
+   "away": "Bournemouth",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.361,
+   "p_draw": 0.25,
+   "p_away": 0.388,
+   "p_over25": 0.553,
+   "p_btts": 0.585,
+   "xg_home": 1.4,
+   "xg_away": 1.5,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 5.9,
+     "corners_against": 4.8,
+     "shots_on_target_for": 4.4,
+     "shots_on_target_against": 3.6,
+     "yellow_cards_for": 2.0,
+     "yellow_cards_against": 1.1
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 5.1,
+     "corners_against": 3.4,
+     "shots_on_target_for": 5.2,
+     "shots_on_target_against": 2.9,
+     "yellow_cards_for": 2.6,
+     "yellow_cards_against": 2.0
+    },
+    "liga": {
+     "partidos": 760,
+     "corners_total": 9.9,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 3.8
+    }
+   }
+  },
+  {
+   "date": "2026-11-29",
+   "home": "Crystal Palace",
+   "away": "Hull",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.469,
+   "p_draw": 0.277,
+   "p_away": 0.255,
+   "p_over25": 0.418,
+   "p_btts": 0.461,
+   "xg_home": 1.41,
+   "xg_away": 0.94,
+   "likely_score": "1-0",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 3.9,
+     "corners_against": 7.0,
+     "shots_on_target_for": 3.9,
+     "shots_on_target_against": 6.4,
+     "yellow_cards_for": 1.6,
+     "yellow_cards_against": 2.0
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 4.3,
+     "corners_against": 6.0,
+     "shots_on_target_for": 3.2,
+     "shots_on_target_against": 5.6,
+     "yellow_cards_for": 2.7,
+     "yellow_cards_against": 1.5
+    },
+    "liga": {
+     "partidos": 760,
+     "corners_total": 9.9,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 3.8
+    }
+   }
+  },
+  {
+   "date": "2026-11-29",
+   "home": "Brighton",
+   "away": "Newcastle",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.498,
+   "p_draw": 0.255,
+   "p_away": 0.247,
+   "p_over25": 0.514,
+   "p_btts": 0.531,
+   "xg_home": 1.67,
+   "xg_away": 1.06,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 5.0,
+     "corners_against": 5.1,
+     "shots_on_target_for": 5.4,
+     "shots_on_target_against": 3.8,
+     "yellow_cards_for": 2.6,
+     "yellow_cards_against": 1.0
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 4.7,
+     "corners_against": 4.9,
+     "shots_on_target_for": 3.3,
+     "shots_on_target_against": 4.8,
+     "yellow_cards_for": 2.9,
+     "yellow_cards_against": 2.0
+    },
+    "liga": {
+     "partidos": 760,
+     "corners_total": 9.9,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 3.8
+    }
+   }
+  },
+  {
+   "date": "2026-11-29",
+   "home": "Everton",
+   "away": "Liverpool",
+   "city": "",
+   "neutral": false,
+   "p_home": 0.29,
+   "p_draw": 0.24,
+   "p_away": 0.47,
+   "p_over25": 0.531,
+   "p_btts": 0.552,
+   "xg_home": 1.15,
+   "xg_away": 1.65,
+   "likely_score": "1-1",
+   "trends": {
+    "n_partidos": 10,
+    "home": {
+     "partidos": 10,
+     "corners_for": 4.5,
+     "corners_against": 6.0,
+     "shots_on_target_for": 4.7,
+     "shots_on_target_against": 4.3,
+     "yellow_cards_for": 1.9,
+     "yellow_cards_against": 1.9
+    },
+    "away": {
+     "partidos": 10,
+     "corners_for": 6.1,
+     "corners_against": 4.4,
+     "shots_on_target_for": 5.1,
+     "shots_on_target_against": 3.4,
+     "yellow_cards_for": 2.5,
+     "yellow_cards_against": 1.9
+    },
+    "liga": {
+     "partidos": 760,
+     "corners_total": 9.9,
+     "shots_on_target_total": 8.6,
+     "yellow_cards_total": 3.8
+    }
+   }
+  }
+ ],
  "champion_probs": null,
  "history": {
   "matches": [

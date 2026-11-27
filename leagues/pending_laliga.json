@@ -20,5 +20,115 @@
   "likely_score": "1-1",
   "xg_home": 1.13,
   "xg_away": 1.21
+ },
+ {
+  "date": "2026-11-27",
+  "home": "Levante",
+  "away": "Santander",
+  "p_home": 0.414,
+  "p_draw": 0.302,
+  "p_away": 0.284,
+  "likely_score": "1-1",
+  "xg_home": 1.45,
+  "xg_away": 1.17
+ },
+ {
+  "date": "2026-11-28",
+  "home": "Real Madrid",
+  "away": "Alaves",
+  "p_home": 0.837,
+  "p_draw": 0.11,
+  "p_away": 0.054,
+  "likely_score": "2-0",
+  "xg_home": 2.68,
+  "xg_away": 0.63
+ },
+ {
+  "date": "2026-11-28",
+  "home": "Elche",
+  "away": "Ath Madrid",
+  "p_home": 0.189,
+  "p_draw": 0.264,
+  "p_away": 0.547,
+  "likely_score": "0-1",
+  "xg_home": 0.69,
+  "xg_away": 1.6
+ },
+ {
+  "date": "2026-11-28",
+  "home": "Malaga",
+  "away": "Ath Bilbao",
+  "p_home": 0.308,
+  "p_draw": 0.343,
+  "p_away": 0.35,
+  "likely_score": "0-1",
+  "xg_home": 0.89,
+  "xg_away": 1.12
+ },
+ {
+  "date": "2026-11-28",
+  "home": "Betis",
+  "away": "Vallecano",
+  "p_home": 0.543,
+  "p_draw": 0.262,
+  "p_away": 0.194,
+  "likely_score": "1-0",
+  "xg_home": 1.79,
+  "xg_away": 0.99
+ },
+ {
+  "date": "2026-11-29",
+  "home": "Sociedad",
+  "away": "Sevilla",
+  "p_home": 0.435,
+  "p_draw": 0.296,
+  "p_away": 0.27,
+  "likely_score": "1-1",
+  "xg_home": 1.53,
+  "xg_away": 1.16
+ },
+ {
+  "date": "2026-11-29",
+  "home": "Celta",
+  "away": "Villarreal",
+  "p_home": 0.328,
+  "p_draw": 0.296,
+  "p_away": 0.377,
+  "likely_score": "1-1",
+  "xg_home": 1.34,
+  "xg_away": 1.43
+ },
+ {
+  "date": "2026-11-29",
+  "home": "La Coruna",
+  "away": "Barcelona",
+  "p_home": 0.086,
+  "p_draw": 0.117,
+  "p_away": 0.797,
+  "likely_score": "0-2",
+  "xg_home": 0.83,
+  "xg_away": 2.76
+ },
+ {
+  "date": "2026-11-29",
+  "home": "Valencia",
+  "away": "Osasuna",
+  "p_home": 0.554,
+  "p_draw": 0.267,
+  "p_away": 0.179,
+  "likely_score": "1-0",
+  "xg_home": 1.69,
+  "xg_away": 0.89
+ },
+ {
+  "date": "2026-11-30",
+  "home": "Espanol",
+  "away": "Getafe",
+  "p_home": 0.434,
+  "p_draw": 0.335,
+  "p_away": 0.231,
+  "likely_score": "1-0",
+  "xg_home": 1.17,
+  "xg_away": 0.87
  }
 ]
